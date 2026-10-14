@@ -1,64 +1,49 @@
-# Bilet Takip – Muammer Karaca Tiyatrosu
+# Bilet Takip
 
-[Biletinial'deki Muammer Karaca Tiyatrosu sayfasını](https://biletinial.com/tr-tr/mekan/muammer-karaca-tiyatrosu)
-her 5 dakikada bir kontrol eder ve şu durumlarda sana bildirim gönderir:
+Tiyatro bilet sitelerini 5 dakikada bir kontrol eder ve **Telegram**'dan haber verir.
 
-- 🎭 Mekana **yeni bir oyun** eklendiğinde
-- 📅 Mevcut bir oyuna **yeni seans (tarih)** eklendiğinde
-- ✅ **Tükenmiş bir seansta bilet açıldığında** (iade vb.), en az 2 bilet kalmışsa
+## Takip edilenler
 
-Bildirimde seansın tarihi, kalan bilet sayısı ve direkt seans linki bulunur.
+`config.json` içinde tanımlı:
 
-GitHub Actions üzerinde ücretsiz çalışır, bilgisayarının açık olmasına gerek yok.
+| Kaynak | Site |
+|---|---|
+| Muammer Karaca Tiyatrosu | [Biletinial](https://biletinial.com/tr-tr/mekan/muammer-karaca-tiyatrosu) |
+| İstanbul Devlet Tiyatrosu | [Biletinial](https://biletinial.com/tr-tr/mekan/istanbul-devlet-tiyatrosu) |
+| İBB Şehir Tiyatroları | [sehirtiyatrolari.ibb.istanbul](https://sehirtiyatrolari.ibb.istanbul/) |
 
-## Nasıl çalışır?
+**Çocuk oyunları takip edilmez** (sitelerin kendi "Çocuk" kategorisine göre). Yetişkin oyunları
+ve müzikaller takip edilir.
 
-1. `monitor.py` mekan sayfasını indirir, oyunları bulur; her oyunun sayfasından bu mekandaki
-   seansları ve "TÜKENDİ" / "Son N Bilet" bilgisini okur.
-2. `state.json` içindeki bir önceki durumla karşılaştırır.
-3. Değişiklik varsa açık olan tüm bildirim kanallarına haber verir ve durumu kaydeder.
+## Ne zaman bildirim gelir?
 
-Yapay zekâ kullanmaz, token harcamaz; sıradan bir Python betiğidir.
+- 🎭 **Yeni oyun** eklendiğinde
+- 🆕 Bir oyuna **yeni seans** (tarih) eklendiğinde; satış henüz açılmadıysa açılış saati de yazar
+- 🎟 **Bilet açıldığında**: tükenmiş bir seansta bilet çıkınca (iade vb.) ya da "Yakında" olan
+  seansın satışı başlayınca. Biletinial'de en az 2 bilet kalmış olmalı.
 
-### Yan yana koltuk?
+Aynı seans için "bilet açıldı" mesajı en fazla saatte bir gelir.
 
-Koltuk haritası Biletinial'de Cloudflare robot korumasının arkasında olduğu için **otomatik
-kontrol edilmez**. Betik yalnızca o seansta kaç bilet kaldığını bilir. Bildirim gelince linke
-tıklayıp yan yana koltukları kendin seçmen gerekir. Kaç kişilik bilet aradığını değiştirmek
-için repo → Settings → Secrets and variables → Actions → **Variables** sekmesine
-`MIN_TICKETS` ekle (varsayılan 2).
+## İzlediğimiz oyunlar (`izlenenler.txt`)
 
-## Bildirim kanalları
+Bu dosyadaki oyunlar için bildirim gelmez. Telegram'dan bota yazarak da yönetebilirsin:
 
-Hiçbir ayar yapmasan da **GitHub issue** açılır ve GitHub sana e-posta atar
-(repo'yu "Watch" ediyorsan; repo sahibi olarak varsayılan olarak ediyorsun).
-Telefona anında bildirim istiyorsan aşağıdakilerden birini (ya da ikisini) kur:
+- `/gittik Hamlet` → Hamlet artık takip edilmez
+- `/gerial Hamlet` → tekrar takibe alır
+- `/liste` → izlediğimiz oyunlar
 
-### A) ntfy – en kolayı (hesap gerekmez)
+Komutlar bir sonraki kontrolde (en geç birkaç dakika içinde) işlenir ve bot cevap verir.
 
-1. Telefonuna **ntfy** uygulamasını kur (Android / iOS).
-2. Uygulamada tahmin edilmesi zor bir konu (topic) adına abone ol, ör. `muammer-karaca-bilet-x7k29q`.
-3. GitHub'da repo → **Settings → Secrets and variables → Actions → New repository secret**:
-   - `NTFY_TOPIC` = seçtiğin konu adı
+## Yan yana koltuk?
 
-### B) Telegram
+Koltuk haritası Cloudflare robot korumasının arkasında olduğu için otomatik kontrol edilmez.
+Bildirim gelince linke tıklayıp koltuğu kendin seçmelisin.
 
-1. Telegram'da **@BotFather**'a `/newbot` yaz, bot oluştur ve verdiği token'ı al.
-2. Botuna bir mesaj at, sonra `https://api.telegram.org/bot<TOKEN>/getUpdates` adresini aç ve `chat.id` değerini bul.
-3. Repo secret'ları olarak ekle:
-   - `TELEGRAM_BOT_TOKEN`
-   - `TELEGRAM_CHAT_ID`
+## Kurulum notları
 
-## Test
-
-Repo → **Actions → Bilet takip → Run workflow** → "Sadece test bildirimi gönder" kutusunu işaretle → Run.
-Birkaç saniye içinde test bildirimi gelmeli.
-
-## Notlar
-
-- GitHub, zamanlanmış görevleri yoğun saatlerde birkaç dakika geciktirebilir.
-- Repo **public** olmalı: gizli repolarda ücretsiz Actions süresi (ayda 2.000 dk) 5 dakikalık
-  kontrole yetmez. Repoda gizli bilgi yok; token'lar Secrets'ta saklanır ve görünmez.
-- Zamanlanmış görevler yalnızca repo'nun **varsayılan dalında** (default branch) çalışır.
-- Başka bir mekanı takip etmek için workflow'a `VENUE_URL` ortam değişkeni ekleyebilirsin.
-- Yerelde çalıştırmak için: `python3 monitor.py`
+- Repo → Settings → Secrets and variables → Actions: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
+  (isteğe bağlı `NTFY_TOPIC`). Telegram/ntfy yoksa GitHub issue (e-posta) ile bildirir.
+- Kaç kişilik bilet arandığı: Variables sekmesinde `MIN_TICKETS` (varsayılan 2).
+- Repo public olmalı: gizli repolarda ücretsiz Actions süresi 5 dakikalık kontrole yetmez.
+- Test: Actions → Bilet takip → Run workflow → "Sadece test bildirimi gönder".
+- Yerelde çalıştırma: `python3 monitor.py`

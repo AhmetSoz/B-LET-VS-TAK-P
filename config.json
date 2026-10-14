@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "id": "muammer-karaca",
+      "name": "Muammer Karaca Tiyatrosu",
+      "type": "biletinial",
+      "url": "https://biletinial.com/tr-tr/mekan/muammer-karaca-tiyatrosu"
+    },
+    {
+      "id": "istanbul-devlet-tiyatrosu",
+      "name": "İstanbul Devlet Tiyatrosu",
+      "type": "biletinial",
+      "url": "https://biletinial.com/tr-tr/mekan/istanbul-devlet-tiyatrosu"
+    },
+    {
+      "id": "ibb-sehir-tiyatrolari",
+      "name": "İBB Şehir Tiyatroları",
+      "type": "sehir_tiyatrolari",
+      "url": "https://sehirtiyatrolari.ibb.istanbul"
+    }
+  ]
+}

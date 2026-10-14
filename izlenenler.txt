@@ -1,0 +1,2 @@
+# İzlediğimiz oyunlar: bunlar için bildirim gelmez.
+# Her satıra bir oyun adı. Telegram'dan /gittik <oyun adı> yazarak da eklenebilir.

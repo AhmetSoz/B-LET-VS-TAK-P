@@ -1,26 +1,1320 @@
 {
-  "venue": "https://biletinial.com/tr-tr/mekan/muammer-karaca-tiyatrosu",
-  "updated_at": "2026-10-14T08:33:40+00:00",
-  "events": {
-    "tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi": {
-      "name": "Hadi Öldürsene Canikom",
-      "url": "https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi",
-      "sessions": {
-        "18721308": {
-          "label": "15 Ekim Perşembe, 20:00",
-          "open": false
-        }
-      }
-    },
-    "tiyatro/uykusuz-bir-ruya-salim": {
-      "name": "Uykusuz Bir Rüya, Salim",
-      "url": "https://biletinial.com/tr-tr/tiyatro/uykusuz-bir-ruya-salim",
-      "sessions": {
-        "18721315": {
-          "label": "17 Ekim Cumartesi, 20:00",
-          "open": false
-        }
-      }
-    }
+ "failures": {},
+ "notified": {
+  "ibb-sehir-tiyatrolari": {
+   "fosforlu-cevriye/20665150e7a2": 1791970588.5366054
   }
+ },
+ "sources": {
+  "ibb-sehir-tiyatrolari": {
+   "agri-dagi-efsanesi": {
+    "name": "Ağrı Dağı Efsanesi",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/agri-dagi-efsanesi",
+    "sessions": {
+     "219d716f1604": {
+      "label": "31 Ekim Cumartesi, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "499b200534f7": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "56d724d3f96e": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "cb0ae11a6337": {
+      "label": "28 Ekim Çarşamba, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "dedfa3464180": {
+      "label": "29 Ekim Perşembe, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     }
+    }
+   },
+   "bir-ziyaret": {
+    "name": "Bir Ziyaret",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/bir-ziyaret",
+    "sessions": {}
+   },
+   "bu-memleket-bizim": {
+    "name": "Bu Memleket Bizim",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/bu-memleket-bizim",
+    "sessions": {}
+   },
+   "cadi-kazani": {
+    "name": "Cadı Kazanı",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/cadi-kazani",
+    "sessions": {
+     "9891dcb025cf": {
+      "label": "20 Ekim Salı, 20:00",
+      "stage": "İnal Aydınoğlu K.M Şener Şen Sahnesi",
+      "status": "soldout"
+     }
+    }
+   },
+   "cingene-boksor": {
+    "name": "Çingene Boksör",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/cingene-boksor",
+    "sessions": {
+     "397f89d89d69": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "55655d55b892": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "open"
+     },
+     "767b9cb8cb45": {
+      "label": "21 Ekim Çarşamba, 15:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "92a2d039651c": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "a0faf41208bc": {
+      "label": "22 Ekim Perşembe, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "f9663fd9c55f": {
+      "label": "21 Ekim Çarşamba, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     }
+    }
+   },
+   "fosforlu-cevriye": {
+    "name": "Fosforlu Cevriye",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/fosforlu-cevriye",
+    "sessions": {
+     "1d069928708d": {
+      "label": "17 Ekim Cumartesi, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "20665150e7a2": {
+      "label": "17 Ekim Cumartesi, 15:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "637c06197072": {
+      "label": "15 Ekim Perşembe, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "657f8be38d3b": {
+      "label": "16 Ekim Cuma, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "8b396dbdc13d": {
+      "label": "14 Ekim Çarşamba, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     }
+    }
+   },
+   "gecmisin-golgesi": {
+    "name": "Geçmişin Gölgesi",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/gecmisin-golgesi",
+    "sessions": {
+     "01b1d3b0620a": {
+      "label": "28 Ekim Çarşamba, 15:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "open"
+     },
+     "1c31e7f3a229": {
+      "label": "17 Ekim Cumartesi, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "220bb5afdc49": {
+      "label": "31 Ekim Cumartesi, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "open"
+     },
+     "2615af58669f": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     },
+     "3542767ea29c": {
+      "label": "29 Ekim Perşembe, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "open"
+     },
+     "73e3a5ada363": {
+      "label": "14 Ekim Çarşamba, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "9dbfe8183ea0": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "open"
+     },
+     "b3a5de89b8ed": {
+      "label": "16 Ekim Cuma, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "b80e1f0d6497": {
+      "label": "15 Ekim Perşembe, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "bd7536cf6b29": {
+      "label": "28 Ekim Çarşamba, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "open"
+     },
+     "bd83ca7e0fa3": {
+      "label": "17 Ekim Cumartesi, 15:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "gidionun-dugumu": {
+    "name": "Gidion'un Düğümü",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/gidionun-dugumu",
+    "sessions": {
+     "5486c7e14eff": {
+      "label": "28 Ekim Çarşamba, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "72bee144f4f3": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "79aa68ca2ef0": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "9ae8b20ffbe0": {
+      "label": "29 Ekim Perşembe, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "db64c049c009": {
+      "label": "31 Ekim Cumartesi, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "e9a0fa5bf823": {
+      "label": "28 Ekim Çarşamba, 15:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     }
+    }
+   },
+   "gok-kubbe": {
+    "name": "Gök Kubbe",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/gok-kubbe",
+    "sessions": {}
+   },
+   "golge": {
+    "name": "Gölge",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/golge",
+    "sessions": {}
+   },
+   "gozlerimi-kaparim-vazifemi-yaparim": {
+    "name": "Gözlerimi Kaparım Vazifemi Yaparım",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/gozlerimi-kaparim-vazifemi-yaparim",
+    "sessions": {
+     "33b8188bacbd": {
+      "label": "16 Ekim Cuma, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soldout"
+     },
+     "495fb0e2c56d": {
+      "label": "17 Ekim Cumartesi, 15:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soldout"
+     },
+     "5251be3b16c1": {
+      "label": "14 Ekim Çarşamba, 15:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "7645001ee7f2": {
+      "label": "15 Ekim Perşembe, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "bd45eb4e0289": {
+      "label": "14 Ekim Çarşamba, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soldout"
+     },
+     "e06112b03afe": {
+      "label": "17 Ekim Cumartesi, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soldout"
+     }
+    }
+   },
+   "hamlet": {
+    "name": "Hamlet",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/hamlet",
+    "sessions": {}
+   },
+   "haramiler": {
+    "name": "Haramiler",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/haramiler",
+    "sessions": {
+     "639f0fb79430": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "7744f7ceec84": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "8b8b2f175cc8": {
+      "label": "22 Ekim Perşembe, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "e06ddeb0a75c": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     },
+     "fbefbf59a7c0": {
+      "label": "21 Ekim Çarşamba, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "soldout"
+     }
+    }
+   },
+   "hayalnin-hayali": {
+    "name": "Hayalî'nin Hayali",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/hayalnin-hayali",
+    "sessions": {
+     "0818a8d18fca": {
+      "label": "15 Ekim Perşembe, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     },
+     "1465553c3a9f": {
+      "label": "16 Ekim Cuma, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     },
+     "1c092a4aa242": {
+      "label": "17 Ekim Cumartesi, 15:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soldout"
+     },
+     "313785af7706": {
+      "label": "14 Ekim Çarşamba, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     },
+     "455ea9f8ec12": {
+      "label": "14 Ekim Çarşamba, 15:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     },
+     "e801edfc7b1d": {
+      "label": "17 Ekim Cumartesi, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "hayat-der-gulumserim": {
+    "name": "Hayat Der Gülümserim",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/hayat-der-gulumserim",
+    "sessions": {
+     "1ccc1a2a1027": {
+      "label": "17 Ekim Cumartesi, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "soldout"
+     },
+     "2dc4e51c8f60": {
+      "label": "17 Ekim Cumartesi, 15:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     },
+     "69f7d5441488": {
+      "label": "14 Ekim Çarşamba, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     },
+     "98623b440c3d": {
+      "label": "16 Ekim Cuma, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "soldout"
+     },
+     "d65f945e9377": {
+      "label": "15 Ekim Perşembe, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     }
+    }
+   },
+   "ifigenya": {
+    "name": "İfigenya",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/ifigenya",
+    "sessions": {}
+   },
+   "iki-efendinin-usagi": {
+    "name": "İki Efendinin Uşağı",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/iki-efendinin-usagi",
+    "sessions": {}
+   },
+   "ikinci-perdenin-basi": {
+    "name": "İKİNCİ PERDENİN BAŞI",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/ikinci-perdenin-basi",
+    "sessions": {}
+   },
+   "istanbul-siirle-bulusuyor-birdenbire-orhan-veli": {
+    "name": "İstanbul Şiirle Buluşuyor: ''Birdenbire'' Orhan Veli",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/istanbul-siirle-bulusuyor-birdenbire-orhan-veli",
+    "sessions": {
+     "70900185e03e": {
+      "label": "25 Ekim Pazar, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     }
+    }
+   },
+   "istanbul-siirle-bulusuyor-gulten-akin": {
+    "name": "İstanbul Şiirle Buluşuyor: Gülten Akın",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/istanbul-siirle-bulusuyor-gulten-akin",
+    "sessions": {}
+   },
+   "istanbul-siirle-bulusuyor-oteller-kenti": {
+    "name": "İstanbul Şiirle Buluşuyor: Oteller Kenti",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/istanbul-siirle-bulusuyor-oteller-kenti",
+    "sessions": {}
+   },
+   "kahvaltiya-kalsana": {
+    "name": "Kahvaltıya Kalsana",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/kahvaltiya-kalsana",
+    "sessions": {
+     "3fcf61ba3aea": {
+      "label": "29 Ekim Perşembe, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "7675505f9a76": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soldout"
+     },
+     "93f423a7b055": {
+      "label": "28 Ekim Çarşamba, 15:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "b8945ac16908": {
+      "label": "31 Ekim Cumartesi, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "d037a8f8bd7e": {
+      "label": "28 Ekim Çarşamba, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "ff453250b65f": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "kopek-kalbi": {
+    "name": "KÖPEK KALBİ",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/kopek-kalbi",
+    "sessions": {}
+   },
+   "maviydi-bisikletim": {
+    "name": "Maviydi Bisikletim",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/maviydi-bisikletim",
+    "sessions": {
+     "0f6e5084287c": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     },
+     "1325402460eb": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     },
+     "d5778d675cf7": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "soldout"
+     },
+     "e0bd52a7d432": {
+      "label": "21 Ekim Çarşamba, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     },
+     "ff790f8fea09": {
+      "label": "22 Ekim Perşembe, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     }
+    }
+   },
+   "odullu-geleneksel-orta-oyunu": {
+    "name": "Ödüllü (Geleneksel Orta Oyunu)",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/odullu-geleneksel-orta-oyunu",
+    "sessions": {}
+   },
+   "oksuzler": {
+    "name": "Öksüzler",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/oksuzler",
+    "sessions": {}
+   },
+   "oscar": {
+    "name": "Oscar",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/oscar",
+    "sessions": {
+     "1a1913c5be2c": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "51437a2cb562": {
+      "label": "14 Ekim Çarşamba, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "open"
+     },
+     "57cb5958931f": {
+      "label": "17 Ekim Cumartesi, 15:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     },
+     "5df1bbc16386": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "6ffe659f2373": {
+      "label": "29 Ekim Perşembe, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "79e9eb4eb97c": {
+      "label": "16 Ekim Cuma, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     },
+     "9c26b0b373a0": {
+      "label": "14 Ekim Çarşamba, 15:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "open"
+     },
+     "9d60ddd83a3d": {
+      "label": "31 Ekim Cumartesi, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "a6174b9f3a10": {
+      "label": "28 Ekim Çarşamba, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "cf802ce1f57e": {
+      "label": "17 Ekim Cumartesi, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     },
+     "f00b4240b0b0": {
+      "label": "15 Ekim Perşembe, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     }
+    }
+   },
+   "oylece-durur-zaman": {
+    "name": "Öylece Durur Zaman",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/oylece-durur-zaman",
+    "sessions": {
+     "18a35689c4ad": {
+      "label": "21 Ekim Çarşamba, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "48c7035cf1a1": {
+      "label": "22 Ekim Perşembe, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "5fe9f756fa59": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "affdb83da764": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soldout"
+     },
+     "de4a00b455fd": {
+      "label": "21 Ekim Çarşamba, 15:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "e31f3170a2f9": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "savas-ve-baris": {
+    "name": "Savaş ve Barış",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/savas-ve-baris",
+    "sessions": {
+     "2349a7d237a6": {
+      "label": "28 Ekim Çarşamba, 15:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     },
+     "35b3be9944d6": {
+      "label": "28 Ekim Çarşamba, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     },
+     "57b188763fa8": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     },
+     "6adfaf6d95d8": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     },
+     "6d796e6a7aa1": {
+      "label": "31 Ekim Cumartesi, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     },
+     "84374f11374c": {
+      "label": "29 Ekim Perşembe, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "sen-istanbuldan-daha-guzelsin": {
+    "name": "Sen İstanbul'dan Daha Güzelsin",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/sen-istanbuldan-daha-guzelsin",
+    "sessions": {
+     "9cebbb21aba9": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "FSM Kültür Sanat Merkezi-Rasim Öztekin Sahnesi",
+      "status": "open"
+     },
+     "d7eb98f2800e": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "FSM Kültür Sanat Merkezi-Rasim Öztekin Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "sevgili-yelena-sergeyevna": {
+    "name": "Sevgili Yelena Sergeyevna",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/sevgili-yelena-sergeyevna",
+    "sessions": {
+     "02aec97185f1": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     },
+     "4d31938e6bc0": {
+      "label": "22 Ekim Perşembe, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     },
+     "52fd515a9894": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     },
+     "90394c7b06e4": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     },
+     "c95dd94db874": {
+      "label": "21 Ekim Çarşamba, 20:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     },
+     "eb84a213f75d": {
+      "label": "21 Ekim Çarşamba, 15:00",
+      "stage": "Müze Gazhane Prof. Dr. Sevda Şener Sahnesi",
+      "status": "soldout"
+     }
+    }
+   },
+   "sivrisinekler-": {
+    "name": "Sivrisinekler",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/sivrisinekler-",
+    "sessions": {
+     "035c9a417fe7": {
+      "label": "14 Ekim Çarşamba, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "open"
+     },
+     "05f32edc1e5f": {
+      "label": "16 Ekim Cuma, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "9a4909376249": {
+      "label": "17 Ekim Cumartesi, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "b9a66155620c": {
+      "label": "14 Ekim Çarşamba, 15:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "open"
+     },
+     "cdf7aa0373a9": {
+      "label": "17 Ekim Cumartesi, 15:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     },
+     "cf4fefef2422": {
+      "label": "15 Ekim Perşembe, 20:00",
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soldout"
+     }
+    }
+   },
+   "tartuffe": {
+    "name": "Tartuffe",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/tartuffe",
+    "sessions": {
+     "4c03cdd6240a": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soldout"
+     },
+     "4c2b371aa8b2": {
+      "label": "22 Ekim Perşembe, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soldout"
+     },
+     "83506b933d09": {
+      "label": "21 Ekim Çarşamba, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soldout"
+     },
+     "a494f14ed42a": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soldout"
+     },
+     "cbf19bd3af46": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soldout"
+     }
+    }
+   },
+   "yaftali-tabut": {
+    "name": "Yaftalı Tabut",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/yaftali-tabut",
+    "sessions": {
+     "214131110ef8": {
+      "label": "29 Ekim Perşembe, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     },
+     "35787c1e0a35": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     },
+     "5847d6937a5a": {
+      "label": "31 Ekim Cumartesi, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     },
+     "5b3960126bd3": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     },
+     "e2730e929853": {
+      "label": "28 Ekim Çarşamba, 20:00",
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi.",
+      "status": "open"
+     }
+    }
+   },
+   "yasamak-mi-yoksa-olmek-mi": {
+    "name": "Yaşamak mı Yoksa Ölmek mi",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/yasamak-mi-yoksa-olmek-mi",
+    "sessions": {}
+   },
+   "yenilmez": {
+    "name": "Yenilmez",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/yenilmez",
+    "sessions": {}
+   },
+   "yoldan-cikan-oyun": {
+    "name": "Yoldan Çıkan Oyun",
+    "page": "https://sehirtiyatrolari.ibb.istanbul/oyun/yoldan-cikan-oyun",
+    "sessions": {
+     "0ed8ab0724d9": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soldout"
+     },
+     "1fb2389c63b7": {
+      "label": "21 Ekim Çarşamba, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soldout"
+     },
+     "70b913d7978b": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soldout"
+     },
+     "93bee45ddad8": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soldout"
+     },
+     "daa0e3465f08": {
+      "label": "22 Ekim Perşembe, 20:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soldout"
+     },
+     "f1101649a6a8": {
+      "label": "21 Ekim Çarşamba, 15:00",
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "open"
+     }
+    }
+   }
+  },
+  "istanbul-devlet-tiyatrosu": {
+   "tiyatro/aslinda-kasik-yok": {
+    "name": "ASLINDA KAŞIK YOK",
+    "page": "https://biletinial.com/tr-tr/tiyatro/aslinda-kasik-yok?cinemaBranchId=1255",
+    "sessions": {
+     "18568563": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "AKM Tiyatro Salonu",
+      "status": "open"
+     },
+     "18568564": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "AKM Tiyatro Salonu",
+      "status": "open"
+     },
+     "18568565": {
+      "label": "31 Ekim Cumartesi, 20:00",
+      "stage": "AKM Tiyatro Salonu",
+      "status": "open"
+     },
+     "18726138": {
+      "label": "03 Kasım Salı, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     },
+     "18726139": {
+      "label": "04 Kasım Çarşamba, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     },
+     "18726140": {
+      "label": "05 Kasım Perşembe, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     },
+     "18726141": {
+      "label": "06 Kasım Cuma, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     },
+     "18726142": {
+      "label": "07 Kasım Cumartesi, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     },
+     "18726144": {
+      "label": "07 Kasım Cumartesi, 15:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/babamin-kelimeleriyle-dt": {
+    "name": "BABAMIN KELİMELERİYLE",
+    "page": "https://biletinial.com/tr-tr/tiyatro/babamin-kelimeleriyle-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18569979": {
+      "label": "20 Ekim Salı, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "open"
+     },
+     "18569980": {
+      "label": "21 Ekim Çarşamba, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "open"
+     },
+     "18569981": {
+      "label": "22 Ekim Perşembe, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "open"
+     },
+     "18569982": {
+      "label": "23 Ekim Cuma, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "open"
+     },
+     "18569983": {
+      "label": "24 Ekim Cumartesi, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "open"
+     }
+    }
+   },
+   "tiyatro/bence-katil-oldurdu-dt": {
+    "name": "BENCE KATİL ÖLDÜRDÜ",
+    "page": "https://biletinial.com/tr-tr/tiyatro/bence-katil-oldurdu-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18569297": {
+      "label": "27 Ekim Salı, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18569298": {
+      "label": "28 Ekim Çarşamba, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     },
+     "18569299": {
+      "label": "29 Ekim Perşembe, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     },
+     "18569300": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     },
+     "18569301": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     },
+     "18569302": {
+      "label": "31 Ekim Cumartesi, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/bir-nefes-dede-korkut-dt": {
+    "name": "BİR NEFES DEDE KORKUT",
+    "page": "https://biletinial.com/tr-tr/tiyatro/bir-nefes-dede-korkut-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18570147": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "( CKSM ) Küçükçekmece DT Sahnesi",
+      "status": "open"
+     },
+     "18570148": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "( CKSM ) Küçükçekmece DT Sahnesi",
+      "status": "open"
+     },
+     "18570149": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "( CKSM ) Küçükçekmece DT Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "tiyatro/callback-istanbul-dt": {
+    "name": "CALLBACK",
+    "page": "https://biletinial.com/tr-tr/tiyatro/callback-istanbul-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18726147": {
+      "label": "03 Kasım Salı, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "soon"
+     },
+     "18726148": {
+      "label": "04 Kasım Çarşamba, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "soon"
+     },
+     "18726149": {
+      "label": "05 Kasım Perşembe, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "soon"
+     },
+     "18726150": {
+      "label": "06 Kasım Cuma, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/ebedi-baris-": {
+    "name": "EBEDİ BARIŞ",
+    "page": "https://biletinial.com/tr-tr/tiyatro/ebedi-baris-?cinemaBranchId=1255",
+    "sessions": {
+     "18578009": {
+      "label": "22 Ekim Perşembe, 20:00",
+      "stage": "MSKM Halit Akçatepe Sahnesi",
+      "status": "open"
+     },
+     "18578010": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "MSKM Halit Akçatepe Sahnesi",
+      "status": "open"
+     },
+     "18578011": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "MSKM Halit Akçatepe Sahnesi",
+      "status": "open"
+     },
+     "18578013": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "MSKM Halit Akçatepe Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "tiyatro/gergedanlar-dt": {
+    "name": "GERGEDANLAR",
+    "page": "https://biletinial.com/tr-tr/tiyatro/gergedanlar-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18726167": {
+      "label": "04 Kasım Çarşamba, 20:00",
+      "stage": "İnal Aydınoğlu K M Şener Şen Sahnesi",
+      "status": "soon"
+     },
+     "18726168": {
+      "label": "05 Kasım Perşembe, 20:00",
+      "stage": "İnal Aydınoğlu K M Şener Şen Sahnesi",
+      "status": "soon"
+     },
+     "18726169": {
+      "label": "06 Kasım Cuma, 20:00",
+      "stage": "İnal Aydınoğlu K M Şener Şen Sahnesi",
+      "status": "soon"
+     },
+     "18726170": {
+      "label": "07 Kasım Cumartesi, 20:00",
+      "stage": "İnal Aydınoğlu K M Şener Şen Sahnesi",
+      "status": "soon"
+     },
+     "18726171": {
+      "label": "07 Kasım Cumartesi, 15:00",
+      "stage": "İnal Aydınoğlu K M Şener Şen Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/hepyek": {
+    "name": "HEPYEK",
+    "page": "https://biletinial.com/tr-tr/tiyatro/hepyek?cinemaBranchId=1255",
+    "sessions": {
+     "18569932": {
+      "label": "14 Ekim Çarşamba, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "open"
+     },
+     "18569933": {
+      "label": "15 Ekim Perşembe, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "open"
+     },
+     "18569934": {
+      "label": "16 Ekim Cuma, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "open"
+     },
+     "18569935": {
+      "label": "17 Ekim Cumartesi, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "soldout"
+     },
+     "18726164": {
+      "label": "06 Kasım Cuma, 20:00",
+      "stage": "Bahçelievler Tiyatrosu Nurettin Topçu Sahnesi",
+      "status": "soon"
+     },
+     "18726165": {
+      "label": "07 Kasım Cumartesi, 20:00",
+      "stage": "Bahçelievler Tiyatrosu Nurettin Topçu Sahnesi",
+      "status": "soon"
+     },
+     "18726166": {
+      "label": "07 Kasım Cumartesi, 15:00",
+      "stage": "Bahçelievler Tiyatrosu Nurettin Topçu Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/kucuk-bir-is-icin-yasli-bir-palyaco-araniyor": {
+    "name": "KÜÇÜK BİR İŞ İÇİN YAŞLI BİR PALYAÇO ARANIYOR",
+    "page": "https://biletinial.com/tr-tr/tiyatro/kucuk-bir-is-icin-yasli-bir-palyaco-araniyor?cinemaBranchId=1255",
+    "sessions": {
+     "18569212": {
+      "label": "20 Ekim Salı, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18569213": {
+      "label": "21 Ekim Çarşamba, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18569214": {
+      "label": "22 Ekim Perşembe, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18569215": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18569216": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18569217": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18726158": {
+      "label": "05 Kasım Perşembe, 20:00",
+      "stage": "Fatih Kültür Sanat Merkezi",
+      "status": "soon"
+     },
+     "18726159": {
+      "label": "06 Kasım Cuma, 20:00",
+      "stage": "Fatih Kültür Sanat Merkezi",
+      "status": "soon"
+     },
+     "18726160": {
+      "label": "07 Kasım Cumartesi, 20:00",
+      "stage": "Fatih Kültür Sanat Merkezi",
+      "status": "soon"
+     },
+     "18726161": {
+      "label": "07 Kasım Cumartesi, 15:00",
+      "stage": "Fatih Kültür Sanat Merkezi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/muallak-dt": {
+    "name": "MUALLAK",
+    "page": "https://biletinial.com/tr-tr/tiyatro/muallak-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18570007": {
+      "label": "27 Ekim Salı, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "open"
+     },
+     "18570008": {
+      "label": "28 Ekim Çarşamba, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "soon"
+     },
+     "18570011": {
+      "label": "29 Ekim Perşembe, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "soon"
+     },
+     "18570012": {
+      "label": "30 Ekim Cuma, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "soon"
+     },
+     "18570013": {
+      "label": "31 Ekim Cumartesi, 18:00",
+      "stage": "Mecidiyeköy Stüdyo Sahne (80)",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/nereye-istanbul-dt": {
+    "name": "NEREYE - İSTANBUL DT",
+    "page": "https://biletinial.com/tr-tr/tiyatro/nereye-istanbul-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18570807": {
+      "label": "23 Ekim Cuma, 20:00",
+      "stage": "Bahçelievler Tiyatrosu Nurettin Topçu Sahnesi",
+      "status": "open"
+     },
+     "18570808": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Bahçelievler Tiyatrosu Nurettin Topçu Sahnesi",
+      "status": "open"
+     },
+     "18570809": {
+      "label": "24 Ekim Cumartesi, 15:00",
+      "stage": "Bahçelievler Tiyatrosu Nurettin Topçu Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "tiyatro/oh-ne-ala-memleket-dt": {
+    "name": "OH NE ALA MEMLEKET",
+    "page": "https://biletinial.com/tr-tr/tiyatro/oh-ne-ala-memleket-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18569459": {
+      "label": "18 Ekim Pazar, 14:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soldout"
+     },
+     "18726126": {
+      "label": "01 Kasım Pazar, 15:00",
+      "stage": "AKM Tiyatro Salonu",
+      "status": "soon"
+     },
+     "18726136": {
+      "label": "08 Kasım Pazar, 14:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/olu-canlar-bulgaristan-turkiye-dt": {
+    "name": "ÖLÜ CANLAR BULGARİSTAN-TÜRKİYE (İSTANBUL DT - ANKARA DT) ORTAK YAPIMI",
+    "page": "https://biletinial.com/tr-tr/tiyatro/olu-canlar-bulgaristan-turkiye-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18569009": {
+      "label": "14 Ekim Çarşamba, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18569010": {
+      "label": "15 Ekim Perşembe, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18569011": {
+      "label": "16 Ekim Cuma, 20:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     },
+     "18569012": {
+      "label": "17 Ekim Cumartesi, 15:00",
+      "stage": "Mecidiyeköy Büyük Sahnesi",
+      "status": "open"
+     }
+    }
+   },
+   "tiyatro/serefe-dt": {
+    "name": "ŞEREFE!",
+    "page": "https://biletinial.com/tr-tr/tiyatro/serefe-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18726154": {
+      "label": "06 Kasım Cuma, 20:00",
+      "stage": "( CKSM ) Küçükçekmece DT Sahnesi",
+      "status": "soon"
+     },
+     "18726155": {
+      "label": "07 Kasım Cumartesi, 20:00",
+      "stage": "( CKSM ) Küçükçekmece DT Sahnesi",
+      "status": "soon"
+     },
+     "18726156": {
+      "label": "07 Kasım Cumartesi, 15:00",
+      "stage": "( CKSM ) Küçükçekmece DT Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/sumud-gazze-dt": {
+    "name": "SUMUD (GAZZE)",
+    "page": "https://biletinial.com/tr-tr/tiyatro/sumud-gazze-dt?cinemaBranchId=1255",
+    "sessions": {
+     "18568270": {
+      "label": "16 Ekim Cuma, 20:00",
+      "stage": "AKM Tiyatro Salonu",
+      "status": "open"
+     },
+     "18568271": {
+      "label": "17 Ekim Cumartesi, 20:00",
+      "stage": "AKM Tiyatro Salonu",
+      "status": "open"
+     },
+     "18568272": {
+      "label": "17 Ekim Cumartesi, 15:00",
+      "stage": "AKM Tiyatro Salonu",
+      "status": "open"
+     },
+     "18570267": {
+      "label": "30 Ekim Cuma, 20:00",
+      "stage": "( CKSM ) Küçükçekmece DT Sahnesi",
+      "status": "soon"
+     },
+     "18570268": {
+      "label": "31 Ekim Cumartesi, 15:00",
+      "stage": "( CKSM ) Küçükçekmece DT Sahnesi",
+      "status": "soon"
+     }
+    }
+   }
+  },
+  "muammer-karaca": {
+   "tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi": {
+    "name": "Hadi Öldürsene Canikom",
+    "page": "https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi?cinemaBranchId=39391",
+    "sessions": {
+     "18721308": {
+      "label": "15 Ekim Perşembe, 20:00",
+      "stage": "Muammer Karaca Tiyatrosu",
+      "status": "soldout"
+     }
+    }
+   },
+   "tiyatro/uykusuz-bir-ruya-salim": {
+    "name": "Uykusuz Bir Rüya, Salim",
+    "page": "https://biletinial.com/tr-tr/tiyatro/uykusuz-bir-ruya-salim?cinemaBranchId=39391",
+    "sessions": {
+     "18721315": {
+      "label": "17 Ekim Cumartesi, 20:00",
+      "stage": "Muammer Karaca Tiyatrosu",
+      "status": "soldout"
+     }
+    }
+   }
+  }
+ }
 }
