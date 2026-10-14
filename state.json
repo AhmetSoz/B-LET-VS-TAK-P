@@ -1,0 +1,16 @@
+{
+  "venue": "https://biletinial.com/tr-tr/mekan/muammer-karaca-tiyatrosu",
+  "updated_at": "2026-10-14T08:23:13+00:00",
+  "events": {
+    "tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi": {
+      "name": "Hadi Öldürsene Canikom",
+      "url": "https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi",
+      "date": "2026-10-15T23:00:00+03:00"
+    },
+    "tiyatro/uykusuz-bir-ruya-salim": {
+      "name": "Uykusuz Bir Rüya, Salim",
+      "url": "https://biletinial.com/tr-tr/tiyatro/uykusuz-bir-ruya-salim",
+      "date": "2026-10-17T23:00:00+03:00"
+    }
+  }
+}

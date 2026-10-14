@@ -1,0 +1,57 @@
+name: Bilet takip
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # her 10 dakikada bir (GitHub yoğunken birkaç dakika gecikebilir)
+  workflow_dispatch:
+    inputs:
+      test_notify:
+        description: "Sadece test bildirimi gönder"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # state.json'u güncellemek için
+  issues: write # yeni oyun için issue açmak için
+
+concurrency:
+  group: bilet-takip
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sayfayı kontrol et
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ inputs.test_notify }}" = "true" ]; then
+            python monitor.py --test-notify
+          else
+            python monitor.py
+          fi
+
+      - name: Durumu kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Sadece oyun listesi değiştiyse commit at (zaman damgası tek başına sayılmaz)
+          if git diff --quiet -I '"updated_at"' -- state.json && git ls-files --error-unmatch state.json >/dev/null 2>&1; then
+            echo "Değişiklik yok."
+            git checkout -- state.json
+          else
+            git add state.json
+            git commit -m "Oyun listesi güncellendi"
+            git push
+          fi
