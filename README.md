@@ -4,13 +4,14 @@ Tiyatro bilet sitelerini 5 dakikada bir kontrol eder ve **Telegram**'dan haber v
 
 ## Takip edilenler
 
-`config.json` içinde tanımlı:
+`config.json` içinde tanımlı. `"enabled": false` olan kaynak takip edilmez; `true` yapınca
+ilk taramada sessizce mevcut durumu kaydeder, sonra bildirim göndermeye başlar.
 
-| Kaynak | Site |
-|---|---|
-| Muammer Karaca Tiyatrosu | [Biletinial](https://biletinial.com/tr-tr/mekan/muammer-karaca-tiyatrosu) |
-| İstanbul Devlet Tiyatrosu | [Biletinial](https://biletinial.com/tr-tr/mekan/istanbul-devlet-tiyatrosu) |
-| İBB Şehir Tiyatroları | [sehirtiyatrolari.ibb.istanbul](https://sehirtiyatrolari.ibb.istanbul/) |
+| Kaynak | Site | Durum |
+|---|---|---|
+| Muammer Karaca Tiyatrosu | [Biletinial](https://biletinial.com/tr-tr/mekan/muammer-karaca-tiyatrosu) | ✅ açık |
+| İstanbul Devlet Tiyatrosu | [Biletinial](https://biletinial.com/tr-tr/mekan/istanbul-devlet-tiyatrosu) | ⏸ kapalı |
+| İBB Şehir Tiyatroları | [sehirtiyatrolari.ibb.istanbul](https://sehirtiyatrolari.ibb.istanbul/) | ⏸ kapalı |
 
 **Çocuk oyunları takip edilmez** (sitelerin kendi "Çocuk" kategorisine göre). Yetişkin oyunları
 ve müzikaller takip edilir.

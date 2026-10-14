@@ -481,6 +481,8 @@ def main():
     }
 
     for src in config["sources"]:
+        if not src.get("enabled", True):
+            continue  # kapalı kaynak; tekrar açılınca ilk tarama sessiz yapılır
         sid, name = src["id"], src["name"]
         old = old_sources.get(sid)
         try:
