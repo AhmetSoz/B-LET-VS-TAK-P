@@ -1,4 +1,4 @@
-name: Bilet takip
+name: Bilet takip aktif
 
 on:
   schedule:
