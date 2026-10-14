@@ -2,7 +2,7 @@ name: Bilet takip
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # her 10 dakikada bir (GitHub yoğunken birkaç dakika gecikebilir)
+    - cron: "*/5 * * * *" # 5 dk GitHub'ın izin verdiği en sık aralık (yoğunken gecikebilir)
   workflow_dispatch:
     inputs:
       test_notify:
@@ -35,6 +35,7 @@ jobs:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MIN_TICKETS: ${{ vars.MIN_TICKETS || '2' }} # kaç kişilik bilet aranıyor
         run: |
           if [ "${{ inputs.test_notify }}" = "true" ]; then
             python monitor.py --test-notify
