@@ -10,13 +10,7 @@
    "tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi": {
     "name": "Hadi Öldürsene Canikom",
     "page": "https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi?cinemaBranchId=39391",
-    "sessions": {
-     "18721308": {
-      "label": "15 Ekim Perşembe, 20:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soldout"
-     }
-    }
+    "sessions": {}
    },
    "tiyatro/uykusuz-bir-ruya-salim": {
     "name": "Uykusuz Bir Rüya, Salim",
