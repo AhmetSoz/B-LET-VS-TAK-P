@@ -52,7 +52,9 @@ USER_AGENT = (
 )
 ISTANBUL = timezone(timedelta(hours=3))
 
-OPEN, FEW, SOON, SOLDOUT = "open", "few", "soon", "soldout"
+OPEN, FEW, SOON, SOLDOUT, CANCELLED = "open", "few", "soon", "soldout", "cancelled"
+TR_MONTHS = {m: i for i, m in enumerate(
+    "ocak şubat mart nisan mayıs haziran temmuz ağustos eylül ekim kasım aralık".split(), 1)}
 
 
 # --------------------------------------------------------------------------- yardımcılar
@@ -109,6 +111,23 @@ def session(label, stage, link, status, remaining=None, opens_at=None):
             "opens_ts": int(opens_at.timestamp()) if opens_at else None}
 
 
+def label_ts(label):
+    """'19 Ekim Pazartesi, 20:00' -> zaman damgası (yıl, en yakın gelecek/yakın geçmiş)."""
+    m = re.match(r"\s*(\d{1,2})\s+(\S+).*?(\d{1,2}):(\d{2})", label or "")
+    month = TR_MONTHS.get(m.group(2).replace("I", "ı").replace("İ", "i").lower()) if m else None
+    if not month:
+        return None
+    now = datetime.now(ISTANBUL)
+    for year in (now.year, now.year + 1, now.year - 1):
+        try:
+            t = datetime(year, month, int(m.group(1)), int(m.group(3)), int(m.group(4)), tzinfo=ISTANBUL)
+        except ValueError:
+            continue
+        if abs((t - now).days) < 183:
+            return int(t.timestamp())
+    return None
+
+
 def fmt_time(ts, with_date=True):
     t = datetime.fromtimestamp(ts, ISTANBUL)
     return t.strftime("%d.%m %H:%M") if with_date else t.strftime("%H:%M")
@@ -163,6 +182,10 @@ def bi_sessions(page_url, venue_path):
         remaining = re.search(r"Son\s+(\d+)\s+Bilet", block)
         remaining = int(remaining.group(1)) if remaining else None
         status, opens = SOLDOUT, None
+        event_status = re.search(r'itemprop="eventStatus" content="[^"]*/(\w+)"', block)
+        if event_status and event_status.group(1) in ("EventCancelled", "EventPostponed"):
+            button = None
+            status = CANCELLED
         if button:
             tag = button.group(0)
             if "tukendi" in tag or "disabled" in tag:
@@ -312,6 +335,8 @@ def status_text(s):
         if s.get("opens_ts"):
             return f"⏰ satış açılışı: {fmt_time(s['opens_ts'])}"
         return "⏰ yakında satışta"
+    if s["status"] == CANCELLED:
+        return "🚫 iptal edildi / ertelendi"
     return "❌ tükendi"
 
 
@@ -323,13 +348,25 @@ def session_line(s):
     return line
 
 
+def is_future(s, margin=30 * 60):
+    ts = label_ts(s.get("label"))
+    return ts is not None and ts > time.time() + margin
+
+
 def diff_source(src_name, old_plays, plays, watched, notified):
     """Bildirilecek değişiklikleri [(başlık, metin)] olarak döndürür.
     notified: {seans_anahtarı: son "açıldı" bildirimi zamanı}, burada güncellenir."""
     changes = []
     now = time.time()
+    # Sayfa yapısı değişip hiç seans okunamadıysa "her şey kaldırıldı" diye yağdırma
+    old_count = sum(len(p["sessions"]) for p in old_plays.values())
+    new_count = sum(len(p.get("sessions", {})) for p in plays.values())
+    report_removals = not (old_count and not new_count)
+    if not report_removals:
+        print(f"[{src_name}] hiç seans okunamadı; kaldırma bildirimleri atlandı", file=sys.stderr)
+
     for slug, play in plays.items():
-        if is_watched(play["name"], watched) or "sessions" not in play:
+        if is_watched(play["name"], watched) or "sessions" not in play or play.get("carried"):
             continue
         old = old_plays.get(slug)
         head = f"🎭 {play['name']} — {src_name}"
@@ -342,13 +379,41 @@ def diff_source(src_name, old_plays, plays, watched, notified):
             old_s = old["sessions"].get(sid)
             if old_s is None:
                 lines.append("🆕 Yeni seans\n" + session_line(s))
+                continue
+            if old_s.get("label") and s["label"] != old_s["label"]:
+                lines.append(f"🕒 Seans tarihi/saati değişti: {old_s['label']} → {s['label']}\n"
+                             + session_line(s))
+            if s["status"] == CANCELLED and old_s["status"] != CANCELLED:
+                lines.append("🚫 Seans iptal edildi / ertelendi\n" + session_line(s))
             elif s["status"] == OPEN and old_s["status"] != OPEN:
                 key = f"{slug}/{sid}"
                 if now - notified.get(key, 0) >= REOPEN_COOLDOWN:
                     notified[key] = now
                     lines.append("🎟 Bilet açıldı!\n" + session_line(s))
+            elif s["status"] == SOON and s.get("opens_ts") and s["opens_ts"] != old_s.get("opens_ts"):
+                if old_s.get("opens_ts"):
+                    lines.append(f"⏰ Satış açılış saati değişti: {fmt_time(old_s['opens_ts'])} → "
+                                 f"{fmt_time(s['opens_ts'])}\n" + session_line(s))
+                else:
+                    lines.append("⏰ Satış açılış zamanı belli oldu\n" + session_line(s))
+        if report_removals:
+            for sid, old_s in old["sessions"].items():
+                if sid not in play["sessions"] and old_s["status"] != CANCELLED and is_future(old_s):
+                    lines.append("❌ Seans listeden kaldırıldı (iptal olmuş olabilir)\n"
+                                 + session_line({**old_s, "link": ""}).split("\n")[0])
         if lines:
-            changes.append((f"{play['name']}", head + "\n\n" + "\n\n".join(lines)))
+            changes.append((f"{play['name']}", head + "\n" + play["page"] + "\n\n" + "\n\n".join(lines)))
+
+    if report_removals:
+        for slug, old in old_plays.items():
+            if slug in plays or is_watched(old["name"], watched):
+                continue
+            future = [s for s in old["sessions"].values() if is_future(s) and s["status"] != CANCELLED]
+            if future:
+                body = "\n".join(f"• {s['label']}" for s in future)
+                changes.append((f"Oyun kaldırıldı: {old['name']}",
+                                f"🗑 {old['name']} — {src_name}\nListeden kaldırıldı (iptal olmuş olabilir). "
+                                f"Gelecek seansları:\n{body}\n{old['page']}"))
     return changes
 
 
@@ -497,7 +562,7 @@ def send_reminders(state, watched_norm):
     reminded = {k: t for k, t in state.get("reminded", {}).items() if now - t < 3 * 86400}
     due = {}
     for src_id, slug, sid, play, s in pending_openings(state["sources"], watched_norm):
-        key = session_key(src_id, slug, sid)
+        key = f"{session_key(src_id, slug, sid)}@{s['opens_ts']}"
         if key not in reminded and 0 < s["opens_ts"] - now <= REMIND_BEFORE + 60:
             due.setdefault(s["opens_ts"], []).append((play, s))
             reminded[key] = now
@@ -553,6 +618,7 @@ def check_once():
         for slug, play in plays.items():
             if "sessions" not in play and old and slug in old:
                 play["sessions"] = {k: {**v, "link": ""} for k, v in old[slug]["sessions"].items()}
+                play["carried"] = True
 
         print(f"[{name}] {len(plays)} yetişkin oyunu")
         for play in plays.values():
@@ -592,7 +658,7 @@ def next_wakeup(state, watched_norm):
     now = time.time()
     times = []
     for src_id, slug, sid, play, s in pending_openings(state.get("sources", {}), watched_norm):
-        if session_key(src_id, slug, sid) not in state.get("reminded", {}):
+        if f"{session_key(src_id, slug, sid)}@{s['opens_ts']}" not in state.get("reminded", {}):
             times.append(s["opens_ts"] - REMIND_BEFORE)
         times.append(s["opens_ts"] + 60)
     future = [t for t in times if t > now]

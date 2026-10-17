@@ -20,6 +20,10 @@ ve müzikaller takip edilir.
 
 - 🎭 **Yeni oyun** eklendiğinde
 - 🆕 Bir oyuna **yeni seans** (tarih) eklendiğinde; satış henüz açılmadıysa açılış saati de yazar
+- ⏰ **Satış açılış saati değiştiğinde** (eski → yeni saat; hatırlatma yeni saate göre kurulur)
+- 🕒 **Seansın tarihi/saati değiştiğinde**
+- 🚫 **Seans iptal/ertelendiğinde** ya da ❌ tarihi gelmemiş bir seans listeden kalktığında
+- 🗑 **Oyun listeden kaldırıldığında** (gelecek tarihli seansı varken)
 - 🎟 **Bilet açıldığında**: tükenmiş bir seansta bilet çıkınca (iade vb.) ya da "Yakında" olan
   seansın satışı başlayınca. Biletinial'de en az 2 bilet kalmış olmalı.
 
