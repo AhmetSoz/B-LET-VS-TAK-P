@@ -21,7 +21,8 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    # Yaklaşan bir satış açılışı varsa iş kapanmadan bekler (en fazla 5,5 saat)
+    timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
 
@@ -40,7 +41,7 @@ jobs:
           if [ "${{ inputs.test_notify }}" = "true" ]; then
             python monitor.py --test-notify
           else
-            python monitor.py
+            python monitor.py --watch
           fi
 
       - name: Durumu kaydet

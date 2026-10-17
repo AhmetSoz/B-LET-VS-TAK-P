@@ -40,6 +40,10 @@ MIN_TICKETS = int(os.environ.get("MIN_TICKETS") or "2")
 # Aynı seans için "bilet açıldı" bildirimi en fazla bu sıklıkta (sepet iptalleriyle
 # seans tükendi/açıldı arasında gidip gelebiliyor)
 REOPEN_COOLDOWN = 60 * 60
+# Satış açılmadan bu kadar önce hatırlatma gönderilir
+REMIND_BEFORE = 30 * 60
+# --watch modunda, yaklaşan bir satış açılışı varken kaç saniyede bir kontrol edilir
+POLL_INTERVAL = 10 * 60
 # Bir kaynak bu kadar tur üst üste okunamazsa haber ver (5 dk x 12 = 1 saat)
 FAIL_ALERT_AFTER = 12
 USER_AGENT = (
@@ -81,22 +85,33 @@ def is_watched(name, watched):
     return any(w == n or (len(w) >= 4 and w in n) for w in watched)
 
 
-def acilis_status(acilis):
-    """data-acilis='202610240710' -> geçmişse OPEN, değilse (SOON, '24.10 07:10')."""
+def parse_acilis(value, tz):
+    """'202610171400' -> datetime. Biletinial butondaki değeri UTC, görünen yazıdakini
+    (data-acilisText) Türkiye saatiyle verir; Şehir Tiyatroları Türkiye saatiyle verir."""
     try:
-        t = datetime.strptime(acilis, "%Y%m%d%H%M").replace(tzinfo=ISTANBUL)
-    except ValueError:
-        return SOON, ""
-    if t <= datetime.now(ISTANBUL):
-        return OPEN, ""
-    return SOON, t.strftime("%d.%m %H:%M")
+        return datetime.strptime(value, "%Y%m%d%H%M").replace(tzinfo=tz)
+    except (TypeError, ValueError):
+        return None
 
 
-def session(label, stage, link, status, remaining=None, opens=""):
+def acilis_status(opens_at):
+    """Satış açılış zamanı geçtiyse OPEN (site butonu o an açıyor), yoksa SOON."""
+    if opens_at and opens_at <= datetime.now(ISTANBUL):
+        return OPEN, None
+    return SOON, opens_at
+
+
+def session(label, stage, link, status, remaining=None, opens_at=None):
     if status == OPEN and remaining is not None and remaining < MIN_TICKETS:
         status = FEW
     return {"label": label, "stage": stage, "link": link, "status": status,
-            "remaining": remaining, "opens": opens}
+            "remaining": remaining,
+            "opens_ts": int(opens_at.timestamp()) if opens_at else None}
+
+
+def fmt_time(ts, with_date=True):
+    t = datetime.fromtimestamp(ts, ISTANBUL)
+    return t.strftime("%d.%m %H:%M") if with_date else t.strftime("%H:%M")
 
 
 def fetch_sessions(plays, todo, fn):
@@ -147,14 +162,17 @@ def bi_sessions(page_url, venue_path):
         label = re.search(r'itemprop="startDate"[^>]*>([^<]+)<', block)
         remaining = re.search(r"Son\s+(\d+)\s+Bilet", block)
         remaining = int(remaining.group(1)) if remaining else None
-        status, opens = SOLDOUT, ""
+        status, opens = SOLDOUT, None
         if button:
             tag = button.group(0)
-            acilis = re.search(r'data-acilis="(\d+)"', tag)
             if "tukendi" in tag or "disabled" in tag:
                 status = SOLDOUT
-            elif acilis or "yakinda" in tag:
-                status, opens = acilis_status(acilis.group(1) if acilis else "")
+            elif "data-acilis" in tag or "yakinda" in tag:
+                local = re.search(r'data-acilisText="(\d+)"', block)
+                utc = re.search(r'data-acilis="(\d+)"', tag)
+                opens = (parse_acilis(local.group(1), ISTANBUL) if local else None) or \
+                        (parse_acilis(utc.group(1), timezone.utc) if utc else None)
+                status, opens = acilis_status(opens)
             else:
                 status = OPEN
         sid = link.group(1).rstrip("/").rsplit("/", 1)[-1]
@@ -215,13 +233,13 @@ def st_sessions(page_url, base):
         href = re.search(r'href="(/koltuk-secimi/\d+)"', tag)
         acilis = re.search(r'data-acilis="(\d+)"', tag)
         if "Tükendi" in tag or "Tükendi" in text:
-            status, opens = SOLDOUT, ""
+            status, opens = SOLDOUT, None
         elif acilis:
-            status, opens = acilis_status(acilis.group(1))
+            status, opens = acilis_status(parse_acilis(acilis.group(1), ISTANBUL))
         elif href:
-            status, opens = OPEN, ""
+            status, opens = OPEN, None
         else:
-            status, opens = SOLDOUT, ""
+            status, opens = SOLDOUT, None
         # Tükenmiş seansların linki/ID'si yok; seansı tarih + sahne ile tanıyoruz
         sid = hashlib.sha1(f"{label}|{stage}".encode()).hexdigest()[:12]
         link = base + href.group(1) if href and status == OPEN else page_url + "#gosterimler"
@@ -278,7 +296,8 @@ def stored(play):
         "name": play["name"],
         "page": play["page"],
         "sessions": {
-            sid: {"label": s["label"], "stage": s["stage"], "status": s["status"]}
+            sid: {"label": s["label"], "stage": s["stage"], "status": s["status"],
+                  **({"opens_ts": s["opens_ts"]} if s.get("opens_ts") else {})}
             for sid, s in sorted(play.get("sessions", {}).items())
         },
     }
@@ -290,7 +309,9 @@ def status_text(s):
     if s["status"] == FEW:
         return f"⚠️ sadece {s['remaining']} bilet kaldı"
     if s["status"] == SOON:
-        return f"⏰ satış {s['opens']}'da açılacak" if s.get("opens") else "⏰ yakında satışta"
+        if s.get("opens_ts"):
+            return f"⏰ satış açılışı: {fmt_time(s['opens_ts'])}"
+        return "⏰ yakında satışta"
     return "❌ tükendi"
 
 
@@ -455,11 +476,41 @@ def handle_telegram_commands(state, watched):
 # --------------------------------------------------------------------------- ana akış
 
 
-def main():
-    if "--test-notify" in sys.argv:
-        notify("Bilet takip testi", "Bildirimler çalışıyor ✅")
-        return
+def session_key(src_id, slug, sid):
+    return f"{src_id}/{slug}/{sid}"
 
+
+def pending_openings(sources, watched_norm):
+    """Henüz satışa açılmamış ve açılış zamanı belli seanslar: (src, slug, sid, play, seans)."""
+    for src_id, plays in sources.items():
+        for slug, play in plays.items():
+            if is_watched(play["name"], watched_norm):
+                continue
+            for sid, s in play.get("sessions", {}).items():
+                if s.get("status") == SOON and s.get("opens_ts"):
+                    yield src_id, slug, sid, play, s
+
+
+def send_reminders(state, watched_norm):
+    """Satışı REMIND_BEFORE içinde açılacak seanslar için bir kez hatırlatma gönderir."""
+    now = time.time()
+    reminded = {k: t for k, t in state.get("reminded", {}).items() if now - t < 3 * 86400}
+    due = {}
+    for src_id, slug, sid, play, s in pending_openings(state["sources"], watched_norm):
+        key = session_key(src_id, slug, sid)
+        if key not in reminded and 0 < s["opens_ts"] - now <= REMIND_BEFORE + 60:
+            due.setdefault(s["opens_ts"], []).append((play, s))
+            reminded[key] = now
+    for opens_ts, items in sorted(due.items()):
+        minutes = max(1, round((opens_ts - now) / 60))
+        lines = [f"🎭 {play['name']}\n• {s['label']}\n  {play['page']}" for play, s in items]
+        title = f"⏰ {minutes} dakika sonra ({fmt_time(opens_ts, with_date=False)}) bilet satışı açılıyor!"
+        notify(title, "Hazırlan, unutma 🙂\n\n" + "\n\n".join(lines))
+        print("Hatırlatma:", title)
+    state["reminded"] = reminded
+
+
+def check_once():
     config = load_json(CONFIG_FILE, None)
     if not config:
         sys.exit(f"{CONFIG_FILE} bulunamadı")
@@ -530,9 +581,48 @@ def main():
     state["sources"] = new_sources
     state["failures"] = failures
     state["notified"] = {k: v for k, v in notified.items() if v}
+    send_reminders(state, watched_norm)
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=1, sort_keys=True)
         f.write("\n")
+
+
+def next_wakeup(state, watched_norm):
+    """Bir sonraki önemli an: hatırlatma zamanı ya da satışın açıldığı dakika."""
+    now = time.time()
+    times = []
+    for src_id, slug, sid, play, s in pending_openings(state.get("sources", {}), watched_norm):
+        if session_key(src_id, slug, sid) not in state.get("reminded", {}):
+            times.append(s["opens_ts"] - REMIND_BEFORE)
+        times.append(s["opens_ts"] + 60)
+    future = [t for t in times if t > now]
+    return min(future) if future else None
+
+
+def watch(budget_seconds):
+    """Kontrol eder; önümüzdeki budget içinde bir satış açılıyorsa kapanmaz, hatırlatma ve
+    açılış anına kadar POLL_INTERVAL'da bir kontrol etmeye devam eder. (GitHub'ın
+    zamanlayıcısı saatlerce gecikebildiği için hatırlatmayı kaçırmamak adına.)"""
+    deadline = time.time() + budget_seconds
+    check_once()
+    while True:
+        wake = next_wakeup(load_json(STATE_FILE, {}), [normalize(w) for w in load_watched()])
+        if wake is None or wake > deadline:
+            break
+        wake = min(wake, time.time() + POLL_INTERVAL)
+        print(f"Yaklaşan satış açılışı var; sıradaki kontrol {fmt_time(wake)}")
+        sys.stdout.flush()
+        time.sleep(max(0, wake - time.time()))
+        check_once()
+
+
+def main():
+    if "--test-notify" in sys.argv:
+        notify("Bilet takip testi", "Bildirimler çalışıyor ✅")
+    elif "--watch" in sys.argv:
+        watch(int(os.environ.get("WATCH_MINUTES") or "330") * 60)
+    else:
+        check_once()
 
 
 if __name__ == "__main__":

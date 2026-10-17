@@ -25,6 +25,14 @@ ve müzikaller takip edilir.
 
 Aynı seans için "bilet açıldı" mesajı en fazla saatte bir gelir.
 
+### ⏰ Satış açılış hatırlatması
+
+Satışı ileri bir tarihte açılacak seanslar için, **açılıştan 30 dakika önce** hatırlatma gelir
+(aynı anda açılan oyunlar tek mesajda). GitHub'ın zamanlayıcısı saatlerce gecikebildiği için,
+bir kontrol önümüzdeki 5,5 saat içinde açılacak bir satış görürse kapanmaz: 10 dakikada bir
+kontrol etmeye devam eder, hatırlatmayı tam zamanında gönderir ve satışın açıldığı dakikada
+tekrar bakar.
+
 ## İzlediğimiz oyunlar (`izlenenler.txt`)
 
 Bu dosyadaki oyunlar için bildirim gelmez. Telegram'dan bota yazarak da yönetebilirsin:

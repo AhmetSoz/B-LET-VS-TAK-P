@@ -1,6 +1,7 @@
 {
  "failures": {},
  "notified": {},
+ "reminded": {},
  "sources": {
   "muammer-karaca": {
    "tiyatro/52-hertz": {
@@ -9,6 +10,7 @@
     "sessions": {
      "18750905": {
       "label": "19 Ekim Pazartesi, 20:00",
+      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
       "status": "soon"
      }
@@ -20,6 +22,7 @@
     "sessions": {
      "18750907": {
       "label": "22 Ekim Perşembe, 20:00",
+      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
       "status": "soon"
      }
@@ -31,6 +34,7 @@
     "sessions": {
      "18750908": {
       "label": "23 Ekim Cuma, 20:00",
+      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
       "status": "soon"
      }
@@ -42,6 +46,7 @@
     "sessions": {
      "18750910": {
       "label": "25 Ekim Pazar, 20:00",
+      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
       "status": "soon"
      }
@@ -53,6 +58,7 @@
     "sessions": {
      "18750906": {
       "label": "20 Ekim Salı, 20:00",
+      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
       "status": "soon"
      }
