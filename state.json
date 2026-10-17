@@ -25,7 +25,7 @@
      "18750905": {
       "label": "19 Ekim Pazartesi, 20:00",
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -36,7 +36,7 @@
      "18750907": {
       "label": "22 Ekim Perşembe, 20:00",
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -47,7 +47,7 @@
      "18750908": {
       "label": "23 Ekim Cuma, 20:00",
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -58,7 +58,7 @@
      "18750910": {
       "label": "25 Ekim Pazar, 20:00",
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -69,7 +69,7 @@
      "18750906": {
       "label": "20 Ekim Salı, 20:00",
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
