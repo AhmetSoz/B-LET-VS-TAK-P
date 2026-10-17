@@ -76,13 +76,7 @@
    "tiyatro/uykusuz-bir-ruya-salim": {
     "name": "Uykusuz Bir Rüya, Salim",
     "page": "https://biletinial.com/tr-tr/tiyatro/uykusuz-bir-ruya-salim?cinemaBranchId=39391",
-    "sessions": {
-     "18721315": {
-      "label": "17 Ekim Cumartesi, 20:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soldout"
-     }
-    }
+    "sessions": {}
    }
   }
  },
