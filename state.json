@@ -1,7 +1,21 @@
 {
  "failures": {},
- "notified": {},
- "reminded": {},
+ "notified": {
+  "muammer-karaca": {
+   "tiyatro/52-hertz/18750905": 1792234816.8084106,
+   "tiyatro/bahar-noktasi-sorusturmasi/18750907": 1792234816.8084106,
+   "tiyatro/gunesin-sofrasinda-nazim-ile-brecht/18750908": 1792234816.8084106,
+   "tiyatro/iki-efendinin-usagi-cas/18750910": 1792234816.8084106,
+   "tiyatro/satonun-altinda-yy/18750906": 1792234816.8084106
+  }
+ },
+ "reminded": {
+  "muammer-karaca/tiyatro/52-hertz/18750905@1792234800": 1792233003.6087034,
+  "muammer-karaca/tiyatro/bahar-noktasi-sorusturmasi/18750907@1792234800": 1792233003.6087034,
+  "muammer-karaca/tiyatro/gunesin-sofrasinda-nazim-ile-brecht/18750908@1792234800": 1792233003.6087034,
+  "muammer-karaca/tiyatro/iki-efendinin-usagi-cas/18750910@1792234800": 1792233003.6087034,
+  "muammer-karaca/tiyatro/satonun-altinda-yy/18750906@1792234800": 1792233003.6087034
+ },
  "sources": {
   "muammer-karaca": {
    "tiyatro/52-hertz": {
@@ -10,9 +24,8 @@
     "sessions": {
      "18750905": {
       "label": "19 Ekim Pazartesi, 20:00",
-      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -22,9 +35,8 @@
     "sessions": {
      "18750907": {
       "label": "22 Ekim Perşembe, 20:00",
-      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -34,9 +46,8 @@
     "sessions": {
      "18750908": {
       "label": "23 Ekim Cuma, 20:00",
-      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -46,9 +57,8 @@
     "sessions": {
      "18750910": {
       "label": "25 Ekim Pazar, 20:00",
-      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -58,9 +68,8 @@
     "sessions": {
      "18750906": {
       "label": "20 Ekim Salı, 20:00",
-      "opens_ts": 1792234800,
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
