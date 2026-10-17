@@ -1,5 +1,4 @@
-name: Bilet takip aktif
-
+name: Bilet takip aktif 2
 on:
   schedule:
     - cron: "*/5 * * * *" # 5 dk GitHub'ın izin verdiği en sık aralık (yoğunken gecikebilir)
