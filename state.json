@@ -1,14 +1,6 @@
 {
  "failures": {},
- "notified": {
-  "muammer-karaca": {
-   "tiyatro/52-hertz/18750905": 1792234816.8084106,
-   "tiyatro/bahar-noktasi-sorusturmasi/18750907": 1792234816.8084106,
-   "tiyatro/gunesin-sofrasinda-nazim-ile-brecht/18750908": 1792234816.8084106,
-   "tiyatro/iki-efendinin-usagi-cas/18750910": 1792234816.8084106,
-   "tiyatro/satonun-altinda-yy/18750906": 1792234816.8084106
-  }
- },
+ "notified": {},
  "reminded": {
   "muammer-karaca/tiyatro/52-hertz/18750905@1792234800": 1792233003.6087034,
   "muammer-karaca/tiyatro/bahar-noktasi-sorusturmasi/18750907@1792234800": 1792233003.6087034,
