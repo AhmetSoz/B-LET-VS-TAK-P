@@ -32,6 +32,17 @@
      }
     }
    },
+   "tiyatro/beyoglunda-gizli-kanto": {
+    "name": "Beyoğlu'nda Gizli Kanto",
+    "page": "https://biletinial.com/tr-tr/tiyatro/beyoglunda-gizli-kanto?cinemaBranchId=39391",
+    "sessions": {
+     "18762752": {
+      "label": "24 Ekim Cumartesi, 20:00",
+      "stage": "Muammer Karaca Tiyatrosu",
+      "status": "open"
+     }
+    }
+   },
    "tiyatro/gunesin-sofrasinda-nazim-ile-brecht": {
     "name": "Güneşin Sofrasında - Nazım İle Brecht",
     "page": "https://biletinial.com/tr-tr/tiyatro/gunesin-sofrasinda-nazim-ile-brecht?cinemaBranchId=39391",
