@@ -10,17 +10,6 @@
  },
  "sources": {
   "muammer-karaca": {
-   "tiyatro/52-hertz": {
-    "name": "52 Hertz",
-    "page": "https://biletinial.com/tr-tr/tiyatro/52-hertz?cinemaBranchId=39391",
-    "sessions": {
-     "18750905": {
-      "label": "19 Ekim Pazartesi, 20:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soldout"
-     }
-    }
-   },
    "tiyatro/bahar-noktasi-sorusturmasi": {
     "name": "Bahar Noktası Soruşturması",
     "page": "https://biletinial.com/tr-tr/tiyatro/bahar-noktasi-sorusturmasi?cinemaBranchId=39391",
@@ -39,7 +28,7 @@
      "18762752": {
       "label": "24 Ekim Cumartesi, 20:00",
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
