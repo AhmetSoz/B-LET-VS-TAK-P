@@ -1,69 +1,33 @@
 {
  "failures": {},
  "notified": {},
- "reminded": {
-  "muammer-karaca/tiyatro/52-hertz/18750905@1792234800": 1792233003.6087034,
-  "muammer-karaca/tiyatro/bahar-noktasi-sorusturmasi/18750907@1792234800": 1792233003.6087034,
-  "muammer-karaca/tiyatro/gunesin-sofrasinda-nazim-ile-brecht/18750908@1792234800": 1792233003.6087034,
-  "muammer-karaca/tiyatro/iki-efendinin-usagi-cas/18750910@1792234800": 1792233003.6087034,
-  "muammer-karaca/tiyatro/satonun-altinda-yy/18750906@1792234800": 1792233003.6087034
- },
+ "reminded": {},
  "sources": {
   "muammer-karaca": {
    "tiyatro/bahar-noktasi-sorusturmasi": {
     "name": "Bahar Noktası Soruşturması",
     "page": "https://biletinial.com/tr-tr/tiyatro/bahar-noktasi-sorusturmasi?cinemaBranchId=39391",
-    "sessions": {
-     "18750907": {
-      "label": "22 Ekim Perşembe, 20:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soldout"
-     }
-    }
+    "sessions": {}
    },
    "tiyatro/beyoglunda-gizli-kanto": {
     "name": "Beyoğlu'nda Gizli Kanto",
     "page": "https://biletinial.com/tr-tr/tiyatro/beyoglunda-gizli-kanto?cinemaBranchId=39391",
-    "sessions": {
-     "18762752": {
-      "label": "24 Ekim Cumartesi, 20:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soldout"
-     }
-    }
+    "sessions": {}
    },
    "tiyatro/gunesin-sofrasinda-nazim-ile-brecht": {
     "name": "Güneşin Sofrasında - Nazım İle Brecht",
     "page": "https://biletinial.com/tr-tr/tiyatro/gunesin-sofrasinda-nazim-ile-brecht?cinemaBranchId=39391",
-    "sessions": {
-     "18750908": {
-      "label": "23 Ekim Cuma, 20:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soldout"
-     }
-    }
+    "sessions": {}
    },
    "tiyatro/iki-efendinin-usagi-cas": {
     "name": "İki Efendinin Uşağı Alaturka",
     "page": "https://biletinial.com/tr-tr/tiyatro/iki-efendinin-usagi-cas?cinemaBranchId=39391",
-    "sessions": {
-     "18750910": {
-      "label": "25 Ekim Pazar, 20:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soldout"
-     }
-    }
+    "sessions": {}
    },
    "tiyatro/satonun-altinda-yy": {
     "name": "Şatonun Altında",
     "page": "https://biletinial.com/tr-tr/tiyatro/satonun-altinda-yy?cinemaBranchId=39391",
-    "sessions": {
-     "18750906": {
-      "label": "20 Ekim Salı, 20:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soldout"
-     }
-    }
+    "sessions": {}
    }
   }
  },
