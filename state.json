@@ -14,14 +14,39 @@
     "page": "https://biletinial.com/tr-tr/tiyatro/beyoglunda-gizli-kanto?cinemaBranchId=39391",
     "sessions": {}
    },
+   "tiyatro/clown-jam": {
+    "name": "Clown Jam",
+    "page": "https://biletinial.com/tr-tr/tiyatro/clown-jam?cinemaBranchId=39391",
+    "sessions": {}
+   },
+   "tiyatro/ermis-tiyatro-oyunu": {
+    "name": "Ermiş",
+    "page": "https://biletinial.com/tr-tr/tiyatro/ermis-tiyatro-oyunu?cinemaBranchId=39391",
+    "sessions": {}
+   },
    "tiyatro/gunesin-sofrasinda-nazim-ile-brecht": {
     "name": "Güneşin Sofrasında - Nazım İle Brecht",
     "page": "https://biletinial.com/tr-tr/tiyatro/gunesin-sofrasinda-nazim-ile-brecht?cinemaBranchId=39391",
     "sessions": {}
    },
+   "tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi": {
+    "name": "Hadi Öldürsene Canikom",
+    "page": "https://biletinial.com/tr-tr/tiyatro/hadi-oldursene-canikom-tiyatro-etkinligi?cinemaBranchId=39391",
+    "sessions": {}
+   },
    "tiyatro/iki-efendinin-usagi-cas": {
     "name": "İki Efendinin Uşağı Alaturka",
     "page": "https://biletinial.com/tr-tr/tiyatro/iki-efendinin-usagi-cas?cinemaBranchId=39391",
+    "sessions": {}
+   },
+   "tiyatro/jean-darcin-oteki-olumu": {
+    "name": "Jan Dark'ın Öteki Ölümü",
+    "page": "https://biletinial.com/tr-tr/tiyatro/jean-darcin-oteki-olumu?cinemaBranchId=39391",
+    "sessions": {}
+   },
+   "tiyatro/khora-tiyatro-oyunu": {
+    "name": "Khôra",
+    "page": "https://biletinial.com/tr-tr/tiyatro/khora-tiyatro-oyunu?cinemaBranchId=39391",
     "sessions": {}
    }
   }
