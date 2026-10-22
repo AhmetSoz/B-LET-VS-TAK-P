@@ -4,11 +4,6 @@
  "reminded": {},
  "sources": {
   "muammer-karaca": {
-   "tiyatro/bahar-noktasi-sorusturmasi": {
-    "name": "Bahar Noktası Soruşturması",
-    "page": "https://biletinial.com/tr-tr/tiyatro/bahar-noktasi-sorusturmasi?cinemaBranchId=39391",
-    "sessions": {}
-   },
    "tiyatro/beyoglunda-gizli-kanto": {
     "name": "Beyoğlu'nda Gizli Kanto",
     "page": "https://biletinial.com/tr-tr/tiyatro/beyoglunda-gizli-kanto?cinemaBranchId=39391",
