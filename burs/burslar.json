@@ -23,7 +23,10 @@
       ],
       "aliases": [
         "Human Rights and Multi-level Governance HRG Padova"
-      ]
+      ],
+      "short": "Padova – İnsan Hakları",
+      "flag": "🇮🇹",
+      "summary": "€8.000/yıl + ücret muafiyeti (Excellence bursu)"
     },
     {
       "rank": 2,
@@ -45,7 +48,10 @@
       ],
       "aliases": [
         "Stipendium Hungaricum Scholarship"
-      ]
+      ],
+      "short": "Stipendium Hungaricum",
+      "flag": "🇭🇺",
+      "summary": "Okul ücreti + aylık burs + yurt + sigorta"
     },
     {
       "rank": 3,
@@ -68,7 +74,10 @@
       "aliases": [
         "University of Bologna International Cooperation on Human Rights ICONTACT",
         "International Talents Unibo"
-      ]
+      ],
+      "short": "Bologna – İnsan Hakları (ICONTACT)",
+      "flag": "🇮🇹",
+      "summary": "€6.500 + ücret muafiyeti (GRE şartlı) ya da gelire dayalı ER.GO"
     },
     {
       "rank": 4,
@@ -89,7 +98,10 @@
       ],
       "aliases": [
         "YLSY MEB 1416 Yurt Dışı Lisansüstü Eğitim Bursu"
-      ]
+      ],
+      "short": "YLSY (MEB bursu)",
+      "flag": "🇹🇷",
+      "summary": "Okul ücreti + aylık burs + dil eğitimi (2 kat zorunlu hizmet)"
     },
     {
       "rank": 5,
@@ -110,7 +122,10 @@
       ],
       "aliases": [
         "Malaysia International Scholarship MIS"
-      ]
+      ],
+      "short": "Malezya MIS",
+      "flag": "🇲🇾",
+      "summary": "Okul ücreti + ayda RM 1.500"
     },
     {
       "rank": 6,
@@ -131,7 +146,10 @@
       ],
       "aliases": [
         "Global Korea Scholarship GKS KGSP"
-      ]
+      ],
+      "short": "GKS – Kore Devlet Bursu",
+      "flag": "🇰🇷",
+      "summary": "Okul ücreti + aylık burs + uçak + 1 yıl Korece"
     },
     {
       "rank": 7,
@@ -153,7 +171,10 @@
       ],
       "aliases": [
         "EMA European Master's Programme in Human Rights and Democratisation Global Campus"
-      ]
+      ],
+      "short": "EMA – İnsan Hakları (Venedik)",
+      "flag": "🇮🇹",
+      "summary": "Kısmi: 9 burs (ücret muafiyeti + harçlık)"
     },
     {
       "rank": 8,
@@ -175,7 +196,10 @@
       "aliases": [
         "Taiwan Scholarship",
         "TaiwanICDF ICDF Taiwan Scholarship"
-      ]
+      ],
+      "short": "Tayvan Bursu / ICDF",
+      "flag": "🇹🇼",
+      "summary": "Okul ücreti + aylık burs"
     },
     {
       "rank": 9,
@@ -196,7 +220,10 @@
       ],
       "aliases": [
         "EMMIR European Master in Migration and Intercultural Relations"
-      ]
+      ],
+      "short": "EMMIR – Göç (Erasmus Mundus)",
+      "flag": "🇪🇺",
+      "summary": "Ayda €1.400 + ücretsiz"
     },
     {
       "rank": 10,
@@ -217,7 +244,10 @@
       ],
       "aliases": [
         "HumanResponse Erasmus Mundus"
-      ]
+      ],
+      "short": "HumanResponse (Erasmus Mundus)",
+      "flag": "🇪🇺",
+      "summary": "Ayda €1.400 + ücretsiz"
     },
     {
       "rank": 11,
@@ -238,7 +268,10 @@
       ],
       "aliases": [
         "NOHA International Humanitarian Action"
-      ]
+      ],
+      "short": "NOHA – İnsani Yardım (Erasmus Mundus)",
+      "flag": "🇪🇺",
+      "summary": "Ayda €1.400 + ücretsiz"
     },
     {
       "rank": 12,
@@ -259,7 +292,10 @@
       ],
       "aliases": [
         "Fulbright Master's Grant"
-      ]
+      ],
+      "short": "Fulbright (2028 başlangıcı)",
+      "flag": "🇺🇸",
+      "summary": "Yılda $60.000'a kadar tam burs"
     }
   ],
   "sources": [

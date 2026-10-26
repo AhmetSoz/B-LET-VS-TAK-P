@@ -457,23 +457,107 @@ def section_catalogue(found):
             f"<ul>{items}</ul>", f"YENİ ERASMUS MUNDUS PROGRAMLARI\n{text}\n")
 
 
-def send_telegram(subject, text_body):
+# --------------------------------------------------------------------------- Telegram
+
+
+def t(s):
+    return html.escape(str(s or ""), quote=False)
+
+
+def tlink(url, label):
+    return f'<a href="{html.escape(url or "", quote=True)}">{t(label)}</a>'
+
+
+def tdate(item):
+    d = mail.parse_date(item.get("deadline"))
+    if not d:
+        return "📅 Tarih henüz açıklanmadı"
+    left = (d - TODAY).days
+    rel = "süresi geçti" if left < 0 else ("BUGÜN son gün" if left == 0 else f"{left} gün kaldı")
+    guess = " (tahmini)" if "tahmin" in (item.get("deadline_note") or "") else ""
+    return f"📅 {d.strftime('%d.%m.%Y')} · {rel}{guess}"
+
+
+IELTS_TG = {"uygun": "🗣 IELTS 6.0 yeterli ✅", "gerekmiyor": "🗣 Dil belgesi gerekmiyor ✅",
+            "yuksek": "🗣 IELTS 6.5+ gerekli ❌"}
+
+
+def tcard(item, n):
+    return "\n".join([
+        f"<b>{n}. {t(item.get('short') or item['name'])}</b> {item.get('flag', '')}",
+        tdate(item),
+        f"💰 {t(item.get('summary') or item.get('coverage'))}",
+        IELTS_TG.get(item.get("ielts_fit"), "🗣 IELTS şartını kontrol et ❔"),
+        "🔗 " + tlink(item.get("link"), "Resmî sayfa"),
+    ])
+
+
+def telegram_messages(data, weekly, due, news, found, changes):
+    """Telegram için biçimli (HTML) mesajlar: önce olaylar, haftalıkta ardından burs kartları."""
+    msgs = []
+    head = f"🎓 <b>Burs Botu</b> · {TODAY.strftime('%d.%m.%Y')}"
+    events = []
+    for item, left in due:
+        when = "BUGÜN son gün!" if left == 0 else f"{left} gün kaldı"
+        events.append(f"⏰ <b>Hatırlatma: {t(item.get('short') or item['name'])}</b>\n"
+                      f"Son başvuru {mail.parse_date(item['deadline']).strftime('%d.%m.%Y')} — <b>{when}</b>\n"
+                      f"🔗 {tlink(item.get('link'), 'Başvuru sayfası')}")
+    for src, title, link in news:
+        events.append(f"📢 <b>Yeni burs duyurusu</b>\n{t(title)}\n<i>{t(src)}</i>\n🔗 {tlink(link, 'Duyuruyu aç')}")
+    for f in found:
+        events.append(f"🆕 <b>Yeni Erasmus Mundus programı</b>\n{t(f['title'])}\n🗣 {t(f['ielts'])}\n"
+                      f"💰 Ayda €1.400 + ücretsiz\n🔗 {tlink(f['site'], 'Program sitesi')}")
+    for item, note, url in changes:
+        lines = [l for l in note.split("\n") if l and not l.startswith("Sayfaya eklenen")]
+        body = "\n".join(t(l[:220]) for l in lines[:6])
+        events.append(f"🔔 <b>Sayfada değişiklik: {t(item.get('short') or item['name'])}</b>\n{body}\n"
+                      f"🔗 {tlink(url, 'Sayfayı aç')}")
+
+    if weekly:
+        items = sorted(data["items"], key=lambda i: i.get("rank", 99))
+        upcoming = sorted((i for i in items if (d := mail.parse_date(i.get("deadline"))) and 0 <= (d - TODAY).days <= 60),
+                          key=lambda i: i["deadline"])
+        up = "\n".join(f"• <b>{mail.parse_date(i['deadline']).strftime('%d.%m')}</b> — {t(i.get('short'))} "
+                       f"({(mail.parse_date(i['deadline']) - TODAY).days} gün)" for i in upcoming) or "• Yok"
+        msgs.append(f"{head}\n<i>Haftalık özet · Sosyoloji · İnsan hakları · IELTS 6.0</i>\n\n"
+                    f"⏰ <b>Önümüzdeki 60 günün son tarihleri</b>\n{up}")
+        ok = [i for i in items if i.get("ielts_fit") != "yuksek"]
+        high = [i for i in items if i.get("ielts_fit") == "yuksek"]
+        msgs.append("✅ <b>IELTS 6.0 ile başvurulabilenler</b>\n\n"
+                    + "\n\n".join(tcard(i, n) for n, i in enumerate(ok, 1)))
+        if high:
+            msgs.append("❌ <b>IELTS 6.5+ isteyenler</b> <i>(lisans tamamen İngilizceyse muafiyet olabilir)</i>\n\n"
+                        + "\n\n".join(tcard(i, n) for n, i in enumerate(high, len(ok) + 1)))
+    if events:
+        msgs.insert(0 if not weekly else 1, (head + "\n\n" if not weekly else "") + "\n\n".join(events))
+    # 4096 karakter sınırı: uzun mesajları kart sınırlarından böl
+    out = []
+    for m in msgs:
+        while len(m) > 4000:
+            cut = m.rfind("\n\n", 0, 4000)
+            cut = cut if cut > 0 else 4000
+            out.append(m[:cut])
+            m = m[cut:].lstrip()
+        out.append(m)
+    return out
+
+
+def send_telegram(messages):
     token, chat = os.environ["TELEGRAM_BOT_TOKEN"], os.environ["TELEGRAM_CHAT_ID"]
-    text = f"{subject}\n\n{text_body}".strip()
-    for i in range(0, len(text), 4000):  # Telegram mesaj sınırı 4096 karakter
-        body = urllib.parse.urlencode({"chat_id": chat, "text": text[i:i + 4000],
+    for text in messages:
+        body = urllib.parse.urlencode({"chat_id": chat, "text": text, "parse_mode": "HTML",
                                        "disable_web_page_preview": "true"}).encode()
         urllib.request.urlopen(urllib.request.Request(
             f"https://api.telegram.org/bot{token}/sendMessage", data=body), timeout=30).read()
-    print("Telegram'a gönderildi")
+    print(f"Telegram'a {len(messages)} mesaj gönderildi")
 
 
-def deliver(subject, text_body, html_body):
+def deliver(subject, text_body, html_body, tg_messages):
     """Gmail ayarlıysa e-posta gönderir; değilse (Gmail kurulana kadar) Telegram'a yollar."""
     if os.environ.get("GMAIL_USER") and os.environ.get("GMAIL_APP_PASSWORD") and os.environ.get("MAIL_TO"):
         mail.send(subject, text_body, html_body)
     elif os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"):
-        send_telegram(subject, text_body)
+        send_telegram(tg_messages)
     else:
         raise RuntimeError("Ne Gmail ne Telegram ayarlı; bildirim gönderilemedi")
 
@@ -515,7 +599,7 @@ def main():
             (mail.HERE / "onizleme.html").write_text(html_body, encoding="utf-8")
             print("(dry-run) burs/onizleme.html yazıldı")
         else:
-            deliver(subject, text_body, html_body)
+            deliver(subject, text_body, html_body, telegram_messages(data, weekly, due, news, found, changes))
 
     # E-posta gönderildikten sonra kaydet: gönderim hata verirse bir sonraki gün tekrar denenir
     save_json(DATA_FILE, data)
