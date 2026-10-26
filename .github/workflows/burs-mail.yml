@@ -1,14 +1,26 @@
-name: Burs maili
+name: Burs botu
 
 on:
   schedule:
-    - cron: "13 6 * * 1" # her pazartesi ~09:13 (Türkiye saati)
+    - cron: "17 5 * * *" # her gün ~08:17 (Türkiye saati); pazartesileri haftalık özet
   workflow_dispatch:
+    inputs:
+      haftalik:
+        description: "Haftalık özeti şimdi gönder (tam liste + yeni burs araması)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # burs/durum.json ve burslar.json'u güncellemek için
+
+concurrency:
+  group: burs-botu
+  cancel-in-progress: false
 
 jobs:
-  mail:
+  bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
@@ -16,14 +28,32 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Burs listesini e-postayla gönder
+      - name: Bursları kontrol et ve e-posta gönder
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.BURS_MAIL_TO }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: |
-          if [ -z "$GMAIL_USER" ] || [ -z "$GMAIL_APP_PASSWORD" ] || [ ! -f burs/burslar.json ]; then
-            echo "Gmail bilgileri ya da burs listesi henüz hazır değil; atlanıyor."
+          if [ -z "$GMAIL_USER" ] || [ -z "$GMAIL_APP_PASSWORD" ] || [ -z "$MAIL_TO" ]; then
+            echo "Gmail bilgileri henüz eklenmemiş; atlanıyor."
             exit 0
           fi
-          python burs/mail.py
+          if [ "${{ inputs.haftalik }}" = "true" ]; then
+            python burs/bot.py --weekly
+          else
+            python burs/bot.py
+          fi
+
+      - name: Durumu kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add burs/durum.json burs/burslar.json
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok."
+          else
+            git commit -q -m "Burs durumu güncellendi"
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q
+          fi

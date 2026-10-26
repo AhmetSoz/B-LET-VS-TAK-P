@@ -86,7 +86,8 @@ def card(item):
 </div>"""
 
 
-def build(data):
+def build(data, extra_html="", extra_text=""):
+    """Haftalık tam özet. extra_*: bot'un eklediği değişiklik / yeni burs bölümleri."""
     items = sorted(data["items"], key=lambda i: i.get("rank", 999))
     upcoming = sorted(
         (i for i in items if (d := parse_date(i.get("deadline"))) and 0 <= (d - TODAY).days <= UPCOMING_DAYS),
@@ -104,6 +105,7 @@ def build(data):
 <h2 style="margin:0 0 6px">🎓 Tam burslu yüksek lisans seçenekleri</h2>
 <div style="color:#57606a;font-size:13px;margin-bottom:12px">Sosyoloji · İnsan hakları · Sosyal bilimler — IELTS 6.0 · {TODAY.strftime('%d.%m.%Y')}</div>
 <p>{intro}</p>
+{extra_html}
 <h3>⏰ Yaklaşan son başvuru tarihleri ({UPCOMING_DAYS} gün)</h3>
 <ul>{up_html}</ul>
 <h3>📋 Sıralı kısa liste</h3>
@@ -111,7 +113,7 @@ def build(data):
 {f'<p><a href="{esc(report)}">Ayrıntılı araştırma raporu →</a></p>' if report else ''}
 <p style="color:#57606a;font-size:12px">Bilgiler resmî kaynaklardan derlendi ama burs koşulları her yıl değişebilir; başvurmadan önce resmî sayfadan teyit edin.</p>
 </body></html>"""
-    text_body = "Tam burslu yüksek lisans seçenekleri\n\n" + "\n\n".join(
+    text_body = extra_text + "Tam burslu yüksek lisans seçenekleri\n\n" + "\n\n".join(
         f"{i.get('rank')}. {i['name']}\n{i.get('where','')}\nİngilizce: {i.get('ielts','')}\n"
         f"Son başvuru: {deadline_text(i)}\n{i.get('link','')}"
         for i in items
@@ -120,6 +122,15 @@ def build(data):
     if upcoming:
         subject += f" — {len(upcoming)} başvurunun süresi yaklaşıyor"
     return subject, text_body, html_body
+
+
+def wrap(title, inner_html):
+    """Kısa (günlük) e-postalar için aynı görünümde sayfa."""
+    return f"""<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body style="font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1f2328;max-width:720px;margin:auto;padding:12px;overflow-wrap:anywhere">
+<h2 style="margin:0 0 10px">{esc(title)}</h2>{inner_html}
+<p style="color:#57606a;font-size:12px">Burs Botu · {TODAY.strftime('%d.%m.%Y')} · Bilgiler değişebilir; başvurmadan önce resmî sayfadan teyit edin.</p>
+</body></html>"""
 
 
 def send(subject, text_body, html_body):

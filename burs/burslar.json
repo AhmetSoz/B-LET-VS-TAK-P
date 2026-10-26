@@ -1,7 +1,7 @@
 {
   "subject": "🎓 Burslu yüksek lisans listesi (Sosyoloji · İnsan hakları)",
   "report_url": "https://github.com/AhmetSoz/B-LET-VS-TAK-P/blob/ccr-1113083d-7qapmv/burs/rapor.md",
-  "intro": "Merhaba 👋 IELTS 6.0 ile başvurabileceğin tam burslu (okul ücreti + yaşam bursu) sosyal bilimler yüksek lisanslarını araştırdık. En önemli iki bulgu: (1) Padova Üniversitesi'nin İnsan Hakları yüksek lisansının ilk başvuru dönemi 15 Kasım'da kapanıyor. (2) Erasmus Mundus programlarının neredeyse hepsi en az IELTS 6.5 istiyor; lisansın tamamen İngilizce okunduysa bazıları sınav şartını kaldırıyor. Bu e-posta her pazartesi güncel son başvuru tarihleriyle tekrar gelecek.",
+  "intro": "Merhaba 👋 IELTS 6.0 ile başvurabileceğin tam burslu (okul ücreti + yaşam bursu) sosyal bilimler yüksek lisanslarını araştırdık. En önemli iki bulgu: (1) Padova Üniversitesi'nin İnsan Hakları yüksek lisansının ilk başvuru dönemi 15 Kasım'da kapanıyor. (2) Erasmus Mundus programlarının neredeyse hepsi en az IELTS 6.5 istiyor; lisansın tamamen İngilizce okunduysa bazıları sınav şartını kaldırıyor. Burs Botu bu sayfaları her gün kontrol ediyor: bir başvuru açılırsa, tarih açıklanırsa ya da şart değişirse ve son başvuruya 30/14/7/3/1 gün kala e-posta gelir. Her pazartesi bu tam liste ve Google'da bulunan yeni burslar gönderilir.",
   "items": [
     {
       "rank": 1,
@@ -15,7 +15,14 @@
       "deadline": "2026-11-15",
       "deadline_note": "Call One, 23:59 CET. Başvuru ücreti €60, tasdikli belge gerekmiyor",
       "notes": "ACİL. Kabul alınırsa DSU başvurusu Haziran–Eylül 2027'de (aile gelir belgeleri gerekecek).",
-      "link": "https://apply.unipd.it/courses/course/11-human-rights-and-multi-level-governance"
+      "link": "https://apply.unipd.it/courses/course/11-human-rights-and-multi-level-governance",
+      "id": "padova-hrg",
+      "watch": [
+        "https://apply.unipd.it/courses/course/11-human-rights-and-multi-level-governance"
+      ],
+      "aliases": [
+        "Human Rights and Multi-level Governance HRG Padova"
+      ]
     },
     {
       "rank": 2,
@@ -29,7 +36,15 @@
       "deadline": "2027-01-15",
       "deadline_note": "tahmini (geçen dönem 15 Ocak 2026); MEB tarihi daha erken olabilir",
       "notes": "Garantili tam burs ama yaşam bursu mütevazı. abdigm.meb.gov.tr ve stipendiumhungaricum.hu'yu takip et.",
-      "link": "https://stipendiumhungaricum.hu/partners/"
+      "link": "https://stipendiumhungaricum.hu/partners/",
+      "id": "stipendium-hungaricum",
+      "watch": [
+        "https://stipendiumhungaricum.hu/",
+        "https://abdigm.meb.gov.tr/"
+      ],
+      "aliases": [
+        "Stipendium Hungaricum Scholarship"
+      ]
     },
     {
       "rank": 3,
@@ -43,7 +58,14 @@
       "deadline": null,
       "deadline_note": "Çağrı Aralık 2026 ortası–sonu bekleniyor (doğrulanmadı)",
       "notes": "Bursun iki katı süre zorunlu hizmet var. Önce Tablo 1/2'de alan kontenjanı olup olmadığına bak.",
-      "link": "https://yyegm.meb.gov.tr/"
+      "link": "https://yyegm.meb.gov.tr/",
+      "id": "ylsy",
+      "watch": [
+        "https://yyegm.meb.gov.tr/"
+      ],
+      "aliases": [
+        "YLSY MEB 1416 Yurt Dışı Lisansüstü Eğitim Bursu"
+      ]
     },
     {
       "rank": 4,
@@ -57,7 +79,14 @@
       "deadline": "2027-04-03",
       "deadline_note": "tahmini (geçen dönem 4 Mart – 3 Nisan 2026)",
       "notes": "40 yaş sınırı, not ortalaması en az 3.00; kabulü üniversiteden kendin alıyorsun.",
-      "link": "https://biasiswa.mohe.gov.my/INTER/doc/MIS/Guidelines%20MIS%202026.pdf"
+      "link": "https://biasiswa.mohe.gov.my/INTER/doc/MIS/Guidelines%20MIS%202026.pdf",
+      "id": "malezya-mis",
+      "watch": [
+        "https://biasiswa.mohe.gov.my/INTER/"
+      ],
+      "aliases": [
+        "Malaysia International Scholarship MIS"
+      ]
     },
     {
       "rank": 5,
@@ -71,7 +100,14 @@
       "deadline": "2027-02-25",
       "deadline_note": "tahmini (geçen dönem büyükelçilik hattı 12–25 Şubat)",
       "notes": "İlk yıl Korece eğitimi olduğu için yüksek lisans fiilen 2028'de başlar.",
-      "link": "https://www.studyinkorea.go.kr/"
+      "link": "https://www.studyinkorea.go.kr/",
+      "id": "gks-kore",
+      "watch": [
+        "https://www.studyinkorea.go.kr/"
+      ],
+      "aliases": [
+        "Global Korea Scholarship GKS KGSP"
+      ]
     },
     {
       "rank": 6,
@@ -85,7 +121,15 @@
       "deadline": "2027-02-12",
       "deadline_note": "tahmini (burslu başvuru geçmiş dönemde Şubat ortası)",
       "notes": "Alanına birebir uyuyor ama tam burs değil.",
-      "link": "https://www.gchumanrights.org/masters-programmes/gc-europe/"
+      "link": "https://www.gchumanrights.org/masters-programmes/gc-europe/",
+      "id": "ema-venedik",
+      "watch": [
+        "https://emahumanrights.org/admissions/",
+        "https://www.gchumanrights.org/masters-programmes/gc-europe/"
+      ],
+      "aliases": [
+        "EMA European Master's Programme in Human Rights and Democratisation Global Campus"
+      ]
     },
     {
       "rank": 7,
@@ -99,7 +143,15 @@
       "deadline": "2027-03-31",
       "deadline_note": "tahmini (geçen dönem 1 Şubat – 31 Mart)",
       "notes": "Yedek seçenek.",
-      "link": "https://iso.ankara.edu.tr/?p=17515"
+      "link": "https://iso.ankara.edu.tr/?p=17515",
+      "id": "tayvan",
+      "watch": [
+        "https://iso.ankara.edu.tr/?p=17515"
+      ],
+      "aliases": [
+        "Taiwan Scholarship",
+        "TaiwanICDF ICDF Taiwan Scholarship"
+      ]
     },
     {
       "rank": 8,
@@ -113,7 +165,14 @@
       "deadline": "2026-12-20",
       "deadline_note": "",
       "notes": "Lisansın tamamen İngilizceyse ya da IELTS 6.5'e çıkarsan başvurabilirsin.",
-      "link": "https://www.emmir.org/applications/"
+      "link": "https://www.emmir.org/applications/",
+      "id": "emmir",
+      "watch": [
+        "https://www.emmir.org/applications/"
+      ],
+      "aliases": [
+        "EMMIR European Master in Migration and Intercultural Relations"
+      ]
     },
     {
       "rank": 9,
@@ -127,7 +186,14 @@
       "deadline": "2027-01-07",
       "deadline_note": "",
       "notes": "İngilizce eğitim (MOI) yazısıyla sınavsız başvuru mümkün.",
-      "link": "https://humanresponse.eu/applications1/"
+      "link": "https://humanresponse.eu/applications1/",
+      "id": "humanresponse",
+      "watch": [
+        "https://humanresponse.eu/applications1/"
+      ],
+      "aliases": [
+        "HumanResponse Erasmus Mundus"
+      ]
     },
     {
       "rank": 10,
@@ -141,7 +207,14 @@
       "deadline": "2026-12-15",
       "deadline_note": "",
       "notes": "IELTS 6.5'e çıkarsan.",
-      "link": "https://www.nohanet.org/masters"
+      "link": "https://www.nohanet.org/masters",
+      "id": "noha",
+      "watch": [
+        "https://www.nohanet.org/masters"
+      ],
+      "aliases": [
+        "NOHA International Humanitarian Action"
+      ]
     },
     {
       "rank": 11,
@@ -155,7 +228,14 @@
       "deadline": null,
       "deadline_note": "2027–28 kapandı; 2028–29 için son tarih Mart–Nisan 2027 civarı bekleniyor",
       "notes": "2028 için en güçlü tam burs adayı; şimdiden hazırlanmaya değer.",
-      "link": "https://www.fulbright.org.tr/burs/3/Y%C3%BCksek-Lisans-Bursu"
+      "link": "https://www.fulbright.org.tr/burs/3/Y%C3%BCksek-Lisans-Bursu",
+      "id": "fulbright",
+      "watch": [
+        "https://www.fulbright.org.tr/burs/3/Y%C3%BCksek-Lisans-Bursu"
+      ],
+      "aliases": [
+        "Fulbright Master's Grant"
+      ]
     }
   ]
 }
