@@ -73,7 +73,7 @@ def card(item):
         ("Not", item.get("notes")),
     ]
     body = "".join(
-        f'<tr><td style="padding:4px 8px;color:#57606a;vertical-align:top;white-space:nowrap">{esc(k)}</td>'
+        f'<tr><td style="padding:4px 8px 4px 0;color:#57606a;vertical-align:top;width:32%">{esc(k)}</td>'
         f'<td style="padding:4px 8px">{esc(v)}</td></tr>'
         for k, v in rows if v
     )
@@ -81,7 +81,7 @@ def card(item):
 <div style="border:1px solid #d0d7de;border-radius:8px;padding:12px 14px;margin:0 0 14px">
   <div style="font-size:16px;font-weight:600">{esc(item.get('rank'))}. {esc(item['name'])}</div>
   <div style="margin:6px 0 8px"><span style="background:{color};color:#fff;border-radius:10px;padding:2px 8px;font-size:12px">{esc(label)}</span></div>
-  <table style="border-collapse:collapse;font-size:14px">{body}</table>
+  <table style="border-collapse:collapse;font-size:14px;width:100%;table-layout:fixed">{body}</table>
   <div style="margin-top:8px"><a href="{esc(item.get('link'))}">Resmî sayfa →</a></div>
 </div>"""
 
@@ -99,7 +99,8 @@ def build(data):
     ) or f"<li>Önümüzdeki {UPCOMING_DAYS} günde son başvuru tarihi olan bir burs yok.</li>"
     intro = esc(data.get("intro", ""))
     report = data.get("report_url")
-    html_body = f"""<!doctype html><html><body style="font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1f2328;max-width:720px;margin:auto;padding:12px">
+    html_body = f"""<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body style="font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1f2328;max-width:720px;margin:auto;padding:12px;overflow-wrap:anywhere">
 <h2 style="margin:0 0 6px">🎓 Tam burslu yüksek lisans seçenekleri</h2>
 <div style="color:#57606a;font-size:13px;margin-bottom:12px">Sosyoloji · İnsan hakları · Sosyal bilimler — IELTS 6.0 · {TODAY.strftime('%d.%m.%Y')}</div>
 <p>{intro}</p>
