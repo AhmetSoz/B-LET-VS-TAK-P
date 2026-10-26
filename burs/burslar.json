@@ -1,7 +1,7 @@
 {
   "subject": "🎓 Burslu yüksek lisans listesi (Sosyoloji · İnsan hakları)",
   "report_url": "https://github.com/AhmetSoz/B-LET-VS-TAK-P/blob/ccr-1113083d-7qapmv/burs/rapor.md",
-  "intro": "Merhaba 👋 IELTS 6.0 ile başvurabileceğin tam burslu (okul ücreti + yaşam bursu) sosyal bilimler yüksek lisanslarını araştırdık. En önemli iki bulgu: (1) Padova Üniversitesi'nin İnsan Hakları yüksek lisansının ilk başvuru dönemi 15 Kasım'da kapanıyor. (2) Erasmus Mundus programlarının neredeyse hepsi en az IELTS 6.5 istiyor; lisansın tamamen İngilizce okunduysa bazıları sınav şartını kaldırıyor. Burs Botu bu sayfaları her gün kontrol ediyor: bir başvuru açılırsa, tarih açıklanırsa ya da şart değişirse ve son başvuruya 30/14/7/3/1 gün kala e-posta gelir. Her pazartesi bu tam liste ve Google'da bulunan yeni burslar gönderilir.",
+  "intro": "Merhaba 👋 IELTS 6.0 ile başvurabileceğin tam burslu (okul ücreti + yaşam bursu) sosyal bilimler yüksek lisanslarını araştırdık. En önemli iki bulgu: (1) Padova Üniversitesi'nin İnsan Hakları yüksek lisansının ilk başvuru dönemi 15 Kasım'da kapanıyor. (2) Erasmus Mundus programlarının neredeyse hepsi en az IELTS 6.5 istiyor; lisansın tamamen İngilizce okunduysa bazıları sınav şartını kaldırıyor. Burs Botu bu bursların resmî sayfalarını, MEB'in burs duyurularını ve Erasmus Mundus kataloğunu her gün kontrol ediyor; yeni bir duyuru, tarih ya da şart değişikliği olursa ve son başvuruya 30/14/7/3/1 gün kala e-posta gelir. Her pazartesi bu tam liste gönderilir.",
   "items": [
     {
       "rank": 1,
@@ -236,6 +236,22 @@
       "aliases": [
         "Fulbright Master's Grant"
       ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "MEB ABDİGM (yabancı devlet bursları)",
+      "type": "rss",
+      "url": "https://abdigm.meb.gov.tr/meb_iys_dosyalar/xml/rss_duyurular.xml",
+      "include": "burs|scholarship|yüksek lisans|lisansüstü|stipendium",
+      "exclude": "sonuç"
+    },
+    {
+      "name": "MEB YYEGM (YLSY)",
+      "type": "links",
+      "url": "https://yyegm.meb.gov.tr/",
+      "include": "ylsy|1416|lisansüstü|yüksek lisans|başvuru|kontenjan|kılavuz|ilan|burs",
+      "exclude": "bilgi edinme|cimer|görüşme|ziyaret|tamamlandı|koordinatör|ödeme|dil kursu|bursiyerlerimiz"
     }
   ]
 }

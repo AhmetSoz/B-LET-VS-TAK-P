@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       haftalik:
-        description: "Haftalık özeti şimdi gönder (tam liste + yeni burs araması)"
+        description: "Haftalık özeti şimdi gönder (tam liste + Erasmus Mundus katalog taraması)"
         type: boolean
         default: false
 
@@ -33,8 +33,6 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.BURS_MAIL_TO }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: |
           if [ -z "$GMAIL_USER" ] || [ -z "$GMAIL_APP_PASSWORD" ] || [ -z "$MAIL_TO" ]; then
             echo "Gmail bilgileri henüz eklenmemiş; atlanıyor."

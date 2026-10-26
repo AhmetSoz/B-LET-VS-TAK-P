@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
-"""Burs Botu: burslar.json'daki bursları düzenli olarak takip eder ve e-posta gönderir.
+"""Burs Botu: bursları resmî sayfalardan, kurallarla (yapay zekâ olmadan) takip eder ve e-posta gönderir.
 
 Her çalıştırmada (günde bir):
-  * Her bursun resmî sayfalarını okur. Başvuruyla ilgili kısım (tarih, IELTS, başvuru,
-    burs cümleleri) değiştiyse Gemini'ye okutup ne değiştiğini özetletir; son başvuru
-    tarihi açıklandıysa listeyi günceller.
-  * Son başvuruya 30/14/7/3/1/0 gün kalan burslar için hatırlatma hazırlar.
-  * Haftada bir (pazartesi) Gemini + Google Arama ile listede olmayan yeni bursları arar ve
-    tam listeyle birlikte haftalık özet gönderir.
-Gönderecek bir şey yoksa e-posta atmaz.
-
-Ortam değişkenleri: GMAIL_USER, GMAIL_APP_PASSWORD, MAIL_TO (bkz. mail.py),
-GEMINI_API_KEY (yoksa Gemini adımları atlanır), GEMINI_MODEL (varsayılan gemini-flash-latest).
+  1. Sayfa takibi: burslar.json'daki her bursun resmî sayfalarını (watch) okur. Başvuruyla ilgili
+     satırlarda değişiklik varsa eklenen satırları, içlerindeki tarihleri ve IELTS puanlarını bildirir.
+     Son başvuru tarihi bilinmeyen (ya da geçmiş) bir bursun sayfasında net bir son tarih çıkarsa
+     listeyi günceller; henüz geçmemiş bir tarihi asla değiştirmez.
+  2. Duyurular: MEB ABDİGM (yabancı devlet bursları) ve YYEGM (YLSY) duyurularındaki yeni burs
+     duyurularını bildirir.
+  3. Hatırlatma: son başvuruya 30/14/7/3/1/0 gün kala.
+  4. Pazartesi: Erasmus Mundus kataloğunda yeni sosyal bilimler programı var mı bakar (programın
+     sayfasından IELTS şartını okuyup süzer) ve tam listeyi haftalık özet olarak gönderir.
+Gönderecek bir şey yoksa e-posta atmaz. İlk çalıştırmada her kaynağın mevcut hali sessizce kaydedilir.
 
   python burs/bot.py              -> normal çalışma
-  python burs/bot.py --weekly     -> haftalık özeti bugün zorla gönder
+  python burs/bot.py --weekly     -> haftalık özeti (ve katalog taramasını) bugün zorla yap
   python burs/bot.py --dry-run    -> e-posta göndermez, burs/onizleme.html'e yazar
 """
 
@@ -25,6 +25,7 @@ import os
 import re
 import sys
 import time
+import urllib.parse
 import urllib.request
 from datetime import date
 
@@ -35,122 +36,114 @@ DATA_FILE = mail.DATA
 STATE_FILE = mail.HERE / "durum.json"
 TODAY = mail.TODAY
 REMIND_DAYS = (30, 14, 7, 3, 1, 0)
-GEMINI_MODEL = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
+TARGET_IELTS = 6.0
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 )
-# Sayfanın sadece başvuruyla ilgili cümlelerini izliyoruz; menü/haber kaymaları değişiklik sayılmasın
-KEYWORDS = re.compile(
+
+MONTHS = {}
+for i, names in enumerate([
+    "january jan ocak gennaio", "february feb şubat subat febbraio", "march mar mart marzo",
+    "april apr nisan aprile", "may mayıs mayis maggio", "june jun haziran giugno",
+    "july jul temmuz luglio", "august aug ağustos agustos agosto", "september sep sept eylül eylul settembre",
+    "october oct ekim ottobre", "november nov kasım kasim novembre", "december dec aralık aralik dicembre",
+], 1):
+    for n in names.split():
+        MONTHS[n] = i
+MONTH_RE = "|".join(sorted(MONTHS, key=len, reverse=True))
+
+# Başvuruyla ilgili satırlar: değişiklik karşılaştırması sadece bunlar üzerinden yapılır
+RELEVANT = re.compile(
     r"deadline|apply|applica|admission|call|scholarship|grant|funding|ielts|toefl|english|"
-    r"open|closed|202[6-9]|başvuru|burs|son tarih|ilan|duyuru|kontenjan|dil|ales|"
-    r"jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|"
-    r"ocak|şubat|mart|nisan|mayıs|haziran|temmuz|ağustos|eylül|ekim|kasım|aralık",
-    re.I,
-)
+    r"open|closed|202[6-9]|başvuru|burs|son tarih|ilan|duyuru|kontenjan|ales|scadenza|"
+    rf"\b(?:{MONTH_RE})\b", re.I)
+# Bir değişikliğin bildirilmeye değer olması için eklenen satırlarda bunlardan biri olmalı
+SIGNAL = re.compile(
+    r"deadline|apply|application|call|scholarship|ielts|open|closed|başvuru|burs|son tarih|"
+    r"kontenjan|scadenza|\b20(2[6-9])\b", re.I)
+DEADLINE_WORDS = re.compile(r"deadline|son başvuru|closes?|closing|apply by|until|scadenza|son tarih", re.I)
+
+# Erasmus Mundus kataloğu süzgeci: sosyal bilimler / insan hakları ile ilgili program adları
+STRONG_SOCIAL = re.compile(
+    r"human rights|humanitarian|sociolog|migration|migrant|refugee|displacement|gender|feminis|"
+    r"peace|democra|citizenship|intercultural|criminolog", re.I)
+SOCIAL = re.compile(
+    r"human rights|sociolog|social|migration|migrant|refugee|displacement|gender|women|feminis|"
+    r"peace|conflict|democra|citizenship|inequal|\bdiversity|intercultural|humanitarian|global studies|"
+    r"development|welfare|child|youth|criminolog|anthropolog|policy|politic|society|euroculture|"
+    r"memory|minorit|justice|governance", re.I)
+NON_SOCIAL = re.compile(
+    r"engineer|physic|chemi|materials|robot|energy|nano|marine|aqua|food|agri|hydro|geo|"
+    r"photonic|space|quantum|data science|machine|comput|mathemat|biotech|medic|health|pharma|"
+    r"neuro|vaccin|nutrition|forest|soil|mining|nuclear|wind|ocean|fish|plant|animal|veterin|"
+    r"ecolog|environment|climate|sport|biodivers", re.I)
 
 
-# --------------------------------------------------------------------------- sayfa okuma
+def is_social(title):
+    return bool(STRONG_SOCIAL.search(title) or (SOCIAL.search(title) and not NON_SOCIAL.search(title)))
 
 
-def fetch_text(url):
-    sep = "&" if "?" in url else "?"
-    req = urllib.request.Request(f"{url}{sep}_={int(time.time())}", headers={"User-Agent": USER_AGENT})
+# --------------------------------------------------------------------------- okuma
+
+
+def fetch(url, bust_cache=True):
+    if bust_cache:  # bayat önbellek kopyası gelmesin (bazı sitelerde sayfalamayı bozduğu için kapatılabilir)
+        url += ("&" if "?" in url else "?") + f"_={int(time.time())}"
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(req, timeout=30) as r:
-        raw = r.read()
-        ctype = r.headers.get("Content-Type", "")
+        return r.read(), r.headers.get("Content-Type", "")
+
+
+def page_text(raw, ctype):
     if "html" not in ctype and not raw.lstrip()[:15].lower().startswith((b"<!doctype", b"<html")):
-        return hashlib.sha1(raw).hexdigest()  # PDF vb.: sadece içerik değişti mi
+        return None  # PDF vb.
     text = raw.decode("utf-8", errors="replace")
     text = re.sub(r"(?is)<(script|style|noscript|svg|nav|footer)[^>]*>.*?</\1>", " ", text)
-    text = re.sub(r"(?i)<br\s*/?>|</(p|div|li|h\d|tr|td|section)>", "\n", text)
-    text = html.unescape(re.sub(r"<[^>]+>", " ", text))
-    return text
+    text = re.sub(r"(?i)<br\s*/?>|</(p|div|li|h\d|tr|td|section|dd|dt)>", "\n", text)
+    return html.unescape(re.sub(r"<[^>]+>", " ", text))
 
 
-def relevant(text):
-    """Başvuruyla ilgili satırlar; değişiklik karşılaştırması bunun üzerinden yapılır."""
+def relevant_lines(text):
     lines = []
     for line in re.split(r"\n+|(?<=[.!?])\s+(?=[A-ZÇĞİÖŞÜ])", text):
         line = re.sub(r"\s+", " ", line).strip()
-        if 12 <= len(line) <= 600 and KEYWORDS.search(line) and line not in lines:
+        if 12 <= len(line) <= 600 and RELEVANT.search(line) and line not in lines:
             lines.append(line)
-    return "\n".join(lines)[:12000]
+    return lines[:400]
 
 
-# --------------------------------------------------------------------------- Gemini
+def find_dates(text):
+    """Metindeki tarihleri ISO biçiminde döndürür (2026–2028 arası)."""
+    found = []
+    def add(y, m, d):
+        try:
+            iso = date(int(y), int(m), int(d)).isoformat()
+        except ValueError:
+            return
+        if 2026 <= int(y) <= 2028 and iso not in found:
+            found.append(iso)
+    low = text.lower()
+    for d, m, y in re.findall(rf"\b(\d{{1,2}})(?:st|nd|rd|th)?\s+({MONTH_RE})\.?,?\s+(20\d\d)", low):
+        add(y, MONTHS[m], d)
+    for m, d, y in re.findall(rf"\b({MONTH_RE})\.?\s+(\d{{1,2}})(?:st|nd|rd|th)?,?\s+(20\d\d)", low):
+        add(y, MONTHS[m], d)
+    for d, m, y in re.findall(r"\b(\d{1,2})[./](\d{1,2})[./](20\d\d)\b", low):
+        add(y, m, d)
+    for y, m, d in re.findall(r"\b(20\d\d)-(\d{2})-(\d{2})\b", low):
+        add(y, m, d)
+    return found
 
 
-def gemini(prompt, search=False):
-    """Gemini'ye sorar, cevaptaki JSON'u döndürür. Anahtar yoksa ya da hata olursa None."""
-    key = os.environ.get("GEMINI_API_KEY")
-    if not key:
-        return None
-    body = {"contents": [{"parts": [{"text": prompt}]}]}
-    if search:
-        body["tools"] = [{"google_search": {}}]  # arama aracıyla JSON modu birlikte kullanılamıyor
-    else:
-        body["generationConfig"] = {"responseMimeType": "application/json", "temperature": 0.1}
-    req = urllib.request.Request(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent",
-        data=json.dumps(body).encode(),
-        headers={"Content-Type": "application/json", "x-goog-api-key": key},
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=120) as r:
-            resp = json.load(r)
-        parts = resp["candidates"][0]["content"]["parts"]
-        text = "".join(p.get("text", "") for p in parts)
-        m = re.search(r"```(?:json)?\s*(.*?)```", text, re.S)
-        text = m.group(1) if m else text
-        start = min([i for i in (text.find("{"), text.find("[")) if i >= 0], default=0)
-        return json.loads(text[start:])
-    except Exception as e:
-        print("Gemini hatası:", str(e)[:300], file=sys.stderr)
-        return None
-
-
-PROFILE = (
-    "Aday: Türk vatandaşı, IELTS Academic 6.0, sosyoloji / insan hakları (ayrıca göç, toplumsal "
-    "cinsiyet, sosyal politika) alanında 2027'de başlayacak TAM burslu (okul ücreti + yaşam bursu) "
-    "yüksek lisans arıyor."
-)
-
-
-def analyze_change(item, old, new):
-    prompt = f"""{PROFILE}
-Bugün {TODAY.isoformat()}. Aşağıdaki burs/program sayfasının başvuruyla ilgili kısmı değişti.
-Burs: {item['name']} ({item.get('where', '')})
-Bilinen son başvuru tarihi: {item.get('deadline') or 'bilinmiyor'} — {item.get('deadline_note') or ''}
-
-ESKİ METİN:
-{old[:6000]}
-
-YENİ METİN:
-{new[:6000]}
-
-Adayı ilgilendiren gerçek bir değişiklik var mı? (başvuru açıldı/kapandı, yeni ya da değişen son
-başvuru tarihi, İngilizce şartı, burs miktarı, kontenjan). Tarih/haber/menü kaymalarını önemsiz say.
-Sadece şu JSON'u döndür:
-{{"onemli": true/false,
-  "ozet": "Türkçe, en fazla 2 cümle",
-  "deadline": "YYYY-MM-DD ya da null (yalnızca 2027 başlangıcı için kesin son başvuru tarihi metinde açıkça yazıyorsa)",
-  "deadline_note": "kısa Türkçe not ya da null"}}"""
-    return gemini(prompt)
-
-
-def discover(known_names):
-    prompt = f"""{PROFILE}
-Bugün {TODAY.isoformat()}. Google'da arayarak bu kritere uyan, şu an başvurusu açık ya da yakında
-açılacak burs/programları bul. Şunlar ZATEN listemizde, bunları tekrar önerme: {', '.join(known_names)}.
-Yalnızca resmî kaynağı (üniversite, bakanlık, büyükelçilik, burs kurumu sitesi) olanları öner,
-IELTS 6.0'ın yetip yetmediğini belirt. En fazla 5 sonuç.
-Sadece JSON dizi döndür, başka metin yazma:
-[{{"name": "...", "where": "ülke / üniversite", "coverage": "neleri karşılıyor",
-   "ielts": "İngilizce şartı ve 6.0 yeterli mi", "deadline": "YYYY-MM-DD ya da null",
-   "link": "resmî sayfa", "why": "neden uygun, 1 cümle"}}]"""
-    res = gemini(prompt, search=True)
-    return res if isinstance(res, list) else []
+def find_ielts(text):
+    scores = []
+    # IELTS'ten sonraki ilk puan; araya başka bir sınav adı girerse dur (onun puanını alma)
+    for s in re.findall(r"IELTS(?:(?!TOEFL|PTE|Cambridge|Duolingo|TOEIC)[^\n]){0,140}?\b([4-9](?:[.,][05])?)\b(?![.,]?\d)",
+                        text, re.I):
+        v = float(s.replace(",", "."))
+        if 4 <= v <= 9 and v not in scores:
+            scores.append(v)
+    return scores
 
 
 # --------------------------------------------------------------------------- yardımcılar
@@ -167,83 +160,228 @@ def save_json(path, obj):
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def norm(s):
-    s = (s or "").translate(str.maketrans("İIıÇçĞğÖöŞşÜü", "iiiccggoossuu")).lower()
-    return re.sub(r"[^a-z0-9]+", " ", s).strip()
-
-
-GENERIC = set("""scholarship scholarships programme program master masters university universitat
-international government human rights studies burs bursu bursları yuksek lisans devlet erasmus mundus
-and the for with of in ve ile""".split())
-
-
-def similar(a, b):
-    """Aynı bursun farklı yazılışlarını yakalar ('Stipendium Hungaricum Scholarship' ~ 'Stipendium Hungaricum')."""
-    a, b = norm(a), norm(b)
-    if not (a and b):
-        return False
-    if a in b or b in a:
-        return True
-    la = [w for w in a.split() if len(w) > 2 and w not in GENERIC]
-    lb = [w for w in b.split() if len(w) > 2 and w not in GENERIC]
-    common = set(la) & set(lb)
-    # İki ortak ayırt edici kelime ya da ortak "ilk" kelime (Fulbright, NOHA, EMMIR gibi özel adlar)
-    return len(common) >= 2 or bool(la and lb and (la[0] in common or lb[0] in common))
-
-
 def days_left(item):
     d = mail.parse_date(item.get("deadline"))
     return (d - TODAY).days if d else None
 
 
-# --------------------------------------------------------------------------- ana akış
+def ielts_label(scores):
+    if not scores:
+        return "IELTS şartı sayfada bulunamadı"
+    low = min(scores)
+    verdict = "6.0 yetebilir ✅" if low <= TARGET_IELTS else "6.0 yetmez ❌"
+    return f"IELTS {', '.join(str(s) for s in scores)} — {verdict}"
+
+
+# --------------------------------------------------------------------------- 1) sayfa takibi
 
 
 def check_pages(data, state):
-    """Sayfaları kontrol eder; [(item, özet)] değişiklik listesi döndürür."""
     pages = state.setdefault("pages", {})
     changes = []
     for item in data["items"]:
         for url in item.get("watch", []):
             try:
-                rel = relevant(fetch_text(url))
+                raw, ctype = fetch(url)
             except Exception as e:
                 rec = pages.setdefault(url, {})
                 rec["errors"] = rec.get("errors", 0) + 1
                 print(f"Okunamadı ({rec['errors']}. kez): {url} — {str(e)[:120]}", file=sys.stderr)
                 continue
-            digest = hashlib.sha1(rel.encode()).hexdigest()
-            rec = pages.get(url)
-            pages[url] = {"hash": digest, "text": rel, "checked": TODAY.isoformat(), "errors": 0,
-                          "changed": (rec or {}).get("changed")}
-            if rec is None or not rec.get("hash"):
+            text = page_text(raw, ctype)
+            lines = relevant_lines(text) if text is not None else [hashlib.sha1(raw).hexdigest()]
+            rec = pages.get(url) or {}
+            pages[url] = {"lines": lines, "checked": TODAY.isoformat(), "errors": 0,
+                          "changed": rec.get("changed")}
+            if "lines" not in rec:
                 print(f"İlk kayıt: {url}")
                 continue
-            if rec["hash"] == digest:
+            old = set(rec["lines"])
+            added = [l for l in lines if l not in old]
+            if not added:
+                continue
+            if text is None:
+                changes.append((item, "Resmî belge (PDF) değişti, kontrol et.", url))
+                pages[url]["changed"] = TODAY.isoformat()
+                continue
+            signal = [l for l in added if SIGNAL.search(l)]
+            if not signal:
+                print(f"Önemsiz değişiklik: {url}")
                 continue
             pages[url]["changed"] = TODAY.isoformat()
+            changes.append((item, describe(item, signal), url))
             print(f"Değişti: {url}")
-            res = analyze_change(item, rec.get("text", ""), rel)
-            if res is None:  # Gemini yok/hata: değişikliği yine de bildir
-                changes.append((item, f"Resmî sayfada başvuruyla ilgili bir değişiklik var, kontrol et: {url}"))
-                continue
-            if not res.get("onemli"):
-                print("  önemsiz:", res.get("ozet"))
-                continue
-            note = res.get("ozet") or "Sayfada önemli bir değişiklik var."
-            new_deadline = res.get("deadline")
-            old_left = days_left(item)
-            if mail.parse_date(new_deadline) and new_deadline != item.get("deadline"):
-                if old_left is not None and old_left >= 0 and new_deadline > item["deadline"]:
-                    # Henüz geçmemiş daha erken bir tarih var (ör. 1. başvuru dönemi): onu kaybetme
-                    note += f" Sayfada daha geç bir tarih de var: {new_deadline} (listedeki {item['deadline']} korunuyor)."
-                else:
-                    old = item.get("deadline") or "bilinmiyordu"
-                    item["deadline"] = new_deadline
-                    item["deadline_note"] = (res.get("deadline_note") or "") + f" (bot {TODAY.strftime('%d.%m.%Y')} güncelledi)"
-                    note += f" Son başvuru tarihi: {old} → {new_deadline}."
-            changes.append((item, note + f"\n{url}"))
     return changes
+
+
+def describe(item, added):
+    parts = ["Sayfaya eklenen satırlar:"]
+    parts += [f"• {l[:300]}" for l in added[:6]]
+    if len(added) > 6:
+        parts.append(f"(+{len(added) - 6} satır daha)")
+    joined = "\n".join(added)
+    dates = [d for d in find_dates(joined) if d >= TODAY.isoformat()]
+    if dates:
+        parts.append("Yeni satırlardaki tarihler: " + ", ".join(mail.parse_date(d).strftime("%d.%m.%Y") for d in dates))
+    scores = find_ielts(joined)
+    if scores:
+        parts.append(ielts_label(scores))
+    # Son tarih: yalnızca "deadline/son başvuru" geçen satırda tek bir gelecek tarih varsa
+    candidates = []
+    for line in added:
+        if DEADLINE_WORDS.search(line):
+            ds = [d for d in find_dates(line) if d >= TODAY.isoformat()]
+            if len(ds) == 1:
+                candidates.append(ds[0])
+    left = days_left(item)
+    if candidates and (left is None or left < 0):
+        new = min(candidates)
+        old = item.get("deadline") or "bilinmiyordu"
+        item["deadline"] = new
+        item["deadline_note"] = f"bot sayfadan okudu ({TODAY.strftime('%d.%m.%Y')}), teyit edin"
+        parts.append(f"📅 Listedeki son başvuru tarihi güncellendi: {old} → {mail.parse_date(new).strftime('%d.%m.%Y')}")
+    elif candidates and min(candidates) != item.get("deadline"):
+        parts.append(f"📅 Sayfada son başvuru tarihi geçiyor: {mail.parse_date(min(candidates)).strftime('%d.%m.%Y')} "
+                     f"(listedeki {mail.parse_date(item['deadline']).strftime('%d.%m.%Y')} korunuyor)")
+    return "\n".join(parts)
+
+
+# --------------------------------------------------------------------------- 2) duyurular
+
+
+def read_announcements(src):
+    raw, _ = fetch(src["url"])
+    text = raw.decode("utf-8", errors="replace")
+    out = []
+    if src["type"] == "rss":
+        for it in re.findall(r"<item>(.*?)</item>", text, re.S):
+            t = re.search(r"<title>(.*?)</title>", it, re.S)
+            l = re.search(r"<link>(.*?)</link>", it, re.S)
+            if t and l:
+                title = html.unescape(re.sub(r"<!\[CDATA\[|\]\]>", "", t.group(1))).strip()
+                out.append((title, l.group(1).strip()))
+    else:
+        for href, t in re.findall(r'<a[^>]+href="([^"#]+)"[^>]*>(.*?)</a>', text, re.S):
+            title = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", t))).strip()
+            if len(title) >= 15:
+                out.append((title, urllib.parse.urljoin(src["url"], href)))
+    inc = re.compile(src["include"], re.I)
+    exc = re.compile(src["exclude"], re.I) if src.get("exclude") else None
+    return [(t, l) for t, l in out if inc.search(t) and not (exc and exc.search(t))]
+
+
+def check_announcements(data, state):
+    seen = state.setdefault("announcements", {})
+    news = []
+    for src in data.get("sources", []):
+        try:
+            items = read_announcements(src)
+        except Exception as e:
+            print(f"Duyuru kaynağı okunamadı: {src['name']} — {str(e)[:120]}", file=sys.stderr)
+            continue
+        first = src["name"] not in seen
+        known = set(seen.get(src["name"], []))
+        for title, link in items:
+            if link not in known and not first:
+                news.append((src["name"], title, link))
+        seen[src["name"]] = (list(known | {l for _, l in items}))[-300:]
+        if first:
+            print(f"İlk kayıt: {src['name']} ({len(items)} duyuru)")
+    return news
+
+
+# --------------------------------------------------------------------------- 4) Erasmus Mundus kataloğu
+
+
+CATALOGUE = "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en"
+
+
+def catalogue_page(page):
+    """Bir katalog sayfasını okur; site ara sıra boş sayfa döndürdüğü için birkaç kez dener."""
+    for attempt in range(4):
+        raw, _ = fetch(f"{CATALOGUE}?page={page}", bust_cache=False)
+        text = raw.decode("utf-8", errors="replace")
+        cards = re.split(r'<article\s+class="ecl-card', text)[1:]
+        if cards:
+            return text, cards
+        time.sleep(3 + attempt * 3)
+    return text, []
+
+
+def read_catalogue():
+    """Tüm katalogu okur. Eksik okunursa hata verir: eksik bir liste eski programları 'yeni' gösterirdi."""
+    programmes = {}
+    first_text, _ = catalogue_page(0)
+    total = re.search(r"Projects\s*<span>\s*\((\d+)\)", first_text)
+    if not total:
+        raise RuntimeError("Katalogdaki toplam program sayısı okunamadı; yapı değişmiş olabilir")
+    total = int(total.group(1))
+    for page in range((total + 19) // 20):
+        _, cards = catalogue_page(page)
+        for card in cards:
+            m = re.search(r'ecl-content-block__title">\s*<a\s+href="([^"]+)"[^>]*>\s*'
+                          r'<span\s+class="ecl-link__label">(.*?)</span>', card, re.S)
+            if not m:
+                continue
+            pid = re.search(r"projects/search/details/(\d+)", card)
+            key = pid.group(1) if pid else m.group(1)
+            programmes[key] = {"title": re.sub(r"\s+", " ", html.unescape(m.group(2))).strip(), "site": m.group(1)}
+    if len(programmes) < total * 0.9:
+        raise RuntimeError(f"Katalogdan {total} programın yalnızca {len(programmes)} tanesi okundu")
+    return programmes
+
+
+ADMISSION_LINK = re.compile(r"admission|requirement|eligib|how.to.apply|application|apply|entry|language", re.I)
+
+
+def site_ielts(site):
+    """Programın sitesinde IELTS şartını arar: ana sayfa + başvuru/şartlar alt sayfaları (en fazla 4)."""
+    raw, ctype = fetch(site)
+    home = raw.decode("utf-8", errors="replace")
+    scores = find_ielts(page_text(raw, ctype) or "")
+    host = urllib.parse.urlparse(site).netloc
+    subpages = []
+    for href, label in re.findall(r'<a[^>]+href=["\']?([^"\'\s>#]+)[^>]*>(.*?)</a>', home, re.S):
+        url = urllib.parse.urljoin(site, html.unescape(href))
+        if urllib.parse.urlparse(url).netloc == host and ADMISSION_LINK.search(href + " " + label) \
+                and url not in subpages and not url.lower().endswith(".pdf"):
+            subpages.append(url)
+    for url in subpages[:4]:
+        try:
+            raw, ctype = fetch(url)
+            scores += [s for s in find_ielts(page_text(raw, ctype) or "") if s not in scores]
+        except Exception:
+            pass
+    return scores
+
+
+def check_catalogue(state):
+    try:
+        programmes = read_catalogue()
+    except Exception as e:
+        print("Erasmus Mundus kataloğu okunamadı:", str(e)[:200], file=sys.stderr)
+        return []
+    relevant = {pid: p for pid, p in programmes.items() if is_social(p["title"])}
+    first = "catalogue" not in state
+    known = set(state.get("catalogue", []))
+    state["catalogue"] = sorted(known | set(relevant))
+    if first:
+        print(f"İlk kayıt: Erasmus Mundus kataloğu ({len(relevant)} ilgili program / {len(programmes)})")
+        return []
+    found = []
+    for pid, p in relevant.items():
+        if pid in known:
+            continue
+        try:
+            scores = site_ielts(p["site"])
+        except Exception:
+            scores = []
+        project = f"https://erasmus-plus.ec.europa.eu/projects/search/details/{pid}" if pid.isdigit() else p["site"]
+        found.append({**p, "ielts": ielts_label(scores), "project": project})
+    return found
+
+
+# --------------------------------------------------------------------------- 3) hatırlatma ve e-posta
 
 
 def due_reminders(data, state):
@@ -257,7 +395,6 @@ def due_reminders(data, state):
         if key not in sent:
             sent[key] = TODAY.isoformat()
             due.append((item, left))
-    # 60 günden eski kayıtları temizle
     state["reminders"] = {k: v for k, v in sent.items() if (TODAY - date.fromisoformat(v)).days < 60}
     return due
 
@@ -270,14 +407,8 @@ def is_weekly(state):
     return False
 
 
-def section_changes(changes):
-    if not changes:
-        return "", ""
-    items = "".join(
-        f'<li style="margin-bottom:8px"><b>{mail.esc(i["name"])}</b><br>{mail.esc(n).replace(chr(10), "<br>")}</li>'
-        for i, n in changes)
-    text = "".join(f"- {i['name']}: {n}\n" for i, n in changes)
-    return (f'<h3>🔔 Sayfalarda değişiklik</h3><ul>{items}</ul>', f"DEĞİŞİKLİKLER\n{text}\n")
+def br(s):
+    return mail.esc(s).replace("\n", "<br>")
 
 
 def section_reminders(due):
@@ -290,22 +421,40 @@ def section_reminders(due):
         f'{mail.parse_date(i["deadline"]).strftime("%d.%m.%Y")} ({when(left)})<br>'
         f'<a href="{mail.esc(i.get("link"))}">Başvuru sayfası →</a></li>' for i, left in due)
     text = "".join(f"- {i['name']}: {i['deadline']} ({when(left)}) {i.get('link', '')}\n" for i, left in due)
-    return (f'<h3>⏰ Son başvuru hatırlatması</h3><ul>{items}</ul>', f"HATIRLATMA\n{text}\n")
+    return f"<h3>⏰ Son başvuru hatırlatması</h3><ul>{items}</ul>", f"HATIRLATMA\n{text}\n"
 
 
-def section_discoveries(found):
+def section_changes(changes):
+    if not changes:
+        return "", ""
+    items = "".join(
+        f'<li style="margin-bottom:10px"><b>{mail.esc(i["name"])}</b><br>{br(n)}<br>'
+        f'<a href="{mail.esc(u)}">Sayfayı aç →</a></li>' for i, n, u in changes)
+    text = "".join(f"- {i['name']}\n{n}\n{u}\n\n" for i, n, u in changes)
+    return f"<h3>🔔 Resmî sayfalarda değişiklik</h3><ul>{items}</ul>", f"DEĞİŞİKLİKLER\n{text}"
+
+
+def section_news(news):
+    if not news:
+        return "", ""
+    items = "".join(f'<li style="margin-bottom:6px">{mail.esc(t)} <span style="color:#57606a">({mail.esc(s)})</span><br>'
+                    f'<a href="{mail.esc(l)}">Duyuruyu aç →</a></li>' for s, t, l in news)
+    text = "".join(f"- {t} ({s}) {l}\n" for s, t, l in news)
+    return f"<h3>📢 Yeni burs duyuruları</h3><ul>{items}</ul>", f"YENİ DUYURULAR\n{text}\n"
+
+
+def section_catalogue(found):
     if not found:
         return "", ""
     items = "".join(
-        f'<li style="margin-bottom:8px"><b>{mail.esc(f.get("name"))}</b> — {mail.esc(f.get("where"))}<br>'
-        f'{mail.esc(f.get("coverage"))}<br>İngilizce: {mail.esc(f.get("ielts"))}<br>'
-        f'Son başvuru: {mail.esc(f.get("deadline") or "belirtilmemiş")}<br>{mail.esc(f.get("why"))}<br>'
-        f'<a href="{mail.esc(f.get("link"))}">{mail.esc(f.get("link"))}</a></li>' for f in found)
-    text = "".join(f"- {f.get('name')} ({f.get('where')}): {f.get('link')}\n" for f in found)
-    return (f'<h3>🔎 Bu hafta bulunan yeni olası burslar</h3>'
-            f'<p style="color:#9a6700;font-size:13px">Gemini Google aramasıyla buldu, doğrulanmadı. '
-            f'Başvurmadan önce resmî sayfadan kontrol edin.</p><ul>{items}</ul>',
-            f"YENİ OLASI BURSLAR (doğrulanmadı)\n{text}\n")
+        f'<li style="margin-bottom:8px"><b>{mail.esc(f["title"])}</b><br>{mail.esc(f["ielts"])}<br>'
+        f'<a href="{mail.esc(f["site"])}">Program sitesi →</a> · <a href="{mail.esc(f["project"])}">AB proje sayfası</a></li>'
+        for f in found)
+    text = "".join(f"- {f['title']} — {f['ielts']} {f['site']}\n" for f in found)
+    return ("<h3>🆕 Erasmus Mundus kataloğuna eklenen sosyal bilimler programları</h3>"
+            "<p style=\"color:#57606a;font-size:13px\">Tam burslu (ayda €1.400 + ücret muafiyeti); "
+            "Türk vatandaşları başvurabilir. IELTS bilgisi programın sitesinden otomatik okundu.</p>"
+            f"<ul>{items}</ul>", f"YENİ ERASMUS MUNDUS PROGRAMLARI\n{text}\n")
 
 
 def main():
@@ -313,30 +462,28 @@ def main():
     state = load_json(STATE_FILE, {})
 
     changes = check_pages(data, state)
+    news = check_announcements(data, state)
     due = due_reminders(data, state)
     weekly = is_weekly(state)
+    found = check_catalogue(state) if weekly or "catalogue" not in state else []
 
-    found = []
-    if weekly:
-        known = [n for i in data["items"] for n in [i["name"], *i.get("aliases", [])]] + state.get("suggested", [])
-        found = [f for f in discover(known) if f.get("name") and not any(similar(f["name"], k) for k in known)]
-        state["suggested"] = (state.get("suggested", []) + [f["name"] for f in found])[-100:]
-
-    ch_html, ch_text = section_changes(changes)
-    rem_html, rem_text = section_reminders(due)
-    new_html, new_text = section_discoveries(found)
+    parts = [section_reminders(due), section_news(news), section_catalogue(found), section_changes(changes)]
+    extra_html = "".join(h for h, _ in parts)
+    extra_text = "".join(t for _, t in parts)
 
     if weekly:
-        subject, text_body, html_body = mail.build(
-            data, extra_html=rem_html + ch_html + new_html, extra_text=rem_text + ch_text + new_text)
-    elif changes or due:
+        subject, text_body, html_body = mail.build(data, extra_html=extra_html, extra_text=extra_text)
+    elif due or news or found or changes:
         if due:
             first, left = min(due, key=lambda x: x[1])
             subject = f"⏰ Burs hatırlatma: {first['name']} — " + ("BUGÜN son gün" if left == 0 else f"{left} gün kaldı")
+        elif news:
+            subject = f"📢 Yeni burs duyurusu: {news[0][1]}" + (f" (+{len(news) - 1})" if len(news) > 1 else "")
         else:
-            subject = f"🔔 Burs güncellemesi: {changes[0][0]['name']}" + (f" (+{len(changes) - 1})" if len(changes) > 1 else "")
-        html_body = mail.wrap(subject, rem_html + ch_html)
-        text_body = rem_text + ch_text
+            n = len(changes) + len(found)
+            subject = f"🔔 Burs güncellemesi ({n})"
+        html_body = mail.wrap(subject, extra_html)
+        text_body = extra_text
     else:
         subject = None
         print("Gönderilecek bir şey yok.")
@@ -349,7 +496,7 @@ def main():
         else:
             mail.send(subject, text_body, html_body)
 
-    # E-posta gönderildikten sonra kaydet: gönderim hata verirse hatırlatma bir sonraki gün tekrar denenir
+    # E-posta gönderildikten sonra kaydet: gönderim hata verirse bir sonraki gün tekrar denenir
     save_json(DATA_FILE, data)
     save_json(STATE_FILE, state)
 
