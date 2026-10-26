@@ -116,7 +116,49 @@
       "changed": null
     },
     "https://www.studyinkorea.go.kr/": {
-      "errors": 1
+      "lines": [
+        "영어 (English)",
+        "※ Search is only available in English.",
+        "Scholarship ( )",
+        "2026.10.31.~2026.11.1.",
+        "2026.11.6.~2026.11.7.",
+        "2026.11.9.~2026.11.10.",
+        "2026.11.14.~2026.11.15.",
+        "Scholarships",
+        "Discover scholarships offered",
+        "Search for Scholarships",
+        "Checking Various Information on Admission Requirements (Including Language Proficiency), Curriculum, and Scholarship Programs for Interested Universities and Majors",
+        "Reviewing Each University's Admission Guidelines and Application Schedule",
+        "Applying for Admission",
+        "Submitting Application Documents According to the University's Admission Procedure (Online or by Mail)",
+        "Obtaining a Standard Admission Letter",
+        "Receiving a Standard Admission Letter from the University",
+        "Applying for and Obtaining a Visa Based on Residence Status",
+        "Online Application",
+        "GKS Scholarship",
+        "2026-10-31 ~ 2026-11-01",
+        "2026-11-06 ~ 2026-11-07",
+        "2026-11-09 ~ 2026-11-10",
+        "2026-11-14 ~ 2026-11-15",
+        "Application for University",
+        "2026 경남 글로벌 혁신 페스타(G-NEX) 외국인 유학생 채용박람회 안내 [Notice on 2026 Gyeongnam Global Innovation Festa (G-NEX) – Job Fair for International Students]",
+        "2026년 한국유학 홍보 숏폼 영상 공모전 결과 발표 / 2026 Study in Korea Promotion Short-form Video Contest Announcement",
+        "2026 Seoul Global Job Fair [2026 서울 외국인 취업채용박람회]",
+        "2026 이프위(IFWY) 은평 컨퍼런스 참가자 모집 안내 [Notice for 2026 Eunpyeong Internatoinal Forum: We, the Youth]",
+        "2026 Global Talent Fair for International Students with Promising Middle-market Enterprises",
+        "PIKO at the ASEAN Youth Leadership & Cultural Exchange Camp 2026",
+        "PIKO Sportsfest 2026 Brings Filipino Students Together in Busan",
+        "PIKO Welcomes New Faces at the 2026 Fall Welcome Assembly",
+        "[EVENT] K-Career Connect 2026: Company Tour & Career Seminar",
+        "Indian Cultural Event – Garba Mahotsav 2026, Daejeon",
+        "ISRK at Rajasthan (India) Festival 2026 at Nami Island",
+        "Discover scholarship opportunities from the Korean government.",
+        "English Program in Korea(EPIK)",
+        "Scholarship Information"
+      ],
+      "checked": "2026-10-26",
+      "errors": 0,
+      "changed": null
     },
     "https://emahumanrights.org/admissions/": {
       "lines": [
@@ -639,19 +681,78 @@
       "checked": "2026-10-26",
       "errors": 0,
       "changed": null
+    },
+    "https://www.unipd.it/en/padua-international-excellence-scholarship-programme": {
+      "lines": [
+        "Admissions Master's Degree Courses Multi-site campus",
+        "Padua International Excellence Scholarship Programme",
+        "The University of Padova offers up to 76 scholarships dedicated to brilliant international students who wish to attend an English-taught first-cycle/Bachelor's degree course or master's degree .",
+        "Scholarship amount : €8,000.00 (gross) + exemption from student fees for each academic year.",
+        "Duration : The scholarships have a maximum duration of:",
+        "must hold a non-Italian secondary school diploma (for those applying to bachelor's degree courses and/or single-cycle degree courses) or a foreign degree diploma (for those applying to master's degree courses);",
+        "must not be resident in Italy at the time of application;",
+        "apply to an English-taught degree at the University of Padova within the deadline.",
+        "The application for the degree course of your interest automatically makes you eligible to compete for the award of the scholarship provided you meet the requirements listed above.",
+        "Therefore, there is no need to submit a separate application or any additional documentation other than the documents required to apply for the chosen degree programme.",
+        "The Teaching Committee of each degree course selects the admitted candidates who will be awarded a scholarship, based on academic excellence in their field of study, the quality and results of their previous academic career.",
+        "The scholarships are mainly reserved for candidates from the first call; on an exceptional basis, the Teaching Committees may decide to award the scholarship to candidates from the second call.",
+        "The scholarship results will be published on the University website according to the deadlines specified in the Admission Notice.",
+        "Candidates selected for a Padua International Excellence scholarship will receive a specific notice outlining the procedures and deadline for accepting the financial benefit.",
+        "in order to receive the scholarship applicants must also not be recipients of other scholarships and must complete their enrolment at the University of Padua.",
+        "The academic requirements to keep the scholarship are indicated in the selection notice.",
+        "The scholarship will be allocated in 2 (two) installments of € 4,000.00 gross each per academic year upon fulfillment of the academic requirements specified in the selection notice.",
+        "The scholarship may be revoked if recipients:",
+        "do not earn at least 20 CFU (ECTS credits) by the 30th of November of the following academic year.",
+        "decide to transfer to another university or apply to withdraw from their studies",
+        "In the event of the scholarship being revoked, you will be required to return the installments you may have already received.",
+        "For information: Global Engagement Office - Admissions and Welcome Unit - Contact us",
+        "More information about Padua International Excellence Scholarships will be available in the Calls for Application that will be published in November 2026.",
+        "Call for applications for Scholarships for international students enrolling in English-taught Degree programmes at the University of Padua (A.Y. 2026/2027)",
+        "Padua International Excellence Scholarship Programme | Università di Padova"
+      ],
+      "checked": "2026-10-26",
+      "errors": 0,
+      "changed": null
     }
   },
   "announcements": {
     "MEB ABDİGM (yabancı devlet bursları)": [
       "https://abdigm.meb.gov.tr/www/birlesik-krallik-chevening-yuksek-lisans-burs-programi/icerik/2862",
-      "https://abdigm.meb.gov.tr/www/belarus-hukmeti-bursu-2027-2028/icerik/2878",
-      "https://abdigm.meb.gov.tr/www/ozbekistan-hukmet-bursu-2026-2027/icerik/2854",
-      "https://abdigm.meb.gov.tr/www/brezilya-yuksek-lisans-ve-doktora-burslari/icerik/2845",
-      "https://abdigm.meb.gov.tr/www/taskent-orta-asya-cevre-ve-iklim-degisikligi-calismalari-universitesi-bursu/icerik/2857",
       "https://abdigm.meb.gov.tr/www/japonya-hukmeti-bursu-2027-mext-yuksek-lisans-bursu/icerik/2860",
-      "https://abdigm.meb.gov.tr/www/misir-hukmeti-egyaid-burslari/icerik/2847"
+      "https://abdigm.meb.gov.tr/www/misir-hukmeti-egyaid-burslari/icerik/2847",
+      "https://abdigm.meb.gov.tr/www/belarus-hukmeti-bursu-2027-2028/icerik/2878",
+      "https://abdigm.meb.gov.tr/www/taskent-orta-asya-cevre-ve-iklim-degisikligi-calismalari-universitesi-bursu/icerik/2857",
+      "https://abdigm.meb.gov.tr/www/ozbekistan-hukmet-bursu-2026-2027/icerik/2854",
+      "https://abdigm.meb.gov.tr/www/brezilya-yuksek-lisans-ve-doktora-burslari/icerik/2845"
     ],
-    "MEB YYEGM (YLSY)": []
+    "MEB YYEGM (YLSY)": [],
+    "Fulbright Türkiye": [
+      "https://www.fulbright.org.tr/turk-vatandaslarina-verilen-burslar"
+    ],
+    "Global Campus of Human Rights (insan hakları yüksek lisansları)": [
+      "https://www.gchumanrights.org/masters-programmes/gc-central-asia/",
+      "https://www.gchumanrights.org/masters-programmes/gc-asia-pacific/%20",
+      "https://www.gchumanrights.org/masters-programmes/gc-caucasus/",
+      "https://www.gchumanrights.org/masters-programmes/gc-europe/",
+      "https://elearning.gchumanrights.org/courses/course-v1:gchumanrights+RTEC+2026/about",
+      "https://www.gchumanrights.org/masters-programmes/gc-south-east-europe/",
+      "https://www.gchumanrights.org/masters-programmes/gc-africa/",
+      "https://www.gchumanrights.org/masters-programmes/gc-arab-world/",
+      "https://www.gchumanrights.org/masters-programmes/"
+    ],
+    "Campus France Türkiye": [
+      "https://www.turquie.campusfrance.org/fr/candidatures-2027-pour-la-licence-1ere-annee-en-universite-et-pour-les-niveaux-licencemaster-en",
+      "https://etudesenfrance.diplomatie.gouv.fr/ ",
+      "https://www.turquie.campusfrance.org/fr/candidatures-2027-en-licence-2eme-et-3eme-annees-but-et-master"
+    ],
+    "Padova Üniversitesi burslar": [
+      "https://www.unipd.it/en/sgss-bando-internazionali",
+      "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+      "https://www.unipd.it/en/borse-studio-contribuzione",
+      "https://www.unipd.it/en/borse-studio-maeci",
+      "https://www.unipd.it/en/bandi-gara-contratti",
+      "https://www.unipd.it/en/borse-studio-dipartimenti"
+    ]
   },
   "reminders": {},
   "catalogue": [
@@ -681,5 +782,6 @@
     "http://www.imrd.ugent.be/",
     "https://eswochy.eu/",
     "https://gemmaerasmusmundus.eu/"
-  ]
+  ],
+  "last_weekly": "2026-W44"
 }

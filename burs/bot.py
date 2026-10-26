@@ -457,6 +457,27 @@ def section_catalogue(found):
             f"<ul>{items}</ul>", f"YENİ ERASMUS MUNDUS PROGRAMLARI\n{text}\n")
 
 
+def send_telegram(subject, text_body):
+    token, chat = os.environ["TELEGRAM_BOT_TOKEN"], os.environ["TELEGRAM_CHAT_ID"]
+    text = f"{subject}\n\n{text_body}".strip()
+    for i in range(0, len(text), 4000):  # Telegram mesaj sınırı 4096 karakter
+        body = urllib.parse.urlencode({"chat_id": chat, "text": text[i:i + 4000],
+                                       "disable_web_page_preview": "true"}).encode()
+        urllib.request.urlopen(urllib.request.Request(
+            f"https://api.telegram.org/bot{token}/sendMessage", data=body), timeout=30).read()
+    print("Telegram'a gönderildi")
+
+
+def deliver(subject, text_body, html_body):
+    """Gmail ayarlıysa e-posta gönderir; değilse (Gmail kurulana kadar) Telegram'a yollar."""
+    if os.environ.get("GMAIL_USER") and os.environ.get("GMAIL_APP_PASSWORD") and os.environ.get("MAIL_TO"):
+        mail.send(subject, text_body, html_body)
+    elif os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"):
+        send_telegram(subject, text_body)
+    else:
+        raise RuntimeError("Ne Gmail ne Telegram ayarlı; bildirim gönderilemedi")
+
+
 def main():
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     state = load_json(STATE_FILE, {})
@@ -494,7 +515,7 @@ def main():
             (mail.HERE / "onizleme.html").write_text(html_body, encoding="utf-8")
             print("(dry-run) burs/onizleme.html yazıldı")
         else:
-            mail.send(subject, text_body, html_body)
+            deliver(subject, text_body, html_body)
 
     # E-posta gönderildikten sonra kaydet: gönderim hata verirse bir sonraki gün tekrar denenir
     save_json(DATA_FILE, data)

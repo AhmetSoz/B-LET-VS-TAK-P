@@ -33,9 +33,12 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.BURS_MAIL_TO }}
+          # Gmail kurulana kadar bildirimler Telegram'a gider
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          if [ -z "$GMAIL_USER" ] || [ -z "$GMAIL_APP_PASSWORD" ] || [ -z "$MAIL_TO" ]; then
-            echo "Gmail bilgileri henüz eklenmemiş; atlanıyor."
+          if { [ -z "$GMAIL_USER" ] || [ -z "$GMAIL_APP_PASSWORD" ] || [ -z "$MAIL_TO" ]; } && [ -z "$TELEGRAM_BOT_TOKEN" ]; then
+            echo "Ne Gmail ne Telegram ayarlı; atlanıyor."
             exit 0
           fi
           if [ "${{ inputs.haftalik }}" = "true" ]; then

@@ -7,11 +7,12 @@ kurallarla süzer. GitHub Actions'ta her gün çalışır (`.github/workflows/bu
 | Ne zaman | Ne yapar |
 |---|---|
 | Her gün | `burslar.json`'daki her bursun resmî sayfalarını (`watch`) okur. Başvuruyla ilgili satırlara yeni bir şey eklendiyse (tarih, başvuru, IELTS…) eklenen satırları, içlerindeki tarihleri ve IELTS puanlarını e-postayla bildirir. |
-| Her gün | MEB ABDİGM (yabancı devlet bursları) ve YYEGM (YLSY) duyurularında yeni burs duyurusu var mı bakar (`sources`). |
+| Her gün | Resmî duyuru kaynaklarında yeni burs duyurusu var mı bakar (`sources`): MEB ABDİGM (yabancı devlet bursları), MEB YYEGM (YLSY), AB Başkanlığı (Jean Monnet, Avrupa Koleji), Fulbright Türkiye, Global Campus of Human Rights, Campus France Türkiye, Padova Üniversitesi burslar. |
 | Her gün | Son başvuruya 30 / 14 / 7 / 3 / 1 gün kala ve son gün hatırlatır. |
 | Pazartesi | Erasmus Mundus resmî kataloğuna yeni bir sosyal bilimler programı eklendiyse, programın sitesinden IELTS şartını okuyup "6.0 yetebilir / yetmez" diye süzer; tam listeyi haftalık özet olarak gönderir. |
 
-Gönderecek bir şey yoksa e-posta atmaz. Son başvuru tarihi bilinmeyen bir bursun sayfasında
+Gönderecek bir şey yoksa e-posta atmaz. Gmail secret'ları eklenene kadar bildirimleri Telegram'a
+(`TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`) gönderir. Son başvuru tarihi bilinmeyen bir bursun sayfasında
 "deadline / son başvuru" satırında tek bir tarih çıkarsa listeye yazar; henüz geçmemiş bir tarihi asla değiştirmez.
 
 Dosyalar: `burslar.json` (liste ve duyuru kaynakları), `durum.json` (botun hafızası),

@@ -5,20 +5,21 @@
   "items": [
     {
       "rank": 1,
-      "name": "Padova — Human Rights and Multi-level Governance (+ Veneto DSU bursu)",
+      "name": "Padova — Human Rights and Multi-level Governance (+ Padua Excellence / DSU bursu)",
       "where": "İtalya, Padova Üniversitesi",
       "field": "İnsan hakları (sosyoloji lisansı kabul ediliyor)",
-      "coverage": "Okul ücreti €2.750/yıl; tam burs ancak gelire dayalı bölgesel DSU bursuyla (yılda ~€7.171 + ücret muafiyeti + yurt). DSU garantili değil, AB dışı öğrencilere fonun en fazla %7'si.",
+      "coverage": "Okul ücreti €2.750/yıl. İki burs yolu: (1) Padua International Excellence Scholarship — yılda €8.000 + öğrenim ücreti muafiyeti, liyakate dayalı, ayrı başvuru yok: programa 1. dönemde başvuran otomatik değerlendirilir (2027 çağrısı Kasım 2026'da yayımlanacak). (2) Gelire dayalı bölgesel DSU bursu (yılda ~€7.171 + yurt), garantisiz.",
       "ielts": "B2 = IELTS 6.0 (Padova'nın resmî tablosu); alt puan şartı bulunamadı",
       "ielts_fit": "uygun",
       "turkey": "Uygun",
       "deadline": "2026-11-15",
       "deadline_note": "Call One, 23:59 CET. Başvuru ücreti €60, tasdikli belge gerekmiyor",
-      "notes": "ACİL. Kabul alınırsa DSU başvurusu Haziran–Eylül 2027'de (aile gelir belgeleri gerekecek).",
+      "notes": "ACİL. Excellence bursu için 15 Kasım'daki 1. başvuru dönemini kaçırma. DSU başvurusu Haziran–Eylül 2027.",
       "link": "https://apply.unipd.it/courses/course/11-human-rights-and-multi-level-governance",
       "id": "padova-hrg",
       "watch": [
-        "https://apply.unipd.it/courses/course/11-human-rights-and-multi-level-governance"
+        "https://apply.unipd.it/courses/course/11-human-rights-and-multi-level-governance",
+        "https://www.unipd.it/en/padua-international-excellence-scholarship-programme"
       ],
       "aliases": [
         "Human Rights and Multi-level Governance HRG Padova"
@@ -252,6 +253,38 @@
       "url": "https://yyegm.meb.gov.tr/",
       "include": "ylsy|1416|lisansüstü|yüksek lisans|başvuru|kontenjan|kılavuz|ilan|burs",
       "exclude": "bilgi edinme|cimer|görüşme|ziyaret|tamamlandı|koordinatör|ödeme|dil kursu|bursiyerlerimiz"
+    },
+    {
+      "name": "AB Başkanlığı (Jean Monnet, Avrupa Koleji)",
+      "type": "links",
+      "url": "https://www.ab.gov.tr/duyurular_42.html",
+      "include": "burs|scholarship|jean monnet|avrupa koleji|yüksek lisans",
+      "exclude": "hak kazanan|sonuç|bilgi edinme"
+    },
+    {
+      "name": "Fulbright Türkiye",
+      "type": "links",
+      "url": "https://www.fulbright.org.tr/",
+      "include": "\\bburs(u|ları|lar)?\\b|başvuru|yüksek lisans|application",
+      "exclude": "bursiyer|mezun|şükran|oryantasyon|toplantı|resepsiyon|a\\.b\\.d|abd'li|abd’li|re-entry"
+    },
+    {
+      "name": "Global Campus of Human Rights (insan hakları yüksek lisansları)",
+      "type": "links",
+      "url": "https://www.gchumanrights.org/admissions/",
+      "include": "master|programme|scholarship|deadline|call"
+    },
+    {
+      "name": "Campus France Türkiye",
+      "type": "links",
+      "url": "https://www.turquie.campusfrance.org/",
+      "include": "burs|bourse|eiffel|candidature|master|başvuru"
+    },
+    {
+      "name": "Padova Üniversitesi burslar",
+      "type": "links",
+      "url": "https://www.unipd.it/en/scholarships",
+      "include": "scholarship|excellence|maeci|call|grant"
     }
   ]
 }
