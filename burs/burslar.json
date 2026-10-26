@@ -49,6 +49,29 @@
     },
     {
       "rank": 3,
+      "id": "bologna-icontact",
+      "name": "Bologna — International Cooperation on Human Rights and Intercultural Heritage (ICONTACT)",
+      "where": "İtalya, Bologna Üniversitesi (Ravenna kampüsü), İngilizce",
+      "field": "İnsan hakları ve uluslararası işbirliği",
+      "coverage": "Okul ücreti aile gelirine göre (ISEE). Burs yolları: International Talents @Unibo (2025/26'da 30 burs, €6.500 + ücret muafiyeti; GRE ve 30 yaş altı şartı, son tarih Mayıs sonu) ve gelire dayalı Emilia-Romagna ER.GO bursu (yaz sonu).",
+      "ielts": "B2 — Unibo tablosunda IELTS 5.5'ten itibaren",
+      "ielts_fit": "uygun",
+      "turkey": "Uygun (AB dışı başvuru; ayrıca Universitaly ön başvurusu gerekir)",
+      "deadline": "2027-03-16",
+      "deadline_note": "tahmini — 2026/27'de 1. dönem 4 Şubat–16 Mart, 2. dönem 31 Mart–18 Mayıs, 3. dönem 22 Temmuz–24 Ağustos idi; 2027/28 ilanı henüz yayımlanmadı",
+      "notes": "Puanlama: not ortalaması (40) + yurt dışı deneyim (16) + CV/deneyim (44), en az 70 puan gerekli. Burs şansı için 1. dönemde başvur.",
+      "link": "https://corsi.unibo.it/2cycle/InternationalCooperation/how-to-enrol",
+      "watch": [
+        "https://corsi.unibo.it/2cycle/InternationalCooperation/how-to-enrol",
+        "https://corsi.unibo.it/2cycle/InternationalCooperation/notice-board"
+      ],
+      "aliases": [
+        "University of Bologna International Cooperation on Human Rights ICONTACT",
+        "International Talents Unibo"
+      ]
+    },
+    {
+      "rank": 4,
       "name": "YLSY — MEB Yurt Dışı Lisansüstü Eğitim Bursu (1416)",
       "where": "Dünya genelinde, kontenjana bağlı",
       "field": "Kontenjan tablosunda sosyoloji/insan hakları/sosyal hizmet açılırsa",
@@ -69,7 +92,7 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "Malaysia International Scholarship (MIS)",
       "where": "Malezya — UM, UKM, USM, IIUM ve diğerleri",
       "field": "Sosyal bilimler ve beşerî bilimler öncelikli",
@@ -90,7 +113,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "GKS-G — Kore Devlet Bursu",
       "where": "Güney Kore",
       "field": "Sosyal bilimler (üniversiteye göre)",
@@ -111,7 +134,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "EMA — European Master's in Human Rights and Democratisation (Venedik)",
       "where": "İtalya, Global Campus of Human Rights (Venedik)",
       "field": "İnsan hakları ve demokratikleşme",
@@ -133,7 +156,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "Tayvan Bursu / TaiwanICDF",
       "where": "Tayvan",
       "field": "Üniversiteye göre (ICDF kalkınma odaklı programlar)",
@@ -155,7 +178,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "EMMIR — Erasmus Mundus, Göç ve Kültürlerarası İlişkiler",
       "where": "Oldenburg, Stavanger, Nova Gorica ve diğerleri",
       "field": "Göç",
@@ -176,7 +199,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "HumanResponse — Erasmus Mundus, İnsani Müdahale ve Yerinden Edilme",
       "where": "Portekiz → Norveç → Uganda",
       "field": "İnsani yardım, yerinden edilme",
@@ -197,7 +220,7 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "NOHA — Erasmus Mundus, İnsani Yardım",
       "where": "Avrupa'da çok üniversiteli konsorsiyum",
       "field": "İnsani yardım",
@@ -218,7 +241,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "Fulbright Türkiye Yüksek Lisans (2028 başlangıcı için)",
       "where": "ABD",
       "field": "Tüm sosyal bilimler",
