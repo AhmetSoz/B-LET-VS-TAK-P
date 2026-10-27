@@ -465,7 +465,8 @@ def t(s):
 
 
 def tlink(url, label):
-    return f'<a href="{html.escape(url or "", quote=True)}">{t(label)}</a>'
+    """Adresi açık yazar: Telegram otomatik bağlantı yapar, mesaj iletilince/kopyalanınca da tıklanabilir kalır."""
+    return f"{t(label)}:\n{t(url)}"
 
 
 def tdate(item):
