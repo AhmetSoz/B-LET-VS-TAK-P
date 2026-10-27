@@ -471,7 +471,7 @@ def tlink(url, label):
 def tdate(item):
     d = mail.parse_date(item.get("deadline"))
     if not d:
-        return "📅 Tarih henüz açıklanmadı"
+        return f"📅 {t(item['deadline_note'])}" if item.get("deadline_note") else "📅 Tarih henüz açıklanmadı"
     left = (d - TODAY).days
     rel = "süresi geçti" if left < 0 else ("BUGÜN son gün" if left == 0 else f"{left} gün kaldı")
     guess = " (tahmini)" if "tahmin" in (item.get("deadline_note") or "") else ""
@@ -487,7 +487,8 @@ def tcard(item, n):
         f"<b>{n}. {t(item.get('short') or item['name'])}</b> {item.get('flag', '')}",
         tdate(item),
         f"💰 {t(item.get('summary') or item.get('coverage'))}",
-        IELTS_TG.get(item.get("ielts_fit"), "🗣 IELTS şartını kontrol et ❔"),
+        (f"🗣 {t(item.get('ielts'))}" if item.get("ielts_fit") == "yurtici"
+         else IELTS_TG.get(item.get("ielts_fit"), "🗣 IELTS şartını kontrol et ❔")),
         "🔗 " + tlink(item.get("link"), "Resmî sayfa"),
     ])
 
@@ -521,13 +522,17 @@ def telegram_messages(data, weekly, due, news, found, changes):
                        f"({(mail.parse_date(i['deadline']) - TODAY).days} gün)" for i in upcoming) or "• Yok"
         msgs.append(f"{head}\n<i>Haftalık özet · Sosyoloji · İnsan hakları · IELTS 6.0</i>\n\n"
                     f"⏰ <b>Önümüzdeki 60 günün son tarihleri</b>\n{up}")
-        ok = [i for i in items if i.get("ielts_fit") != "yuksek"]
+        ok = [i for i in items if i.get("ielts_fit") not in ("yuksek", "yurtici")]
         high = [i for i in items if i.get("ielts_fit") == "yuksek"]
+        local = [i for i in items if i.get("ielts_fit") == "yurtici"]
         msgs.append("✅ <b>IELTS 6.0 ile başvurulabilenler</b>\n\n"
                     + "\n\n".join(tcard(i, n) for n, i in enumerate(ok, 1)))
         if high:
             msgs.append("❌ <b>IELTS 6.5+ isteyenler</b> <i>(lisans tamamen İngilizceyse muafiyet olabilir)</i>\n\n"
                         + "\n\n".join(tcard(i, n) for n, i in enumerate(high, len(ok) + 1)))
+        if local:
+            msgs.append("🇹🇷 <b>Türkiye'de yüksek lisans için burslar</b>\n\n"
+                        + "\n\n".join(tcard(i, n) for n, i in enumerate(local, len(ok) + len(high) + 1)))
     if events:
         msgs.insert(0 if not weekly else 1, (head + "\n\n" if not weekly else "") + "\n\n".join(events))
     # 4096 karakter sınırı: uzun mesajları kart sınırlarından böl

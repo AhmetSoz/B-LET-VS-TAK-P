@@ -18,7 +18,7 @@
         "In case we are wrong, please correct it, so that you will see deadlines and requirements that apply specifically to you.",
         "Svalbard & Jan Mayen"
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -37,7 +37,7 @@
         "‘My quest for more knowledge and determination to fulfil my dreams made me search the internet to see available scholarships, fortunately I saw bilateral education award between the Governments of federal Republic of Nigeria and Hungary and I applied.’",
         "Our database provides information about study programmes in English and in other foreign languages, offered by Hungarian higher education institutions."
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -56,7 +56,7 @@
         "2026 © Türkiye Cumhuriyeti Millî Eğitim Bakanlığı.Tüm Hakları Saklıdır."
       ],
       "checked": "2026-10-26",
-      "errors": 1,
+      "errors": 2,
       "changed": null
     },
     "https://yyegm.meb.gov.tr/": {
@@ -84,7 +84,7 @@
         "2026 © Türkiye Cumhuriyeti Millî Eğitim Bakanlığı.Tüm Hakları Saklıdır."
       ],
       "checked": "2026-10-26",
-      "errors": 1,
+      "errors": 2,
       "changed": null
     },
     "https://biasiswa.mohe.gov.my/INTER/": {
@@ -111,7 +111,7 @@
         "This scholarship is only offered at the Postgraduate Masters Studies.",
         "2026 © Ministry of Higher Education Malaysia"
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -157,7 +157,7 @@
         "Scholarship Information"
       ],
       "checked": "2026-10-26",
-      "errors": 1,
+      "errors": 2,
       "changed": null
     },
     "https://emahumanrights.org/admissions/": {
@@ -211,7 +211,7 @@
         "After the interview, according to the overall final assigned score, a shortlist of scholarship candidates will be proposed to the EMA Executive Committee to select the scholarship awardees.",
         "Scholarship recipients are responsible for bearing all additional costs associated with the EMA programme and they should ensure they have sufficient funds available to carry out their studies and pay for rent and living costs in Venice and in the second semester."
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -234,7 +234,7 @@
         "Deadline for EU self-funded applicants:",
         "22 April 2026"
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -259,7 +259,7 @@
         "Applicants who are not selected will not receive additional notification.",
         "Hayriye Tuğba Öztürk 2026-02-11T15:43:19+03:00"
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -288,7 +288,7 @@
         "Application Procedures",
         "Cost and Funding"
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -334,7 +334,7 @@
         "From Norway to Uganda (summer school – intake 3 june 2028);",
         "In particular, certain data of the scholarship holders and non-scholarship holders is shared with the Agency and treated according to this privacy statement"
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -522,7 +522,7 @@
         "The programme encouraged us to think critically, to use analytical thinking.",
         "In particular, certain data of the scholarships holders and non-scholarship holders is shared with the Agency and treated accordingly to this privacy statement ."
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -678,12 +678,13 @@
         "Üniversitelere başvuru için TOEFL veya IELTS sınavlarından kaç puan almış olmalıyım?",
         "TOEFL veya IELTS sınavlarının tavsiye edilen puan aralıkları için ABD’deki ilgi duyulan üniversite ve programın web sitesinin incelenmesi tavsiye edilmektedir."
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
     "https://www.unipd.it/en/padua-international-excellence-scholarship-programme": {
       "lines": [
+        "Padua International Excellence Scholarship Programme | Università di Padova",
         "Admissions Master's Degree Courses Multi-site campus",
         "Padua International Excellence Scholarship Programme",
         "The University of Padova offers up to 76 scholarships dedicated to brilliant international students who wish to attend an English-taught first-cycle/Bachelor's degree course or master's degree .",
@@ -707,10 +708,9 @@
         "In the event of the scholarship being revoked, you will be required to return the installments you may have already received.",
         "For information: Global Engagement Office - Admissions and Welcome Unit - Contact us",
         "More information about Padua International Excellence Scholarships will be available in the Calls for Application that will be published in November 2026.",
-        "Call for applications for Scholarships for international students enrolling in English-taught Degree programmes at the University of Padua (A.Y. 2026/2027)",
-        "Padua International Excellence Scholarship Programme | Università di Padova"
+        "Call for applications for Scholarships for international students enrolling in English-taught Degree programmes at the University of Padua (A.Y. 2026/2027)"
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -815,7 +815,7 @@
         "Call for application to the Degree Programme",
         "Admission Notice for applications a.y. 2026/2027"
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     },
@@ -842,7 +842,147 @@
         "From 12 June to 6 November join the online meetings (in Italian) to get information on fees, opportunities for exemption or reduction, and how to obtain right-to-study benefits.",
         "Career Day 2026 - Job networking event"
       ],
-      "checked": "2026-10-26",
+      "checked": "2026-10-27",
+      "errors": 0,
+      "changed": null
+    },
+    "https://tubitak.gov.tr/tr/burslar/lisansustu/egitim-burs-programlari/2210-yurt-ici-yuksek-lisans-burs-programlari": {
+      "lines": [
+        "2210 - Yurt İçi Yüksek Lisans Burs Programları | TÜBİTAK | Türkiye Bilimsel ve Teknolojik Araştırma Kurumu",
+        "2210 - Yurt İçi Yüksek Lisans Burs Programları",
+        "2026 YILI 2.",
+        "DÖNEM BAŞVURULARI İLE İLGİLİ DUYURU (05.10.2026): BİDEB 2210-Yurt İçi Yüksek Lisans Burs Programları 2026 yılı 2. dönem başvuruları; TÜBİTAK Yönetim Bilgi Sistemi ( https://tybs.tubitak.gov.tr/ ) üzerinden Başvuru Yönetimi/Açık Çağrılar bölümünden 5 Ekim 2026 (saat 08:30) - 27 Ekim 2026 (saat 17:30) tarihleri arasında alınacaktır.",
+        "Başvuru süresince başvuru bilgilerinizi tybs.tubitak.gov.tr adresindeki “Başvurularım” sekmesinden görüntüleyebilir, başvurunuzu son başvuru tarihi mesai bitimine kadar değiştirebilirsiniz.",
+        "Başvuru sistemi kapandıktan sonra başvuru bilgileri, ebideb.tubitak.gov.tr adresindeki “Önceki Başvurularım” bölümünden görüntülenebilecektir.",
+        "2210-Yurt İçi Yüksek Lisans Burs Programlarının 2026 yılı 2. dönem güncel çağrı duyurularına aşağıdaki linklerden ulaşabilirsiniz.",
+        "Lütfen çağrı duyurularını dikkatli bir şekilde inceleyiniz ve size en uygun olan programa başvuru yapınız.",
+        "Aynı başvuru dönemi içinde yalnızca bir alt programa başvuru yapılabilir.",
+        "2026 yılı için Program Çağrı Duyurularına aşağıdaki linklerden ulaşabilirsiniz.",
+        "2210-C Yurt İçi Öncelikli Alanlar Yüksek Lisans Burs Programı",
+        "2210-D Yurt İçi Sanayiye Yönelik Yüksek Lisans Burs Programı",
+        "2210-C Yurt İçi Öncelikli Alanlar Yüksek Lisans Burs Programı Tez Öneri Formu Kapak Sayfası",
+        "2210-C Yurt İçi Öncelikli Alanlar Yüksek Lisans Burs Programı Tez Sonuç Raporu",
+        "2210-D Yurt İçi Sanayiye Yönelik Yüksek Lisans Burs Programı Tez Öneri Formu Kapak Sayfası",
+        "2210-D Yurt İçi Sanayiye Yönelik Yüksek Lisans Burs Programı Tez Öneri Formu",
+        "2210-D Yurt İçi Sanayiye Yönelik Yüksek Lisans Burs Programı Sanayi Onay Yazısı",
+        "2210-D Yurt İçi Sanayiye Yönelik Yüksek Lisans Burs Programı Tez Sonuç Raporu",
+        "Mevcut Bursiyerler Dilekçe ve Talep Sistemi",
+        "2210-Yurt İçi Yüksek Lisans Burs Programları kapsamında bursiyerler tarafından iletilen bildirimlerin takibi için e-BİDEB üzerinde \"Dilekçe ve Talep Sistemi\" geliştirilmiştir.",
+        "- Bursiyerlik Belgesi Talebi",
+        "Diğer hususlarda talepler ve bildirimler için bursiyerler dilekçe ve eklerini bideb2210@tubitak.gov.tr adresine eposta ekinde gönderebilirler.",
+        "Mevcut Bursiyerler için Dilekçe Örnekleri",
+        "Bursiyerlik Belgesi Talebi",
+        "Burs Miktarı ve Ödeme Koşulları",
+        "BURSLARIN ÖDENME ŞEKLİ",
+        "Burslar, ait oldukları ayı takip eden ayın ilk 10 günü içerisinde bursiyerlerin banka hesaplarına havale edilmek suretiyle ödenir.",
+        "BURS MİKTARLARI",
+        "Tam Burs (ay)",
+        "Kısmi Burs (ay)",
+        "*Tabloda belirtilen burs tutarları 01/01/2026 tarihi itibarıyla geçerli olacaktır.",
+        "**2210-Yurt İçi Yüksek Lisans Burs Programları kapsamında desteklenen bursiyerlerimiz, TÜBİTAK ARDEB veya TEYDEB projelerinde de görev almaları halinde bursları 22.500 TL/Ay tam burs, 6.000 TL/Ay kısmi burs olacak şekilde 2210 Programından ödenecektir.",
+        "Başvuru Tarihleri",
+        "Başvuru Dönemi",
+        "24 Mart 2026",
+        "27 Ekim 2026",
+        "Yurt İçi Yüksek Lisans Burs Programları kapsamında yürütülen programlara başvurular yukarıda belirtilen tarihlerde BİDEB Başvuru ve İzleme Sistemi ( http://e-bideb.tubitak.gov.tr ) üzerinden çevrimiçi olarak yapılır.",
+        "Adaylar, http://e-bideb.tubitak.gov.tr adresinden başvuru dönemi içinde erişebilecekleri sayfada son başvuru tarihinde saat 17:30’a kadar (Saat 17:30’da sistem otomatik olarak kapanır) istenen bilgileri eksiksiz olarak girip onayladıktan sonra başvuru formunun PDF çıktısını alarak imzalamak ve istenildiğinde BİDEB’e ulaştırmak üzere saklamakla yükümlüdürler.",
+        "Başvuru sırasında yanıltıcı veya gerçeğe aykırı bilgi verenler, hukuken sorumlu olacaklardır.",
+        "Adaylar, http://e-bideb.tubitak.gov.tr adresinden Başvuru Dönemi içinde erişebilecekleri sayfada son başvuru tarihinde mesai saati bitimi olan 17:30’ a kadar (Saat 17:30’da sistem otomatik olarak kapanır.) istenen bilgileri eksiksiz olarak girip onayladıktan sonra başvuru formunun PDF çıktısını alarak imzalamak ve istenildiğinde BİDEB’e ulaştırmak üzere saklamakla yükümlüdürler.",
+        "Türkiye Bilimsel ve Teknolojik Araştırma Kurumu Bilim İnsanı Destek Programları Başkanlığı Burs ve Destek Programlarının Yürütülmesine İlişkin Usul ve Esaslar",
+        "BİDEB Burs ve Destek Programlarında Başvuruların ve Raporların Panel/Danışman/Danışma Kurulu Yöntemi ile Değerlendirilmesi ve İzlenmesine İlişkin Yönerge",
+        "İlgili mevzuatlarda ve çağrı duyurusunda belirtilmeyen özel durumlarda, GYK kararları uygulanır.",
+        "Eğitim Burs ve Etkinlik Destekleri Grup Koordinatörlüğü",
+        "YURT İÇİ YÜKSEK LİSANS BURS PROGRAMLARI",
+        "paragraph-id--2028",
+        "paragraph-id--2029"
+      ],
+      "checked": "2026-10-27",
+      "errors": 0,
+      "changed": null
+    },
+    "https://www.tev.org.tr/burs/tr/26/abd-ve-bati-avrupa-burslari": {
+      "lines": [
+        "TEV - Burslar - Yurt Dışı Burs Başvuruları",
+        "Burs Fonlarına Bağış",
+        "Yurt Dışı Burs Başvuruları",
+        "TEV, ABD ve Batı Avrupa bursları",
+        "*Her aday tek bir burs programına başvurabilir.",
+        "TEV, ABD VE AVRUPA ÜLKELERİ YÜKSEK LİSANS BURSU",
+        "TEV başvuru formuna ve belge yükleme alanına, sayfanın en altındaki linkten ulaşabilirsiniz.",
+        "Başvuru tarihleri: 23 Kasım 2026 10:00 - 31 Mayıs 2027 17:00",
+        "(Kontenjan dolduğunda başvuru daha erken bir tarihte kapanabilir)",
+        "TEV tarafından 1969’dan beri, ABD ve Batı Avrupa ülkelerinde konularında dünya sıralamasında en iyi üniversitelerde yüksek lisans yapan Türk öğrencilere burs verilmektedir.",
+        "Burs kapsamına giren ülkeler şunlardır: ABD, Belçika, Hollanda, Avusturya, İsviçre, İsveç, Norveç, Finlandiya, İtalya (TEV-FIAT TOFAŞ Burs Programı'nda belirtilen mühendislik alanları hariç), İspanya, Portekiz, Danimarka (TEV-Garring Vakfı Bursu Programı'nda belirtilen DTU mühendislik alanları hariç), Lüksemburg, Çekya, Macaristan, İzlanda, Estonya, Yunanistan.",
+        "DETAYLI BİLGİLER VE BAŞVURU KOŞULLARI",
+        "Burs kapsamına giren alanlar: Tıp ve Performans Sanatları dışındaki tüm alanlar.",
+        "Kontenjan ve burs miktarı: Burs bütçesi her yıl Yönetim Kurulu tarafından onaylanır.",
+        "Her bursiyere verilecek burs miktarı, asil bursiyer olmaya hak kazanan adayların gereksinimine göre belirlenir.",
+        "Burs okul ücretini (Tuition Fee) kapsamaz, yaşam masraflarının bir kısmını karşılamaya yöneliktir (Bir bursiyere yüksek lisansın tamamı için yaklaşık 10.000 USD ayrılır).",
+        "Burslar 2027-2028 Güz Dönemi’nde yurt dışında öğrenimine başlayacak adaylara yöneliktir.",
+        "Burs süresi: Bölümlerin öğrenim sürelerine göre 9-21 ay .",
+        "Yurt dışına Eylül-Ekim 2024'ten itibaren giden bursiyerler için: Yüksek lisans -veya doktora yapılacaksa doktora- bitiminden sonra en geç 2 yıl sonunda Türkiye'ye gelerek yüksek lisans süresinin iki katı süreyle kalınırsa bursun geri ödeme yükümlülüğü olmayacaktır.",
+        "Bu koşulu yerine getirmeyen mezun bursiyerlerin geri ödeme yükümlülüğü vardır.",
+        "Yurt dışına Eylül-Ekim 2024'ten itibaren giden bursiyerler için geçerli örnek taahhütname ve kefaletname metinlerine ulaşmak için tıklayınız .",
+        "Yurt dışına 2023 ve öncesinde giden bursiyerler, yurt dışına gitmeden imzalamış oldukları, 2023 ve öncesi taahhütname ile kefaletnameye uymakla yükümlüdür.",
+        "T.C. vatandaşı ve 1 Ocak itibarıyla 35 yaş altında olmak,",
+        "İngilizce dil yeterliliği ( TOEFL IBT: 4, eski puanlama sistemiyle 79 , IELTS Academic: 6.5, TOEIC: 800, PTE Academic: 58).",
+        "BAŞVURU EVRAKI",
+        "Lütfen başvuru evrakını belirtilen formatta ve eksiksiz yüklediğinizden emin olun.",
+        "Diploma dışında aşağıdaki bütün belgelerin son başvuru tarihine kadar TEV'in sistemine yüklenmesi zorunludur.",
+        "Dil yeterlilik belgesi ve referans mektupları da dâhil olmak üzere, başvuru kapandıktan sonra e-posta yoluyla gönderilecek belgeler kabul edilmeyecektir.",
+        "TEV başvuru formu (Başvuru dönemi başladığında sayfanın en altındaki linkte çevrim içi başvuru formu ve belge yükleme alanı bulunuyor).",
+        "Mezunlar için diploma veya mezuniyet belgesi (Bu aşamada zorunlu değil, başvuru sırasında henüz mezun değilseniz daha sonra yükleyebilirsiniz - okuldan veya e-Devlet üzerinden alınabilir ).",
+        "Başvuru formunu doldurduktan sonra yönlendirileceğiniz burs programı seçme ve belge yükleme alanında referans mektuplarına ayrılan bölüme hocalarınızdan aldığınız mektupları siz yükleyebilirsiniz veya hocalarınızın iletişim bilgilerini girdiğinizde onlara gönderilecek e-postadaki link üzerinden hocalarınız referans mektuplarını doğrudan TEV'in sistemine yükleyebilir.",
+        "Lütfen TEV'den gönderilen e-postanın hocalarınıza ulaştığından ve referans mektuplarının son başvuru tarihine kadar yüklendiğinden emin olunuz.",
+        "TOEFL IBT, IELTS Academic, PTE Academic sonuç belgeleri (Başvurduğunuz okulun istediği belgeyi TEV’e de sunmalısınız).",
+        "Başvuru formunu doldururken her zaman kullandığınız e-posta adresinizi doğru vermelisiniz (Üniversite sunucularının TEV'den giden e-postaları spam olarak algılama ihtimaline karşı, e-posta adresinizin @edu.tr uzantılı olmamasını öneririz).",
+        "Çevrim içi başvurusunu eksiksiz tamamlayan adayların dosyaları ilgili alanlarda bağımsız öğretim üyelerinden oluşan komisyonlara gönderilir; dosya değerlendirmesinden sonra mülakata girmeye hak kazanan ve elenen adaylara e-posta ile bilgilendirme yapılır.",
+        "Asil adaylar arasında burs hakkından vazgeçen olduğunda sırayla yedek adaylara geçilir.",
+        "Bursiyerlerin yüksek lisansı tamamladıklarında TEV’e mezuniyet belgelerini göndermeleri beklenir.",
+        "Son başvuru tarihi: 31 Mayıs 2027 17:00",
+        "Çevrim İçi Başvuru Formu ve Evrak Yükleme: https:yurtdisi.tev.org.tr/login",
+        "TEV Yurt Dışı Burs Programları Başvuru Rehberine ulaşmak için tıklayın.",
+        "Başvuru formunu doldurup zorunlu tüm belgeleri yüklediğinizde başvurunuzu tamamlamış olacaksınız.",
+        "Yurt dışı bursiyer adaylarına yönelik KVKK Aydınlatma Metni'ne aşağıdaki linkten ulaşabilirsiniz:",
+        "İletişim: yurtdisiburs@tev.org.tr",
+        "Yurt İçi Burslar",
+        "Burs Türleri & Başvuru Tarihleri",
+        "Mesleki Ortaöğretim Bursu",
+        "Üniversite (Eğitim) Bursu",
+        "Yüksek Lisans & Doktora Başarı Bursu",
+        "Üstün Başarı Bursu",
+        "Üstün Başarı Sanat Bursu",
+        "Kız Öğrenci Yurt Başvurusu",
+        "Başvuru Süreci & Adımlar",
+        "Başarı Ödülleri ve Tamamlayıcı Burslar",
+        "Bursiyer Hak & Yükümlülükleri",
+        "Yurt Dışı Burslar",
+        "İş Birliği Yapılan Kuruluşlar",
+        "Yurt Dışı Burs Başvuru ve Seçim Aşaması",
+        "TEV Avrupa Bursları",
+        "TEV ABD Bursları",
+        "TEV-FIAT-TOFAŞ İtalya Yüksek Lisans Bursu",
+        "TEV-ŞÖLEN Almanya-İtalya Yüksek Lisans Bursu",
+        "TEV-DAAD Almanya Yüksek Lisans Bursu",
+        "TEV-Fransa Büyükelçiliği Fransa Yüksek Lisans Bursu",
+        "TEV-Garring Vakfı Danimarka Yüksek Lisans Bursu",
+        "Chevening-TEV Birleşik Krallık Yüksek Lisans Bursu",
+        "TEV-TEV UK-Cambridge Üniversitesi Birleşik Krallık Yüksek Lisans Bursu",
+        "TEV-TEV UK-Imperial College London Birleşik Krallık Yüksek Lisans Bursu",
+        "Yurt Dışı Yüksek Lisans (Master’s Degree) Bursları",
+        "Yurt Dışı Tıp Bursları",
+        "TEV Yurt Dışı Doktora Tezi Araştırma Bursu",
+        "Lise Bursu (3.500 TL)",
+        "Üniversite Bursu (8.000 TL)",
+        "Yüksek Lisans Bursu (12.000 TL)",
+        "Üstün Başarı Bursu (16.000 TL)",
+        "İhale Duyuruları",
+        "Yurt İçi Burslarımız",
+        "Kız Öğrenci Yurt Bursu",
+        "Yurt Dışı Burslarımız",
+        "Mezun Bursiyerlerle İletişim"
+      ],
+      "checked": "2026-10-27",
       "errors": 0,
       "changed": null
     }
@@ -862,31 +1002,37 @@
       "https://www.fulbright.org.tr/turk-vatandaslarina-verilen-burslar"
     ],
     "Global Campus of Human Rights (insan hakları yüksek lisansları)": [
-      "https://www.gchumanrights.org/masters-programmes/gc-caucasus/",
+      "https://www.gchumanrights.org/masters-programmes/gc-asia-pacific/%20",
+      "https://www.gchumanrights.org/masters-programmes/gc-arab-world/",
       "https://www.gchumanrights.org/masters-programmes/gc-central-asia/",
+      "https://elearning.gchumanrights.org/courses/course-v1:gchumanrights+RTEC+2026/about",
+      "https://www.gchumanrights.org/masters-programmes/gc-caucasus/",
       "https://www.gchumanrights.org/masters-programmes/gc-south-east-europe/",
       "https://www.gchumanrights.org/masters-programmes/",
-      "https://www.gchumanrights.org/masters-programmes/gc-africa/",
       "https://www.gchumanrights.org/masters-programmes/gc-europe/",
-      "https://www.gchumanrights.org/masters-programmes/gc-arab-world/",
-      "https://www.gchumanrights.org/masters-programmes/gc-asia-pacific/%20",
-      "https://elearning.gchumanrights.org/courses/course-v1:gchumanrights+RTEC+2026/about"
+      "https://www.gchumanrights.org/masters-programmes/gc-africa/"
     ],
     "Campus France Türkiye": [
-      "https://etudesenfrance.diplomatie.gouv.fr/ ",
       "https://www.turquie.campusfrance.org/fr/candidatures-2027-en-licence-2eme-et-3eme-annees-but-et-master",
-      "https://www.turquie.campusfrance.org/fr/candidatures-2027-pour-la-licence-1ere-annee-en-universite-et-pour-les-niveaux-licencemaster-en"
+      "https://www.turquie.campusfrance.org/fr/candidatures-2027-pour-la-licence-1ere-annee-en-universite-et-pour-les-niveaux-licencemaster-en",
+      "https://etudesenfrance.diplomatie.gouv.fr/ "
     ],
     "Padova Üniversitesi burslar": [
-      "https://www.unipd.it/en/borse-studio-contribuzione",
-      "https://www.unipd.it/en/bandi-gara-contratti",
-      "https://www.unipd.it/en/sgss-bando-internazionali",
-      "https://www.unipd.it/en/borse-studio-dipartimenti",
       "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+      "https://www.unipd.it/en/borse-studio-dipartimenti",
+      "https://www.unipd.it/en/borse-studio-contribuzione",
+      "https://www.unipd.it/en/sgss-bando-internazionali",
+      "https://www.unipd.it/en/bandi-gara-contratti",
       "https://www.unipd.it/en/borse-studio-maeci"
+    ],
+    "TÜBİTAK e-BİDEB (açık burs programları)": [
+      "http://www.tubitak.gov.tr/bideb/2210"
     ]
   },
-  "reminders": {},
+  "reminders": {
+    "tubitak-2210|2026-10-27|0": "2026-10-27",
+    "kas-turkiye|2026-10-30|3": "2026-10-27"
+  },
   "catalogue": [
     "101049855",
     "101082417",

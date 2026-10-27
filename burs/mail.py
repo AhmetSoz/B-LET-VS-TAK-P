@@ -31,6 +31,7 @@ IELTS_BADGE = {
     "sinirda": ("#9a6700", "IELTS sınırda / alt puan şartı var"),
     "yuksek": ("#cf222e", "IELTS 6.0 yetmiyor"),
     "gerekmiyor": ("#1a7f37", "IELTS şart değil"),
+    "yurtici": ("#0969da", "Türkiye'de yüksek lisans için"),
 }
 
 
