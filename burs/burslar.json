@@ -322,28 +322,6 @@
       "rank": 13
     },
     {
-      "id": "kas-turkiye",
-      "short": "KAS Türkiye Yüksek Lisans Bursu",
-      "flag": "🇩🇪",
-      "name": "Konrad-Adenauer-Stiftung Türkiye Yüksek Lisans Bursu",
-      "where": "Türkiye'de yüksek lisans",
-      "field": "Sosyoloji dahil sosyal bilimler",
-      "summary": "Ayda €150 (TL olarak), 2 yıla kadar",
-      "coverage": "Ayda €150 (TL olarak), 2 yıla kadar.",
-      "ielts": "En az B1 İngilizce",
-      "ielts_fit": "yurtici",
-      "turkey": "Türkiye'de YL'ye kabul almış/kayıtlı, 30 yaş altı, maaşlı işi olmayan",
-      "deadline": "2026-10-30",
-      "deadline_note": "17:00; belgeler Türkçe + İngilizce, e-postayla aydan.ozen@kas.de",
-      "notes": "Hocadan referans mektubu gerekiyor; 28 Ekim öğleden sonra ve 29 Ekim tatil.",
-      "link": "https://www.kas.de/tr/web/tuerkei/veranstaltungen/detail/-/content/konrad-adenauer-stiftung-tuerkiye-master-s-scholarship-announcement",
-      "watch": [],
-      "aliases": [
-        "Konrad Adenauer KAS Turkey master scholarship"
-      ],
-      "rank": 14
-    },
-    {
       "id": "tev-yurtdisi",
       "short": "TEV ABD ve Batı Avrupa YL Bursu",
       "flag": "🇹🇷",
@@ -388,6 +366,50 @@
         "Kredi Yurtlar Kurumu GSB öğrenim kredisi"
       ],
       "rank": 16
+    },
+    {
+      "id": "arguden",
+      "rank": 17,
+      "short": "Argüden Yönetişim Bursu",
+      "flag": "🇹🇷",
+      "name": "H. Orhan Argüden Yönetişim Bursu",
+      "where": "Türkiye'de tez aşamasındaki YL/doktora",
+      "field": "Her bölüm; tez iyi yönetişimle ilişkili olmalı",
+      "summary": "9 ay destek (tutar ilanda yok); tez yönetişimle ilişkili olmalı",
+      "coverage": "9 ay destek, tutar açıklanmamış. Burs (geri ödemesiz).",
+      "ielts": "Dil şartı yok",
+      "ielts_fit": "yurtici",
+      "turkey": "T.C. vatandaşı, tez aşamasında",
+      "deadline": "2026-10-30",
+      "deadline_note": "başvuru: özgeçmiş + niyet mektubu → info@argudenacademy.org",
+      "notes": "Rekreasyonda örnek: park/rekreasyon alanı yönetimi, belediye rekreasyon hizmetleri, spor federasyonu yönetişimi.",
+      "link": "https://argudenacademy.org/etkinlikler/h-orhan-arguden-yonetisim-bursu-2026-2027-donemi-basvurulari-acildi",
+      "watch": [],
+      "aliases": [
+        "Arguden Governance Scholarship"
+      ]
+    },
+    {
+      "id": "yesilay",
+      "rank": 18,
+      "short": "Yeşilay Tez Bursu",
+      "flag": "🇹🇷",
+      "name": "Yeşilay Lisansüstü Tez Bursu",
+      "where": "Türkiye'de tez aşamasındaki YL",
+      "field": "Bağımlılık konuları (teknoloji, kumar vb.)",
+      "summary": "2025'te ayda 4.000 TL × 12 ay; tez bağımlılık konulu olmalı",
+      "coverage": "2025 döneminde ayda 4.000 TL, 12 ay.",
+      "ielts": "Dil şartı yok",
+      "ielts_fit": "yurtici",
+      "turkey": "Tez aşamasında",
+      "deadline": "2027-03-31",
+      "deadline_note": "tahmini — 2025 başvuruları 5–31 Mart'taydı",
+      "notes": "Rekreasyon–dijital bağımlılık gibi konular uyabilir.",
+      "link": "https://www.yesilay.org.tr/",
+      "watch": [],
+      "aliases": [
+        "Yesilay thesis scholarship"
+      ]
     }
   ],
   "sources": [
