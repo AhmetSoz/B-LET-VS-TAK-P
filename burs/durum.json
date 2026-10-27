@@ -56,7 +56,7 @@
         "2026 © Türkiye Cumhuriyeti Millî Eğitim Bakanlığı.Tüm Hakları Saklıdır."
       ],
       "checked": "2026-10-26",
-      "errors": 2,
+      "errors": 3,
       "changed": null
     },
     "https://yyegm.meb.gov.tr/": {
@@ -84,7 +84,7 @@
         "2026 © Türkiye Cumhuriyeti Millî Eğitim Bakanlığı.Tüm Hakları Saklıdır."
       ],
       "checked": "2026-10-26",
-      "errors": 2,
+      "errors": 3,
       "changed": null
     },
     "https://biasiswa.mohe.gov.my/INTER/": {
@@ -156,8 +156,8 @@
         "English Program in Korea(EPIK)",
         "Scholarship Information"
       ],
-      "checked": "2026-10-26",
-      "errors": 2,
+      "checked": "2026-10-27",
+      "errors": 0,
       "changed": null
     },
     "https://emahumanrights.org/admissions/": {
@@ -684,7 +684,6 @@
     },
     "https://www.unipd.it/en/padua-international-excellence-scholarship-programme": {
       "lines": [
-        "Padua International Excellence Scholarship Programme | Università di Padova",
         "Admissions Master's Degree Courses Multi-site campus",
         "Padua International Excellence Scholarship Programme",
         "The University of Padova offers up to 76 scholarships dedicated to brilliant international students who wish to attend an English-taught first-cycle/Bachelor's degree course or master's degree .",
@@ -708,7 +707,8 @@
         "In the event of the scholarship being revoked, you will be required to return the installments you may have already received.",
         "For information: Global Engagement Office - Admissions and Welcome Unit - Contact us",
         "More information about Padua International Excellence Scholarships will be available in the Calls for Application that will be published in November 2026.",
-        "Call for applications for Scholarships for international students enrolling in English-taught Degree programmes at the University of Padua (A.Y. 2026/2027)"
+        "Call for applications for Scholarships for international students enrolling in English-taught Degree programmes at the University of Padua (A.Y. 2026/2027)",
+        "Padua International Excellence Scholarship Programme | Università di Padova"
       ],
       "checked": "2026-10-27",
       "errors": 0,
@@ -1002,31 +1002,36 @@
       "https://www.fulbright.org.tr/turk-vatandaslarina-verilen-burslar"
     ],
     "Global Campus of Human Rights (insan hakları yüksek lisansları)": [
-      "https://www.gchumanrights.org/masters-programmes/gc-asia-pacific/%20",
-      "https://www.gchumanrights.org/masters-programmes/gc-arab-world/",
-      "https://www.gchumanrights.org/masters-programmes/gc-central-asia/",
+      "https://www.gchumanrights.org/masters-programmes/gc-europe/",
       "https://elearning.gchumanrights.org/courses/course-v1:gchumanrights+RTEC+2026/about",
+      "https://www.gchumanrights.org/masters-programmes/gc-central-asia/",
+      "https://www.gchumanrights.org/masters-programmes/",
+      "https://www.gchumanrights.org/masters-programmes/gc-asia-pacific/%20",
+      "https://www.gchumanrights.org/masters-programmes/gc-africa/",
       "https://www.gchumanrights.org/masters-programmes/gc-caucasus/",
       "https://www.gchumanrights.org/masters-programmes/gc-south-east-europe/",
-      "https://www.gchumanrights.org/masters-programmes/",
-      "https://www.gchumanrights.org/masters-programmes/gc-europe/",
-      "https://www.gchumanrights.org/masters-programmes/gc-africa/"
+      "https://www.gchumanrights.org/masters-programmes/gc-arab-world/"
     ],
     "Campus France Türkiye": [
-      "https://www.turquie.campusfrance.org/fr/candidatures-2027-en-licence-2eme-et-3eme-annees-but-et-master",
       "https://www.turquie.campusfrance.org/fr/candidatures-2027-pour-la-licence-1ere-annee-en-universite-et-pour-les-niveaux-licencemaster-en",
+      "https://www.turquie.campusfrance.org/fr/candidatures-2027-en-licence-2eme-et-3eme-annees-but-et-master",
       "https://etudesenfrance.diplomatie.gouv.fr/ "
     ],
     "Padova Üniversitesi burslar": [
+      "https://www.unipd.it/en/borse-studio-maeci",
       "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
-      "https://www.unipd.it/en/borse-studio-dipartimenti",
       "https://www.unipd.it/en/borse-studio-contribuzione",
       "https://www.unipd.it/en/sgss-bando-internazionali",
-      "https://www.unipd.it/en/bandi-gara-contratti",
-      "https://www.unipd.it/en/borse-studio-maeci"
+      "https://www.unipd.it/en/borse-studio-dipartimenti",
+      "https://www.unipd.it/en/bandi-gara-contratti"
     ],
     "TÜBİTAK e-BİDEB (açık burs programları)": [
       "http://www.tubitak.gov.tr/bideb/2210"
+    ],
+    "KYK / GSB duyuruları": [
+      "https://www.kyk.gov.tr/web/YENI_GRODEME/geriOdemeParametreGiris.do",
+      "https://kyk.ziraatbank.com.tr/",
+      "http://yurtkur.gsb.gov.tr/Sayfalar/2771/2607/online-islemler.aspx"
     ]
   },
   "reminders": {
