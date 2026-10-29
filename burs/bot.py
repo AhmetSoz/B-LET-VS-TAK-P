@@ -423,10 +423,18 @@ def due_reminders(data, state):
     return due
 
 
+def mail_ready():
+    return all(os.environ.get(k) for k in ("GMAIL_USER", "GMAIL_APP_PASSWORD", "MAIL_TO"))
+
+
 def is_weekly(state):
     week = TODAY.strftime("%G-W%V")
-    if "--weekly" in sys.argv or (TODAY.weekday() == 0 and state.get("last_weekly") != week):
+    # Tam liste e-postayla hiç gitmediyse (Gmail sonradan kuruldu) beklemeden ilk çalışmada gönder
+    first_mail = mail_ready() and not state.get("weekly_mailed")
+    if "--weekly" in sys.argv or first_mail or (TODAY.weekday() == 0 and state.get("last_weekly") != week):
         state["last_weekly"] = week
+        if mail_ready():
+            state["weekly_mailed"] = week
         return True
     return False
 
@@ -440,11 +448,16 @@ def section_reminders(due):
         return "", ""
     def when(left):
         return "BUGÜN son gün!" if left == 0 else f"{left} gün kaldı"
+    def extra(i):
+        return [x for x in (i.get("coverage"), i.get("deadline_note") and "Not: " + i["deadline_note"],
+                            i.get("notes")) if x]
     items = "".join(
-        f'<li style="margin-bottom:6px"><b>{mail.esc(i["name"])}</b> — '
+        f'<li style="margin-bottom:12px"><b>{mail.esc(i["name"])}</b> — '
         f'{mail.parse_date(i["deadline"]).strftime("%d.%m.%Y")} ({when(left)})<br>'
-        f'<a href="{mail.esc(i.get("link"))}">Başvuru sayfası →</a></li>' for i, left in due)
-    text = "".join(f"- {i['name']}: {i['deadline']} ({when(left)}) {i.get('link', '')}\n" for i, left in due)
+        + "".join(f"{mail.esc(x)}<br>" for x in extra(i))
+        + f'Başvuru: <a href="{mail.esc(i.get("link"))}">{mail.esc(i.get("link"))}</a></li>' for i, left in due)
+    text = "".join(f"- {i['name']}: {i['deadline']} ({when(left)})\n"
+                   + "".join(f"  {x}\n" for x in extra(i)) + f"  {i.get('link', '')}\n" for i, left in due)
     return f"<h3>⏰ Son başvuru hatırlatması</h3><ul>{items}</ul>", f"HATIRLATMA\n{text}\n"
 
 
@@ -583,7 +596,7 @@ def send_telegram(messages):
 
 def deliver(subject, text_body, html_body, tg_messages):
     """Gmail ayarlıysa e-posta gönderir; değilse (Gmail kurulana kadar) Telegram'a yollar."""
-    if os.environ.get("GMAIL_USER") and os.environ.get("GMAIL_APP_PASSWORD") and os.environ.get("MAIL_TO"):
+    if mail_ready():
         mail.send(subject, text_body, html_body)
     elif os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"):
         send_telegram(tg_messages)
