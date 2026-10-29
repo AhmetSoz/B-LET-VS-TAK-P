@@ -153,7 +153,7 @@
         "Scholarship Information"
       ],
       "checked": "2026-10-29",
-      "errors": 0,
+      "errors": 1,
       "changed": null
     },
     "https://emahumanrights.org/admissions/": {
@@ -681,6 +681,7 @@
     },
     "https://www.unipd.it/en/padua-international-excellence-scholarship-programme": {
       "lines": [
+        "Padua International Excellence Scholarship Programme | Università di Padova",
         "Admissions Master's Degree Courses Multi-site campus",
         "Padua International Excellence Scholarship Programme",
         "The University of Padova offers up to 76 scholarships dedicated to brilliant international students who wish to attend an English-taught first-cycle/Bachelor's degree course or master's degree .",
@@ -704,8 +705,7 @@
         "In the event of the scholarship being revoked, you will be required to return the installments you may have already received.",
         "For information: Global Engagement Office - Admissions and Welcome Unit - Contact us",
         "More information about Padua International Excellence Scholarships will be available in the Calls for Application that will be published in November 2026.",
-        "Call for applications for Scholarships for international students enrolling in English-taught Degree programmes at the University of Padua (A.Y. 2026/2027)",
-        "Padua International Excellence Scholarship Programme | Università di Padova"
+        "Call for applications for Scholarships for international students enrolling in English-taught Degree programmes at the University of Padua (A.Y. 2026/2027)"
       ],
       "checked": "2026-10-29",
       "errors": 0,
@@ -982,33 +982,67 @@
       "checked": "2026-10-29",
       "errors": 0,
       "changed": null
+    },
+    "https://www.dshs-koeln.de/english/education-career/master-of-advanced-studies/ma-olympic-studies": {
+      "lines": [
+        "Applications are open!",
+        "September 2027",
+        "Application period",
+        "October 2026 - February 2027",
+        "The programme opens career opportunities across various areas of the Olympic Movement and the international sport system – including National Olympic Committees, international federations, sport organisations, media agencies, educational institutions, and the fields of sport policy and sport management.",
+        "The in-depth engagement with Olympic values, international structures, and societal developments strengthens participants’ ability to critically analyse and actively shape complex challenges within the global sport landscape.",
+        "In June 2012 former IOC President Jacques Rogge invited Prof.",
+        "In October 2014, Prof.",
+        "Olympic Bid: The race won't begin until after September 26",
+        "Professor Stephan Wassong participated in the opening of the International Volunteer Games in Ancient Olympia, highlighting the strong connection…"
+      ],
+      "checked": "2026-10-29",
+      "errors": 0,
+      "changed": null
+    },
+    "https://www.maisi-project.eu/": {
+      "lines": [
+        "APPLICATIONS FOR 2026–2027 ARE OPEN",
+        "Funding Options",
+        "The deadline for application is:",
+        "• Erasmus Mundus Scholarships: February 1st",
+        "• Non-EEA citizens: April 1st",
+        "• EEA citizens: July 1st",
+        "Click here for more information about the study program, funding and application.",
+        "Current job – Discipline Executive at the Football Association of Wales",
+        "This entails research topic selection, developing research problems and questions, literature review and preparation of research ethics applications.",
+        "Not consenting or withdrawing consent, may adversely affect certain features and functions."
+      ],
+      "checked": "2026-10-29",
+      "errors": 0,
+      "changed": null
     }
   },
   "announcements": {
     "MEB ABDİGM (yabancı devlet bursları)": [
-      "https://abdigm.meb.gov.tr/www/brezilya-hukmeti-lisansustu-ve-doktora-bursu/icerik/2891",
-      "https://abdigm.meb.gov.tr/www/japonya-hukmeti-bursu-2027-mext-yuksek-lisans-bursu/icerik/2860",
-      "https://abdigm.meb.gov.tr/www/taskent-orta-asya-cevre-ve-iklim-degisikligi-calismalari-universitesi-bursu/icerik/2857",
-      "https://abdigm.meb.gov.tr/www/misir-hukmeti-egyaid-burslari/icerik/2847",
-      "https://abdigm.meb.gov.tr/www/belarus-hukmeti-bursu-2027-2028/icerik/2878",
       "https://abdigm.meb.gov.tr/www/birlesik-krallik-chevening-yuksek-lisans-burs-programi/icerik/2862",
+      "https://abdigm.meb.gov.tr/www/taskent-orta-asya-cevre-ve-iklim-degisikligi-calismalari-universitesi-bursu/icerik/2857",
+      "https://abdigm.meb.gov.tr/www/belarus-hukmeti-bursu-2027-2028/icerik/2878",
+      "https://abdigm.meb.gov.tr/www/ozbekistan-hukmet-bursu-2026-2027/icerik/2854",
+      "https://abdigm.meb.gov.tr/www/brezilya-hukmeti-lisansustu-ve-doktora-bursu/icerik/2891",
+      "https://abdigm.meb.gov.tr/www/misir-hukmeti-egyaid-burslari/icerik/2847",
       "https://abdigm.meb.gov.tr/www/brezilya-yuksek-lisans-ve-doktora-burslari/icerik/2845",
-      "https://abdigm.meb.gov.tr/www/ozbekistan-hukmet-bursu-2026-2027/icerik/2854"
+      "https://abdigm.meb.gov.tr/www/japonya-hukmeti-bursu-2027-mext-yuksek-lisans-bursu/icerik/2860"
     ],
     "MEB YYEGM (YLSY)": [],
     "Fulbright Türkiye": [
       "https://www.fulbright.org.tr/turk-vatandaslarina-verilen-burslar"
     ],
     "Global Campus of Human Rights (insan hakları yüksek lisansları)": [
+      "https://elearning.gchumanrights.org/courses/course-v1:gchumanrights+RTEC+2026/about",
+      "https://www.gchumanrights.org/masters-programmes/gc-central-asia/",
+      "https://www.gchumanrights.org/masters-programmes/gc-south-east-europe/",
+      "https://www.gchumanrights.org/masters-programmes/gc-africa/",
+      "https://www.gchumanrights.org/masters-programmes/gc-caucasus/",
       "https://www.gchumanrights.org/masters-programmes/",
       "https://www.gchumanrights.org/masters-programmes/gc-europe/",
-      "https://www.gchumanrights.org/masters-programmes/gc-africa/",
-      "https://www.gchumanrights.org/masters-programmes/gc-central-asia/",
-      "https://www.gchumanrights.org/masters-programmes/gc-arab-world/",
       "https://www.gchumanrights.org/masters-programmes/gc-asia-pacific/%20",
-      "https://www.gchumanrights.org/masters-programmes/gc-south-east-europe/",
-      "https://elearning.gchumanrights.org/courses/course-v1:gchumanrights+RTEC+2026/about",
-      "https://www.gchumanrights.org/masters-programmes/gc-caucasus/"
+      "https://www.gchumanrights.org/masters-programmes/gc-arab-world/"
     ],
     "Campus France Türkiye": [
       "https://etudesenfrance.diplomatie.gouv.fr/ ",
@@ -1016,20 +1050,20 @@
       "https://www.turquie.campusfrance.org/fr/candidatures-2027-pour-la-licence-1ere-annee-en-universite-et-pour-les-niveaux-licencemaster-en"
     ],
     "Padova Üniversitesi burslar": [
-      "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
-      "https://www.unipd.it/en/sgss-bando-internazionali",
       "https://www.unipd.it/en/borse-studio-contribuzione",
       "https://www.unipd.it/en/borse-studio-dipartimenti",
-      "https://www.unipd.it/en/borse-studio-maeci",
-      "https://www.unipd.it/en/bandi-gara-contratti"
+      "https://www.unipd.it/en/sgss-bando-internazionali",
+      "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+      "https://www.unipd.it/en/bandi-gara-contratti",
+      "https://www.unipd.it/en/borse-studio-maeci"
     ],
     "TÜBİTAK e-BİDEB (açık burs programları)": [
       "http://www.tubitak.gov.tr/bideb/2210"
     ],
     "KYK / GSB duyuruları": [
       "http://yurtkur.gsb.gov.tr/Sayfalar/2771/2607/online-islemler.aspx",
-      "https://www.kyk.gov.tr/web/YENI_GRODEME/geriOdemeParametreGiris.do",
-      "https://kyk.ziraatbank.com.tr/"
+      "https://kyk.ziraatbank.com.tr/",
+      "https://www.kyk.gov.tr/web/YENI_GRODEME/geriOdemeParametreGiris.do"
     ]
   },
   "reminders": {
@@ -1065,5 +1099,6 @@
     "https://eswochy.eu/",
     "https://gemmaerasmusmundus.eu/"
   ],
-  "last_weekly": "2026-W44"
+  "last_weekly": "2026-W44",
+  "weekly_mailed": "2026-W44"
 }
