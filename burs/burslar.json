@@ -407,6 +407,54 @@
       "aliases": [
         "Yesilay thesis scholarship"
       ]
+    },
+    {
+      "id": "dshs-olympic",
+      "rank": 19,
+      "short": "Köln Spor Üni. – MA Olympic Studies",
+      "flag": "🇩🇪",
+      "name": "German Sport University Cologne – MA Olympic Studies",
+      "where": "Almanya (Köln) + Barselona, İngilizce, yarı zamanlı",
+      "field": "Olimpiyat çalışmaları, spor yönetimi",
+      "summary": "Ücret 2 yıl €5.000; Olimpik Dayanışma bursu için TMOK aday göstermeli",
+      "coverage": "Ücret 2 yıl için €5.000. Olimpik Dayanışma bursu, Milli Olimpiyat Komitesi (TMOK) aday gösterirse.",
+      "ielts": "İngilizce şartı programın sayfasında",
+      "ielts_fit": null,
+      "turkey": "Uygun",
+      "deadline": "2027-02-28",
+      "deadline_note": "tahmini — başvurular Ekim 2026'dan Şubat 2027'ye kadar açık; Eylül 2027 başlangıç",
+      "notes": "Spor/rekreasyon geçmişine uygun ikinci yüksek lisans seçeneği.",
+      "link": "https://www.dshs-koeln.de/english/education-career/master-of-advanced-studies/ma-olympic-studies",
+      "watch": [
+        "https://www.dshs-koeln.de/english/education-career/master-of-advanced-studies/ma-olympic-studies"
+      ],
+      "aliases": [
+        "Olympic Studies Cologne DSHS"
+      ]
+    },
+    {
+      "id": "maisi",
+      "rank": 20,
+      "short": "MAiSI – Spor Etiği (Erasmus Mundus)",
+      "flag": "🇪🇺",
+      "name": "Erasmus Mundus MAiSI – Sports Ethics and Integrity",
+      "where": "Avrupa'da çok üniversiteli konsorsiyum",
+      "field": "Spor etiği ve dürüstlüğü, spor yönetişimi",
+      "summary": "Erasmus Mundus bursu: ücretsiz + aylık burs",
+      "coverage": "Erasmus Mundus bursu: okul ücreti yok + aylık yaşam bursu (tutar kaynaklara göre €1.000–1.400).",
+      "ielts": "İngilizce şartı programın sayfasında",
+      "ielts_fit": null,
+      "turkey": "Uygun (Türkiye Erasmus+ ortak ülke)",
+      "deadline": "2027-03-01",
+      "deadline_note": "tahmini — 2026'da burs son tarihi 1 Mart idi",
+      "notes": "Spor/rekreasyon geçmişine uygun, tam burslu yurt dışı yüksek lisans seçeneği.",
+      "link": "https://ioa.org.gr/list-of-activities/maisi",
+      "watch": [
+        "https://ioa.org.gr/list-of-activities/maisi"
+      ],
+      "aliases": [
+        "Sports Ethics and Integrity MAiSI"
+      ]
     }
   ],
   "sources": [
