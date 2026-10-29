@@ -43,8 +43,7 @@
       "link": "https://stipendiumhungaricum.hu/partners/",
       "id": "stipendium-hungaricum",
       "watch": [
-        "https://stipendiumhungaricum.hu/",
-        "https://abdigm.meb.gov.tr/"
+        "https://stipendiumhungaricum.hu/"
       ],
       "aliases": [
         "Stipendium Hungaricum Scholarship"
@@ -93,9 +92,7 @@
       "notes": "Bursun iki katı süre zorunlu hizmet var. Önce Tablo 1/2'de alan kontenjanı olup olmadığına bak.",
       "link": "https://yyegm.meb.gov.tr/",
       "id": "ylsy",
-      "watch": [
-        "https://yyegm.meb.gov.tr/"
-      ],
+      "watch": [],
       "aliases": [
         "YLSY MEB 1416 Yurt Dışı Lisansüstü Eğitim Bursu"
       ],

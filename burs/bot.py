@@ -62,6 +62,12 @@ RELEVANT = re.compile(
 SIGNAL = re.compile(
     r"deadline|apply|application|call|scholarship|ielts|open|closed|başvuru|burs|son tarih|"
     r"kontenjan|scadenza|\b20(2[6-9])\b", re.I)
+# Somut bilgi: bir değişikliğin bildirilmesi için satırda bunlardan biri olmalı
+CONCRETE = re.compile(
+    r"open|closed|clos|deadline|açıl|başla|kapan|son tarih|son başvuru|kontenjan|ielts|toefl|"
+    r"scadenza|€|\$|tl\b|call for", re.I)
+# Tek başına tarih/saat satırları (haber listelerindeki "27.10.2026 / 16:24" gibi)
+DATE_ONLY = re.compile(r"^[\d./:\s\-–]+$")
 DEADLINE_WORDS = re.compile(r"deadline|son başvuru|closes?|closing|apply by|until|scadenza|son tarih", re.I)
 
 # Erasmus Mundus kataloğu süzgeci: sosyal bilimler / insan hakları ile ilgili program adları
@@ -204,21 +210,39 @@ def check_pages(data, state):
                 changes.append((item, "Resmî belge (PDF) değişti, kontrol et.", url))
                 pages[url]["changed"] = TODAY.isoformat()
                 continue
-            signal = [l for l in added if SIGNAL.search(l)]
+            signal = [l for l in added if is_signal(l)]
             if not signal:
                 print(f"Önemsiz değişiklik: {url}")
                 continue
+            removed = [l for l in rec["lines"] if l not in set(lines)]
             pages[url]["changed"] = TODAY.isoformat()
-            changes.append((item, describe(item, signal), url))
+            changes.append((item, describe(item, signal, removed), url))
             print(f"Değişti: {url}")
     return changes
 
 
-def describe(item, added):
-    parts = ["Sayfaya eklenen satırlar:"]
-    parts += [f"• {l[:300]}" for l in added[:6]]
-    if len(added) > 6:
-        parts.append(f"(+{len(added) - 6} satır daha)")
+def is_signal(line):
+    """Bildirilmeye değer satır: başvuruyla ilgili VE somut (tarih, puan, açıldı/kapandı, tutar)."""
+    if DATE_ONLY.match(line) or "[...]" in line:
+        return False
+    return bool(SIGNAL.search(line) and (CONCRETE.search(line) or find_dates(line) or find_ielts(line)))
+
+
+def describe(item, added, removed=()):
+    import difflib
+    parts = []
+    for line in added[:5]:
+        # Aynı satırın eski hali varsa "önce → şimdi" göster (ör. tarih değişmiş)
+        best = max(removed, key=lambda r: difflib.SequenceMatcher(None, r, line).ratio(), default=None)
+        if best and difflib.SequenceMatcher(None, best, line).ratio() > 0.6:
+            parts.append(f"✏️ Önce: {best[:250]}\n➡️ Şimdi: {line[:250]}")
+        else:
+            parts.append(f"➕ Yeni: {line[:300]}")
+    if len(added) > 5:
+        parts.append(f"(+{len(added) - 5} satır daha, sayfaya bak)")
+    if item.get("deadline"):
+        parts.append(f"Listedeki son başvuru: {mail.parse_date(item['deadline']).strftime('%d.%m.%Y')}"
+                     + (" (tahmini)" if "tahmin" in (item.get("deadline_note") or "") else ""))
     joined = "\n".join(added)
     dates = [d for d in find_dates(joined) if d >= TODAY.isoformat()]
     if dates:
@@ -510,8 +534,7 @@ def telegram_messages(data, weekly, due, news, found, changes):
         events.append(f"🆕 <b>Yeni Erasmus Mundus programı</b>\n{t(f['title'])}\n🗣 {t(f['ielts'])}\n"
                       f"💰 Ayda €1.400 + ücretsiz\n🔗 {tlink(f['site'], 'Program sitesi')}")
     for item, note, url in changes:
-        lines = [l for l in note.split("\n") if l and not l.startswith("Sayfaya eklenen")]
-        body = "\n".join(t(l[:220]) for l in lines[:6])
+        body = "\n".join(t(l) for l in note.split("\n") if l)
         events.append(f"🔔 <b>Sayfada değişiklik: {t(item.get('short') or item['name'])}</b>\n{body}\n"
                       f"🔗 {tlink(url, 'Sayfayı aç')}")
 
