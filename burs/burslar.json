@@ -249,7 +249,7 @@
     {
       "rank": 11,
       "name": "NOHA — Erasmus Mundus, İnsani Yardım",
-      "where": "Avrupa'da çok üniversiteli konsorsiyum",
+      "where": "KU Leuven (Belçika) koordinatörlüğünde Avrupa konsorsiyumu",
       "field": "İnsani yardım",
       "coverage": "Tam: okul ücreti yok + ayda €1.400",
       "ielts": "IELTS 6.5, hiçbir bölüm 6.0 altı değil",
@@ -438,19 +438,19 @@
       "short": "MAiSI – Spor Etiği (Erasmus Mundus)",
       "flag": "🇪🇺",
       "name": "Erasmus Mundus MAiSI – Sports Ethics and Integrity",
-      "where": "Avrupa'da çok üniversiteli konsorsiyum",
+      "where": "KU Leuven (Belçika) koordinatörlüğünde Avrupa konsorsiyumu",
       "field": "Spor etiği ve dürüstlüğü, spor yönetişimi",
       "summary": "Erasmus Mundus bursu: ücretsiz + aylık burs",
       "coverage": "Erasmus Mundus bursu: okul ücreti yok + aylık yaşam bursu (tutar kaynaklara göre €1.000–1.400).",
       "ielts": "İngilizce şartı programın sayfasında",
       "ielts_fit": null,
       "turkey": "Uygun (Türkiye Erasmus+ ortak ülke)",
-      "deadline": "2027-03-01",
-      "deadline_note": "tahmini — 2026'da burs son tarihi 1 Mart idi",
+      "deadline": "2027-02-01",
+      "deadline_note": "tahmini — resmi sitede Erasmus Mundus bursu için son tarih 1 Şubat (burssuz AB dışı: 1 Nisan)",
       "notes": "Spor/rekreasyon geçmişine uygun, tam burslu yurt dışı yüksek lisans seçeneği.",
-      "link": "https://ioa.org.gr/list-of-activities/maisi",
+      "link": "https://www.maisi-project.eu/",
       "watch": [
-        "https://ioa.org.gr/list-of-activities/maisi"
+        "https://www.maisi-project.eu/"
       ],
       "aliases": [
         "Sports Ethics and Integrity MAiSI"
