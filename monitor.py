@@ -457,7 +457,9 @@ def build_digest(slot, current, failed, watched_norm):
 
 
 def send_digest(state, current, failed, watched_norm):
-    slot = digest_slot(datetime.now(ISTANBUL))
+    now = datetime.now(ISTANBUL)
+    # İlk özet beklemeden (gece de olsa) gönderilir; sonrakiler sabah ve akşam
+    slot = digest_slot(now) or (None if "digest_last" in state else f"{now:%Y-%m-%d} ilk")
     if not slot or state.get("digest_last") == slot or not current:
         return
     notify("📋 Bilet özeti", build_digest(slot, current, failed, watched_norm))
