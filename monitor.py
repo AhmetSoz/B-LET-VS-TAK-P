@@ -8,7 +8,7 @@ ve yetişkin oyunları için şu durumlarda haber verir:
   * bir oyuna yeni seans (tarih) eklendiğinde,
   * bir seansta bilet satışa açıldığında (tükenmişken iade, "yakında" iken satış başlaması),
     en az MIN_TICKETS bilet kalmışsa.
-Ayrıca satış açılmadan 30 dk önce hatırlatır; her gün sabah ve akşam bütün oyunların seans,
+Ayrıca satış açılmadan 1 saat ve 30 dk önce hatırlatır; her gün sabah ve akşam bütün oyunların seans,
 kalan bilet ve satış açılış durumunu özet olarak gönderir.
 
 izlenenler.txt'deki oyunlar (izlediklerimiz) atlanır. Telegram'dan bota
@@ -37,13 +37,14 @@ from datetime import datetime, timedelta, timezone
 CONFIG_FILE = os.environ.get("CONFIG_FILE", "config.json")
 STATE_FILE = os.environ.get("STATE_FILE", "state.json")
 WATCHED_FILE = os.environ.get("WATCHED_FILE", "izlenenler.txt")
+GENRES_FILE = os.environ.get("GENRES_FILE", "turler.json")
 # Kaç kişilik bilet arıyoruz? Kalan bilet bundan azsa "bilet açıldı" bildirimi gönderilmez.
 MIN_TICKETS = int(os.environ.get("MIN_TICKETS") or "2")
 # Aynı seans için "bilet açıldı" bildirimi en fazla bu sıklıkta (sepet iptalleriyle
 # seans tükendi/açıldı arasında gidip gelebiliyor)
 REOPEN_COOLDOWN = 60 * 60
-# Satış açılmadan bu kadar önce hatırlatma gönderilir
-REMIND_BEFORE = 30 * 60
+# Satış açılmadan bu kadar önce hatırlatma gönderilir (1 saat ve yarım saat kala)
+REMIND_BEFORE = (60 * 60, 30 * 60)
 # Günlük özet saatleri (Türkiye saati); gece yarısı ile ilk saat arasında özet gönderilmez
 DIGEST_HOURS = (("sabah", 8), ("akşam", 19))
 # --watch modunda, yaklaşan bir satış açılışı varken kaç saniyede bir kontrol edilir
@@ -180,6 +181,32 @@ def bi_is_kids(page):
     return "çocuk" in kind.replace("Ç", "ç").lower() or bool(age and int(age.group(2)) <= 12)
 
 
+def genre_of(name, site_type):
+    """Önce turler.json, yoksa Biletinial'deki tür ("Yetişkin Oyunu" gibi genel etiketler hariç)."""
+    genres = {normalize(k): v for k, v in load_json(GENRES_FILE, {}).items() if not k.startswith("_")}
+    if normalize(name) in genres:
+        return genres[normalize(name)]
+    t = site_type.lower().replace("Ç", "ç")
+    for key, label in (("müzikal", "Müzikal"), ("kara mizah", "Kara komedi / Hiciv"), ("hiciv", "Kara komedi / Hiciv"),
+                       ("komedi", "Komedi"), ("kabare", "Komedi"), ("stand", "Komedi"),
+                       ("dram", "Dram"), ("trajedi", "Dram")):
+        if key in t:
+            return label
+    return "Diğer"
+
+
+def bi_play_info(page, name):
+    """Oyun sayfasından tür, puan ve yorum sayısı."""
+    kind = re.search(r"<dt>Etkinlik Türü</dt>\s*<dd>([^<]*)</dd>", page)
+    rating = re.search(r'event-summary-rating.*?</svg>\s*([\d,]+)\s*</span>(?:.*?</svg>\s*(\d+)\s*Yorum)?',
+                       page, re.S)
+    return {
+        "genre": genre_of(name, html.unescape(kind.group(1)) if kind else ""),
+        "rating": float(rating.group(1).replace(",", ".")) if rating else None,
+        "reviews": int(rating.group(2)) if rating and rating.group(2) else 0,
+    }
+
+
 def bi_parse_sessions(page, venue_path):
     if 'class="container session-v2"' not in page:
         raise RuntimeError("seans bölümü tanınmadı (sayfa yapısı değişmiş olabilir)")
@@ -221,13 +248,16 @@ def fetch_biletinial(src, watched):
     kids = set(bi_list_plays(url + ("&" if "?" in url else "?") + "isKids=true"))
     plays = {s: p for s, p in plays.items() if s not in kids}
     kid_pages = set()
+    by_page = {p["page"]: p for p in plays.values()}
 
     def read(page_url):
         page = http(page_url)
         if bi_is_kids(page):
             kid_pages.add(page_url)
             return {}
-        return bi_parse_sessions(page, venue_path)
+        sessions = bi_parse_sessions(page, venue_path)
+        by_page[page_url].update(bi_play_info(page, by_page[page_url]["name"]))
+        return sessions
 
     todo = [s for s, p in plays.items() if not is_watched(p["name"], watched)]
     fetch_sessions(plays, todo, read)
@@ -334,6 +364,7 @@ def stored(play):
     return {
         "name": play["name"],
         "page": play["page"],
+        **{k: play[k] for k in ("genre", "rating", "reviews") if play.get(k) is not None},
         "sessions": {
             sid: {"label": s["label"], "stage": s["stage"], "status": s["status"],
                   **({"opens_ts": s["opens_ts"]} if s.get("opens_ts") else {})}
@@ -380,6 +411,13 @@ def short_label(label):
         return label
     t = datetime.fromtimestamp(ts, ISTANBUL)
     return f"{t:%d.%m} {DAYS[t.weekday()]} {t:%H:%M}"
+
+
+def play_meta(play):
+    bits = [play.get("genre") or ""]
+    if play.get("rating"):
+        bits.append(f"⭐{play['rating']:.1f}".replace(".", ",") + f" ({play.get('reviews', 0)} yorum)")
+    return " · ".join(b for b in bits if b)
 
 
 def digest_status(s):
@@ -434,13 +472,13 @@ def build_digest(slot, current, failed, watched_norm):
             if statuses <= {SOLDOUT, CANCELLED}:  # hepsi tükenmiş: tek satır yeter
                 rank = 2
                 first, last = (short_label(sessions[i]["label"])[:5] for i in (0, -1))
-                text = (f"🎭 {play['name']} — " + (f"{first} seansı tükendi" if len(sessions) == 1 else
+                text = (f"🎭 {play['name']} ({play_meta(play)}) — " + (f"{first} seansı tükendi" if len(sessions) == 1 else
                         f"{len(sessions)} seansın hepsi tükendi ({first}–{last})") + f"\n{play['page']}")
             else:
                 rank = 0 if statuses & {OPEN, FEW} else 1
                 lines = [f"• {short_label(s['label'])} · {s['stage'].replace(' Sahnesi', '')} — {digest_status(s)}"
                          for s in sessions]
-                text = f"🎭 {play['name']}\n" + "\n".join(lines) + f"\n{play['page']}"
+                text = f"🎭 {play['name']}\n{play_meta(play)}\n" + "\n".join(lines) + f"\n{play['page']}"
             active.append((rank, label_ts(sessions[0]["label"]), text))
         open_count = sum(1 for r, _, _ in active if r == 0)
         blocks.append(f"🏛 {src_name} — {len(active)} oyunun seansı var, {open_count} oyunda bilet satışta")
@@ -453,6 +491,42 @@ def build_digest(slot, current, failed, watched_norm):
         lines = [f"• {fmt_time(ts) if ts else 'yakında'} — {name} ({short_label(s['label'])})"
                  for ts, name, s in sorted(soon, key=lambda x: x[0])]
         blocks.insert(1, "⏰ YAKINDA SATIŞA AÇILACAK\n" + "\n".join(lines))
+    return "\n\n".join(blocks)
+
+
+def recommendations(sources, watched_norm):
+    """Oyunları türe göre ayırıp puan ve yorum sayısına göre sıralar (az yorumlu yüksek puan
+    şişmesin diye ağırlıklı puan: (v·R + m·C) / (v + m))."""
+    plays = [p for ps in sources.values() for p in ps.values()
+             if p.get("rating") and not is_watched(p["name"], watched_norm)]
+    if not plays:
+        return "Henüz puan bilgisi yok; bir sonraki taramadan sonra tekrar dene."
+    mean, m = sum(p["rating"] for p in plays) / len(plays), 100
+
+    def score(p):
+        v = p.get("reviews", 0)
+        return (v * p["rating"] + m * mean) / (v + m)
+
+    groups = {}
+    for p in sorted(plays, key=score, reverse=True):
+        groups.setdefault(p.get("genre") or "Diğer", []).append(p)
+    order = sorted(groups, key=lambda g: -score(groups[g][0]))
+    blocks = ["🏆 En beğenilen oyunlar (türe göre, puan + yorum sayısına göre sıralı)"]
+    for g in order:
+        lines = []
+        for i, p in enumerate(groups[g], 1):
+            sessions = [s for s in p.get("sessions", {}).values() if is_future(s, 0)]
+            if any(s["status"] in (OPEN, FEW) for s in sessions):
+                state_txt = "✅ bilet var"
+            elif any(s["status"] == SOON for s in sessions):
+                state_txt = "⏰ satış yakında"
+            elif sessions:
+                state_txt = "❌ tükendi"
+            else:
+                state_txt = "seans yok"
+            rating = f"{p['rating']:.1f}".replace(".", ",")
+            lines.append(f"{i}. {p['name']} — ⭐{rating} ({p.get('reviews', 0)} yorum) · {state_txt}\n   {p['page']}")
+        blocks.append(f"🎭 {g}\n" + "\n".join(lines))
     return "\n\n".join(blocks)
 
 
@@ -622,7 +696,8 @@ HELP = (
     "Komutlar:\n"
     "/gittik <oyun adı> – bu oyunu artık takip etme\n"
     "/gerial <oyun adı> – oyunu tekrar takibe al\n"
-    "/liste – izlediğimiz (takip edilmeyen) oyunlar"
+    "/liste – izlediğimiz (takip edilmeyen) oyunlar\n"
+    "/oneri – türe göre en beğenilen oyunlar (puan ve yorum sayısına göre)"
 )
 
 
@@ -656,13 +731,16 @@ def handle_telegram_commands(state, watched):
             changed |= len(watched) != before
             reply = (f"“{arg}” tekrar takipte ✅" if len(watched) != before
                      else f"“{arg}” listede yoktu. /liste ile bakabilirsin.")
+        elif cmd in ("oneri", "öneri", "oneriler", "öneriler", "enler"):
+            reply = recommendations(state.get("sources", {}), [normalize(w) for w in watched])
         elif cmd == "liste":
             reply = ("İzlediğimiz oyunlar:\n" + "\n".join(f"• {w}" for w in watched)
                      if watched else "Liste boş.")
         else:
             reply = HELP
         try:
-            telegram_api("sendMessage", chat_id=chat_id, text=reply)
+            for part in split_message(reply):
+                telegram_api("sendMessage", chat_id=chat_id, text=part, disable_web_page_preview="true")
         except Exception as e:
             print("Telegram cevabı gönderilemedi:", e, file=sys.stderr)
     return changed
@@ -687,19 +765,23 @@ def pending_openings(sources, watched_norm):
 
 
 def send_reminders(state, watched_norm):
-    """Satışı REMIND_BEFORE içinde açılacak seanslar için bir kez hatırlatma gönderir."""
+    """Satışın açılmasına 1 saat ve yarım saat kala birer kez hatırlatma gönderir."""
     now = time.time()
     reminded = {k: t for k, t in state.get("reminded", {}).items() if now - t < 3 * 86400}
     due = {}
     for src_id, slug, sid, play, s in pending_openings(state["sources"], watched_norm):
-        key = f"{session_key(src_id, slug, sid)}@{s['opens_ts']}"
-        if key not in reminded and 0 < s["opens_ts"] - now <= REMIND_BEFORE + 60:
+        base = f"{session_key(src_id, slug, sid)}@{s['opens_ts']}"
+        left = s["opens_ts"] - now
+        hit = [b for b in REMIND_BEFORE if f"{base}@{b}" not in reminded and 0 < left <= b + 60]
+        if hit:  # geç kalınan (ör. 1 saatlik) hatırlatmalar tek mesajda birleşir
+            for b in hit:
+                reminded[f"{base}@{b}"] = now
             due.setdefault(s["opens_ts"], []).append((play, s))
-            reminded[key] = now
     for opens_ts, items in sorted(due.items()):
         minutes = max(1, round((opens_ts - now) / 60))
+        when = "1 saat" if 55 <= minutes <= 65 else f"{minutes} dakika"
         lines = [f"🎭 {play['name']}\n• {s['label']}\n  {play['page']}" for play, s in items]
-        title = f"⏰ {minutes} dakika sonra ({fmt_time(opens_ts, with_date=False)}) bilet satışı açılıyor!"
+        title = f"⏰ {when} sonra ({fmt_time(opens_ts, with_date=False)}) bilet satışı açılıyor!"
         notify(title, "Hazırlan, unutma 🙂\n\n" + "\n\n".join(lines))
         print("Hatırlatma:", title)
     state["reminded"] = reminded
@@ -792,8 +874,8 @@ def next_wakeup(state, watched_norm):
     now = time.time()
     times = []
     for src_id, slug, sid, play, s in pending_openings(state.get("sources", {}), watched_norm):
-        if f"{session_key(src_id, slug, sid)}@{s['opens_ts']}" not in state.get("reminded", {}):
-            times.append(s["opens_ts"] - REMIND_BEFORE)
+        base = f"{session_key(src_id, slug, sid)}@{s['opens_ts']}"
+        times += [s["opens_ts"] - b for b in REMIND_BEFORE if f"{base}@{b}" not in state.get("reminded", {})]
         times.append(s["opens_ts"] + 60)
     times.append(next_digest_time(datetime.now(ISTANBUL)))
     future = [t for t in times if t > now]
