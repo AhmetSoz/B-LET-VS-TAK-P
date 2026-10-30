@@ -8,6 +8,8 @@ ve yetişkin oyunları için şu durumlarda haber verir:
   * bir oyuna yeni seans (tarih) eklendiğinde,
   * bir seansta bilet satışa açıldığında (tükenmişken iade, "yakında" iken satış başlaması),
     en az MIN_TICKETS bilet kalmışsa.
+Ayrıca satış açılmadan 30 dk önce hatırlatır; her gün sabah ve akşam bütün oyunların seans,
+kalan bilet ve satış açılış durumunu özet olarak gönderir.
 
 izlenenler.txt'deki oyunlar (izlediklerimiz) atlanır. Telegram'dan bota
 "/gittik <oyun adı>" yazılarak da bu listeye ekleme yapılabilir.
@@ -42,6 +44,8 @@ MIN_TICKETS = int(os.environ.get("MIN_TICKETS") or "2")
 REOPEN_COOLDOWN = 60 * 60
 # Satış açılmadan bu kadar önce hatırlatma gönderilir
 REMIND_BEFORE = 30 * 60
+# Günlük özet saatleri (Türkiye saati); gece yarısı ile ilk saat arasında özet gönderilmez
+DIGEST_HOURS = (("sabah", 8), ("akşam", 19))
 # --watch modunda, yaklaşan bir satış açılışı varken kaç saniyede bir kontrol edilir
 POLL_INTERVAL = 10 * 60
 # Bir kaynak bu kadar tur üst üste okunamazsa haber ver (5 dk x 12 = 1 saat)
@@ -365,6 +369,102 @@ def is_future(s, margin=30 * 60):
     return ts is not None and ts > time.time() + margin
 
 
+# --------------------------------------------------------------------------- günlük özet
+
+DAYS = "Pzt Sal Çar Per Cum Cmt Paz".split()
+
+
+def short_label(label):
+    ts = label_ts(label)
+    if ts is None:
+        return label
+    t = datetime.fromtimestamp(ts, ISTANBUL)
+    return f"{t:%d.%m} {DAYS[t.weekday()]} {t:%H:%M}"
+
+
+def digest_status(s):
+    r = s.get("remaining")
+    if s["status"] == OPEN:
+        return "✅ bilet var" + (f" (son {r})" if r else "")
+    if s["status"] == FEW:
+        return f"⚠️ son {r} bilet"
+    if s["status"] == SOON:
+        return f"⏰ satış {fmt_time(s['opens_ts'])}" if s.get("opens_ts") else "⏰ yakında"
+    if s["status"] == CANCELLED:
+        return "🚫 iptal"
+    return "❌ tükendi"
+
+
+def digest_slot(now):
+    """Şu an geçerli özet dilimi ("2026-10-30 sabah") ya da gece saatlerinde None."""
+    current = None
+    for name, hour in DIGEST_HOURS:
+        if now.hour >= hour:
+            current = f"{now:%Y-%m-%d} {name}"
+    return current
+
+
+def next_digest_time(now):
+    for _, hour in DIGEST_HOURS:
+        t = now.replace(hour=hour, minute=0, second=0, microsecond=0)
+        if t > now:
+            return t.timestamp()
+    t = now.replace(hour=DIGEST_HOURS[0][1], minute=0, second=0, microsecond=0) + timedelta(days=1)
+    return t.timestamp()
+
+
+def build_digest(slot, current, failed, watched_norm):
+    """Takip edilen mekanlardaki bütün yetişkin oyunlarının güncel seans listesi."""
+    blocks = [f"📋 Bilet özeti ({slot.split()[-1]}) — {datetime.now(ISTANBUL):%d.%m.%Y %H:%M}"]
+    soon = []
+    for src_name, plays in current.items():
+        active, empty = [], []
+        for play in plays.values():
+            if is_watched(play["name"], watched_norm):
+                continue
+            sessions = sorted((s for s in play.get("sessions", {}).values() if is_future(s, 0)),
+                              key=lambda s: label_ts(s["label"]))
+            if not sessions:
+                empty.append(play["name"])
+                continue
+            for s in sessions:
+                if s["status"] == SOON:
+                    soon.append((s.get("opens_ts") or 0, play["name"], s))
+            statuses = {s["status"] for s in sessions}
+            if statuses <= {SOLDOUT, CANCELLED}:  # hepsi tükenmiş: tek satır yeter
+                rank = 2
+                first, last = (short_label(sessions[i]["label"])[:5] for i in (0, -1))
+                text = (f"🎭 {play['name']} — " + (f"{first} seansı tükendi" if len(sessions) == 1 else
+                        f"{len(sessions)} seansın hepsi tükendi ({first}–{last})") + f"\n{play['page']}")
+            else:
+                rank = 0 if statuses & {OPEN, FEW} else 1
+                lines = [f"• {short_label(s['label'])} · {s['stage'].replace(' Sahnesi', '')} — {digest_status(s)}"
+                         for s in sessions]
+                text = f"🎭 {play['name']}\n" + "\n".join(lines) + f"\n{play['page']}"
+            active.append((rank, label_ts(sessions[0]["label"]), text))
+        open_count = sum(1 for r, _, _ in active if r == 0)
+        blocks.append(f"🏛 {src_name} — {len(active)} oyunun seansı var, {open_count} oyunda bilet satışta")
+        blocks += [b for _, _, b in sorted(active)]
+        if empty:
+            blocks.append("Şu an seansı olmayan: " + ", ".join(sorted(empty)))
+    for name in failed:
+        blocks.append(f"⚠️ {name} bu turda okunamadı.")
+    if soon:
+        lines = [f"• {fmt_time(ts) if ts else 'yakında'} — {name} ({short_label(s['label'])})"
+                 for ts, name, s in sorted(soon, key=lambda x: x[0])]
+        blocks.insert(1, "⏰ YAKINDA SATIŞA AÇILACAK\n" + "\n".join(lines))
+    return "\n\n".join(blocks)
+
+
+def send_digest(state, current, failed, watched_norm):
+    slot = digest_slot(datetime.now(ISTANBUL))
+    if not slot or state.get("digest_last") == slot or not current:
+        return
+    notify("📋 Bilet özeti", build_digest(slot, current, failed, watched_norm))
+    state["digest_last"] = slot
+    print(f"Günlük özet gönderildi ({slot})")
+
+
 def diff_source(src_name, old_plays, plays, watched, notified):
     """Bildirilecek değişiklikleri [(başlık, metin)] olarak döndürür.
     notified: {seans_anahtarı: son "açıldı" bildirimi zamanı}, burada güncellenir."""
@@ -442,13 +542,29 @@ def telegram_enabled():
     return bool(os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID"))
 
 
+def split_message(text, limit=4000):
+    """Telegram mesaj sınırı 4096 karakter: metni oyun bloklarının arasından böler."""
+    parts, cur = [], ""
+    for block in text.split("\n\n"):
+        while len(block) > limit:
+            parts += [cur] if cur else []
+            parts.append(block[:limit])
+            cur, block = "", block[limit:]
+        if cur and len(cur) + 2 + len(block) > limit:
+            parts.append(cur)
+            cur = block
+        else:
+            cur = f"{cur}\n\n{block}" if cur else block
+    return parts + ([cur] if cur else [])
+
+
 def notify_telegram(title, body):
     if not telegram_enabled():
         return
     text = f"{title}\n\n{body}" if title not in body else body
-    for i in range(0, len(text), 4000):  # Telegram mesaj sınırı 4096 karakter
+    for part in split_message(text):
         telegram_api("sendMessage", chat_id=os.environ["TELEGRAM_CHAT_ID"],
-                     text=text[i:i + 4000], disable_web_page_preview="true")
+                     text=part, disable_web_page_preview="true")
     print("Telegram bildirimi gönderildi")
 
 
@@ -602,6 +718,7 @@ def check_once():
     new_sources = {}
     failures = state.get("failures", {})
     all_changes = []
+    current, failed = {}, []  # günlük özet için bu turda okunan oyunlar
     # 1 günden eski bildirim kayıtlarını temizle
     notified = {
         src: {k: t for k, t in keys.items() if time.time() - t < 86400}
@@ -617,6 +734,7 @@ def check_once():
             plays = FETCHERS[src["type"]](src, watched_norm)
         except Exception as e:
             print(f"[{name}] okunamadı: {e}", file=sys.stderr)
+            failed.append(name)
             failures[sid] = failures.get(sid, 0) + 1
             if failures[sid] == FAIL_ALERT_AFTER:
                 notify(f"⚠️ {name} okunamıyor",
@@ -643,6 +761,7 @@ def check_once():
         else:
             all_changes += diff_source(name, old, plays, watched_norm, notified.setdefault(sid, {}))
         new_sources[sid] = {slug: stored(p) for slug, p in sorted(plays.items())}
+        current[name] = plays
 
     if all_changes:
         if len(all_changes) == 1:
@@ -660,19 +779,21 @@ def check_once():
     state["failures"] = failures
     state["notified"] = {k: v for k, v in notified.items() if v}
     send_reminders(state, watched_norm)
+    send_digest(state, current, failed, watched_norm)
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=1, sort_keys=True)
         f.write("\n")
 
 
 def next_wakeup(state, watched_norm):
-    """Bir sonraki önemli an: hatırlatma zamanı ya da satışın açıldığı dakika."""
+    """Bir sonraki önemli an: hatırlatma zamanı, satışın açıldığı dakika ya da günlük özet saati."""
     now = time.time()
     times = []
     for src_id, slug, sid, play, s in pending_openings(state.get("sources", {}), watched_norm):
         if f"{session_key(src_id, slug, sid)}@{s['opens_ts']}" not in state.get("reminded", {}):
             times.append(s["opens_ts"] - REMIND_BEFORE)
         times.append(s["opens_ts"] + 60)
+    times.append(next_digest_time(datetime.now(ISTANBUL)))
     future = [t for t in times if t > now]
     return min(future) if future else None
 
