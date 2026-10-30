@@ -455,6 +455,33 @@
       "aliases": [
         "Sports Ethics and Integrity MAiSI"
       ]
+    },
+    {
+      "id": "isvec",
+      "rank": 21,
+      "short": "İsveç – Lund Global Scholarship",
+      "flag": "🇸🇪",
+      "name": "İsveç yüksek lisans – Lund University Global Scholarship (SI bursu Türkiye'ye kapalı)",
+      "where": "Lund Üniversitesi (İsveç); başvuru universityadmissions.se üzerinden",
+      "field": "İngilizce yüksek lisans programları (sosyal bilimler, insan hakları dahil)",
+      "summary": "Okul ücretinin bir kısmı ya da tamamı; yaşam masrafı yok",
+      "coverage": "Lund Global Scholarship: okul ücretinin %25–100'ü, yaşam masrafı karşılanmaz. Instagram'daki 'SEK 12.000/ay + yol parası' bursu Swedish Institute (SISGP) bursudur ve Türkiye uygun 34 ülke arasında DEĞİL.",
+      "ielts": "İsveç'te genelde 'English 6': IELTS 6.5, hiçbir bölüm 5.5 altı değil",
+      "ielts_fit": "yuksek",
+      "turkey": "Lund bursu: uygun (AB dışı, ücret ödeyen öğrenci). SI bursu: uygun değil.",
+      "deadline": "2027-01-15",
+      "deadline_note": "15 Ocak 2027 universityadmissions.se program başvurusu (Lund 1. tercih olmalı); Lund burs başvurusu Şubat 2027'de açılır (tahmini)",
+      "notes": "Önce IELTS 6.5 gerekir. Burs sadece okul ücretini karşıladığı için yaşam masrafı (aylık ~SEK 10.000+) için ek kaynak lazım.",
+      "link": "https://www.lunduniversity.lu.se/admissions/bachelors-and-masters-studies/scholarships-and-awards/lund-university-global-scholarship",
+      "watch": [
+        "https://www.lunduniversity.lu.se/admissions/bachelors-and-masters-studies/scholarships-and-awards/lund-university-global-scholarship",
+        "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/"
+      ],
+      "aliases": [
+        "Swedish Institute Scholarships for Global Professionals",
+        "SISGP",
+        "Lund University Global Scholarship"
+      ]
     }
   ],
   "sources": [
