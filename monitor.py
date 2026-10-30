@@ -88,8 +88,8 @@ def is_watched(name, watched):
 
 
 def parse_acilis(value, tz):
-    """'202610171400' -> datetime. Biletinial butondaki değeri UTC, görünen yazıdakini
-    (data-acilisText) Türkiye saatiyle verir; Şehir Tiyatroları Türkiye saatiyle verir."""
+    """'202610171400' -> datetime. Biletinial butondaki değeri (data-acilis) UTC verir;
+    Şehir Tiyatroları Türkiye saatiyle verir."""
     try:
         return datetime.strptime(value, "%Y%m%d%H%M").replace(tzinfo=tz)
     except (TypeError, ValueError):
@@ -167,43 +167,46 @@ def bi_list_plays(url):
     return plays
 
 
-def bi_sessions(page_url, venue_path):
-    page = http(page_url)
-    if "<h1" not in page:
-        raise RuntimeError("sayfa tanınmadı")
+def bi_is_kids(page):
+    """Oyun sayfasındaki "Etkinlik Türü"/"Yaş Sınırı" bilgisinden çocuk oyunu mu anlar.
+    (Mekan sayfasındaki "Çocuklar İçin" filtresi her çocuk oyununu göstermiyor.)"""
+    kind = re.search(r"<dt>Etkinlik Türü</dt>\s*<dd>([^<]*)</dd>", page)
+    age = re.search(r"<dt>Yaş Sınırı</dt>\s*<dd>\s*(\d+)\s*-\s*(\d+)\s*</dd>", page)
+    kind = html.unescape(kind.group(1)) if kind else ""
+    return "çocuk" in kind.replace("Ç", "ç").lower() or bool(age and int(age.group(2)) <= 12)
+
+
+def bi_parse_sessions(page, venue_path):
+    if 'class="container session-v2"' not in page:
+        raise RuntimeError("seans bölümü tanınmadı (sayfa yapısı değişmiş olabilir)")
     sessions = {}
-    for block in re.split(r'<div class="ed-biletler__sehir__gun"', page)[1:]:
-        place = re.search(rf'<a href="{re.escape(venue_path)}" title="([^"]*)"', block)
-        link = re.search(r'class="seance-share"[^>]*data-url="([^"]+)"', block)
+    for row in re.split(r'<div class="row" id="seans-', page)[1:]:
+        row = row.split('<div class="session-extras"')[0].split("</section>")[0]
+        place = re.search(rf'<a href="{re.escape(venue_path)}"[^>]*>(.*?)</a>', row, re.S)
+        link = re.search(r'class="seance-share"[^>]*data-url="([^"]+)"', row)
         if not (place and link):
             continue  # başka mekandaki seans
-        button = re.search(r'<button[^>]*class="seanceSelect[^"]*"[^>]*>', block)
-        label = re.search(r'itemprop="startDate"[^>]*>([^<]+)<', block)
-        remaining = re.search(r"Son\s+(\d+)\s+Bilet", block)
+        day = re.search(r'<span class="d">([^<]+)</span>', row)
+        hour = re.search(r'<span class="tm">([^<]+)</span>', row)
+        label = ", ".join(html.unescape(m.group(1)).strip() for m in (day, hour) if m)
+        button = re.search(r'<button[^>]*class="[^"]*seanceSelect[^"]*"[^>]*>([^<]*)<', row)
+        remaining = re.search(r"Son\s+(\d+)\s+Bilet", row)
         remaining = int(remaining.group(1)) if remaining else None
         status, opens = SOLDOUT, None
-        event_status = re.search(r'itemprop="eventStatus" content="[^"]*/(\w+)"', block)
-        if event_status and event_status.group(1) in ("EventCancelled", "EventPostponed"):
-            button = None
+        text = html.unescape(button.group(1)).strip().lower() if button else ""
+        if re.search(r"iptal|ertelendi", text) or re.search(r'eventStatus" content="[^"]*/Event(Cancelled|Postponed)', row):
             status = CANCELLED
-        if button:
+        elif button:
             tag = button.group(0)
-            if "tukendi" in tag or "disabled" in tag:
+            if "sold-out" in tag or "tükendi" in text:
                 status = SOLDOUT
-            elif "data-acilis" in tag or "yakinda" in tag:
-                local = re.search(r'data-acilisText="(\d+)"', block)
+            elif "data-acilis" in tag or "yakında" in text:
                 utc = re.search(r'data-acilis="(\d+)"', tag)
-                opens = (parse_acilis(local.group(1), ISTANBUL) if local else None) or \
-                        (parse_acilis(utc.group(1), timezone.utc) if utc else None)
-                status, opens = acilis_status(opens)
-            else:
+                status, opens = acilis_status(parse_acilis(utc.group(1), timezone.utc) if utc else None)
+            elif "disabled" not in tag:
                 status = OPEN
         sid = link.group(1).rstrip("/").rsplit("/", 1)[-1]
-        sessions[sid] = session(
-            html.unescape(label.group(1)).strip() if label else "",
-            html.unescape(place.group(1)).strip(),
-            link.group(1), status, remaining, opens,
-        )
+        sessions[sid] = session(label, text_of(place.group(1)), link.group(1), status, remaining, opens)
     return sessions
 
 
@@ -211,11 +214,20 @@ def fetch_biletinial(src, watched):
     url = src["url"]
     venue_path = urllib.parse.urlparse(url).path
     plays = bi_list_plays(url)
-    kids = bi_list_plays(url + ("&" if "?" in url else "?") + "isKids=true")
+    kids = set(bi_list_plays(url + ("&" if "?" in url else "?") + "isKids=true"))
     plays = {s: p for s, p in plays.items() if s not in kids}
+    kid_pages = set()
+
+    def read(page_url):
+        page = http(page_url)
+        if bi_is_kids(page):
+            kid_pages.add(page_url)
+            return {}
+        return bi_parse_sessions(page, venue_path)
+
     todo = [s for s, p in plays.items() if not is_watched(p["name"], watched)]
-    fetch_sessions(plays, todo, lambda page: bi_sessions(page, venue_path))
-    return plays
+    fetch_sessions(plays, todo, read)
+    return {s: p for s, p in plays.items() if p["page"] not in kid_pages}
 
 
 # --------------------------------------------------------------------------- İBB Şehir Tiyatroları
