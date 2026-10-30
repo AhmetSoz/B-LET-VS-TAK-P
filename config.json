@@ -17,9 +17,9 @@
     {
       "id": "ibb-sehir-tiyatrolari",
       "name": "İBB Şehir Tiyatroları",
-      "type": "sehir_tiyatrolari",
-      "url": "https://sehirtiyatrolari.ibb.istanbul",
-      "enabled": false
+      "type": "biletinial",
+      "url": "https://biletinial.com/tr-tr/mekan/istanbul-bb-sehir-tiyatrolari",
+      "enabled": true
     }
   ]
 }
