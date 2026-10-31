@@ -189,13 +189,8 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 754,
+    "reviews": 760,
     "sessions": {
-     "18616638": {
-      "label": "31 Ekim Cumartesi, 20:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
-     },
      "18763077": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
@@ -228,13 +223,8 @@
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 409,
+    "reviews": 411,
     "sessions": {
-     "18616733": {
-      "label": "31 Ekim Cumartesi, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
-     },
      "18763198": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
@@ -316,7 +306,7 @@
      "18763102": {
       "label": "04 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763103": {
       "label": "06 Kasım Cuma, 20:00",
@@ -399,7 +389,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -503,13 +493,8 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 495,
+    "reviews": 505,
     "sessions": {
-     "18616340": {
-      "label": "31 Ekim Cumartesi, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
-     },
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
@@ -625,7 +610,7 @@
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -639,13 +624,8 @@
     "name": "Oscar",
     "page": "https://biletinial.com/tr-tr/tiyatro/oscar-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1483,
+    "reviews": 1500,
     "sessions": {
-     "18616309": {
-      "label": "31 Ekim Cumartesi, 20:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
-     },
      "18763148": {
       "label": "25 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
@@ -710,11 +690,6 @@
     "rating": 4.2,
     "reviews": 960,
     "sessions": {
-     "18616283": {
-      "label": "31 Ekim Cumartesi, 20:00",
-      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
-     },
      "18763039": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
@@ -910,20 +885,6 @@
      }
     }
    },
-   "tiyatro/yaftali-tabut-ibb": {
-    "genre": "Dram",
-    "name": "Yaftalı Tabut",
-    "page": "https://biletinial.com/tr-tr/tiyatro/yaftali-tabut-ibb?cinemaBranchId=4223",
-    "rating": 4.5,
-    "reviews": 1029,
-    "sessions": {
-     "18616607": {
-      "label": "31 Ekim Cumartesi, 20:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
-     }
-    }
-   },
    "tiyatro/yasamak-mi-olmek-mi-ibb": {
     "genre": "Kara komedi / Hiciv",
     "name": "Yaşamak mı, Yoksa Ölmek mi",
@@ -1052,27 +1013,12 @@
      "18763054": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
-     }
-    }
-   }
-  },
-  "muammer-karaca": {
-   "tiyatro/clown-jam": {
-    "genre": "Komedi",
-    "name": "Clown Jam",
-    "page": "https://biletinial.com/tr-tr/tiyatro/clown-jam?cinemaBranchId=39391",
-    "rating": 5.0,
-    "reviews": 3,
-    "sessions": {
-     "18785776": {
-      "label": "31 Ekim Cumartesi, 20:00",
-      "stage": "Muammer Karaca Tiyatrosu",
       "status": "soldout"
      }
     }
    }
-  }
+  },
+  "muammer-karaca": {}
  },
  "telegram_offset": 56457438
 }
