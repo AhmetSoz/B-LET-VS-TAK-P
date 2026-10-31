@@ -1,29 +1,29 @@
 {
- "digest_last": "2026-10-31 sabah",
+ "digest_last": "2026-10-31 akşam",
  "failures": {},
- "notified": {},
+ "notified": {
+  "ibb-sehir-tiyatrolari": {
+   "tiyatro/cingene-boksor-ibb/18763209": 1793445238.3769255,
+   "tiyatro/fosforlu-cevriye-ibb/18763045": 1793460513.754349,
+   "tiyatro/gecmisin-golgesi-ibb/18616637": 1793445238.3769255,
+   "tiyatro/gecmisin-golgesi-ibb/18616638": 1793445238.3769255,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763102": 1793456848.871795,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1793451961.4587238,
+   "tiyatro/hayalinin-hayali/18763029": 1793458070.475525,
+   "tiyatro/hayalinin-hayali/18763033": 1793445849.4331539,
+   "tiyatro/kahvaltiya-kalsana/18616340": 1793461735.6676006,
+   "tiyatro/oscar-ibb/18616308": 1793445849.4331539,
+   "tiyatro/oscar-ibb/18616309": 1793450128.2997255,
+   "tiyatro/savas-ve-baris-ibb/18616282": 1793445849.4331539,
+   "tiyatro/savas-ve-baris-ibb/18616283": 1793461735.6676006,
+   "tiyatro/sevgili-yelena-sergeyevna/18762775": 1793453183.7201548,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763037": 1793461124.72192,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763054": 1793461124.72192
+  }
+ },
  "reminded": {},
  "sources": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/agri-dagi-efsanesi": {
-    "genre": "Dram",
-    "name": "Ağrı Dağı Efsanesi",
-    "page": "https://biletinial.com/tr-tr/tiyatro/agri-dagi-efsanesi?cinemaBranchId=4223",
-    "rating": 4.8,
-    "reviews": 1514,
-    "sessions": {
-     "18616451": {
-      "label": "31 Ekim Cumartesi, 15:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
-     },
-     "18616452": {
-      "label": "31 Ekim Cumartesi, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
-     }
-    }
-   },
    "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu": {
     "genre": "Kara komedi / Hiciv",
     "name": "Arturo Ui'nin Önlenebilir Tırmanışı - İzmir Şehir Tiyatrosu",
@@ -191,11 +191,6 @@
     "rating": 4.5,
     "reviews": 754,
     "sessions": {
-     "18616637": {
-      "label": "31 Ekim Cumartesi, 15:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
-     },
      "18616638": {
       "label": "31 Ekim Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
@@ -235,11 +230,6 @@
     "rating": 4.7,
     "reviews": 409,
     "sessions": {
-     "18616732": {
-      "label": "31 Ekim Cumartesi, 15:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
-     },
      "18616733": {
       "label": "31 Ekim Cumartesi, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
@@ -321,12 +311,12 @@
      "18763100": {
       "label": "04 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763102": {
       "label": "04 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763103": {
       "label": "06 Kasım Cuma, 20:00",
@@ -515,15 +505,10 @@
     "rating": 3.9,
     "reviews": 495,
     "sessions": {
-     "18616339": {
-      "label": "31 Ekim Cumartesi, 15:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
      "18616340": {
       "label": "31 Ekim Cumartesi, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -640,7 +625,7 @@
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -656,11 +641,6 @@
     "rating": 4.7,
     "reviews": 1483,
     "sessions": {
-     "18616308": {
-      "label": "31 Ekim Cumartesi, 15:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
-     },
      "18616309": {
       "label": "31 Ekim Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
@@ -728,13 +708,8 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 957,
+    "reviews": 960,
     "sessions": {
-     "18616282": {
-      "label": "31 Ekim Cumartesi, 15:00",
-      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
-     },
      "18616283": {
       "label": "31 Ekim Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
@@ -792,7 +767,7 @@
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -942,11 +917,6 @@
     "rating": 4.5,
     "reviews": 1029,
     "sessions": {
-     "18616606": {
-      "label": "31 Ekim Cumartesi, 15:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
-     },
      "18616607": {
       "label": "31 Ekim Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
@@ -1082,7 +1052,7 @@
      "18763054": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      }
     }
    }
