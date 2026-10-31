@@ -1,13 +1,16 @@
 {
- "digest_last": "2026-10-30 akşam",
+ "digest_last": "2026-10-31 sabah",
  "failures": {},
  "notified": {},
  "reminded": {},
  "sources": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/agri-dagi-efsanesi": {
+    "genre": "Dram",
     "name": "Ağrı Dağı Efsanesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/agri-dagi-efsanesi?cinemaBranchId=4223",
+    "rating": 4.8,
+    "reviews": 1514,
     "sessions": {
      "18616451": {
       "label": "31 Ekim Cumartesi, 15:00",
@@ -22,8 +25,10 @@
     }
    },
    "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu": {
+    "genre": "Kara komedi / Hiciv",
     "name": "Arturo Ui'nin Önlenebilir Tırmanışı - İzmir Şehir Tiyatrosu",
     "page": "https://biletinial.com/tr-tr/tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu?cinemaBranchId=4223",
+    "reviews": 0,
     "sessions": {
      "18762504": {
       "label": "04 Kasım Çarşamba, 20:00",
@@ -53,8 +58,11 @@
     }
    },
    "tiyatro/bir-ziyaret-ibb": {
+    "genre": "Kara komedi / Hiciv",
     "name": "Bir Ziyaret",
     "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
+    "rating": 4.4,
+    "reviews": 769,
     "sessions": {
      "18762347": {
       "label": "04 Kasım Çarşamba, 15:00",
@@ -89,8 +97,11 @@
     }
    },
    "tiyatro/cadi-kazani-ibb": {
+    "genre": "Dram",
     "name": "Cadı Kazanı",
     "page": "https://biletinial.com/tr-tr/tiyatro/cadi-kazani-ibb?cinemaBranchId=4223",
+    "rating": 4.4,
+    "reviews": 959,
     "sessions": {
      "18831592": {
       "label": "17 Kasım Salı, 20:00",
@@ -101,8 +112,11 @@
     }
    },
    "tiyatro/cingene-boksor-ibb": {
+    "genre": "Dram",
     "name": "Çingene Boksör",
     "page": "https://biletinial.com/tr-tr/tiyatro/cingene-boksor-ibb?cinemaBranchId=4223",
+    "rating": 4.6,
+    "reviews": 232,
     "sessions": {
      "18763190": {
       "label": "11 Kasım Çarşamba, 15:00",
@@ -137,8 +151,11 @@
     }
    },
    "tiyatro/fosforlu-cevriye-ibb": {
+    "genre": "Müzikal",
     "name": "Fosforlu Cevriye",
     "page": "https://biletinial.com/tr-tr/tiyatro/fosforlu-cevriye-ibb?cinemaBranchId=4223",
+    "rating": 4.8,
+    "reviews": 1129,
     "sessions": {
      "18763044": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -168,8 +185,11 @@
     }
    },
    "tiyatro/gecmisin-golgesi-ibb": {
+    "genre": "Dram",
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
+    "rating": 4.5,
+    "reviews": 754,
     "sessions": {
      "18616637": {
       "label": "31 Ekim Cumartesi, 15:00",
@@ -209,8 +229,11 @@
     }
    },
    "tiyatro/gidionun-dugumu-ibb": {
+    "genre": "Dram",
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
+    "rating": 4.7,
+    "reviews": 409,
     "sessions": {
      "18616732": {
       "label": "31 Ekim Cumartesi, 15:00",
@@ -255,8 +278,11 @@
     }
    },
    "tiyatro/gok-kubbe": {
+    "genre": "Dram",
     "name": "Gök Kubbe",
     "page": "https://biletinial.com/tr-tr/tiyatro/gok-kubbe?cinemaBranchId=4223",
+    "rating": 4.3,
+    "reviews": 1166,
     "sessions": {
      "18762739": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -286,8 +312,11 @@
     }
    },
    "tiyatro/golge-tiyatro-oyunu-ibb": {
+    "genre": "Dram",
     "name": "Gölge",
     "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
+    "rating": 4.3,
+    "reviews": 524,
     "sessions": {
      "18763100": {
       "label": "04 Kasım Çarşamba, 15:00",
@@ -322,8 +351,11 @@
     }
    },
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb": {
+    "genre": "Kara komedi / Hiciv",
     "name": "Gözlerimi Kaparım Vazifemi Yaparım",
     "page": "https://biletinial.com/tr-tr/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb?cinemaBranchId=4223",
+    "rating": 4.7,
+    "reviews": 1545,
     "sessions": {
      "18762777": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -358,8 +390,11 @@
     }
    },
    "tiyatro/haramiler": {
+    "genre": "Müzikal",
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
+    "rating": 4.5,
+    "reviews": 993,
     "sessions": {
      "18762735": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -389,8 +424,11 @@
     }
    },
    "tiyatro/hayalinin-hayali": {
+    "genre": "Dram",
     "name": "Hayalî'nin Hayali",
     "page": "https://biletinial.com/tr-tr/tiyatro/hayalinin-hayali?cinemaBranchId=4223",
+    "rating": 4.6,
+    "reviews": 128,
     "sessions": {
      "18762782": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -440,7 +478,7 @@
      "18763033": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763053": {
       "label": "05 Kasım Perşembe, 20:00",
@@ -450,8 +488,11 @@
     }
    },
    "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli": {
+    "genre": "Şiir / Gösteri",
     "name": "İstanbul Şiirle Buluşuyor - Birden Bire Orhan Veli",
     "page": "https://biletinial.com/tr-tr/tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli?cinemaBranchId=4223",
+    "rating": 5.0,
+    "reviews": 5,
     "sessions": {
      "18763223": {
       "label": "08 Kasım Pazar, 20:00",
@@ -468,8 +509,11 @@
     }
    },
    "tiyatro/kahvaltiya-kalsana": {
+    "genre": "Komedi",
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
+    "rating": 3.9,
+    "reviews": 495,
     "sessions": {
      "18616339": {
       "label": "31 Ekim Cumartesi, 15:00",
@@ -514,8 +558,11 @@
     }
    },
    "tiyatro/kopek-kalbi-ibb": {
+    "genre": "Kara komedi / Hiciv",
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
+    "rating": 4.4,
+    "reviews": 865,
     "sessions": {
      "18762766": {
       "label": "04 Kasım Çarşamba, 15:00",
@@ -575,8 +622,10 @@
     }
    },
    "tiyatro/kosebasi-ibb": {
+    "genre": "Diğer",
     "name": "Köşebaşı",
     "page": "https://biletinial.com/tr-tr/tiyatro/kosebasi-ibb?cinemaBranchId=4223",
+    "reviews": 0,
     "sessions": {
      "18762386": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -601,8 +650,11 @@
     }
    },
    "tiyatro/oscar-ibb": {
+    "genre": "Komedi",
     "name": "Oscar",
     "page": "https://biletinial.com/tr-tr/tiyatro/oscar-ibb?cinemaBranchId=4223",
+    "rating": 4.7,
+    "reviews": 1483,
     "sessions": {
      "18616308": {
       "label": "31 Ekim Cumartesi, 15:00",
@@ -632,8 +684,11 @@
     }
    },
    "tiyatro/oylece-durur-zaman": {
+    "genre": "Dram",
     "name": "Öylece Durur Zaman",
     "page": "https://biletinial.com/tr-tr/tiyatro/oylece-durur-zaman?cinemaBranchId=4223",
+    "rating": 4.4,
+    "reviews": 554,
     "sessions": {
      "18763082": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -669,8 +724,11 @@
     }
    },
    "tiyatro/savas-ve-baris-ibb": {
+    "genre": "Dram",
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
+    "rating": 4.2,
+    "reviews": 957,
     "sessions": {
      "18616282": {
       "label": "31 Ekim Cumartesi, 15:00",
@@ -710,8 +768,11 @@
     }
    },
    "tiyatro/sevgili-yelena-sergeyevna": {
+    "genre": "Dram",
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
+    "rating": 4.4,
+    "reviews": 434,
     "sessions": {
      "18762772": {
       "label": "11 Kasım Çarşamba, 15:00",
@@ -746,8 +807,11 @@
     }
    },
    "tiyatro/sivrisinekler-ibb": {
+    "genre": "Dram",
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
+    "rating": 4.6,
+    "reviews": 369,
     "sessions": {
      "18763173": {
       "label": "04 Kasım Çarşamba, 15:00",
@@ -812,8 +876,11 @@
     }
    },
    "tiyatro/tartuffe-ibb": {
+    "genre": "Komedi",
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
+    "rating": 4.8,
+    "reviews": 975,
     "sessions": {
      "18763138": {
       "label": "11 Kasım Çarşamba, 15:00",
@@ -848,8 +915,11 @@
     }
    },
    "tiyatro/xewna-seveke-havine": {
+    "genre": "Komedi",
     "name": "Xewna Şeveke Havînê",
     "page": "https://biletinial.com/tr-tr/tiyatro/xewna-seveke-havine?cinemaBranchId=4223",
+    "rating": 4.8,
+    "reviews": 56,
     "sessions": {
      "18831572": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -866,24 +936,30 @@
     }
    },
    "tiyatro/yaftali-tabut-ibb": {
+    "genre": "Dram",
     "name": "Yaftalı Tabut",
     "page": "https://biletinial.com/tr-tr/tiyatro/yaftali-tabut-ibb?cinemaBranchId=4223",
+    "rating": 4.5,
+    "reviews": 1029,
     "sessions": {
      "18616606": {
       "label": "31 Ekim Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18616607": {
       "label": "31 Ekim Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
    "tiyatro/yasamak-mi-olmek-mi-ibb": {
+    "genre": "Kara komedi / Hiciv",
     "name": "Yaşamak mı, Yoksa Ölmek mi",
     "page": "https://biletinial.com/tr-tr/tiyatro/yasamak-mi-olmek-mi-ibb?cinemaBranchId=4223",
+    "rating": 4.5,
+    "reviews": 952,
     "sessions": {
      "18762743": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -913,8 +989,11 @@
     }
    },
    "tiyatro/yenilmez-ibb": {
+    "genre": "Kara komedi / Hiciv",
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
+    "rating": 4.3,
+    "reviews": 1197,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -974,8 +1053,11 @@
     }
    },
    "tiyatro/yoldan-cikan-oyun-ibb": {
+    "genre": "Komedi",
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
+    "rating": 4.8,
+    "reviews": 1514,
     "sessions": {
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -1007,8 +1089,11 @@
   },
   "muammer-karaca": {
    "tiyatro/clown-jam": {
+    "genre": "Komedi",
     "name": "Clown Jam",
     "page": "https://biletinial.com/tr-tr/tiyatro/clown-jam?cinemaBranchId=39391",
+    "rating": 5.0,
+    "reviews": 3,
     "sessions": {
      "18785776": {
       "label": "31 Ekim Cumartesi, 20:00",
@@ -1019,5 +1104,5 @@
    }
   }
  },
- "telegram_offset": 56457437
+ "telegram_offset": 56457438
 }
