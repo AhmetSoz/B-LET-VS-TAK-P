@@ -1,25 +1,9 @@
 {
- "digest_last": "2026-11-01 sabah",
+ "digest_last": "2026-11-01 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/cingene-boksor-ibb/18763209": 1793445238.3769255,
-   "tiyatro/fosforlu-cevriye-ibb/18763045": 1793460513.754349,
-   "tiyatro/gecmisin-golgesi-ibb/18616637": 1793445238.3769255,
-   "tiyatro/gecmisin-golgesi-ibb/18616638": 1793445238.3769255,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763102": 1793456848.871795,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1793451961.4587238,
-   "tiyatro/haramiler/18762737": 1793524234.0435147,
-   "tiyatro/hayalinin-hayali/18763029": 1793458070.475525,
-   "tiyatro/hayalinin-hayali/18763033": 1793445849.4331539,
-   "tiyatro/kahvaltiya-kalsana/18616340": 1793461735.6676006,
-   "tiyatro/oscar-ibb/18616308": 1793445849.4331539,
-   "tiyatro/oscar-ibb/18616309": 1793450128.2997255,
-   "tiyatro/savas-ve-baris-ibb/18616282": 1793445849.4331539,
-   "tiyatro/savas-ve-baris-ibb/18616283": 1793461735.6676006,
-   "tiyatro/sevgili-yelena-sergeyevna/18762775": 1793453183.7201548,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763037": 1793461124.72192,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763054": 1793461124.72192
+   "tiyatro/haramiler/18762737": 1793524234.0435147
   }
  },
  "reminded": {},
@@ -117,7 +101,7 @@
     "name": "Çingene Boksör",
     "page": "https://biletinial.com/tr-tr/tiyatro/cingene-boksor-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 232,
+    "reviews": 238,
     "sessions": {
      "18763190": {
       "label": "11 Kasım Çarşamba, 15:00",
@@ -200,7 +184,7 @@
      "18763078": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -263,7 +247,7 @@
     "name": "Gök Kubbe",
     "page": "https://biletinial.com/tr-tr/tiyatro/gok-kubbe?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1166,
+    "reviews": 1167,
     "sessions": {
      "18762739": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -375,7 +359,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 993,
+    "reviews": 1010,
     "sessions": {
      "18762735": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -390,7 +374,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -449,7 +433,7 @@
      "18763031": {
       "label": "06 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763032": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -494,7 +478,7 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 513,
+    "reviews": 528,
     "sessions": {
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -649,7 +633,7 @@
     "name": "Öylece Durur Zaman",
     "page": "https://biletinial.com/tr-tr/tiyatro/oylece-durur-zaman?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 554,
+    "reviews": 569,
     "sessions": {
      "18763082": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -689,7 +673,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 967,
+    "reviews": 990,
     "sessions": {
      "18763039": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -704,7 +688,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -841,7 +825,7 @@
      "18763139": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763140": {
       "label": "13 Kasım Cuma, 20:00",
@@ -994,7 +978,7 @@
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
