@@ -9,6 +9,7 @@
    "tiyatro/gecmisin-golgesi-ibb/18616638": 1793445238.3769255,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763102": 1793456848.871795,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1793451961.4587238,
+   "tiyatro/haramiler/18762737": 1793524234.0435147,
    "tiyatro/hayalinin-hayali/18763029": 1793458070.475525,
    "tiyatro/hayalinin-hayali/18763033": 1793445849.4331539,
    "tiyatro/kahvaltiya-kalsana/18616340": 1793461735.6676006,
@@ -389,7 +390,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "open"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -438,7 +439,7 @@
      "18762791": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763029": {
       "label": "04 Kasım Çarşamba, 20:00",
@@ -448,7 +449,7 @@
      "18763031": {
       "label": "06 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763032": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -624,7 +625,7 @@
     "name": "Oscar",
     "page": "https://biletinial.com/tr-tr/tiyatro/oscar-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1522,
+    "reviews": 1523,
     "sessions": {
      "18763148": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -840,7 +841,7 @@
      "18763139": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763140": {
       "label": "13 Kasım Cuma, 20:00",
