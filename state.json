@@ -1,5 +1,5 @@
 {
- "digest_last": "2026-10-31 akşam",
+ "digest_last": "2026-11-01 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
@@ -189,7 +189,7 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 760,
+    "reviews": 766,
     "sessions": {
      "18763077": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -199,7 +199,7 @@
      "18763078": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -223,7 +223,7 @@
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 411,
+    "reviews": 414,
     "sessions": {
      "18763198": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -438,7 +438,7 @@
      "18762791": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763029": {
       "label": "04 Kasım Çarşamba, 20:00",
@@ -493,7 +493,7 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 505,
+    "reviews": 513,
     "sessions": {
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -624,7 +624,7 @@
     "name": "Oscar",
     "page": "https://biletinial.com/tr-tr/tiyatro/oscar-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1500,
+    "reviews": 1522,
     "sessions": {
      "18763148": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -688,7 +688,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 960,
+    "reviews": 967,
     "sessions": {
      "18763039": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -830,7 +830,7 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 975,
+    "reviews": 977,
     "sessions": {
      "18763138": {
       "label": "11 Kasım Çarşamba, 15:00",
