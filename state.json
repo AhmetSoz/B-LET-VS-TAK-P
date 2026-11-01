@@ -3,7 +3,8 @@
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/haramiler/18762737": 1793524234.0435147
+   "tiyatro/haramiler/18762737": 1793524234.0435147,
+   "tiyatro/sivrisinekler-ibb/18763181": 1793564779.6227043
   }
  },
  "reminded": {},
@@ -67,7 +68,7 @@
      "18762359": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762360": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -174,7 +175,7 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 766,
+    "reviews": 767,
     "sessions": {
      "18763077": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -609,7 +610,7 @@
     "name": "Oscar",
     "page": "https://biletinial.com/tr-tr/tiyatro/oscar-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1523,
+    "reviews": 1562,
     "sessions": {
      "18763148": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -633,7 +634,7 @@
     "name": "Öylece Durur Zaman",
     "page": "https://biletinial.com/tr-tr/tiyatro/oylece-durur-zaman?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 569,
+    "reviews": 554,
     "sessions": {
      "18763082": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -673,7 +674,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 990,
+    "reviews": 967,
     "sessions": {
      "18763039": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -727,7 +728,7 @@
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -766,7 +767,7 @@
      "18763181": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763182": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -978,7 +979,7 @@
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
