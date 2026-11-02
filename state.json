@@ -4,7 +4,8 @@
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/golge-tiyatro-oyunu-ibb/18763102": 1793576718.6376736,
-   "tiyatro/haramiler/18762737": 1793524234.0435147,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1793613854.0077806,
+   "tiyatro/sivrisinekler-ibb/18763179": 1793613854.0077806,
    "tiyatro/sivrisinekler-ibb/18763181": 1793564779.6227043
   }
  },
@@ -108,7 +109,7 @@
      "18763190": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "few"
+      "status": "soldout"
      },
      "18763191": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -308,7 +309,7 @@
      "18763107": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763151": {
       "label": "05 Kasım Perşembe, 20:00",
@@ -463,9 +464,8 @@
     "sessions": {
      "18763223": {
       "label": "08 Kasım Pazar, 20:00",
-      "opens_ts": 1793606400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "soldout"
      },
      "18763224": {
       "label": "15 Kasım Pazar, 20:00",
@@ -592,7 +592,7 @@
      "18762387": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -758,7 +758,7 @@
      "18763179": {
       "label": "04 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763180": {
       "label": "06 Kasım Cuma, 20:00",
