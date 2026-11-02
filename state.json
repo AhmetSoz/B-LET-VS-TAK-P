@@ -1,8 +1,9 @@
 {
- "digest_last": "2026-11-01 akşam",
+ "digest_last": "2026-11-02 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763102": 1793576718.6376736,
    "tiyatro/haramiler/18762737": 1793524234.0435147,
    "tiyatro/sivrisinekler-ibb/18763181": 1793564779.6227043
   }
@@ -87,7 +88,7 @@
     "name": "Cadı Kazanı",
     "page": "https://biletinial.com/tr-tr/tiyatro/cadi-kazani-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 959,
+    "reviews": 962,
     "sessions": {
      "18831592": {
       "label": "17 Kasım Salı, 20:00",
@@ -107,7 +108,7 @@
      "18763190": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "few"
      },
      "18763191": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -175,7 +176,7 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 767,
+    "reviews": 789,
     "sessions": {
      "18763077": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -209,7 +210,7 @@
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 414,
+    "reviews": 420,
     "sessions": {
      "18763198": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -458,7 +459,7 @@
     "name": "İstanbul Şiirle Buluşuyor - Birden Bire Orhan Veli",
     "page": "https://biletinial.com/tr-tr/tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli?cinemaBranchId=4223",
     "rating": 5.0,
-    "reviews": 5,
+    "reviews": 8,
     "sessions": {
      "18763223": {
       "label": "08 Kasım Pazar, 20:00",
@@ -563,7 +564,7 @@
      "18763089": {
       "label": "28 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763090": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -591,7 +592,7 @@
      "18762387": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -634,7 +635,7 @@
     "name": "Öylece Durur Zaman",
     "page": "https://biletinial.com/tr-tr/tiyatro/oylece-durur-zaman?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 554,
+    "reviews": 569,
     "sessions": {
      "18763082": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -674,7 +675,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 967,
+    "reviews": 991,
     "sessions": {
      "18763039": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -708,7 +709,7 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 434,
+    "reviews": 458,
     "sessions": {
      "18762772": {
       "label": "11 Kasım Çarşamba, 15:00",
@@ -767,7 +768,7 @@
      "18763181": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      },
      "18763182": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -974,7 +975,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1514,
+    "reviews": 1566,
     "sessions": {
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
