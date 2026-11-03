@@ -1,16 +1,19 @@
 {
- "digest_last": "2026-11-03 sabah",
+ "digest_last": "2026-11-03 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/cadi-kazani-ibb/18831592": 1793699457.0502846,
    "tiyatro/gidionun-dugumu-ibb/18763199": 1793689828.4074316,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763100": 1793726627.2503917,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763102": 1793726627.2503917,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763103": 1793650657.5425608,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1793699457.0502846,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1793613854.0077806,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1793726627.2503917,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1793687531.6395676,
    "tiyatro/oylece-durur-zaman/18831601": 1793699457.0502846,
-   "tiyatro/sivrisinekler-ibb/18763179": 1793613854.0077806,
+   "tiyatro/sivrisinekler-ibb/18763173": 1793726627.2503917,
+   "tiyatro/sivrisinekler-ibb/18763180": 1793726627.2503917,
    "tiyatro/xewna-seveke-havine/18831572": 1793699457.0502846,
    "tiyatro/xewna-seveke-havine/18831591": 1793699457.0502846,
    "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1793688146.4730027
@@ -66,7 +69,7 @@
     "name": "Bir Ziyaret",
     "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 769,
+    "reviews": 770,
     "sessions": {
      "18762347": {
       "label": "04 Kasım Çarşamba, 15:00",
@@ -304,12 +307,12 @@
      "18763100": {
       "label": "04 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763102": {
       "label": "04 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763103": {
       "label": "06 Kasım Cuma, 20:00",
@@ -319,12 +322,12 @@
      "18763106": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763107": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763151": {
       "label": "05 Kasım Perşembe, 20:00",
@@ -377,7 +380,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1010,
+    "reviews": 1011,
     "sessions": {
      "18762735": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -470,7 +473,7 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 528,
+    "reviews": 529,
     "sessions": {
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -495,7 +498,7 @@
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -509,7 +512,7 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 865,
+    "reviews": 866,
     "sessions": {
      "18762766": {
       "label": "04 Kasım Çarşamba, 15:00",
@@ -635,7 +638,7 @@
     "name": "Oscar",
     "page": "https://biletinial.com/tr-tr/tiyatro/oscar-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1562,
+    "reviews": 1565,
     "sessions": {
      "18763148": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -698,7 +701,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 991,
+    "reviews": 993,
     "sessions": {
      "18763039": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -776,7 +779,7 @@
      "18763173": {
       "label": "04 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763179": {
       "label": "04 Kasım Çarşamba, 20:00",
@@ -786,7 +789,7 @@
      "18763180": {
       "label": "06 Kasım Cuma, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763181": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -860,7 +863,7 @@
      "18763141": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763142": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -1001,7 +1004,7 @@
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
@@ -1062,17 +1065,17 @@
     "reviews": 0,
     "sessions": {}
    },
-   "etkinlik/ogrenci-isi-world-war-z": {
-    "genre": "Diğer",
-    "name": "\"Öğrenci Kulübü” World War Z",
-    "page": "https://biletinial.com/tr-tr/etkinlik/ogrenci-isi-world-war-z?cinemaBranchId=40264",
-    "reviews": 0,
-    "sessions": {}
-   },
    "muzik/cagri-sinci-piano-live-session-yigit-guclu-konuklar-farazi-kamufle-sorgu": {
     "genre": "Diğer",
     "name": "\"Çağrı Sinci Piano Live Session & Yiğit Güçlü Konuklar : FARAZİ, KAMUFLE, SORGU\"",
     "page": "https://biletinial.com/tr-tr/muzik/cagri-sinci-piano-live-session-yigit-guclu-konuklar-farazi-kamufle-sorgu?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "muzik/ibb-oda-muzigi-toplulugu-klasik-esintiler": {
+    "genre": "Diğer",
+    "name": "İBB Oda Müziği Topluluğu - Klasik Esintiler",
+    "page": "https://biletinial.com/tr-tr/muzik/ibb-oda-muzigi-toplulugu-klasik-esintiler?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {}
    },
@@ -1081,14 +1084,6 @@
     "name": "Quartet Dinleti",
     "page": "https://biletinial.com/tr-tr/muzik/quartet-dinleti?cinemaBranchId=40264",
     "reviews": 0,
-    "sessions": {}
-   },
-   "muzik/trio-dinleti": {
-    "genre": "Diğer",
-    "name": "Trio Dinleti",
-    "page": "https://biletinial.com/tr-tr/muzik/trio-dinleti?cinemaBranchId=40264",
-    "rating": 3.0,
-    "reviews": 1,
     "sessions": {}
    },
    "tiyatro/altin-kafes": {
@@ -1120,6 +1115,21 @@
     "rating": 4.9,
     "reviews": 16,
     "sessions": {}
+   },
+   "tiyatro/pirilin-masallarla-dansi": {
+    "genre": "Diğer",
+    "name": "Pırıl'ın Masallarla Dansı",
+    "page": "https://biletinial.com/tr-tr/tiyatro/pirilin-masallarla-dansi?cinemaBranchId=40264",
+    "rating": 4.5,
+    "reviews": 22,
+    "sessions": {
+     "18839813": {
+      "label": "08 Kasım Pazar, 13:00",
+      "opens_ts": 1793790000,
+      "stage": "Muammer Karaca Tiyatrosu",
+      "status": "soon"
+     }
+    }
    }
   }
  },
