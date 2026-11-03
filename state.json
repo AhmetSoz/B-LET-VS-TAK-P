@@ -3,11 +3,16 @@
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
+   "tiyatro/cadi-kazani-ibb/18831592": 1793699457.0502846,
    "tiyatro/gidionun-dugumu-ibb/18763199": 1793689828.4074316,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763103": 1793650657.5425608,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1793699457.0502846,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1793613854.0077806,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1793687531.6395676,
+   "tiyatro/oylece-durur-zaman/18831601": 1793699457.0502846,
    "tiyatro/sivrisinekler-ibb/18763179": 1793613854.0077806,
+   "tiyatro/xewna-seveke-havine/18831572": 1793699457.0502846,
+   "tiyatro/xewna-seveke-havine/18831591": 1793699457.0502846,
    "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1793688146.4730027
   }
  },
@@ -104,9 +109,8 @@
     "sessions": {
      "18831592": {
       "label": "17 Kasım Salı, 20:00",
-      "opens_ts": 1793692800,
       "stage": "İBB Yenibosna Dr Enver Ören Kültür Merkezi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -208,7 +212,7 @@
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763095": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -315,7 +319,7 @@
      "18763106": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763107": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -344,7 +348,7 @@
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -486,7 +490,7 @@
      "18763146": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -588,6 +592,40 @@
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soldout"
+     }
+    }
+   },
+   "tiyatro/oksuzler-tiyatro-oyunu-ibb": {
+    "genre": "Diğer",
+    "name": "Öksüzler",
+    "page": "https://biletinial.com/tr-tr/tiyatro/oksuzler-tiyatro-oyunu-ibb?cinemaBranchId=4223",
+    "rating": 3.0,
+    "reviews": 318,
+    "sessions": {
+     "18837868": {
+      "label": "04 Kasım Çarşamba, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18837871": {
+      "label": "05 Kasım Perşembe, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18837872": {
+      "label": "06 Kasım Cuma, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18837873": {
+      "label": "07 Kasım Cumartesi, 15:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18837874": {
+      "label": "07 Kasım Cumartesi, 20:00",
+      "stage": "Ümraniye Sahnesi",
       "status": "open"
      }
     }
@@ -650,9 +688,8 @@
      },
      "18831601": {
       "label": "24 Kasım Salı, 20:00",
-      "opens_ts": 1793692800,
       "stage": "İnal Aydınoğlu K.M Şener Şen Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -823,7 +860,7 @@
      "18763141": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763142": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -846,15 +883,13 @@
     "sessions": {
      "18831572": {
       "label": "26 Kasım Perşembe, 20:00",
-      "opens_ts": 1793692800,
       "stage": "Sultangazi Hoca Ahmet Yesevi Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18831591": {
       "label": "28 Kasım Cumartesi, 20:00",
-      "opens_ts": 1793692800,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
