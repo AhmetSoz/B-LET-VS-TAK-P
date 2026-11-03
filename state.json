@@ -1,16 +1,26 @@
 {
- "digest_last": "2026-11-02 akşam",
+ "digest_last": "2026-11-03 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763102": 1793576718.6376736,
+   "tiyatro/gidionun-dugumu-ibb/18763199": 1793689828.4074316,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763103": 1793650657.5425608,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1793613854.0077806,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1793687531.6395676,
    "tiyatro/sivrisinekler-ibb/18763179": 1793613854.0077806,
-   "tiyatro/sivrisinekler-ibb/18763181": 1793564779.6227043
+   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1793688146.4730027
   }
  },
- "reminded": {},
+ "reminded": {
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18831592@1793692800@1800": 1793691014.8611188,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18831592@1793692800@3600": 1793689213.8098412,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18831601@1793692800@1800": 1793691014.8611188,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18831601@1793692800@3600": 1793689213.8098412,
+  "ibb-sehir-tiyatrolari/tiyatro/xewna-seveke-havine/18831572@1793692800@1800": 1793691014.8611188,
+  "ibb-sehir-tiyatrolari/tiyatro/xewna-seveke-havine/18831572@1793692800@3600": 1793689213.8098412,
+  "ibb-sehir-tiyatrolari/tiyatro/xewna-seveke-havine/18831591@1793692800@1800": 1793691014.8611188,
+  "ibb-sehir-tiyatrolari/tiyatro/xewna-seveke-havine/18831591@1793692800@3600": 1793689213.8098412
+ },
  "sources": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu": {
@@ -71,7 +81,7 @@
      "18762359": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762360": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -198,7 +208,7 @@
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763095": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -300,7 +310,7 @@
      "18763103": {
       "label": "06 Kasım Cuma, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763106": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -315,7 +325,7 @@
      "18763151": {
       "label": "05 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -334,7 +344,7 @@
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -427,31 +437,6 @@
      "18762791": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
-     "18763029": {
-      "label": "04 Kasım Çarşamba, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
-     },
-     "18763031": {
-      "label": "06 Kasım Cuma, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
-     },
-     "18763032": {
-      "label": "07 Kasım Cumartesi, 15:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
-     },
-     "18763033": {
-      "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
-     },
-     "18763053": {
-      "label": "05 Kasım Perşembe, 20:00",
-      "stage": "Ümraniye Sahnesi",
       "status": "soldout"
      }
     }
@@ -598,7 +583,7 @@
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -823,7 +808,7 @@
      "18763138": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763139": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -838,7 +823,7 @@
      "18763141": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763142": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -1006,7 +991,102 @@
     }
    }
   },
-  "muammer-karaca": {}
+  "muammer-karaca": {
+   "egitim/firuze-engin-ile-afislerden-metinlere-oyun-yazim-atolyesi": {
+    "genre": "Diğer",
+    "name": "Firuze Engin ile Afişlerden Metinlere, Oyun Yazım Atölyesi",
+    "page": "https://biletinial.com/tr-tr/egitim/firuze-engin-ile-afislerden-metinlere-oyun-yazim-atolyesi?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "egitim/mengu-ertelin-tiyatro-evreninden-figurlerle-serigrafi-atolyesi-atolye-yurutuculeri": {
+    "genre": "Diğer",
+    "name": "\"Mengü Ertel’in Tiyatro Evreni’nden Figürlerle Serigrafi Atölyesi Atölye Yürütücüleri: Gülsen Şenol & Kadir Çıtak\"",
+    "page": "https://biletinial.com/tr-tr/egitim/mengu-ertelin-tiyatro-evreninden-figurlerle-serigrafi-atolyesi-atolye-yurutuculeri?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "egitim/metinlerden-figurlere-cizginin-yolculugu-illustrasyon-atolyesi": {
+    "genre": "Diğer",
+    "name": "Metinlerden Figürlere, Çizginin Yolculuğu İllüstrasyon Atölyesi",
+    "page": "https://biletinial.com/tr-tr/egitim/metinlerden-figurlere-cizginin-yolculugu-illustrasyon-atolyesi?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "etkinlik/kuratorler-ile-mengu-ertelin-tiyatro-evreni-sergi-turu": {
+    "genre": "Diğer",
+    "name": "Küratörler ile Mengü Ertel'in Tiyatro Evreni Sergi Turu",
+    "page": "https://biletinial.com/tr-tr/etkinlik/kuratorler-ile-mengu-ertelin-tiyatro-evreni-sergi-turu?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "etkinlik/muammer-karaca-tiyatrosunun-izinde": {
+    "genre": "Diğer",
+    "name": "\"Muammer Karaca Tiyatrosu'nun İzinde: Miras ve Mimari Moderatör: Banu Uçak Konuklar: Merve Gedik & Hande Ciğerli ve Mert Üçer\"",
+    "page": "https://biletinial.com/tr-tr/etkinlik/muammer-karaca-tiyatrosunun-izinde?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "etkinlik/ogrenci-isi-world-war-z": {
+    "genre": "Diğer",
+    "name": "\"Öğrenci Kulübü” World War Z",
+    "page": "https://biletinial.com/tr-tr/etkinlik/ogrenci-isi-world-war-z?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "muzik/cagri-sinci-piano-live-session-yigit-guclu-konuklar-farazi-kamufle-sorgu": {
+    "genre": "Diğer",
+    "name": "\"Çağrı Sinci Piano Live Session & Yiğit Güçlü Konuklar : FARAZİ, KAMUFLE, SORGU\"",
+    "page": "https://biletinial.com/tr-tr/muzik/cagri-sinci-piano-live-session-yigit-guclu-konuklar-farazi-kamufle-sorgu?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "muzik/quartet-dinleti": {
+    "genre": "Diğer",
+    "name": "Quartet Dinleti",
+    "page": "https://biletinial.com/tr-tr/muzik/quartet-dinleti?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "muzik/trio-dinleti": {
+    "genre": "Diğer",
+    "name": "Trio Dinleti",
+    "page": "https://biletinial.com/tr-tr/muzik/trio-dinleti?cinemaBranchId=40264",
+    "rating": 3.0,
+    "reviews": 1,
+    "sessions": {}
+   },
+   "tiyatro/altin-kafes": {
+    "genre": "Dram",
+    "name": "Altın Kafes",
+    "page": "https://biletinial.com/tr-tr/tiyatro/altin-kafes?cinemaBranchId=40264",
+    "rating": 4.8,
+    "reviews": 14,
+    "sessions": {}
+   },
+   "tiyatro/hayal-saticisi": {
+    "genre": "Komedi",
+    "name": "Hayal Satıcısı",
+    "page": "https://biletinial.com/tr-tr/tiyatro/hayal-saticisi?cinemaBranchId=40264",
+    "rating": 4.7,
+    "reviews": 59,
+    "sessions": {
+     "18831075": {
+      "label": "24 Kasım Salı, 20:30",
+      "stage": "Muammer Karaca Tiyatrosu",
+      "status": "open"
+     }
+    }
+   },
+   "tiyatro/leke-": {
+    "genre": "Komedi",
+    "name": "Leke",
+    "page": "https://biletinial.com/tr-tr/tiyatro/leke-?cinemaBranchId=40264",
+    "rating": 4.9,
+    "reviews": 16,
+    "sessions": {}
+   }
+  }
  },
  "telegram_offset": 56457438
 }
