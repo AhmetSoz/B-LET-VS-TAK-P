@@ -4,10 +4,10 @@
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/cadi-kazani-ibb/18831592": 1793699457.0502846,
+   "tiyatro/gecmisin-golgesi-ibb/18763079": 1793744722.8376956,
    "tiyatro/gidionun-dugumu-ibb/18763199": 1793689828.4074316,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763100": 1793726627.2503917,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763102": 1793726627.2503917,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763103": 1793650657.5425608,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1793699457.0502846,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1793726627.2503917,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1793687531.6395676,
@@ -16,6 +16,7 @@
    "tiyatro/sivrisinekler-ibb/18763180": 1793726627.2503917,
    "tiyatro/xewna-seveke-havine/18831572": 1793699457.0502846,
    "tiyatro/xewna-seveke-havine/18831591": 1793699457.0502846,
+   "tiyatro/yenilmez-ibb/18763075": 1793744722.8376956,
    "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1793688146.4730027
   }
  },
@@ -50,7 +51,7 @@
      "18762509": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18762510": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -210,7 +211,7 @@
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -307,12 +308,12 @@
      "18763100": {
       "label": "04 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763102": {
       "label": "04 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763103": {
       "label": "06 Kasım Cuma, 20:00",
@@ -327,7 +328,7 @@
      "18763107": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763151": {
       "label": "05 Kasım Perşembe, 20:00",
@@ -580,7 +581,7 @@
      "18762386": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762387": {
       "label": "27 Kasım Cuma, 20:00",
@@ -755,7 +756,7 @@
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -779,7 +780,7 @@
      "18763173": {
       "label": "04 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      },
      "18763179": {
       "label": "04 Kasım Çarşamba, 20:00",
@@ -789,7 +790,7 @@
      "18763180": {
       "label": "06 Kasım Cuma, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      },
      "18763181": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -980,7 +981,7 @@
      "18763075": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763076": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -1004,7 +1005,7 @@
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
