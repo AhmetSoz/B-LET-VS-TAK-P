@@ -1,8 +1,9 @@
 {
- "digest_last": "2026-11-03 akşam",
+ "digest_last": "2026-11-04 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
+   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762509": 1793759489.4833772,
    "tiyatro/cadi-kazani-ibb/18831592": 1793699457.0502846,
    "tiyatro/gecmisin-golgesi-ibb/18763079": 1793744722.8376956,
    "tiyatro/gidionun-dugumu-ibb/18763199": 1793689828.4074316,
@@ -51,7 +52,7 @@
      "18762509": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "open"
      },
      "18762510": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -211,7 +212,7 @@
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
