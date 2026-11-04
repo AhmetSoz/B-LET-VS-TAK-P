@@ -5,13 +5,14 @@
   "ibb-sehir-tiyatrolari": {
    "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762509": 1793787025.443945,
    "tiyatro/fosforlu-cevriye-ibb/18763047": 1793786180.5572274,
-   "tiyatro/gecmisin-golgesi-ibb/18763079": 1793744722.8376956,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763100": 1793785567.1606078,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1793832669.9257598,
    "tiyatro/haramiler/18762737": 1793813722.5896568,
    "tiyatro/kahvaltiya-kalsana/18763147": 1793785567.1606078,
    "tiyatro/kosebasi-ibb/18762387": 1793786180.5572274,
    "tiyatro/kosebasi-ibb/18762388": 1793786180.5572274,
    "tiyatro/sevgili-yelena-sergeyevna/18762775": 1793786180.5572274,
+   "tiyatro/sevgili-yelena-sergeyevna/18762776": 1793832669.9257598,
    "tiyatro/sivrisinekler-ibb/18763173": 1793785567.1606078,
    "tiyatro/tartuffe-ibb/18763142": 1793787639.338871,
    "tiyatro/yenilmez-ibb/18763075": 1793813722.5896568,
@@ -41,7 +42,8 @@
     "genre": "Kara komedi / Hiciv",
     "name": "Arturo Ui'nin Önlenebilir Tırmanışı - İzmir Şehir Tiyatrosu",
     "page": "https://biletinial.com/tr-tr/tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu?cinemaBranchId=4223",
-    "reviews": 0,
+    "rating": 3.7,
+    "reviews": 7,
     "sessions": {
      "18762508": {
       "label": "06 Kasım Cuma, 20:00",
@@ -70,7 +72,7 @@
     "name": "Bir Ziyaret",
     "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 770,
+    "reviews": 784,
     "sessions": {
      "18762358": {
       "label": "06 Kasım Cuma, 20:00",
@@ -152,7 +154,7 @@
     "name": "Fosforlu Cevriye",
     "page": "https://biletinial.com/tr-tr/tiyatro/fosforlu-cevriye-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1129,
+    "reviews": 1130,
     "sessions": {
      "18763044": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -293,7 +295,7 @@
     "name": "Gölge",
     "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 524,
+    "reviews": 533,
     "sessions": {
      "18763103": {
       "label": "06 Kasım Cuma, 20:00",
@@ -303,12 +305,12 @@
      "18763106": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "open"
      },
      "18763107": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763151": {
       "label": "05 Kasım Perşembe, 20:00",
@@ -376,7 +378,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -454,7 +456,7 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 529,
+    "reviews": 530,
     "sessions": {
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -493,7 +495,7 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 866,
+    "reviews": 885,
     "sessions": {
      "18762769": {
       "label": "06 Kasım Cuma, 20:00",
@@ -513,7 +515,7 @@
      "18762788": {
       "label": "05 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -701,7 +703,7 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 458,
+    "reviews": 459,
     "sessions": {
      "18762772": {
       "label": "11 Kasım Çarşamba, 15:00",
@@ -721,12 +723,12 @@
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "open"
      },
      "18762789": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -740,7 +742,7 @@
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 369,
+    "reviews": 370,
     "sessions": {
      "18763180": {
       "label": "06 Kasım Cuma, 20:00",
@@ -891,7 +893,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1197,
+    "reviews": 1198,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -931,7 +933,7 @@
      "18763075": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763076": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -1009,13 +1011,6 @@
     "reviews": 0,
     "sessions": {}
    },
-   "muzik/cagri-sinci-piano-live-session-yigit-guclu-konuklar-farazi-kamufle-sorgu": {
-    "genre": "Diğer",
-    "name": "\"Çağrı Sinci Piano Live Session & Yiğit Güçlü Konuklar : FARAZİ, KAMUFLE, SORGU\"",
-    "page": "https://biletinial.com/tr-tr/muzik/cagri-sinci-piano-live-session-yigit-guclu-konuklar-farazi-kamufle-sorgu?cinemaBranchId=40264",
-    "reviews": 0,
-    "sessions": {}
-   },
    "muzik/ibb-oda-muzigi-toplulugu-klasik-esintiler": {
     "genre": "Diğer",
     "name": "İBB Oda Müziği Topluluğu - Klasik Esintiler",
@@ -1036,6 +1031,22 @@
     "page": "https://biletinial.com/tr-tr/tiyatro/altin-kafes?cinemaBranchId=40264",
     "rating": 4.8,
     "reviews": 14,
+    "sessions": {}
+   },
+   "tiyatro/bir-nora-evi": {
+    "genre": "Dram",
+    "name": "Bir Nora Evi",
+    "page": "https://biletinial.com/tr-tr/tiyatro/bir-nora-evi?cinemaBranchId=40264",
+    "rating": 5.0,
+    "reviews": 1,
+    "sessions": {}
+   },
+   "tiyatro/celile-nazim-hikmetin-annesi-kht": {
+    "genre": "Dram",
+    "name": "Celile (Nazım Hikmet'in Annesi)",
+    "page": "https://biletinial.com/tr-tr/tiyatro/celile-nazim-hikmetin-annesi-kht?cinemaBranchId=40264",
+    "rating": 4.7,
+    "reviews": 254,
     "sessions": {}
    },
    "tiyatro/hayal-saticisi": {
