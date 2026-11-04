@@ -3,22 +3,26 @@
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762509": 1793759489.4833772,
-   "tiyatro/cadi-kazani-ibb/18831592": 1793699457.0502846,
+   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762509": 1793787025.443945,
+   "tiyatro/fosforlu-cevriye-ibb/18763047": 1793786180.5572274,
    "tiyatro/gecmisin-golgesi-ibb/18763079": 1793744722.8376956,
-   "tiyatro/gidionun-dugumu-ibb/18763199": 1793689828.4074316,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763100": 1793726627.2503917,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763100": 1793785567.1606078,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763102": 1793726627.2503917,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1793699457.0502846,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1793726627.2503917,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1793687531.6395676,
-   "tiyatro/oylece-durur-zaman/18831601": 1793699457.0502846,
-   "tiyatro/sivrisinekler-ibb/18763173": 1793726627.2503917,
+   "tiyatro/kahvaltiya-kalsana/18763147": 1793785567.1606078,
+   "tiyatro/kosebasi-ibb/18762387": 1793786180.5572274,
+   "tiyatro/kosebasi-ibb/18762388": 1793786180.5572274,
+   "tiyatro/sevgili-yelena-sergeyevna/18762775": 1793786180.5572274,
+   "tiyatro/sivrisinekler-ibb/18763173": 1793785567.1606078,
    "tiyatro/sivrisinekler-ibb/18763180": 1793726627.2503917,
-   "tiyatro/xewna-seveke-havine/18831572": 1793699457.0502846,
-   "tiyatro/xewna-seveke-havine/18831591": 1793699457.0502846,
+   "tiyatro/tartuffe-ibb/18763142": 1793787639.338871,
    "tiyatro/yenilmez-ibb/18763075": 1793744722.8376956,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1793688146.4730027
+   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1793790052.8114314,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763036": 1793790052.8114314,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763054": 1793790052.8114314
+  },
+  "muammer-karaca": {
+   "tiyatro/pirilin-masallarla-dansi/18839813": 1793790044.242693
   }
  },
  "reminded": {
@@ -29,7 +33,9 @@
   "ibb-sehir-tiyatrolari/tiyatro/xewna-seveke-havine/18831572@1793692800@1800": 1793691014.8611188,
   "ibb-sehir-tiyatrolari/tiyatro/xewna-seveke-havine/18831572@1793692800@3600": 1793689213.8098412,
   "ibb-sehir-tiyatrolari/tiyatro/xewna-seveke-havine/18831591@1793692800@1800": 1793691014.8611188,
-  "ibb-sehir-tiyatrolari/tiyatro/xewna-seveke-havine/18831591@1793692800@3600": 1793689213.8098412
+  "ibb-sehir-tiyatrolari/tiyatro/xewna-seveke-havine/18831591@1793692800@3600": 1793689213.8098412,
+  "muammer-karaca/tiyatro/pirilin-masallarla-dansi/18839813@1793790000@1800": 1793788212.7633455,
+  "muammer-karaca/tiyatro/pirilin-masallarla-dansi/18839813@1793790000@3600": 1793786412.5712082
  },
  "sources": {
   "ibb-sehir-tiyatrolari": {
@@ -212,7 +218,7 @@
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -309,7 +315,7 @@
      "18763100": {
       "label": "04 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763102": {
       "label": "04 Kasım Çarşamba, 20:00",
@@ -397,7 +403,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -500,7 +506,7 @@
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "open"
      },
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -757,7 +763,7 @@
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "open"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -781,7 +787,7 @@
      "18763173": {
       "label": "04 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763179": {
       "label": "04 Kasım Çarşamba, 20:00",
@@ -982,7 +988,7 @@
      "18763075": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763076": {
       "label": "07 Kasım Cumartesi, 20:00",
@@ -1006,27 +1012,27 @@
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763036": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763037": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763054": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      }
     }
    }
@@ -1127,9 +1133,8 @@
     "sessions": {
      "18839813": {
       "label": "08 Kasım Pazar, 13:00",
-      "opens_ts": 1793790000,
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soon"
+      "status": "open"
      }
     }
    }
