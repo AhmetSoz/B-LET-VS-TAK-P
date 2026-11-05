@@ -1,25 +1,17 @@
 {
- "digest_last": "2026-11-05 sabah",
+ "digest_last": "2026-11-05 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1793832669.9257598,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763151": 1793873685.357851,
-   "tiyatro/haramiler/18762737": 1793813722.5896568,
    "tiyatro/kopek-kalbi-ibb/18762770": 1793873685.357851,
    "tiyatro/kopek-kalbi-ibb/18762788": 1793873685.357851,
    "tiyatro/savas-ve-baris-ibb/18763041": 1793873685.357851,
    "tiyatro/sevgili-yelena-sergeyevna/18762776": 1793832669.9257598,
    "tiyatro/sivrisinekler-ibb/18763208": 1793873685.357851,
    "tiyatro/sivrisinekler-ibb/18763231": 1793873685.357851,
-   "tiyatro/tartuffe-ibb/18763142": 1793787639.338871,
-   "tiyatro/yenilmez-ibb/18763075": 1793873685.357851,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1793790052.8114314,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763036": 1793790052.8114314,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763054": 1793790052.8114314
-  },
-  "muammer-karaca": {
-   "tiyatro/pirilin-masallarla-dansi/18839813": 1793790044.242693
+   "tiyatro/yenilmez-ibb/18763075": 1793873685.357851
   }
  },
  "reminded": {
@@ -40,8 +32,8 @@
     "genre": "Kara komedi / Hiciv",
     "name": "Arturo Ui'nin Önlenebilir Tırmanışı - İzmir Şehir Tiyatrosu",
     "page": "https://biletinial.com/tr-tr/tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu?cinemaBranchId=4223",
-    "rating": 3.5,
-    "reviews": 10,
+    "rating": 3.8,
+    "reviews": 12,
     "sessions": {
      "18762508": {
       "label": "06 Kasım Cuma, 20:00",
@@ -57,11 +49,6 @@
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
       "status": "open"
-     },
-     "18762759": {
-      "label": "05 Kasım Perşembe, 20:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
      }
     }
    },
@@ -70,7 +57,7 @@
     "name": "Bir Ziyaret",
     "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 784,
+    "reviews": 800,
     "sessions": {
      "18762358": {
       "label": "06 Kasım Cuma, 20:00",
@@ -84,11 +71,6 @@
      },
      "18762360": {
       "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
-     },
-     "18762466": {
-      "label": "05 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
       "status": "open"
      }
@@ -201,7 +183,7 @@
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -293,7 +275,7 @@
     "name": "Gölge",
     "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 538,
+    "reviews": 545,
     "sessions": {
      "18763103": {
       "label": "06 Kasım Cuma, 20:00",
@@ -309,11 +291,6 @@
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
       "status": "soldout"
-     },
-     "18763151": {
-      "label": "05 Kasım Perşembe, 20:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
      }
     }
    },
@@ -327,7 +304,7 @@
      "18762777": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -454,7 +431,7 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 530,
+    "reviews": 531,
     "sessions": {
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -479,7 +456,7 @@
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -493,7 +470,7 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 885,
+    "reviews": 890,
     "sessions": {
      "18762769": {
       "label": "06 Kasım Cuma, 20:00",
@@ -503,17 +480,12 @@
      "18762770": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762771": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
       "status": "soldout"
-     },
-     "18762788": {
-      "label": "05 Kasım Perşembe, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
      },
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -577,11 +549,6 @@
     "rating": 3.0,
     "reviews": 318,
     "sessions": {
-     "18837871": {
-      "label": "05 Kasım Perşembe, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "open"
-     },
      "18837872": {
       "label": "06 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
@@ -633,7 +600,7 @@
      "18763082": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763083": {
       "label": "20 Kasım Cuma, 20:00",
@@ -653,7 +620,7 @@
      "18763096": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18831601": {
       "label": "24 Kasım Salı, 20:00",
@@ -682,7 +649,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -711,7 +678,7 @@
      "18762773": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762774": {
       "label": "13 Kasım Cuma, 20:00",
@@ -726,12 +693,12 @@
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762789": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -740,7 +707,7 @@
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 371,
+    "reviews": 372,
     "sessions": {
      "18763180": {
       "label": "06 Kasım Cuma, 20:00",
@@ -777,11 +744,6 @@
       "stage": "Müze Gazhane Meydan Sahne",
       "status": "soldout"
      },
-     "18763208": {
-      "label": "05 Kasım Perşembe, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
-     },
      "18763211": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
@@ -790,7 +752,7 @@
      "18763231": {
       "label": "25 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -891,7 +853,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1198,
+    "reviews": 1199,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -931,15 +893,10 @@
      "18763075": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763076": {
       "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
-     },
-     "18763093": {
-      "label": "05 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
       "status": "open"
      }
@@ -1082,6 +1039,14 @@
       "status": "open"
      }
     }
+   },
+   "tiyatro/saksakcilar": {
+    "genre": "Komedi",
+    "name": "Şakşakçılar",
+    "page": "https://biletinial.com/tr-tr/tiyatro/saksakcilar?cinemaBranchId=40264",
+    "rating": 4.3,
+    "reviews": 583,
+    "sessions": {}
    }
   }
  },
