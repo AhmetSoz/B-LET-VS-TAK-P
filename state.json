@@ -14,6 +14,8 @@
    "tiyatro/kopek-kalbi-ibb/18762771": 1794049823.8682353,
    "tiyatro/kosebasi-ibb/18762388": 1794044068.215043,
    "tiyatro/savas-ve-baris-ibb/18763041": 1794052847.726527,
+   "tiyatro/sevgili-yelena-sergeyevna/18762772": 1794080444.9761286,
+   "tiyatro/sevgili-yelena-sergeyevna/18762773": 1794080444.9761286,
    "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794045292.1791883,
    "tiyatro/sivrisinekler-ibb/18763181": 1794049823.8682353,
    "tiyatro/sivrisinekler-ibb/18763182": 1794049823.8682353,
@@ -32,34 +34,6 @@
  },
  "sources": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu": {
-    "genre": "Kara komedi / Hiciv",
-    "name": "Arturo Ui'nin Önlenebilir Tırmanışı - İzmir Şehir Tiyatrosu",
-    "page": "https://biletinial.com/tr-tr/tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu?cinemaBranchId=4223",
-    "rating": 4.2,
-    "reviews": 42,
-    "sessions": {
-     "18762510": {
-      "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
-     }
-    }
-   },
-   "tiyatro/bir-ziyaret-ibb": {
-    "genre": "Kara komedi / Hiciv",
-    "name": "Bir Ziyaret",
-    "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
-    "rating": 4.4,
-    "reviews": 827,
-    "sessions": {
-     "18762360": {
-      "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
-     }
-    }
-   },
    "tiyatro/cadi-kazani-ibb": {
     "genre": "Dram",
     "name": "Cadı Kazanı",
@@ -109,7 +83,7 @@
      "18763209": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -172,7 +146,7 @@
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763095": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -254,20 +228,6 @@
      }
     }
    },
-   "tiyatro/golge-tiyatro-oyunu-ibb": {
-    "genre": "Dram",
-    "name": "Gölge",
-    "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
-    "rating": 4.3,
-    "reviews": 564,
-    "sessions": {
-     "18763107": {
-      "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
-     }
-    }
-   },
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb": {
     "genre": "Kara komedi / Hiciv",
     "name": "Gözlerimi Kaparım Vazifemi Yaparım",
@@ -327,7 +287,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -446,11 +406,6 @@
     "rating": 4.5,
     "reviews": 911,
     "sessions": {
-     "18762771": {
-      "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
@@ -469,7 +424,7 @@
      "18763090": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763097": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -503,20 +458,6 @@
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
       "status": "soldout"
-     }
-    }
-   },
-   "tiyatro/oksuzler-tiyatro-oyunu-ibb": {
-    "genre": "Diğer",
-    "name": "Öksüzler",
-    "page": "https://biletinial.com/tr-tr/tiyatro/oksuzler-tiyatro-oyunu-ibb?cinemaBranchId=4223",
-    "rating": 3.0,
-    "reviews": 322,
-    "sessions": {
-     "18837874": {
-      "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "open"
      }
     }
    },
@@ -603,7 +544,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -627,12 +568,12 @@
      "18762772": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762773": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762774": {
       "label": "13 Kasım Cuma, 20:00",
@@ -663,11 +604,6 @@
     "rating": 4.6,
     "reviews": 377,
     "sessions": {
-     "18763182": {
-      "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
-     },
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
@@ -715,7 +651,7 @@
      "18763139": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763140": {
       "label": "13 Kasım Cuma, 20:00",
@@ -828,11 +764,6 @@
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
       "status": "open"
-     },
-     "18763076": {
-      "label": "07 Kasım Cumartesi, 20:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
      }
     }
    },
