@@ -4,33 +4,40 @@
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762508": 1793979865.8538759,
-   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762509": 1793974954.4806592,
-   "tiyatro/bir-ziyaret-ibb/18762359": 1793972496.9992938,
+   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762509": 1794049823.8682353,
+   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762510": 1794049823.8682353,
+   "tiyatro/bir-ziyaret-ibb/18762359": 1794050436.4956255,
    "tiyatro/bir-ziyaret-ibb/18762360": 1793972496.9992938,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763103": 1793971882.7615314,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1793973111.4296176,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1793973111.4296176,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1794049823.8682353,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1794049823.8682353,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762779": 1794006974.9975603,
    "tiyatro/haramiler/18762737": 1793974954.4806592,
-   "tiyatro/hayalinin-hayali/18762786": 1793964512.84295,
    "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli/18763223": 1793979865.8538759,
    "tiyatro/kopek-kalbi-ibb/18762769": 1793968813.4407012,
-   "tiyatro/kopek-kalbi-ibb/18762770": 1793973111.4296176,
-   "tiyatro/kopek-kalbi-ibb/18762771": 1793973111.4296176,
+   "tiyatro/kopek-kalbi-ibb/18762770": 1794049823.8682353,
+   "tiyatro/kopek-kalbi-ibb/18762771": 1794049823.8682353,
+   "tiyatro/kosebasi-ibb/18762388": 1794044068.215043,
    "tiyatro/oylece-durur-zaman/18763082": 1793973111.4296176,
+   "tiyatro/savas-ve-baris-ibb/18763041": 1794052847.726527,
    "tiyatro/sevgili-yelena-sergeyevna/18762773": 1793970041.3843024,
-   "tiyatro/sevgili-yelena-sergeyevna/18762789": 1793973111.4296176,
+   "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794045292.1791883,
    "tiyatro/sivrisinekler-ibb/18763180": 1793970041.3843024,
-   "tiyatro/sivrisinekler-ibb/18763181": 1793978637.568692,
+   "tiyatro/sivrisinekler-ibb/18763181": 1794049823.8682353,
+   "tiyatro/sivrisinekler-ibb/18763182": 1794049823.8682353,
    "tiyatro/tartuffe-ibb/18763138": 1794019985.3832297,
    "tiyatro/yenilmez-ibb/18763074": 1793968813.4407012,
-   "tiyatro/yenilmez-ibb/18763075": 1793973111.4296176,
-   "tiyatro/yenilmez-ibb/18763076": 1793973111.4296176
+   "tiyatro/yenilmez-ibb/18763075": 1794049823.8682353,
+   "tiyatro/yenilmez-ibb/18763076": 1794049823.8682353,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794052847.726527
+  },
+  "muammer-karaca": {
+   "tiyatro/ogrenci-matinesi-tuz-biber-stand-up/18870488": 1794052840.8705714
   }
  },
  "reminded": {
-  "muammer-karaca/tiyatro/pirilin-masallarla-dansi/18839813@1793790000@1800": 1793788212.7633455,
-  "muammer-karaca/tiyatro/pirilin-masallarla-dansi/18839813@1793790000@3600": 1793786412.5712082
+  "muammer-karaca/tiyatro/ogrenci-matinesi-tuz-biber-stand-up/18870488@1794052800@1800": 1794051011.9778197,
+  "muammer-karaca/tiyatro/ogrenci-matinesi-tuz-biber-stand-up/18870488@1794052800@3600": 1794049211.6766477
  },
  "sources": {
   "ibb-sehir-tiyatrolari": {
@@ -41,15 +48,10 @@
     "rating": 4.3,
     "reviews": 41,
     "sessions": {
-     "18762509": {
-      "label": "07 Kasım Cumartesi, 15:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
-     },
      "18762510": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
+      "status": "open"
      }
     }
    },
@@ -63,12 +65,12 @@
      "18762359": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762360": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "few"
      }
     }
    },
@@ -276,12 +278,12 @@
      "18763106": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763107": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      }
     }
    },
@@ -466,12 +468,12 @@
      "18762770": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762771": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -481,7 +483,7 @@
      "18763088": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763089": {
       "label": "28 Kasım Cumartesi, 15:00",
@@ -630,7 +632,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -679,7 +681,7 @@
      "18762789": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      }
     }
    },
@@ -693,12 +695,12 @@
      "18763181": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763182": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -742,7 +744,7 @@
      "18763138": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763139": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -864,12 +866,12 @@
      "18763075": {
       "label": "07 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763076": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      }
     }
    },
@@ -888,7 +890,7 @@
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763036": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -1019,9 +1021,8 @@
     "sessions": {
      "18870488": {
       "label": "15 Kasım Pazar, 15:00",
-      "opens_ts": 1794052800,
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
