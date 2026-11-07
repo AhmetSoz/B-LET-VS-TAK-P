@@ -1,32 +1,23 @@
 {
- "digest_last": "2026-11-07 sabah",
+ "digest_last": "2026-11-07 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762508": 1793979865.8538759,
    "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762509": 1794049823.8682353,
    "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762510": 1794049823.8682353,
    "tiyatro/bir-ziyaret-ibb/18762359": 1794050436.4956255,
-   "tiyatro/bir-ziyaret-ibb/18762360": 1793972496.9992938,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763103": 1793971882.7615314,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1794049823.8682353,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1794049823.8682353,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762779": 1794006974.9975603,
-   "tiyatro/haramiler/18762737": 1793974954.4806592,
-   "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli/18763223": 1793979865.8538759,
-   "tiyatro/kopek-kalbi-ibb/18762769": 1793968813.4407012,
+   "tiyatro/haramiler/18762737": 1794066533.4379401,
    "tiyatro/kopek-kalbi-ibb/18762770": 1794049823.8682353,
    "tiyatro/kopek-kalbi-ibb/18762771": 1794049823.8682353,
    "tiyatro/kosebasi-ibb/18762388": 1794044068.215043,
-   "tiyatro/oylece-durur-zaman/18763082": 1793973111.4296176,
    "tiyatro/savas-ve-baris-ibb/18763041": 1794052847.726527,
-   "tiyatro/sevgili-yelena-sergeyevna/18762773": 1793970041.3843024,
    "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794045292.1791883,
-   "tiyatro/sivrisinekler-ibb/18763180": 1793970041.3843024,
    "tiyatro/sivrisinekler-ibb/18763181": 1794049823.8682353,
    "tiyatro/sivrisinekler-ibb/18763182": 1794049823.8682353,
    "tiyatro/tartuffe-ibb/18763138": 1794019985.3832297,
-   "tiyatro/yenilmez-ibb/18763074": 1793968813.4407012,
    "tiyatro/yenilmez-ibb/18763075": 1794049823.8682353,
    "tiyatro/yenilmez-ibb/18763076": 1794049823.8682353,
    "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794052847.726527
@@ -45,13 +36,13 @@
     "genre": "Kara komedi / Hiciv",
     "name": "Arturo Ui'nin Önlenebilir Tırmanışı - İzmir Şehir Tiyatrosu",
     "page": "https://biletinial.com/tr-tr/tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu?cinemaBranchId=4223",
-    "rating": 4.3,
-    "reviews": 41,
+    "rating": 4.2,
+    "reviews": 42,
     "sessions": {
      "18762510": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -60,17 +51,12 @@
     "name": "Bir Ziyaret",
     "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 825,
+    "reviews": 827,
     "sessions": {
-     "18762359": {
-      "label": "07 Kasım Cumartesi, 15:00",
-      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
-     },
      "18762360": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -123,7 +109,7 @@
      "18763209": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "few"
      }
     }
    },
@@ -181,7 +167,7 @@
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -275,15 +261,10 @@
     "rating": 4.3,
     "reviews": 564,
     "sessions": {
-     "18763106": {
-      "label": "07 Kasım Cumartesi, 15:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
-     },
      "18763107": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -346,7 +327,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "open"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -465,15 +446,10 @@
     "rating": 4.5,
     "reviews": 911,
     "sessions": {
-     "18762770": {
-      "label": "07 Kasım Cumartesi, 15:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
-     },
      "18762771": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -537,11 +513,6 @@
     "rating": 3.0,
     "reviews": 322,
     "sessions": {
-     "18837873": {
-      "label": "07 Kasım Cumartesi, 15:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "open"
-     },
      "18837874": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
@@ -632,7 +603,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -692,15 +663,10 @@
     "rating": 4.6,
     "reviews": 377,
     "sessions": {
-     "18763181": {
-      "label": "07 Kasım Cumartesi, 15:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
-     },
      "18763182": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      },
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -831,7 +797,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1218,
+    "reviews": 1219,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -863,15 +829,10 @@
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
       "status": "open"
      },
-     "18763075": {
-      "label": "07 Kasım Cumartesi, 15:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
-     },
      "18763076": {
       "label": "07 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -890,7 +851,7 @@
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763036": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -925,24 +886,10 @@
     "reviews": 0,
     "sessions": {}
    },
-   "egitim/metinlerden-figurlere-cizginin-yolculugu-illustrasyon-atolyesi": {
-    "genre": "Diğer",
-    "name": "Metinlerden Figürlere, Çizginin Yolculuğu İllüstrasyon Atölyesi",
-    "page": "https://biletinial.com/tr-tr/egitim/metinlerden-figurlere-cizginin-yolculugu-illustrasyon-atolyesi?cinemaBranchId=40264",
-    "reviews": 0,
-    "sessions": {}
-   },
    "egitim/ugurcan-ataoglu-ile-afis-tasarim-atolyesi": {
     "genre": "Diğer",
     "name": "Uğurcan Ataoğlu ile Afiş Tasarım Atölyesi",
     "page": "https://biletinial.com/tr-tr/egitim/ugurcan-ataoglu-ile-afis-tasarim-atolyesi?cinemaBranchId=40264",
-    "reviews": 0,
-    "sessions": {}
-   },
-   "etkinlik/kuratorler-ile-mengu-ertelin-tiyatro-evreni-sergi-turu": {
-    "genre": "Diğer",
-    "name": "Küratörler ile Mengü Ertel'in Tiyatro Evreni Sergi Turu",
-    "page": "https://biletinial.com/tr-tr/etkinlik/kuratorler-ile-mengu-ertelin-tiyatro-evreni-sergi-turu?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {}
    },
