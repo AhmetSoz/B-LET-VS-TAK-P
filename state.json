@@ -1,5 +1,5 @@
 {
- "digest_last": "2026-11-06 akşam",
+ "digest_last": "2026-11-07 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
@@ -22,6 +22,7 @@
    "tiyatro/sevgili-yelena-sergeyevna/18762789": 1793973111.4296176,
    "tiyatro/sivrisinekler-ibb/18763180": 1793970041.3843024,
    "tiyatro/sivrisinekler-ibb/18763181": 1793978637.568692,
+   "tiyatro/tartuffe-ibb/18763138": 1794019985.3832297,
    "tiyatro/yenilmez-ibb/18763074": 1793968813.4407012,
    "tiyatro/yenilmez-ibb/18763075": 1793973111.4296176,
    "tiyatro/yenilmez-ibb/18763076": 1793973111.4296176
@@ -37,8 +38,8 @@
     "genre": "Kara komedi / Hiciv",
     "name": "Arturo Ui'nin Önlenebilir Tırmanışı - İzmir Şehir Tiyatrosu",
     "page": "https://biletinial.com/tr-tr/tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu?cinemaBranchId=4223",
-    "rating": 4.2,
-    "reviews": 28,
+    "rating": 4.3,
+    "reviews": 41,
     "sessions": {
      "18762509": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -57,7 +58,7 @@
     "name": "Bir Ziyaret",
     "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 815,
+    "reviews": 825,
     "sessions": {
      "18762359": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -270,7 +271,7 @@
     "name": "Gölge",
     "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 558,
+    "reviews": 564,
     "sessions": {
      "18763106": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -304,7 +305,7 @@
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762780": {
       "label": "21 Kasım Cumartesi, 15:00",
@@ -460,7 +461,7 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 907,
+    "reviews": 911,
     "sessions": {
      "18762770": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -653,7 +654,7 @@
      "18762772": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762773": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -687,7 +688,7 @@
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 375,
+    "reviews": 377,
     "sessions": {
      "18763181": {
       "label": "07 Kasım Cumartesi, 15:00",
@@ -741,7 +742,7 @@
      "18763138": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763139": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -828,7 +829,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1214,
+    "reviews": 1218,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -969,7 +970,8 @@
     "genre": "Diğer",
     "name": "Quartet Dinleti",
     "page": "https://biletinial.com/tr-tr/muzik/quartet-dinleti?cinemaBranchId=40264",
-    "reviews": 0,
+    "rating": 5.0,
+    "reviews": 3,
     "sessions": {}
    },
    "muzik/quintet-dinleti": {
