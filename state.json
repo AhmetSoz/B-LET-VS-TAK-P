@@ -146,7 +146,7 @@
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763095": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -404,7 +404,7 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 911,
+    "reviews": 914,
     "sessions": {
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -544,7 +544,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -568,12 +568,12 @@
      "18762772": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762773": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762774": {
       "label": "13 Kasım Cuma, 20:00",
@@ -593,7 +593,7 @@
      "18762789": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -602,7 +602,7 @@
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 377,
+    "reviews": 381,
     "sessions": {
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -651,7 +651,7 @@
      "18763139": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763140": {
       "label": "13 Kasım Cuma, 20:00",
@@ -733,7 +733,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1219,
+    "reviews": 1221,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
