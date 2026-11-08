@@ -5,6 +5,11 @@ name: Burs botu
 on:
   schedule:
     - cron: "17 6 * * *" # ~09:17 Türkiye saati
+  # durum.json'a "send_now" notu itilince hemen çalışsın (botun kendi kayıtları GITHUB_TOKEN'la
+  # itildiği için bu tetikleyiciyi çalıştırmaz; bot zaten günde bir kez çalışır)
+  push:
+    branches: [ccr-1113083d-7qapmv]
+    paths: [burs/durum.json]
   workflow_dispatch:
     inputs:
       haftalik:
