@@ -9,8 +9,9 @@ Her çalıştırmada (günde bir):
   2. Duyurular: MEB ABDİGM (yabancı devlet bursları) ve YYEGM (YLSY) duyurularındaki yeni burs
      duyurularını bildirir.
   3. Hatırlatma: son başvuruya 30/14/7/3/1/0 gün kala.
-  4. Pazartesi: Erasmus Mundus kataloğunda yeni sosyal bilimler programı var mı bakar (programın
-     sayfasından IELTS şartını okuyup süzer) ve tam listeyi haftalık özet olarak gönderir.
+  4. Her gün yeni fırsat taraması: Erasmus Mundus kataloğunda ilgili yeni program (programın sayfasından
+     IELTS şartını okuyup süzer) ve Stipendium Hungaricum'da ilgili yeni İngilizce yüksek lisans programı.
+     Pazartesi tam listeyi haftalık özet olarak gönderir.
 Yeni bir şey yoksa en yakın son başvuru tarihlerini günlük hatırlatma olarak gönderir. İlk çalıştırmada her kaynağın mevcut hali sessizce kaydedilir.
 
   python burs/bot.py              -> normal çalışma
@@ -21,6 +22,7 @@ Yeni bir şey yoksa en yakın son başvuru tarihlerini günlük hatırlatma olar
 
 import hashlib
 import html
+import http.cookiejar
 import json
 import os
 import re
@@ -392,6 +394,7 @@ def check_catalogue(state):
     except Exception as e:
         print("Erasmus Mundus kataloğu okunamadı:", str(e)[:200], file=sys.stderr)
         return []
+    state["catalogue_scanned"] = len(programmes)
     relevant = {pid: p for pid, p in programmes.items() if is_social(p["title"])}
     first = "catalogue" not in state
     known = set(state.get("catalogue", []))
@@ -411,6 +414,67 @@ def check_catalogue(state):
         found.append({**p, "ielts": ielts_label(scores), "ielts_min": min(scores) if scores else None,
                       "project": project})
     return found
+
+
+# --------------------------------------------------------------------------- 5) Stipendium Hungaricum programları
+
+SH_BASE = "https://apply.stipendiumhungaricum.hu"
+SH_QUERIES = ["gerontology", "ageing", "aging", "recreation", "leisure", "sport", "physical activity",
+              "public health", "health promotion", "social work", "wellbeing", "tourism", "rehabilitation"]
+# Arama tam metinde yapıldığı için sonuçlar program adına göre ayrıca süzülür. "(SH Sport)" sporcu kontenjanıdır.
+SH_NAME = re.compile(r"geront|ageing|aging|recreat|leisure|sport|kinesio|rehabilit|health|social work|social problem|"
+                     r"social policy|wellbeing|well-being|physical activ|nutrition|tourism", re.I)
+
+
+def read_sh():
+    """Stipendium Hungaricum başvuru sisteminde (DreamApply) ilgili İngilizce yüksek lisans programları."""
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    ua = {"User-Agent": USER_AGENT}
+    opener.open(urllib.request.Request(SH_BASE + "/courses/find", headers=ua), timeout=30).read()
+    headers = {**ua, "Content-Type": "application/x-www-form-urlencoded", "X-Requested-With": "XMLHttpRequest",
+               "Accept": "application/json"}
+
+    def post(path, data):
+        req = urllib.request.Request(SH_BASE + path, data=urllib.parse.urlencode(data).encode(), headers=headers)
+        return json.loads(opener.open(req, timeout=30).read())
+
+    found = {}
+    for q in SH_QUERIES:
+        for kind in ("MA", "MSc"):
+            for chunk in post("/courses/find/results", {"by": q, "type": kind}).get("chunks", []):
+                for c in post("/courses/find/chunk", {"chunk": chunk}).get("courses", []):
+                    name = c.get("name") or ""
+                    if c.get("language") == "en" and SH_NAME.search(name) and "(SH Sport)" not in name:
+                        found[str(c["id"])] = {"name": f"{c.get('type')} {name}",
+                                               "institution": (c.get("institution") or {}).get("name", ""),
+                                               "link": SH_BASE + c.get("seoPath", "")}
+    if not found:
+        raise RuntimeError("Stipendium Hungaricum aramasında hiç program bulunamadı (site değişmiş olabilir)")
+    return found
+
+
+def check_sh(state):
+    """(yeni programlar, tüm ilgili programlar). İlk taramada hepsi 'yeni' sayılır ki bir kez listelensin."""
+    try:
+        programmes = read_sh()
+    except Exception as e:
+        print("Stipendium Hungaricum programları okunamadı:", str(e)[:200], file=sys.stderr)
+        return [], []
+    known = set(state.get("sh_courses", []))
+    state["sh_courses"] = sorted(known | set(programmes))
+    new = [p for pid, p in programmes.items() if pid not in known]
+    return sorted(new, key=lambda p: p["name"]), sorted(programmes.values(), key=lambda p: p["name"])
+
+
+def section_sh(programmes, title):
+    if not programmes:
+        return "", ""
+    items = "".join(f'<li style="margin-bottom:6px"><b>{mail.esc(p["name"])}</b> — {mail.esc(p["institution"])}<br>'
+                    f'<a href="{mail.esc(p["link"])}">{mail.esc(p["link"])}</a></li>' for p in programmes)
+    text = "".join(f"- {p['name']} — {p['institution']}\n  {p['link']}\n" for p in programmes)
+    return (f"<h3>🇭🇺 {mail.esc(title)}</h3><p style=\"color:#57606a;font-size:13px\">Stipendium Hungaricum "
+            "(okul ücreti + aylık burs + yurt) ile seçilebilir; program sayfasındaki giriş ve İngilizce şartlarına "
+            f"bakılmalı.</p><ul>{items}</ul>", f"{title.upper()}\n{text}\n")
 
 
 # --------------------------------------------------------------------------- 3) hatırlatma ve e-posta
@@ -469,7 +533,7 @@ def section_reminders(due):
     return f"<h3>⏰ Son başvuru hatırlatması</h3><ul>{items}</ul>", f"HATIRLATMA\n{text}\n"
 
 
-def section_upcoming(data, limit=6):
+def section_upcoming(data, limit=6, scanned=""):
     """Yeni bir şey olmayan günlerin hatırlatma maili: en yakın son başvuru tarihleri."""
     items = sorted((i for i in data["items"] if (days_left(i) or -1) >= 0), key=lambda i: i["deadline"])[:limit]
     if not items:
@@ -487,8 +551,9 @@ def section_upcoming(data, limit=6):
         + f'<a href="{mail.esc(i.get("link"))}">{mail.esc(i.get("link"))}</a></li>' for i in items)
     text = "".join(f"- {i['name']}: {i['deadline']} ({days_left(i)} gün kaldı)\n"
                    + "".join(f"  {x}\n" for x in extra(i)) + f"  {i.get('link', '')}\n" for i in items)
-    html_part = ("<p>Bugün yeni duyuru ya da sayfa değişikliği yok. Hatırlatma olarak en yakın son başvuru tarihleri:</p>"
-                 f"<ul>{li}</ul>")
+    html_part = ("<p>Bugün yeni duyuru, yeni program ya da sayfa değişikliği yok. Hatırlatma olarak en yakın son "
+                 f"başvuru tarihleri:</p><ul>{li}</ul>"
+                 + (f'<p style="color:#57606a;font-size:13px">🔎 {mail.esc(scanned)}</p>' if scanned else ""))
     return html_part, f"Bugün yeni bir şey yok. En yakın son başvuru tarihleri:\n{text}"
 
 
@@ -548,7 +613,9 @@ def main():
     changes = check_pages(data, state)
     news = check_announcements(data, state)
     weekly = is_weekly(state)
-    found = check_catalogue(state) if weekly or "catalogue" not in state else []
+    # Her gün yeni fırsat taraması: Erasmus Mundus kataloğu + Stipendium Hungaricum program araması
+    found = check_catalogue(state)
+    sh_new, sh_all = check_sh(state)
 
     # Maillere yalnızca alanı uyan ve IELTS 6.0'ın yettiği (ya da şartı belirsiz) burslar girer
     def fits(item):
@@ -558,7 +625,11 @@ def main():
     found = [f for f in found if not (f.get("ielts_min") and f["ielts_min"] > TARGET_IELTS)]
     due = due_reminders(data, state)
 
-    parts = [section_reminders(due), section_news(news), section_catalogue(found), section_changes(changes)]
+    parts = [section_reminders(due), section_news(news), section_catalogue(found),
+             section_sh([] if weekly else sh_new, "Bugünkü taramada bulunan yeni Macaristan bursu programları"),
+             section_changes(changes)]
+    if weekly and sh_all:
+        parts.append(section_sh(sh_all, "Macaristan bursuyla seçilebilecek uygun programlar (tam liste)"))
     if send_now:
         parts.insert(0, (f'<div style="background:#fff8c5;border:1px solid #d4a72c;border-radius:8px;padding:10px;'
                          f'margin:10px 0">📝 {br(send_now)}</div>', f"NOT: {send_now}\n\n"))
@@ -568,20 +639,24 @@ def main():
 
     if weekly:
         subject, text_body, html_body = mail.build(data, extra_html=extra_html, extra_text=extra_text)
-    elif due or news or found or changes:
+    elif due or news or found or sh_new or changes:
         if due:
             first, left = min(due, key=lambda x: x[1])
             subject = f"⏰ Burs hatırlatma: {first['name']} — " + ("BUGÜN son gün" if left == 0 else f"{left} gün kaldı")
         elif news:
             subject = f"📢 Yeni burs duyurusu: {news[0][1]}" + (f" (+{len(news) - 1})" if len(news) > 1 else "")
         else:
-            n = len(changes) + len(found)
+            n = len(changes) + len(found) + len(sh_new)
             subject = f"🔔 Burs güncellemesi ({n})"
         html_body = mail.wrap(subject, extra_html)
         text_body = extra_text
     else:
         # Yeni bir şey yoksa da her gün hatırlatma maili: en yakın son tarihler
-        html_part, text_body = section_upcoming(data)
+        scanned = (f"Bugün taranan: {sum(len(i.get('watch', [])) for i in data_all['items'])} resmî sayfa, "
+                   f"{len(data_all.get('sources', []))} duyuru kaynağı, Erasmus Mundus kataloğu "
+                   f"({state.get('catalogue_scanned', '?')} program), Stipendium Hungaricum araması "
+                   f"({len(sh_all)} ilgili program).")
+        html_part, text_body = section_upcoming(data, scanned=scanned)
         if html_part and state.get("last_daily") == TODAY.isoformat():
             subject = None
             print("Günlük hatırlatma bugün zaten gönderildi.")
