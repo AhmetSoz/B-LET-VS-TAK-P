@@ -536,6 +536,10 @@ def main():
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     state = load_json(STATE_FILE, {})
     # Günde bir kez çalışır (bilet işi 09:00'da, burs işi yedek olarak); elle --weekly/--force ile tekrar
+    # durum.json'a "send_now": "<not>" yazılırsa: bugün çalışmış olsa da tam liste o notla bir kez gönderilir
+    send_now = state.get("send_now")
+    if send_now:
+        sys.argv.append("--weekly")
     if state.get("last_run") == TODAY.isoformat() and not ({"--weekly", "--force", "--dry-run"} & set(sys.argv)):
         print("Burs botu bugün zaten çalıştı.")
         return
@@ -555,6 +559,10 @@ def main():
     due = due_reminders(data, state)
 
     parts = [section_reminders(due), section_news(news), section_catalogue(found), section_changes(changes)]
+    if send_now:
+        parts.insert(0, (f'<div style="background:#fff8c5;border:1px solid #d4a72c;border-radius:8px;padding:10px;'
+                         f'margin:10px 0">📝 {br(send_now)}</div>', f"NOT: {send_now}\n\n"))
+        state.pop("send_now")
     extra_html = "".join(h for h, _ in parts)
     extra_text = "".join(t for _, t in parts)
 

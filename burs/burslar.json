@@ -1,7 +1,7 @@
 {
   "subject": "🎓 Burslu yüksek lisans listesi (Gerontoloji · Rekreasyon · Sağlık ve spor)",
   "report_url": "https://github.com/AhmetSoz/B-LET-VS-TAK-P/blob/ccr-1113083d-7qapmv/burs/rapor.md",
-  "intro": "Merhaba 👋 Bu liste lisansı gerontoloji, yüksek lisansı rekreasyon olan ve IELTS 6.0'ı bulunan biri için süzüldü: alan şartı uymayan ve 6.0'dan yüksek IELTS isteyen burslar maillere girmez. En uygun tam burslu seçenekler GOALS (boş zaman ve spor yönetimi) ve Hygieia (yaşam boyu sağlık ve iyi oluş) Erasmus Mundus programları; ülke bursları (Macaristan, Kore, Malezya, Tayvan, Fulbright, YLSY) ise bölüm seçimine bağlı: gerontoloji/yaşlanma, rekreasyon/spor yönetimi, halk sağlığı veya sosyal hizmet programlarına bakılmalı. Bot resmî sayfaları her gün kontrol eder; değişiklikte ve son başvuruya 30/14/7/3/1 gün kala mail gelir, her pazartesi bu tam liste gelir.",
+  "intro": "Merhaba 👋 Bu liste, lisansı gerontoloji ve yüksek lisansı rekreasyon olan, IELTS 6.0'ı bulunan biri için resmî sayfalar tek tek kontrol edilerek süzüldü. Alan şartı uymayan (ör. Padova ve Bologna'nın insan hakları programları, EMA) ve 6.0'dan yüksek IELTS isteyen programlar (ör. Hygieia, MAiSI, NOHA) maillere girmez; yalnızca devam eden YL öğrencilerine verilen yurt içi burslar (TÜBİTAK 2210, KYK, Yeşilay) de çıkarıldı. En uygun tam burslu seçenek GOALS (boş zaman ve spor yönetimi, Erasmus Mundus, IELTS 6.0 kabul). Ülke bursları (Macaristan, Kore, Malezya, Tayvan, Fulbright, YLSY) bölüm seçimine bağlı: gerontoloji/yaşlanma, rekreasyon/spor yönetimi, halk sağlığı veya sosyal hizmet programlarına bakılmalı. Bot resmî sayfaları her gün kontrol eder; her sabah 09:00'da mail gelir, pazartesileri bu tam liste.",
   "items": [
     {
       "id": "goals",
@@ -40,13 +40,13 @@
       "field": "Yaşam boyu sağlık ve iyi oluş (sağlık bilimleri, spor, beslenme)",
       "summary": "Erasmus Mundus bursu: ayda €1.400 + okul ücreti yok (her dönem 16 burs)",
       "coverage": "Erasmus Mundus bursu: ayda €1.400 + okul ücreti muafiyeti, en fazla 24 ay; her alımda 16 burs.",
-      "ielts": "İngilizce şartı başvuru sayfasında kontrol edilmeli",
-      "ielts_fit": null,
+      "ielts": "IELTS 6.5, hiçbir bölüm 6.0 altı değil (programın SSS sayfası)",
+      "ielts_fit": "yuksek",
       "field_fit": "uygun",
       "turkey": "Uygun (Erasmus Mundus bursları tüm ülkelere açık)",
       "deadline": "2027-02-15",
       "deadline_note": "2027–2029 alımı: başvurular 16 Kasım 2026'da açılıyor, 15 Şubat 2027'de kapanıyor",
-      "notes": "Gerontoloji (sağlık bilimi) + rekreasyon (spor) geçmişine uyuyor: program sağlık, spor ve yaşam bilimleri mezunlarını kabul ediyor. Burs başvurusu için portfolyo isteniyor.",
+      "notes": "Alan olarak uyuyor (sağlık, spor ve yaşam bilimleri mezunları), ama IELTS 6.5 gerekiyor. IELTS 6.5 alınırsa ilk başvurulacaklardan.",
       "link": "https://www.hygieiamaster.eu/admission",
       "watch": [
         "https://www.hygieiamaster.eu/admission",
@@ -511,12 +511,12 @@
       "field": "Spor etiği ve dürüstlüğü, spor yönetişimi",
       "summary": "Erasmus Mundus bursu: ücretsiz + aylık burs",
       "coverage": "Erasmus Mundus bursu: okul ücreti yok + aylık yaşam bursu (tutar kaynaklara göre €1.000–1.400).",
-      "ielts": "İngilizce şartı programın sayfasında",
-      "ielts_fit": null,
+      "ielts": "IELTS 6.5, hiçbir bölüm 5.5 altı değil (KU Leuven şartı; ikincil kaynaklardan)",
+      "ielts_fit": "yuksek",
       "turkey": "Uygun (Türkiye Erasmus+ ortak ülke)",
       "deadline": "2027-02-01",
       "deadline_note": "tahmini — resmi sitede Erasmus Mundus bursu için son tarih 1 Şubat (burssuz AB dışı: 1 Nisan)",
-      "notes": "Spor/rekreasyon geçmişine uygun, tam burslu yurt dışı yüksek lisans seçeneği.",
+      "notes": "Her bölümden mezun kabul ediliyor; spor/rekreasyon geçmişi avantaj. Ama IELTS 6.5 gerekiyor.",
       "link": "https://www.maisi-project.eu/",
       "watch": [
         "https://www.maisi-project.eu/"

@@ -62,7 +62,7 @@ def deadline_text(item):
     return f"{when} ({rel})" + (f" — {note}" if note else "")
 
 
-def card(item):
+def card(item, n):
     color, label = IELTS_BADGE.get(item.get("ielts_fit"), ("#57606a", "IELTS: kontrol et"))
     rows = [
         ("Ülke / Üniversite", item.get("where")),
@@ -80,7 +80,7 @@ def card(item):
     )
     return f"""
 <div style="border:1px solid #d0d7de;border-radius:8px;padding:12px 14px;margin:0 0 14px">
-  <div style="font-size:16px;font-weight:600">{esc(item.get('rank'))}. {esc(item['name'])}</div>
+  <div style="font-size:16px;font-weight:600">{n}. {esc(item['name'])}</div>
   <div style="margin:6px 0 8px"><span style="background:{color};color:#fff;border-radius:10px;padding:2px 8px;font-size:12px">{esc(label)}</span></div>
   <table style="border-collapse:collapse;font-size:14px;width:100%;table-layout:fixed">{body}</table>
   <div style="margin-top:8px"><a href="{esc(item.get('link'))}">Resmî sayfa →</a></div>
@@ -110,14 +110,14 @@ def build(data, extra_html="", extra_text=""):
 <h3>⏰ Yaklaşan son başvuru tarihleri ({UPCOMING_DAYS} gün)</h3>
 <ul>{up_html}</ul>
 <h3>📋 Sıralı kısa liste</h3>
-{''.join(card(i) for i in items)}
+{''.join(card(i, n) for n, i in enumerate(items, 1))}
 {f'<p><a href="{esc(report)}">Ayrıntılı araştırma raporu →</a></p>' if report else ''}
 <p style="color:#57606a;font-size:12px">Bilgiler resmî kaynaklardan derlendi ama burs koşulları her yıl değişebilir; başvurmadan önce resmî sayfadan teyit edin.</p>
 </body></html>"""
     text_body = extra_text + "Tam burslu yüksek lisans seçenekleri\n\n" + "\n\n".join(
-        f"{i.get('rank')}. {i['name']}\n{i.get('where','')}\nİngilizce: {i.get('ielts','')}\n"
+        f"{n}. {i['name']}\n{i.get('where','')}\nİngilizce: {i.get('ielts','')}\n"
         f"Son başvuru: {deadline_text(i)}\n{i.get('link','')}"
-        for i in items
+        for n, i in enumerate(items, 1)
     )
     subject = data.get("subject", "🎓 Burslu yüksek lisans listesi")
     if upcoming:

@@ -540,7 +540,10 @@ def run_burs_bot(state):
     """Burs botunu günde bir kez, sabah BURS_HOUR'dan sonra çalıştırır (e-postayı o gönderir)."""
     now = datetime.now(ISTANBUL)
     today = f"{now:%Y-%m-%d}"
-    if now.hour < BURS_HOUR or state.get("burs_last") == today or not os.path.exists(BURS_BOT):
+    if now.hour < BURS_HOUR or not os.path.exists(BURS_BOT):
+        return
+    burs_state = load_json(os.path.join(os.path.dirname(BURS_BOT), "durum.json"), {})
+    if state.get("burs_last") == today and not burs_state.get("send_now"):
         return
     if not all(os.environ.get(k) for k in ("GMAIL_USER", "GMAIL_APP_PASSWORD", "MAIL_TO")):
         return
