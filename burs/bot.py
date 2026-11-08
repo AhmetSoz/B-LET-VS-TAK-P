@@ -11,7 +11,7 @@ Her çalıştırmada (günde bir):
   3. Hatırlatma: son başvuruya 30/14/7/3/1/0 gün kala.
   4. Pazartesi: Erasmus Mundus kataloğunda yeni sosyal bilimler programı var mı bakar (programın
      sayfasından IELTS şartını okuyup süzer) ve tam listeyi haftalık özet olarak gönderir.
-Gönderecek bir şey yoksa e-posta atmaz. İlk çalıştırmada her kaynağın mevcut hali sessizce kaydedilir.
+Yeni bir şey yoksa en yakın son başvuru tarihlerini günlük hatırlatma olarak gönderir. İlk çalıştırmada her kaynağın mevcut hali sessizce kaydedilir.
 
   python burs/bot.py              -> normal çalışma
   python burs/bot.py --weekly     -> haftalık özeti (ve katalog taramasını) bugün zorla yap
@@ -461,6 +461,29 @@ def section_reminders(due):
     return f"<h3>⏰ Son başvuru hatırlatması</h3><ul>{items}</ul>", f"HATIRLATMA\n{text}\n"
 
 
+def section_upcoming(data, limit=6):
+    """Yeni bir şey olmayan günlerin hatırlatma maili: en yakın son başvuru tarihleri."""
+    items = sorted((i for i in data["items"] if (days_left(i) or -1) >= 0), key=lambda i: i["deadline"])[:limit]
+    if not items:
+        return "", ""
+    fit = {"uygun": "✅ IELTS 6.0 yeterli", "yuksek": "❌ daha yüksek IELTS istiyor",
+           "gerekmiyor": "✅ IELTS gerekmiyor", "yurtici": "🇹🇷 yurt içi"}
+    def extra(i):
+        note = i.get("deadline_note") or ""
+        return [x for x in (i.get("summary") or i.get("coverage"), fit.get(i.get("ielts_fit")),
+                            "Tarih tahmini" if "tahmini" in note else "") if x]
+    li = "".join(
+        f'<li style="margin-bottom:12px"><b>{mail.esc(i["name"])}</b><br>'
+        f'📅 {mail.parse_date(i["deadline"]).strftime("%d.%m.%Y")} — <b>{days_left(i)} gün kaldı</b><br>'
+        + "".join(f"{mail.esc(x)}<br>" for x in extra(i))
+        + f'<a href="{mail.esc(i.get("link"))}">{mail.esc(i.get("link"))}</a></li>' for i in items)
+    text = "".join(f"- {i['name']}: {i['deadline']} ({days_left(i)} gün kaldı)\n"
+                   + "".join(f"  {x}\n" for x in extra(i)) + f"  {i.get('link', '')}\n" for i in items)
+    html_part = ("<p>Bugün yeni duyuru ya da sayfa değişikliği yok. Hatırlatma olarak en yakın son başvuru tarihleri:</p>"
+                 f"<ul>{li}</ul>")
+    return html_part, f"Bugün yeni bir şey yok. En yakın son başvuru tarihleri:\n{text}"
+
+
 def section_changes(changes):
     if not changes:
         return "", ""
@@ -529,8 +552,15 @@ def main():
         html_body = mail.wrap(subject, extra_html)
         text_body = extra_text
     else:
-        subject = None
-        print("Gönderilecek bir şey yok.")
+        # Yeni bir şey yoksa da her gün hatırlatma maili: en yakın son tarihler
+        html_part, text_body = section_upcoming(data)
+        if html_part:
+            first = min((i for i in data["items"] if (days_left(i) or -1) >= 0), key=lambda i: i["deadline"])
+            subject = f"📅 Günlük burs hatırlatması — en yakın: {first.get('short') or first['name']} ({days_left(first)} gün)"
+            html_body = mail.wrap(subject, html_part)
+        else:
+            subject = None
+            print("Gönderilecek bir şey yok.")
 
     if subject:
         print("E-posta:", subject)
