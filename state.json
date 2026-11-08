@@ -9,17 +9,20 @@
    "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1794049823.8682353,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1794049823.8682353,
    "tiyatro/haramiler/18762737": 1794066533.4379401,
+   "tiyatro/hayalinin-hayali/18762784": 1794129117.7469523,
    "tiyatro/kopek-kalbi-ibb/18762770": 1794049823.8682353,
    "tiyatro/kopek-kalbi-ibb/18762771": 1794049823.8682353,
    "tiyatro/kosebasi-ibb/18762388": 1794044068.215043,
    "tiyatro/savas-ve-baris-ibb/18763041": 1794052847.726527,
    "tiyatro/sevgili-yelena-sergeyevna/18762772": 1794080444.9761286,
    "tiyatro/sevgili-yelena-sergeyevna/18762773": 1794080444.9761286,
+   "tiyatro/sevgili-yelena-sergeyevna/18762775": 1794129117.7469523,
    "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794045292.1791883,
    "tiyatro/sivrisinekler-ibb/18763181": 1794049823.8682353,
    "tiyatro/sivrisinekler-ibb/18763182": 1794049823.8682353,
    "tiyatro/yenilmez-ibb/18763075": 1794049823.8682353,
    "tiyatro/yenilmez-ibb/18763076": 1794049823.8682353,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1794129117.7469523,
    "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794052847.726527
   },
   "muammer-karaca": {
@@ -319,7 +322,7 @@
      "18762784": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762785": {
       "label": "28 Kasım Cumartesi, 15:00",
@@ -542,7 +545,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -566,7 +569,7 @@
      "18762772": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762773": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -581,7 +584,7 @@
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -775,7 +778,7 @@
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
