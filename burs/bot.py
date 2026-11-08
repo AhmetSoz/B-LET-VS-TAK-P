@@ -16,6 +16,7 @@ Yeni bir şey yoksa en yakın son başvuru tarihlerini günlük hatırlatma olar
   python burs/bot.py              -> normal çalışma
   python burs/bot.py --weekly     -> haftalık özeti (ve katalog taramasını) bugün zorla yap
   python burs/bot.py --dry-run    -> e-posta göndermez, burs/onizleme.html'e yazar
+  python burs/bot.py --force      -> bugün zaten çalıştıysa bile tekrar çalıştır
 """
 
 import hashlib
@@ -528,6 +529,11 @@ def deliver(subject, text_body, html_body):
 def main():
     data = json.loads(DATA_FILE.read_text(encoding="utf-8"))
     state = load_json(STATE_FILE, {})
+    # Günde bir kez çalışır (bilet işi 09:00'da, burs işi yedek olarak); elle --weekly/--force ile tekrar
+    if state.get("last_run") == TODAY.isoformat() and not ({"--weekly", "--force", "--dry-run"} & set(sys.argv)):
+        print("Burs botu bugün zaten çalıştı.")
+        return
+    state["last_run"] = TODAY.isoformat()
 
     changes = check_pages(data, state)
     news = check_announcements(data, state)
