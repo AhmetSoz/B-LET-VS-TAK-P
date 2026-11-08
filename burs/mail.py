@@ -104,7 +104,7 @@ def build(data, extra_html="", extra_text=""):
     html_body = f"""<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"></head>
 <body style="font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#1f2328;max-width:720px;margin:auto;padding:12px;overflow-wrap:anywhere">
 <h2 style="margin:0 0 6px">🎓 Tam burslu yüksek lisans seçenekleri</h2>
-<div style="color:#57606a;font-size:13px;margin-bottom:12px">Sosyoloji · İnsan hakları · Sosyal bilimler — IELTS 6.0 · {TODAY.strftime('%d.%m.%Y')}</div>
+<div style="color:#57606a;font-size:13px;margin-bottom:12px">Gerontoloji (lisans) · Rekreasyon (YL) · Sağlık ve spor — IELTS 6.0 · {TODAY.strftime('%d.%m.%Y')}</div>
 <p>{intro}</p>
 {extra_html}
 <h3>⏰ Yaklaşan son başvuru tarihleri ({UPCOMING_DAYS} gün)</h3>

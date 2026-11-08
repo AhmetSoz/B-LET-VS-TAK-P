@@ -87,8 +87,14 @@ NON_SOCIAL = re.compile(
     r"ecolog|environment|climate|sport|biodivers", re.I)
 
 
+# Mehlika'nın geçmişi (lisans gerontoloji, YL rekreasyon) ile doğrudan ilgili program adları
+PROFILE = re.compile(r"\bageing\b|\baging\b|geront|lifespan|leisure|recreat|\bsports?\b|well-?being|public health|"
+                     r"social work", re.I)
+
+
 def is_social(title):
-    return bool(STRONG_SOCIAL.search(title) or (SOCIAL.search(title) and not NON_SOCIAL.search(title)))
+    return bool(PROFILE.search(title) or STRONG_SOCIAL.search(title)
+                or (SOCIAL.search(title) and not NON_SOCIAL.search(title)))
 
 
 # --------------------------------------------------------------------------- okuma
@@ -513,7 +519,7 @@ def section_catalogue(found):
         f'<a href="{mail.esc(f["site"])}">Program sitesi →</a> · <a href="{mail.esc(f["project"])}">AB proje sayfası</a></li>'
         for f in found)
     text = "".join(f"- {f['title']} — {f['ielts']} {f['site']}\n" for f in found)
-    return ("<h3>🆕 Erasmus Mundus kataloğuna eklenen sosyal bilimler programları</h3>"
+    return ("<h3>🆕 Erasmus Mundus kataloğuna eklenen ilgili programlar (sağlık, spor, yaşlanma, sosyal bilimler)</h3>"
             "<p style=\"color:#57606a;font-size:13px\">Tam burslu (ayda €1.400 + ücret muafiyeti); "
             "Türk vatandaşları başvurabilir. IELTS bilgisi programın sitesinden otomatik okundu.</p>"
             f"<ul>{items}</ul>", f"YENİ ERASMUS MUNDUS PROGRAMLARI\n{text}\n")
@@ -540,9 +546,11 @@ def main():
     weekly = is_weekly(state)
     found = check_catalogue(state) if weekly or "catalogue" not in state else []
 
-    # Maillere yalnızca IELTS 6.0'ın yettiği (ya da IELTS istemeyen / şartı belirsiz) burslar girer
-    data_all, data = data, {**data, "items": [i for i in data["items"] if i.get("ielts_fit") != "yuksek"]}
-    changes = [c for c in changes if c[0].get("ielts_fit") != "yuksek"]
+    # Maillere yalnızca alanı uyan ve IELTS 6.0'ın yettiği (ya da şartı belirsiz) burslar girer
+    def fits(item):
+        return item.get("ielts_fit") != "yuksek" and item.get("field_fit") != "uymuyor"
+    data_all, data = data, {**data, "items": [i for i in data["items"] if fits(i)]}
+    changes = [c for c in changes if fits(c[0])]
     found = [f for f in found if not (f.get("ielts_min") and f["ielts_min"] > TARGET_IELTS)]
     due = due_reminders(data, state)
 

@@ -1,10 +1,64 @@
 {
-  "subject": "🎓 Burslu yüksek lisans listesi (Sosyoloji · İnsan hakları)",
+  "subject": "🎓 Burslu yüksek lisans listesi (Gerontoloji · Rekreasyon · Sağlık ve spor)",
   "report_url": "https://github.com/AhmetSoz/B-LET-VS-TAK-P/blob/ccr-1113083d-7qapmv/burs/rapor.md",
-  "intro": "Merhaba 👋 IELTS 6.0 ile başvurabileceğin tam burslu (okul ücreti + yaşam bursu) sosyal bilimler yüksek lisanslarını araştırdık. En önemli iki bulgu: (1) Padova Üniversitesi'nin İnsan Hakları yüksek lisansının ilk başvuru dönemi 15 Kasım'da kapanıyor. (2) Erasmus Mundus programlarının neredeyse hepsi en az IELTS 6.5 istiyor; lisansın tamamen İngilizce okunduysa bazıları sınav şartını kaldırıyor. Burs Botu bu bursların resmî sayfalarını, MEB'in burs duyurularını ve Erasmus Mundus kataloğunu her gün kontrol ediyor; yeni bir duyuru, tarih ya da şart değişikliği olursa ve son başvuruya 30/14/7/3/1 gün kala e-posta gelir. Her pazartesi bu tam liste gönderilir.",
+  "intro": "Merhaba 👋 Bu liste lisansı gerontoloji, yüksek lisansı rekreasyon olan ve IELTS 6.0'ı bulunan biri için süzüldü: alan şartı uymayan ve 6.0'dan yüksek IELTS isteyen burslar maillere girmez. En uygun tam burslu seçenekler GOALS (boş zaman ve spor yönetimi) ve Hygieia (yaşam boyu sağlık ve iyi oluş) Erasmus Mundus programları; ülke bursları (Macaristan, Kore, Malezya, Tayvan, Fulbright, YLSY) ise bölüm seçimine bağlı: gerontoloji/yaşlanma, rekreasyon/spor yönetimi, halk sağlığı veya sosyal hizmet programlarına bakılmalı. Bot resmî sayfaları her gün kontrol eder; değişiklikte ve son başvuruya 30/14/7/3/1 gün kala mail gelir, her pazartesi bu tam liste gelir.",
   "items": [
     {
+      "id": "goals",
       "rank": 1,
+      "short": "GOALS – Boş Zaman ve Spor Yönetimi (Erasmus Mundus)",
+      "flag": "🇪🇺",
+      "name": "Erasmus Mundus GOALS – Governance & Administration of Leisure and Sports",
+      "where": "Fransa merkezli 5 üniversiteli Avrupa konsorsiyumu",
+      "field": "Boş zaman (rekreasyon) ve spor yönetimi",
+      "summary": "Erasmus Mundus bursu: ayda €1.400 + okul ücreti yok",
+      "coverage": "Erasmus Mundus bursu: ayda €1.400 + katılım ücreti muafiyeti (yol, konaklama, vize dahil yaşam masrafları).",
+      "ielts": "B2: IELTS 6.0–6.5 (veya İngilizce okunduğunu gösteren üniversite belgesi)",
+      "ielts_fit": "uygun",
+      "field_fit": "uygun",
+      "turkey": "Uygun (Türkiye'den öğrenciler var)",
+      "deadline": "2027-01-31",
+      "deadline_note": "tahmini — burslu başvurular geçen yıllarda Kasım–Şubat arası açıktı; tarih yayımlanınca güncellenir",
+      "notes": "Rekreasyon yüksek lisansına birebir uyuyor: beklenen geçmiş spor yönetimi/spor bilimleri veya yönetim.",
+      "link": "http://www.master-goals.eu/participation-cost-scholarship/how-to-apply.html",
+      "watch": [
+        "http://www.master-goals.eu/",
+        "http://www.master-goals.eu/participation-cost-scholarship/how-to-apply.html"
+      ],
+      "aliases": [
+        "GOALS International Master",
+        "Governance & Administration of Leisure and Sports International Master"
+      ]
+    },
+    {
+      "id": "hygieia",
+      "rank": 2,
+      "short": "Hygieia – Yaşam Boyu Sağlık ve İyi Oluş (Erasmus Mundus)",
+      "flag": "🇪🇺",
+      "name": "Erasmus Mundus HYGIEIA – Health and Wellbeing across the Lifespan",
+      "where": "Avrupa'da çok üniversiteli konsorsiyum",
+      "field": "Yaşam boyu sağlık ve iyi oluş (sağlık bilimleri, spor, beslenme)",
+      "summary": "Erasmus Mundus bursu: ayda €1.400 + okul ücreti yok (her dönem 16 burs)",
+      "coverage": "Erasmus Mundus bursu: ayda €1.400 + okul ücreti muafiyeti, en fazla 24 ay; her alımda 16 burs.",
+      "ielts": "İngilizce şartı başvuru sayfasında kontrol edilmeli",
+      "ielts_fit": null,
+      "field_fit": "uygun",
+      "turkey": "Uygun (Erasmus Mundus bursları tüm ülkelere açık)",
+      "deadline": "2027-02-15",
+      "deadline_note": "2027–2029 alımı: başvurular 16 Kasım 2026'da açılıyor, 15 Şubat 2027'de kapanıyor",
+      "notes": "Gerontoloji (sağlık bilimi) + rekreasyon (spor) geçmişine uyuyor: program sağlık, spor ve yaşam bilimleri mezunlarını kabul ediyor. Burs başvurusu için portfolyo isteniyor.",
+      "link": "https://www.hygieiamaster.eu/admission",
+      "watch": [
+        "https://www.hygieiamaster.eu/admission",
+        "https://www.hygieiamaster.eu/admission/scholarships"
+      ],
+      "aliases": [
+        "Health and Wellbeing across the Lifespan",
+        "HYGIEIA"
+      ]
+    },
+    {
+      "rank": 3,
       "name": "Padova — Human Rights and Multi-level Governance (+ Padua Excellence / DSU bursu)",
       "where": "İtalya, Padova Üniversitesi",
       "field": "İnsan hakları (sosyoloji lisansı kabul ediliyor)",
@@ -26,15 +80,17 @@
       ],
       "short": "Padova – İnsan Hakları",
       "flag": "🇮🇹",
-      "summary": "€8.000/yıl + ücret muafiyeti (Excellence bursu)"
+      "summary": "€8.000/yıl + ücret muafiyeti (Excellence bursu)",
+      "field_fit": "uymuyor",
+      "field_note": "Alan uymuyor: program hukuk/siyaset/sosyal bilimler kökenli öğrenci istiyor (Mehlika'nın kendi değerlendirmesi de bu)."
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "Stipendium Hungaricum (Macaristan devlet bursu)",
-      "where": "Macaristan — ELTE (Sosyal Politika; Etnik ve Azınlık Çalışmaları), Pécs (Sosyoloji)",
-      "field": "Sosyal politika, sosyoloji, azınlık hakları",
+      "where": "Macaristan — üniversite ve program seçimine bağlı (programlar stipendiumhungaricum.hu'da)",
+      "field": "Program seçimine bağlı: sağlık bilimleri / halk sağlığı, spor bilimi ve rekreasyon, sosyal hizmet programlarına bak",
       "coverage": "Okul ücreti tamamen + ayda 43.700 HUF + yurt ya da ayda 40.000 HUF kira katkısı + sağlık sigortası",
-      "ielts": "B2 / IELTS 5.5 (ELTE Sosyal Politika, Pécs Sosyoloji)",
+      "ielts": "Programa göre; çoğunlukla B2 (IELTS 5.5–6.0)",
       "ielts_fit": "uygun",
       "turkey": "Uygun (Türkiye resmî ortak ülke; MEB'e ayrıca başvuru + sözlü sınav)",
       "deadline": "2027-01-15",
@@ -53,7 +109,7 @@
       "summary": "Okul ücreti + aylık burs + yurt + sigorta"
     },
     {
-      "rank": 3,
+      "rank": 5,
       "id": "bologna-icontact",
       "name": "Bologna — International Cooperation on Human Rights and Intercultural Heritage (ICONTACT)",
       "where": "İtalya, Bologna Üniversitesi (Ravenna kampüsü), İngilizce",
@@ -76,13 +132,15 @@
       ],
       "short": "Bologna – İnsan Hakları (ICONTACT)",
       "flag": "🇮🇹",
-      "summary": "€6.500 + ücret muafiyeti (GRE şartlı) ya da gelire dayalı ER.GO"
+      "summary": "€6.500 + ücret muafiyeti (GRE şartlı) ya da gelire dayalı ER.GO",
+      "field_fit": "uymuyor",
+      "field_note": "Alan uymuyor: belirli derslerden (felsefe, hukuk, kültürel miras vb.) en az 36 kredi şartı var."
     },
     {
-      "rank": 4,
+      "rank": 6,
       "name": "YLSY — MEB Yurt Dışı Lisansüstü Eğitim Bursu (1416)",
       "where": "Dünya genelinde, kontenjana bağlı",
-      "field": "Kontenjan tablosunda sosyoloji/insan hakları/sosyal hizmet açılırsa",
+      "field": "Kontenjan tablosunda gerontoloji, rekreasyon, spor bilimleri ya da halk sağlığı açılırsa",
       "coverage": "Okul ücreti + aylık burs (ör. Almanya €1.840) + uçak + sigorta + 12 aya kadar dil eğitimi",
       "ielts": "Başvuruda dil belgesi gerekmiyor (ALES en az 75)",
       "ielts_fit": "gerekmiyor",
@@ -101,10 +159,10 @@
       "summary": "Okul ücreti + aylık burs + dil eğitimi (2 kat zorunlu hizmet)"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "name": "Malaysia International Scholarship (MIS)",
       "where": "Malezya — UM, UKM, USM, IIUM ve diğerleri",
-      "field": "Sosyal bilimler ve beşerî bilimler öncelikli",
+      "field": "Program seçimine bağlı: halk sağlığı, spor/rekreasyon yönetimi, sosyal bilimler",
       "coverage": "Okul ücreti + ayda RM 1.500 (uçak bileti yok)",
       "ielts": "Resmî kılavuzda IELTS 6.0",
       "ielts_fit": "uygun",
@@ -125,10 +183,10 @@
       "summary": "Okul ücreti + ayda RM 1.500"
     },
     {
-      "rank": 6,
+      "rank": 8,
       "name": "GKS-G — Kore Devlet Bursu",
       "where": "Güney Kore",
-      "field": "Sosyal bilimler (üniversiteye göre)",
+      "field": "Üniversiteye göre: gerontoloji/yaşlanma, spor ve boş zaman, halk sağlığı programları",
       "coverage": "Okul ücreti + aylık burs + uçak + 1 yıl Korece eğitimi",
       "ielts": "İngilizce belgesi isteğe bağlı (ek puan getiriyor)",
       "ielts_fit": "uygun",
@@ -149,7 +207,7 @@
       "summary": "Okul ücreti + aylık burs + uçak + 1 yıl Korece"
     },
     {
-      "rank": 7,
+      "rank": 9,
       "name": "EMA — European Master's in Human Rights and Democratisation (Venedik)",
       "where": "İtalya, Global Campus of Human Rights (Venedik)",
       "field": "İnsan hakları ve demokratikleşme",
@@ -171,13 +229,15 @@
       ],
       "short": "EMA – İnsan Hakları (Venedik)",
       "flag": "🇮🇹",
-      "summary": "Kısmi: 9 burs (ücret muafiyeti + harçlık)"
+      "summary": "Kısmi: 9 burs (ücret muafiyeti + harçlık)",
+      "field_fit": "uymuyor",
+      "field_note": "Alan uymuyor: hukuk, sosyal ve beşerî bilimlerde insan haklarıyla ilgili lisans istiyor; ayrıca tam burs değil."
     },
     {
-      "rank": 8,
+      "rank": 10,
       "name": "Tayvan Bursu / TaiwanICDF",
       "where": "Tayvan",
-      "field": "Üniversiteye göre (ICDF kalkınma odaklı programlar)",
+      "field": "Üniversiteye göre: halk sağlığı, uzun süreli bakım/gerontoloji, spor ve boş zaman yönetimi",
       "coverage": "Okul ücreti (Tayvan Bursu'nda dönem başı NT$40.000'e kadar) + aylık burs (ICDF ayda NT$18.000)",
       "ielts": "Ev sahibi üniversitenin şartı (doğrulanmadı)",
       "ielts_fit": null,
@@ -199,7 +259,7 @@
       "summary": "Okul ücreti + aylık burs"
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "EMMIR — Erasmus Mundus, Göç ve Kültürlerarası İlişkiler",
       "where": "Oldenburg, Stavanger, Nova Gorica ve diğerleri",
       "field": "Göç",
@@ -223,7 +283,7 @@
       "summary": "Ayda €1.400 + ücretsiz"
     },
     {
-      "rank": 10,
+      "rank": 12,
       "name": "HumanResponse — Erasmus Mundus, İnsani Müdahale ve Yerinden Edilme",
       "where": "Portekiz → Norveç → Uganda",
       "field": "İnsani yardım, yerinden edilme",
@@ -247,7 +307,7 @@
       "summary": "Ayda €1.400 + ücretsiz"
     },
     {
-      "rank": 11,
+      "rank": 13,
       "name": "NOHA — Erasmus Mundus, İnsani Yardım",
       "where": "Avrupa'da çok üniversiteli konsorsiyum",
       "field": "İnsani yardım",
@@ -271,10 +331,10 @@
       "summary": "Ayda €1.400 + ücretsiz"
     },
     {
-      "rank": 12,
+      "rank": 14,
       "name": "Fulbright Türkiye Yüksek Lisans (2028 başlangıcı için)",
       "where": "ABD",
-      "field": "Tüm sosyal bilimler",
+      "field": "Tüm alanlar: gerontoloji, rekreasyon/park ve boş zaman, halk sağlığı programları",
       "coverage": "Tam: yılda $60.000'a kadar (okul ücreti, yaşam, sigorta, uçak)",
       "ielts": "IELTS 6.0 (resmî asgari)",
       "ielts_fit": "uygun",
@@ -316,7 +376,9 @@
       "aliases": [
         "TÜBİTAK 2210 National MSc Scholarship"
       ],
-      "rank": 13
+      "rank": 15,
+      "field_fit": "uymuyor",
+      "field_note": "Uygun değil: yalnızca devam eden yüksek lisans öğrencileri içindir (Mehlika mezun)."
     },
     {
       "id": "tev-yurtdisi",
@@ -340,7 +402,7 @@
       "aliases": [
         "Türk Eğitim Vakfı yurt dışı yüksek lisans"
       ],
-      "rank": 15
+      "rank": 17
     },
     {
       "id": "kyk",
@@ -362,11 +424,13 @@
       "aliases": [
         "Kredi Yurtlar Kurumu GSB öğrenim kredisi"
       ],
-      "rank": 16
+      "rank": 18,
+      "field_fit": "uymuyor",
+      "field_note": "Uygun değil: yalnızca devam eden yüksek lisans öğrencileri içindir (Mehlika mezun)."
     },
     {
       "id": "arguden",
-      "rank": 17,
+      "rank": 19,
       "short": "Argüden Yönetişim Bursu",
       "flag": "🇹🇷",
       "name": "H. Orhan Argüden Yönetişim Bursu",
@@ -384,11 +448,13 @@
       "watch": [],
       "aliases": [
         "Arguden Governance Scholarship"
-      ]
+      ],
+      "field_fit": "uymuyor",
+      "field_note": "Uygun değil: devam eden lisansüstü öğrencileri içindir."
     },
     {
       "id": "yesilay",
-      "rank": 18,
+      "rank": 20,
       "short": "Yeşilay Tez Bursu",
       "flag": "🇹🇷",
       "name": "Yeşilay Lisansüstü Tez Bursu",
@@ -406,11 +472,13 @@
       "watch": [],
       "aliases": [
         "Yesilay thesis scholarship"
-      ]
+      ],
+      "field_fit": "uymuyor",
+      "field_note": "Uygun değil: devam eden lisansüstü öğrencileri içindir."
     },
     {
       "id": "dshs-olympic",
-      "rank": 19,
+      "rank": 21,
       "short": "Köln Spor Üni. – MA Olympic Studies",
       "flag": "🇩🇪",
       "name": "German Sport University Cologne – MA Olympic Studies",
@@ -430,11 +498,12 @@
       ],
       "aliases": [
         "Olympic Studies Cologne DSHS"
-      ]
+      ],
+      "field_fit": "uygun"
     },
     {
       "id": "maisi",
-      "rank": 20,
+      "rank": 22,
       "short": "MAiSI – Spor Etiği (Erasmus Mundus)",
       "flag": "🇪🇺",
       "name": "Erasmus Mundus MAiSI – Sports Ethics and Integrity",
@@ -454,11 +523,12 @@
       ],
       "aliases": [
         "Sports Ethics and Integrity MAiSI"
-      ]
+      ],
+      "field_fit": "uygun"
     },
     {
       "id": "isvec",
-      "rank": 21,
+      "rank": 23,
       "short": "İsveç – Lund Global Scholarship",
       "flag": "🇸🇪",
       "name": "İsveç yüksek lisans – Lund University Global Scholarship (SI bursu Türkiye'ye kapalı)",
