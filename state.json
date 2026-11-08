@@ -1,33 +1,15 @@
 {
  "burs_last": "2026-11-08",
- "digest_last": "2026-11-08 sabah",
+ "digest_last": "2026-11-08 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762509": 1794049823.8682353,
-   "tiyatro/arturo-uinin-onlenebilir-tirmanisi-izmir-sehir-tiyatrosu/18762510": 1794049823.8682353,
-   "tiyatro/bir-ziyaret-ibb/18762359": 1794050436.4956255,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1794049823.8682353,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1794049823.8682353,
-   "tiyatro/haramiler/18762737": 1794066533.4379401,
    "tiyatro/hayalinin-hayali/18762784": 1794129117.7469523,
-   "tiyatro/kopek-kalbi-ibb/18762770": 1794049823.8682353,
-   "tiyatro/kopek-kalbi-ibb/18762771": 1794049823.8682353,
-   "tiyatro/kosebasi-ibb/18762388": 1794044068.215043,
-   "tiyatro/savas-ve-baris-ibb/18763041": 1794052847.726527,
+   "tiyatro/oylece-durur-zaman/18763083": 1794153506.7209878,
    "tiyatro/sevgili-yelena-sergeyevna/18762772": 1794080444.9761286,
    "tiyatro/sevgili-yelena-sergeyevna/18762773": 1794080444.9761286,
    "tiyatro/sevgili-yelena-sergeyevna/18762775": 1794129117.7469523,
-   "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794045292.1791883,
-   "tiyatro/sivrisinekler-ibb/18763181": 1794049823.8682353,
-   "tiyatro/sivrisinekler-ibb/18763182": 1794049823.8682353,
-   "tiyatro/yenilmez-ibb/18763075": 1794049823.8682353,
-   "tiyatro/yenilmez-ibb/18763076": 1794049823.8682353,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1794129117.7469523,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794052847.726527
-  },
-  "muammer-karaca": {
-   "tiyatro/ogrenci-matinesi-tuz-biber-stand-up/18870488": 1794052840.8705714
+   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1794129117.7469523
   }
  },
  "reminded": {
@@ -323,7 +305,7 @@
      "18762784": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762785": {
       "label": "28 Kasım Cumartesi, 15:00",
@@ -406,7 +388,7 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 925,
+    "reviews": 929,
     "sessions": {
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -502,7 +484,7 @@
      "18763083": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763084": {
       "label": "21 Kasım Cumartesi, 15:00",
@@ -546,7 +528,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -585,7 +567,7 @@
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -735,7 +717,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1225,
+    "reviews": 1227,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -779,7 +761,7 @@
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
@@ -809,13 +791,6 @@
     "genre": "Diğer",
     "name": "Firuze Engin ile Afişlerden Metinlere, Oyun Yazım Atölyesi",
     "page": "https://biletinial.com/tr-tr/egitim/firuze-engin-ile-afislerden-metinlere-oyun-yazim-atolyesi?cinemaBranchId=40264",
-    "reviews": 0,
-    "sessions": {}
-   },
-   "egitim/mengu-ertelin-tiyatro-evreninden-figurlerle-serigrafi-atolyesi-atolye-yurutuculeri": {
-    "genre": "Diğer",
-    "name": "\"Mengü Ertel’in Tiyatro Evreni’nden Figürlerle Serigrafi Atölyesi Atölye Yürütücüleri: Gülsen Şenol & Kadir Çıtak\"",
-    "page": "https://biletinial.com/tr-tr/egitim/mengu-ertelin-tiyatro-evreninden-figurlerle-serigrafi-atolyesi-atolye-yurutuculeri?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {}
    },
@@ -893,6 +868,14 @@
      }
     }
    },
+   "tiyatro/herkes-kocama-benziyor": {
+    "genre": "Komedi",
+    "name": "Herkes Kocama Benziyor",
+    "page": "https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor?cinemaBranchId=40264",
+    "rating": 4.8,
+    "reviews": 922,
+    "sessions": {}
+   },
    "tiyatro/ogrenci-matinesi-tuz-biber-stand-up": {
     "genre": "Komedi",
     "name": "\"Öğrenci Matinesi\" Tuz Biber Stand Up",
@@ -901,20 +884,6 @@
     "sessions": {
      "18870488": {
       "label": "15 Kasım Pazar, 15:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "open"
-     }
-    }
-   },
-   "tiyatro/pirilin-masallarla-dansi": {
-    "genre": "Diğer",
-    "name": "Pırıl'ın Masallarla Dansı",
-    "page": "https://biletinial.com/tr-tr/tiyatro/pirilin-masallarla-dansi?cinemaBranchId=40264",
-    "rating": 4.5,
-    "reviews": 22,
-    "sessions": {
-     "18839813": {
-      "label": "08 Kasım Pazar, 13:00",
       "stage": "Muammer Karaca Tiyatrosu",
       "status": "open"
      }
