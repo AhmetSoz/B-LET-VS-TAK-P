@@ -1,5 +1,5 @@
 {
- "digest_last": "2026-11-07 akşam",
+ "digest_last": "2026-11-08 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
@@ -8,7 +8,6 @@
    "tiyatro/bir-ziyaret-ibb/18762359": 1794050436.4956255,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763106": 1794049823.8682353,
    "tiyatro/golge-tiyatro-oyunu-ibb/18763107": 1794049823.8682353,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762779": 1794006974.9975603,
    "tiyatro/haramiler/18762737": 1794066533.4379401,
    "tiyatro/kopek-kalbi-ibb/18762770": 1794049823.8682353,
    "tiyatro/kopek-kalbi-ibb/18762771": 1794049823.8682353,
@@ -19,7 +18,6 @@
    "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794045292.1791883,
    "tiyatro/sivrisinekler-ibb/18763181": 1794049823.8682353,
    "tiyatro/sivrisinekler-ibb/18763182": 1794049823.8682353,
-   "tiyatro/tartuffe-ibb/18763138": 1794019985.3832297,
    "tiyatro/yenilmez-ibb/18763075": 1794049823.8682353,
    "tiyatro/yenilmez-ibb/18763076": 1794049823.8682353,
    "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794052847.726527
@@ -404,7 +402,7 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 914,
+    "reviews": 925,
     "sessions": {
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -529,7 +527,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 994,
+    "reviews": 995,
     "sessions": {
      "18763039": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -602,7 +600,7 @@
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 381,
+    "reviews": 383,
     "sessions": {
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -733,7 +731,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1221,
+    "reviews": 1225,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
