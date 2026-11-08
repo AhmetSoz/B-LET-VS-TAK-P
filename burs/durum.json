@@ -688,7 +688,6 @@
     },
     "https://www.unipd.it/en/padua-international-excellence-scholarship-programme": {
       "lines": [
-        "Padua International Excellence Scholarship Programme | Università di Padova",
         "Admissions Master's Degree Courses Multi-site campus",
         "Padua International Excellence Scholarship Programme",
         "The University of Padova offers up to 76 scholarships dedicated to brilliant international students who wish to attend an English-taught first-cycle/Bachelor's degree course or master's degree .",
@@ -712,7 +711,8 @@
         "In the event of the scholarship being revoked, you will be required to return the installments you may have already received.",
         "For information: Global Engagement Office - Admissions and Welcome Unit - Contact us",
         "More information about Padua International Excellence Scholarships will be available in the Calls for Application that will be published in November 2026.",
-        "Call for applications for Scholarships for international students enrolling in English-taught Degree programmes at the University of Padua (A.Y. 2026/2027)"
+        "Call for applications for Scholarships for international students enrolling in English-taught Degree programmes at the University of Padua (A.Y. 2026/2027)",
+        "Padua International Excellence Scholarship Programme | Università di Padova"
       ],
       "checked": "2026-11-08",
       "errors": 0,
@@ -1258,19 +1258,132 @@
       "checked": "2026-11-08",
       "errors": 0,
       "changed": null
+    },
+    "http://www.master-goals.eu/": {
+      "lines": [
+        "Apply now – Application campaign for self funded students for GOALS fifth cohort is now open until May 15, 2026",
+        "Participation cost & Scholarships",
+        "How to apply"
+      ],
+      "checked": "2026-11-08",
+      "errors": 0,
+      "changed": null
+    },
+    "http://www.master-goals.eu/participation-cost-scholarship/how-to-apply.html": {
+      "lines": [
+        "How to apply",
+        "Application procedure",
+        "Participation cost & Scholarship",
+        "APPLY NOW – Application campaign for self funded students for GOALS fifth cohort is now open until May 15, 2026",
+        "All applicants are invited to read carefully all information about",
+        "Candidates from all over the world can apply to the GOALS Erasmus Mundus Joint Master Degree.",
+        "Both scholarship and self-funded applicants submit their application through the same online application form.",
+        "If selected, they must provide their official degree or certificate of Bachelor degree achievement by the 30th of August, or their enrolment to the programme will be canceled.",
+        "The whole GOALS programme is taught in English and English proficiency is therefore a basic requirement.",
+        "All non-English native speakers must attest a valid B2 English level (CEFR – Common European Framework of Reference) or equivalent:",
+        "IELTS 6.0 to 6.5",
+        "TOEFL iBT 88",
+        "2 years full-time studies minimum in English (certificate from the previous University)",
+        "Eligible applicants to the GOALS Master programme must attach to their online application the following list of documents, in a PDF format.",
+        "Legal copy of Bachelor degree or recognised equivalent related to sport studies, management or business administration (plus English translation), or a formal letter from their university stating they will finish their Bachelor of Science programme (or equivalent) before their enrolment in the GOALS Master programme",
+        "Legal copy of official academic transcript for the whole degree and average grade (plus English translation)",
+        "You will inform your referee and fill in the application file with their email address.",
+        "However, you will be asked to express your motivation on the application platform.",
+        "When a translation of the documents is needed, applicants should provide a copy of the original documents and their legal translation in English.",
+        "Online application",
+        "You must fill in an online application form , in English, and provide all required documents.",
+        "Your online application must be submitted before the deadline of the call.",
+        "After a first analysis and ranking of the applications, a short list determines students to be interviewed by the evaluators.",
+        "Each file being examined three times thus receives three marks which are added and automatically averaged.",
+        "The final ranking of applicants will be made by combining the scores from the paper applications (50%) with interview performance (50%).",
+        "The generated ranking is used by the Selection and Examination Board to establish a selection of approximately 50 applicants.",
+        "Applicants from the main list can be awarded an Erasmus Mundus scholarship (European and non-European) or self-funded",
+        "Applicants from the reserve list will be contacted in case of a withdrawal or can also register as self-funded students, within the limits of available places.",
+        "Key dates for self-funded applicants only (extra application round):",
+        "Application campaign opening: 01 April 2026",
+        "Online applications submission deadline: 15 May 2026",
+        "Possible invitation for online interview (for shortlisted candidates): May and June 2026",
+        "Final selection of applicants: June 2026",
+        "Applications for self funded students the fifth cohort are open until May 15, 2026 – 11 pm CET",
+        "Participation cost & Scholarships"
+      ],
+      "checked": "2026-11-08",
+      "errors": 0,
+      "changed": null
+    },
+    "https://www.hygieiamaster.eu/admission": {
+      "lines": [
+        "Admission — HYGIEIA- Promoting Health and Wellbeing Across the Lifespan Master",
+        "Erasmus+ scholarship holders",
+        "Application Timeline",
+        "Applications for the 2027–2029 intake will open on 16 November 2026 and remain open until 15 February 2027.",
+        "Application Process",
+        "For the admission procedure, students are required to submit:",
+        "Letter of motivation that expresses interest in studying at HYGIEIA - maximum 750 words, including three sections: a) why you are applying; b) what are your expectations concerning the master, c) how do you see your future after master conclusion (PDF)",
+        "If in other language than in English, additional officially certified translation into English is obligatory.",
+        "This data should be described in English language -like in passports.",
+        "Proof of proficiency in English language (not applicable for native speakers).",
+        "We prioritize students with a strong command of the English language .",
+        "Even if your previous studies were in English, submission of an approved English language test result is mandatory , unless you are a native speaker.",
+        "Documents that are not in English must be accompanied by a translation into English, certified by the issuer, a sworn translator or notary.",
+        "Students who apply for an Erasmus Mundus scholarship should also submit a Portfolio containing the following information:",
+        "Eligible applications will be evaluated by the Selection Committee according to the following criteria:",
+        "CV: Carrying a 30% weight, this criterion assesses the applicant's background in the H&W field, prior research experience, professional background, and proficiency in digital tools and soft skills;",
+        "Motivation letter: Assigned a 10% weight, it is crucial to understand the applicant's aspirations and commitment;",
+        "Letters of Recommendation: Holding a 10% weight, letters of recommendation provide valuable insights into the applicant's character and capabilities;",
+        "Interview conducted in English: With the highest weight at 35%, the interview is a mandatory phase for candidates who rank higher in the cumulative assessment of other criteria.",
+        "The Selection Board will also score students who apply for an Erasmus Mundus scholarship .",
+        "Scholarships are allocated based on an overall score, determined as the arithmetic mean between the % score achieved in the admission phase and the % classification of the portfolio.",
+        "Scholarships",
+        "Candidates are eligible for an Erasmus Mundus scholarship (1400€/month + tuition fee waiver), which is awarded based on the applicant's ranking, determined through the selection process (see application process).",
+        "Erasmus Mundus Scholarship will cover the total tuition fee and will guarantee a monthly allowance of 1.400€ for the duration of the academic activities and/or maximum of 24 months, to cover installation, travel and subsistence costs.",
+        "Sixteen scholarships will be attributed per intake.",
+        "Students who have previously obtained an EMJM scholarship are not eligible to apply for an additional scholarship under the EMJM.",
+        "Erasmus+ scholarship holders cannot benefit from another EU funded scholarship scheme to follow the same EMJM course.",
+        "Students with a double nationality must specify the nationality under which they submit their scholarship application.",
+        "Students with disabilities (e.g. long-term physical, mental, intellectual or sensory impairments) can apply for additional funding for as special needs provided by the Erasmus Mundus programme of the European Union.",
+        "Non-Fee Paying Self-Funded Applicants",
+        "Erasmus Mundus scholarship holders are exempt from paying a tuition fee.",
+        "Please read the Selection Criteria as well as the Application Procedure carefully before submitting an appeal.",
+        "Once an appeal is received, the Academic Board will name an Application Appeal Committee.",
+        "If the appeal is successful, the application will be re-evaluated.",
+        "Please note that new information or clarifications that were not included in the selection and admission process will not be taken into consideration.",
+        "Storing the Personal Data of the Applicants",
+        "The transmission of information via the Internet is not completely secure and therefore HYGEIA Consortium cannot guarantee the security of data sent to the HYGEIA Consortium electronically and transmission of such data is therefore entirely at your own risk.",
+        "In particular, certain data of the scholarship holders (students and scholars), non-scholarship holders and reserve list candidates is shared with the Agency through the EACEA Mobility Tool and treated according to the following privacy statement ."
+      ],
+      "checked": "2026-11-08",
+      "errors": 0,
+      "changed": null
+    },
+    "https://www.hygieiamaster.eu/admission/scholarships": {
+      "lines": [
+        "Scholarships — HYGIEIA- Promoting Health and Wellbeing Across the Lifespan Master",
+        "Scholarships",
+        "Candidates are eligible for an Erasmus Mundus scholarship (1400€/month + tuition fee waiver), which is awarded based on the applicant's ranking, determined through the selection process (see application process).",
+        "Erasmus Mundus Scholarship will cover the total tuition fee and will guarantee a monthly allowance of 1.400€ for the duration of the academic activities and/or maximum of 24 months, to cover installation, travel and subsistence costs.",
+        "Sixteen scholarships will be attributed per intake.",
+        "Students who have previously obtained an EMJM scholarship are not eligible to apply for an additional scholarship under the EMJM.",
+        "Erasmus+ scholarship holders cannot benefit from another EU funded scholarship scheme to follow the same EMJM course.",
+        "Students with a double nationality must specify the nationality under which they submit their scholarship application.",
+        "Students with disabilities (e.g. long-term physical, mental, intellectual or sensory impairments) can apply for additional funding for as special needs provided by the Erasmus Mundus programme of the European Union."
+      ],
+      "checked": "2026-11-08",
+      "errors": 0,
+      "changed": null
     }
   },
   "announcements": {
     "MEB ABDİGM (yabancı devlet bursları)": [
+      "https://abdigm.meb.gov.tr/www/ozbekistan-hukmet-bursu-2026-2027/icerik/2854",
+      "https://abdigm.meb.gov.tr/www/sincan-uygur-ozerk-bolgesi-hukmet-bursu/icerik/2894",
+      "https://abdigm.meb.gov.tr/www/birlesik-krallik-chevening-yuksek-lisans-burs-programi/icerik/2862",
+      "https://abdigm.meb.gov.tr/www/taskent-orta-asya-cevre-ve-iklim-degisikligi-calismalari-universitesi-bursu/icerik/2857",
       "https://abdigm.meb.gov.tr/www/brezilya-hukmeti-lisansustu-ve-doktora-bursu/icerik/2891",
       "https://abdigm.meb.gov.tr/www/japonya-hukmeti-bursu-2027-mext-yuksek-lisans-bursu/icerik/2860",
-      "https://abdigm.meb.gov.tr/www/ozbekistan-hukmet-bursu-2026-2027/icerik/2854",
-      "https://abdigm.meb.gov.tr/www/birlesik-krallik-chevening-yuksek-lisans-burs-programi/icerik/2862",
-      "https://abdigm.meb.gov.tr/www/brezilya-yuksek-lisans-ve-doktora-burslari/icerik/2845",
-      "https://abdigm.meb.gov.tr/www/belarus-hukmeti-bursu-2027-2028/icerik/2878",
-      "https://abdigm.meb.gov.tr/www/taskent-orta-asya-cevre-ve-iklim-degisikligi-calismalari-universitesi-bursu/icerik/2857",
       "https://abdigm.meb.gov.tr/www/misir-hukmeti-egyaid-burslari/icerik/2847",
-      "https://abdigm.meb.gov.tr/www/sincan-uygur-ozerk-bolgesi-hukmet-bursu/icerik/2894"
+      "https://abdigm.meb.gov.tr/www/brezilya-yuksek-lisans-ve-doktora-burslari/icerik/2845",
+      "https://abdigm.meb.gov.tr/www/belarus-hukmeti-bursu-2027-2028/icerik/2878"
     ],
     "MEB YYEGM (YLSY)": [],
     "Fulbright Türkiye": [
@@ -1278,35 +1391,35 @@
     ],
     "Global Campus of Human Rights (insan hakları yüksek lisansları)": [
       "https://www.gchumanrights.org/masters-programmes/gc-south-east-europe/",
-      "https://www.gchumanrights.org/masters-programmes/gc-asia-pacific/%20",
+      "https://www.gchumanrights.org/masters-programmes/gc-central-asia/",
       "https://www.gchumanrights.org/masters-programmes/gc-europe/",
-      "https://www.gchumanrights.org/masters-programmes/gc-africa/",
+      "https://www.gchumanrights.org/masters-programmes/gc-asia-pacific/%20",
+      "https://elearning.gchumanrights.org/courses/course-v1:gchumanrights+RTEC+2026/about",
       "https://www.gchumanrights.org/masters-programmes/",
       "https://www.gchumanrights.org/masters-programmes/gc-caucasus/",
-      "https://elearning.gchumanrights.org/courses/course-v1:gchumanrights+RTEC+2026/about",
-      "https://www.gchumanrights.org/masters-programmes/gc-central-asia/",
-      "https://www.gchumanrights.org/masters-programmes/gc-arab-world/"
+      "https://www.gchumanrights.org/masters-programmes/gc-arab-world/",
+      "https://www.gchumanrights.org/masters-programmes/gc-africa/"
     ],
     "Campus France Türkiye": [
+      "https://www.turquie.campusfrance.org/fr/candidatures-2027-en-licence-2eme-et-3eme-annees-but-et-master",
       "https://www.turquie.campusfrance.org/fr/candidatures-2027-pour-la-licence-1ere-annee-en-universite-et-pour-les-niveaux-licencemaster-en",
-      "https://etudesenfrance.diplomatie.gouv.fr/ ",
-      "https://www.turquie.campusfrance.org/fr/candidatures-2027-en-licence-2eme-et-3eme-annees-but-et-master"
+      "https://etudesenfrance.diplomatie.gouv.fr/ "
     ],
     "Padova Üniversitesi burslar": [
-      "https://www.unipd.it/en/bandi-gara-contratti",
-      "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
-      "https://www.unipd.it/en/borse-studio-dipartimenti",
+      "https://www.unipd.it/en/sgss-bando-internazionali",
       "https://www.unipd.it/en/borse-studio-contribuzione",
+      "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
       "https://www.unipd.it/en/borse-studio-maeci",
-      "https://www.unipd.it/en/sgss-bando-internazionali"
+      "https://www.unipd.it/en/bandi-gara-contratti",
+      "https://www.unipd.it/en/borse-studio-dipartimenti"
     ],
     "TÜBİTAK e-BİDEB (açık burs programları)": [
       "http://www.tubitak.gov.tr/bideb/2210"
     ],
     "KYK / GSB duyuruları": [
       "https://www.kyk.gov.tr/web/YENI_GRODEME/geriOdemeParametreGiris.do",
-      "http://yurtkur.gsb.gov.tr/Sayfalar/2771/2607/online-islemler.aspx",
-      "https://kyk.ziraatbank.com.tr/"
+      "https://kyk.ziraatbank.com.tr/",
+      "http://yurtkur.gsb.gov.tr/Sayfalar/2771/2607/online-islemler.aspx"
     ]
   },
   "reminders": {
@@ -1355,6 +1468,5 @@
   "last_weekly": "2026-W45",
   "weekly_mailed": "2026-W45",
   "last_run": "2026-11-08",
-  "send_now": "Liste Mehlika'nın alanına göre baştan düzenlendi (lisans: gerontoloji, yüksek lisans: rekreasyon, IELTS 6.0). Her bursun bölüm ve İngilizce şartı resmî sayfasından kontrol edildi. Alanı uymayanlar (Padova ve Bologna insan hakları, EMA), 6.0'dan yüksek IELTS isteyenler (Hygieia, MAiSI, NOHA, EMMIR, HumanResponse, İsveç) ve yalnızca devam eden YL öğrencilerine verilen yurt içi burslar (TÜBİTAK 2210, KYK, Yeşilay) listeden çıkarıldı. Bugünkü Padova hatırlatması bu yüzden geçersiz. Yeni eklenen ve en uygun seçenek: GOALS — Boş Zaman ve Spor Yönetimi (Erasmus Mundus, ayda €1.400, IELTS 6.0 kabul).",
   "send_now_requested": "2026-11-08T16:00+03:00"
 }
