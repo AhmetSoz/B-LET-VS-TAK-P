@@ -1,8 +1,8 @@
 name: Burs botu
 
+# Günlük çalışma "Bilet takip" işinin içinden her sabah 09:00'da yapılır (monitor.py);
+# GitHub'ın zamanlayıcısı bu iş için saatlerce geciktiği için. Bu iş elle çalıştırmak içindir.
 on:
-  schedule:
-    - cron: "17 5 * * *" # her gün ~08:17 (Türkiye saati); pazartesileri haftalık özet
   workflow_dispatch:
     inputs:
       haftalik:

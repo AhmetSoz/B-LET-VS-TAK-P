@@ -401,7 +401,8 @@ def check_catalogue(state):
         except Exception:
             scores = []
         project = f"https://erasmus-plus.ec.europa.eu/projects/search/details/{pid}" if pid.isdigit() else p["site"]
-        found.append({**p, "ielts": ielts_label(scores), "project": project})
+        found.append({**p, "ielts": ielts_label(scores), "ielts_min": min(scores) if scores else None,
+                      "project": project})
     return found
 
 
@@ -530,9 +531,14 @@ def main():
 
     changes = check_pages(data, state)
     news = check_announcements(data, state)
-    due = due_reminders(data, state)
     weekly = is_weekly(state)
     found = check_catalogue(state) if weekly or "catalogue" not in state else []
+
+    # Maillere yalnızca IELTS 6.0'ın yettiği (ya da IELTS istemeyen / şartı belirsiz) burslar girer
+    data_all, data = data, {**data, "items": [i for i in data["items"] if i.get("ielts_fit") != "yuksek"]}
+    changes = [c for c in changes if c[0].get("ielts_fit") != "yuksek"]
+    found = [f for f in found if not (f.get("ielts_min") and f["ielts_min"] > TARGET_IELTS)]
+    due = due_reminders(data, state)
 
     parts = [section_reminders(due), section_news(news), section_catalogue(found), section_changes(changes)]
     extra_html = "".join(h for h, _ in parts)
@@ -554,7 +560,11 @@ def main():
     else:
         # Yeni bir şey yoksa da her gün hatırlatma maili: en yakın son tarihler
         html_part, text_body = section_upcoming(data)
-        if html_part:
+        if html_part and state.get("last_daily") == TODAY.isoformat():
+            subject = None
+            print("Günlük hatırlatma bugün zaten gönderildi.")
+        elif html_part:
+            state["last_daily"] = TODAY.isoformat()
             first = min((i for i in data["items"] if (days_left(i) or -1) >= 0), key=lambda i: i["deadline"])
             subject = f"📅 Günlük burs hatırlatması — en yakın: {first.get('short') or first['name']} ({days_left(first)} gün)"
             html_body = mail.wrap(subject, html_part)
@@ -571,7 +581,7 @@ def main():
             deliver(subject, text_body, html_body)
 
     # E-posta gönderildikten sonra kaydet: gönderim hata verirse bir sonraki gün tekrar denenir
-    save_json(DATA_FILE, data)
+    save_json(DATA_FILE, data_all)
     save_json(STATE_FILE, state)
 
 

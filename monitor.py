@@ -26,6 +26,7 @@ import html
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import unicodedata
@@ -47,6 +48,10 @@ REOPEN_COOLDOWN = 60 * 60
 REMIND_BEFORE = (60 * 60, 30 * 60)
 # Günlük özet saatleri (Türkiye saati); gece yarısı ile ilk saat arasında özet gönderilmez
 DIGEST_HOURS = (("sabah", 8), ("akşam", 19))
+# Burs botu (burs/bot.py) her sabah bu saatte bu işin içinden çalıştırılır; kendi GitHub
+# zamanlayıcısı saatlerce geciktiği için. Gmail ayarlı değilse çalıştırılmaz.
+BURS_HOUR = 9
+BURS_BOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "burs", "bot.py")
 # --watch modunda, yaklaşan bir satış açılışı varken kaç saniyede bir kontrol edilir
 POLL_INTERVAL = 10 * 60
 # Bir kaynak bu kadar tur üst üste okunamazsa haber ver (5 dk x 12 = 1 saat)
@@ -442,12 +447,13 @@ def digest_slot(now):
     return current
 
 
-def next_digest_time(now):
-    for _, hour in DIGEST_HOURS:
+def next_time_at(now, hours):
+    """Bugün ya da yarın, verilen saatlerden ilki (zaman damgası)."""
+    for hour in sorted(hours):
         t = now.replace(hour=hour, minute=0, second=0, microsecond=0)
         if t > now:
             return t.timestamp()
-    t = now.replace(hour=DIGEST_HOURS[0][1], minute=0, second=0, microsecond=0) + timedelta(days=1)
+    t = now.replace(hour=min(hours), minute=0, second=0, microsecond=0) + timedelta(days=1)
     return t.timestamp()
 
 
@@ -528,6 +534,25 @@ def recommendations(sources, watched_norm):
             lines.append(f"{i}. {p['name']} — ⭐{rating} ({p.get('reviews', 0)} yorum) · {state_txt}\n   {p['page']}")
         blocks.append(f"🎭 {g}\n" + "\n".join(lines))
     return "\n\n".join(blocks)
+
+
+def run_burs_bot(state):
+    """Burs botunu günde bir kez, sabah BURS_HOUR'dan sonra çalıştırır (e-postayı o gönderir)."""
+    now = datetime.now(ISTANBUL)
+    today = f"{now:%Y-%m-%d}"
+    if now.hour < BURS_HOUR or state.get("burs_last") == today or not os.path.exists(BURS_BOT):
+        return
+    if not all(os.environ.get(k) for k in ("GMAIL_USER", "GMAIL_APP_PASSWORD", "MAIL_TO")):
+        return
+    state["burs_last"] = today  # hata olsa da gün içinde tekrar tekrar denenmesin
+    print("Burs botu çalıştırılıyor…")
+    sys.stdout.flush()
+    try:
+        result = subprocess.run([sys.executable, BURS_BOT], timeout=20 * 60)
+        if result.returncode:
+            print(f"Burs botu hata verdi (kod {result.returncode})", file=sys.stderr)
+    except subprocess.TimeoutExpired:
+        print("Burs botu zaman aşımına uğradı", file=sys.stderr)
 
 
 def send_digest(state, current, failed, watched_norm):
@@ -864,20 +889,21 @@ def check_once():
     state["notified"] = {k: v for k, v in notified.items() if v}
     send_reminders(state, watched_norm)
     send_digest(state, current, failed, watched_norm)
+    run_burs_bot(state)
     with open(STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=1, sort_keys=True)
         f.write("\n")
 
 
 def next_wakeup(state, watched_norm):
-    """Bir sonraki önemli an: hatırlatma zamanı, satışın açıldığı dakika ya da günlük özet saati."""
+    """Bir sonraki önemli an: hatırlatma zamanı, satışın açıldığı dakika, günlük özet ya da burs saati."""
     now = time.time()
     times = []
     for src_id, slug, sid, play, s in pending_openings(state.get("sources", {}), watched_norm):
         base = f"{session_key(src_id, slug, sid)}@{s['opens_ts']}"
         times += [s["opens_ts"] - b for b in REMIND_BEFORE if f"{base}@{b}" not in state.get("reminded", {})]
         times.append(s["opens_ts"] + 60)
-    times.append(next_digest_time(datetime.now(ISTANBUL)))
+    times.append(next_time_at(datetime.now(ISTANBUL), [h for _, h in DIGEST_HOURS] + [BURS_HOUR]))
     future = [t for t in times if t > now]
     return min(future) if future else None
 
