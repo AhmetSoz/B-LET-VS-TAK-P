@@ -1,14 +1,19 @@
 {
- "burs_last": "2026-11-08",
+ "burs_last": "2026-11-09",
  "digest_last": "2026-11-09 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
+   "tiyatro/gecmisin-golgesi-ibb/18763080": 1794213219.027207,
+   "tiyatro/haramiler/18762737": 1794213219.027207,
    "tiyatro/hayalinin-hayali/18762784": 1794129117.7469523,
+   "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli/18763224": 1794213219.027207,
    "tiyatro/oylece-durur-zaman/18763083": 1794153506.7209878,
    "tiyatro/sevgili-yelena-sergeyevna/18762775": 1794129117.7469523,
+   "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794213219.027207,
    "tiyatro/tartuffe-ibb/18763140": 1794181668.9183137,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1794129117.7469523
+   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1794129117.7469523,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763054": 1794213219.027207
   }
  },
  "reminded": {
@@ -95,7 +100,7 @@
      "18763047": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763056": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -129,7 +134,7 @@
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763095": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -270,7 +275,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -332,9 +337,8 @@
     "sessions": {
      "18763224": {
       "label": "15 Kasım Pazar, 20:00",
-      "opens_ts": 1794211200,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -473,7 +477,7 @@
      "18763082": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763083": {
       "label": "20 Kasım Cuma, 20:00",
@@ -775,7 +779,7 @@
      "18763054": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      }
     }
    }

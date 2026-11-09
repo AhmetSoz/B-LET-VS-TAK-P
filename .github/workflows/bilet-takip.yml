@@ -24,6 +24,10 @@ jobs:
     timeout-minutes: 345
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Sırada bekleyen iş, tetiklendiği andaki eski commit'i değil dalın güncel halini açsın
+          # (yoksa bot eski hafızayla çalışıp aynı bildirimleri tekrar gönderir)
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-python@v5
         with:
@@ -56,5 +60,5 @@ jobs:
             echo "Değişiklik yok."
           else
             git commit -q -m "Bilet durumu güncellendi"
-            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q
+            git pull -q --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push -q  # çakışmada bu işin (daha yeni) durumu kazanır
           fi
