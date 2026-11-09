@@ -1,18 +1,25 @@
 {
  "burs_last": "2026-11-09",
- "digest_last": "2026-11-09 sabah",
+ "digest_last": "2026-11-09 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/gecmisin-golgesi-ibb/18763080": 1794213219.027207,
-   "tiyatro/haramiler/18762737": 1794213219.027207,
-   "tiyatro/hayalinin-hayali/18762784": 1794129117.7469523,
+   "tiyatro/cingene-boksor-ibb/18763192": 1794232909.9450376,
+   "tiyatro/gecmisin-golgesi-ibb/18763080": 1794232298.68442,
+   "tiyatro/haramiler/18762737": 1794232909.9450376,
    "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli/18763224": 1794213219.027207,
-   "tiyatro/oylece-durur-zaman/18763083": 1794153506.7209878,
-   "tiyatro/sevgili-yelena-sergeyevna/18762775": 1794129117.7469523,
-   "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794213219.027207,
+   "tiyatro/savas-ve-baris-ibb/18763041": 1794223132.4443388,
+   "tiyatro/sevgili-yelena-sergeyevna/18762772": 1794228020.9531786,
+   "tiyatro/sevgili-yelena-sergeyevna/18762775": 1794229854.1506796,
+   "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794226798.3077784,
+   "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794229854.1506796,
    "tiyatro/tartuffe-ibb/18763140": 1794181668.9183137,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1794129117.7469523,
+   "tiyatro/tartuffe-ibb/18763141": 1794223132.4443388,
+   "tiyatro/tartuffe-ibb/18763152": 1794239633.519865,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1794235354.3826547,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794232909.9450376,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763036": 1794227409.4830205,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763037": 1794235965.7190826,
    "tiyatro/yoldan-cikan-oyun-ibb/18763054": 1794213219.027207
   }
  },
@@ -100,7 +107,7 @@
      "18763047": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763056": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -134,7 +141,7 @@
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763095": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -275,7 +282,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -333,12 +340,12 @@
     "name": "İstanbul Şiirle Buluşuyor - Birden Bire Orhan Veli",
     "page": "https://biletinial.com/tr-tr/tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli?cinemaBranchId=4223",
     "rating": 5.0,
-    "reviews": 9,
+    "reviews": 13,
     "sessions": {
      "18763224": {
       "label": "15 Kasım Pazar, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -372,7 +379,7 @@
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -386,17 +393,17 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 929,
+    "reviews": 948,
     "sessions": {
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763088": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763089": {
       "label": "28 Kasım Cumartesi, 15:00",
@@ -492,7 +499,7 @@
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763096": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -536,7 +543,7 @@
      "18763055": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "few"
      }
     }
    },
@@ -575,7 +582,7 @@
      "18762789": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      }
     }
    },
@@ -584,7 +591,7 @@
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 383,
+    "reviews": 390,
     "sessions": {
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -653,7 +660,7 @@
      "18763152": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      }
     }
    },
@@ -779,7 +786,7 @@
      "18763054": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      }
     }
    }
@@ -833,6 +840,13 @@
     "genre": "Diğer",
     "name": "Quintet Dinleti",
     "page": "https://biletinial.com/tr-tr/muzik/quintet-dinleti?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "muzik/soylu-melodiler-cagi": {
+    "genre": "Diğer",
+    "name": "Soylu Melodiler Çağı",
+    "page": "https://biletinial.com/tr-tr/muzik/soylu-melodiler-cagi?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {}
    },
