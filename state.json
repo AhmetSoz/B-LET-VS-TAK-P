@@ -7,6 +7,7 @@
    "tiyatro/cingene-boksor-ibb/18763192": 1794232909.9450376,
    "tiyatro/gecmisin-golgesi-ibb/18763080": 1794232298.68442,
    "tiyatro/haramiler/18762737": 1794232909.9450376,
+   "tiyatro/hayalinin-hayali/18762785": 1794259774.3278039,
    "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli/18763224": 1794213219.027207,
    "tiyatro/savas-ve-baris-ibb/18763041": 1794223132.4443388,
    "tiyatro/sevgili-yelena-sergeyevna/18762772": 1794228020.9531786,
@@ -321,7 +322,7 @@
      "18762785": {
       "label": "28 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762786": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -369,7 +370,7 @@
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763146": {
       "label": "21 Kasım Cumartesi, 15:00",
@@ -384,7 +385,7 @@
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -582,7 +583,7 @@
      "18762789": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -591,7 +592,7 @@
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 390,
+    "reviews": 389,
     "sessions": {
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -655,12 +656,12 @@
      "18763142": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763152": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -688,7 +689,7 @@
     "name": "Yaşamak mı, Yoksa Ölmek mi",
     "page": "https://biletinial.com/tr-tr/tiyatro/yasamak-mi-olmek-mi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 952,
+    "reviews": 953,
     "sessions": {
      "18762743": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -722,7 +723,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1227,
+    "reviews": 1231,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -761,7 +762,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1566,
+    "reviews": 1567,
     "sessions": {
      "18763034": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -832,8 +833,8 @@
     "genre": "Diğer",
     "name": "Quartet Dinleti",
     "page": "https://biletinial.com/tr-tr/muzik/quartet-dinleti?cinemaBranchId=40264",
-    "rating": 5.0,
-    "reviews": 3,
+    "rating": 4.8,
+    "reviews": 5,
     "sessions": {}
    },
    "muzik/quintet-dinleti": {
@@ -914,7 +915,7 @@
     "name": "Uçurtmanın Kuyruğu",
     "page": "https://biletinial.com/tr-tr/tiyatro/ucurtmanin-kuyrugu-tiyatro-oyunu?cinemaBranchId=40264",
     "rating": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "sessions": {}
    }
   }
