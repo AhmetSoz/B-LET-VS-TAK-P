@@ -1,12 +1,13 @@
 {
  "burs_last": "2026-11-08",
- "digest_last": "2026-11-08 akşam",
+ "digest_last": "2026-11-09 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/hayalinin-hayali/18762784": 1794129117.7469523,
    "tiyatro/oylece-durur-zaman/18763083": 1794153506.7209878,
    "tiyatro/sevgili-yelena-sergeyevna/18762775": 1794129117.7469523,
+   "tiyatro/tartuffe-ibb/18763140": 1794181668.9183137,
    "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1794129117.7469523
   }
  },
@@ -40,7 +41,7 @@
      "18763190": {
       "label": "11 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "few"
+      "status": "soldout"
      },
      "18763191": {
       "label": "11 Kasım Çarşamba, 20:00",
@@ -327,7 +328,7 @@
     "name": "İstanbul Şiirle Buluşuyor - Birden Bire Orhan Veli",
     "page": "https://biletinial.com/tr-tr/tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli?cinemaBranchId=4223",
     "rating": 5.0,
-    "reviews": 8,
+    "reviews": 9,
     "sessions": {
      "18763224": {
       "label": "15 Kasım Pazar, 20:00",
@@ -367,7 +368,7 @@
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -381,17 +382,17 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 926,
+    "reviews": 929,
     "sessions": {
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763088": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763089": {
       "label": "28 Kasım Cumartesi, 15:00",
@@ -406,7 +407,7 @@
      "18763097": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -424,7 +425,7 @@
      "18762387": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -443,7 +444,7 @@
     "name": "Oscar",
     "page": "https://biletinial.com/tr-tr/tiyatro/oscar-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1565,
+    "reviews": 1566,
     "sessions": {
      "18763148": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -487,7 +488,7 @@
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763096": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -526,7 +527,7 @@
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763055": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -550,7 +551,7 @@
      "18762773": {
       "label": "11 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762774": {
       "label": "13 Kasım Cuma, 20:00",
@@ -710,7 +711,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1226,
+    "reviews": 1227,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
