@@ -11,6 +11,7 @@
    "tiyatro/gidionun-dugumu-ibb/18763199": 1794321189.9968107,
    "tiyatro/gidionun-dugumu-ibb/18763201": 1794311393.7877917,
    "tiyatro/haramiler/18762737": 1794316904.323629,
+   "tiyatro/haramiler/18762738": 1794336878.3319116,
    "tiyatro/hayalinin-hayali/18762782": 1794320577.2116861,
    "tiyatro/hayalinin-hayali/18762785": 1794259774.3278039,
    "tiyatro/savas-ve-baris-ibb/18763055": 1794321189.9968107,
@@ -141,7 +142,7 @@
      "18763095": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -243,7 +244,7 @@
      "18762780": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762781": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -277,12 +278,12 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "open"
      },
      "18762760": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -311,7 +312,7 @@
      "18762784": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762785": {
       "label": "28 Kasım Cumartesi, 15:00",
@@ -567,7 +568,7 @@
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -838,17 +839,17 @@
     "reviews": 5,
     "sessions": {}
    },
-   "muzik/quintet-dinleti": {
-    "genre": "Diğer",
-    "name": "Quintet Dinleti",
-    "page": "https://biletinial.com/tr-tr/muzik/quintet-dinleti?cinemaBranchId=40264",
-    "reviews": 0,
-    "sessions": {}
-   },
    "muzik/soylu-melodiler-cagi": {
     "genre": "Diğer",
     "name": "Soylu Melodiler Çağı",
     "page": "https://biletinial.com/tr-tr/muzik/soylu-melodiler-cagi?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "tiyatro/baba-ve-baba": {
+    "genre": "Dram",
+    "name": "Baba ve Baba",
+    "page": "https://biletinial.com/tr-tr/tiyatro/baba-ve-baba?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {}
    },
