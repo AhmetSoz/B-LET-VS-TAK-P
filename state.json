@@ -1,6 +1,6 @@
 {
- "burs_last": "2026-11-09",
- "digest_last": "2026-11-09 akşam",
+ "burs_last": "2026-11-10",
+ "digest_last": "2026-11-10 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
@@ -14,9 +14,8 @@
    "tiyatro/sevgili-yelena-sergeyevna/18762775": 1794229854.1506796,
    "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794226798.3077784,
    "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794229854.1506796,
-   "tiyatro/tartuffe-ibb/18763140": 1794181668.9183137,
    "tiyatro/tartuffe-ibb/18763141": 1794223132.4443388,
-   "tiyatro/tartuffe-ibb/18763152": 1794239633.519865,
+   "tiyatro/tartuffe-ibb/18763152": 1794290411.1180813,
    "tiyatro/yoldan-cikan-oyun-ibb/18763034": 1794235354.3826547,
    "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794232909.9450376,
    "tiyatro/yoldan-cikan-oyun-ibb/18763036": 1794227409.4830205,
@@ -142,7 +141,7 @@
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763095": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -322,7 +321,7 @@
      "18762785": {
       "label": "28 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762786": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -583,7 +582,7 @@
      "18762789": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      }
     }
    },
@@ -592,7 +591,7 @@
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 389,
+    "reviews": 390,
     "sessions": {
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -656,12 +655,12 @@
      "18763142": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763152": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      }
     }
    },
