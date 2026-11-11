@@ -1,11 +1,11 @@
 {
- "burs_last": "2026-11-10",
+ "burs_last": "2026-11-11",
  "digest_last": "2026-11-11 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/cingene-boksor-ibb/18763193": 1794312618.6622918,
-   "tiyatro/fosforlu-cevriye-ibb/18763044": 1794370651.6424863,
+   "tiyatro/fosforlu-cevriye-ibb/18763044": 1794374469.1262298,
    "tiyatro/fosforlu-cevriye-ibb/18763045": 1794319965.4098213,
    "tiyatro/gecmisin-golgesi-ibb/18763079": 1794311393.7877917,
    "tiyatro/gecmisin-golgesi-ibb/18763095": 1794313231.2568386,
@@ -88,7 +88,7 @@
      "18763044": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763045": {
       "label": "27 Kasım Cuma, 20:00",
