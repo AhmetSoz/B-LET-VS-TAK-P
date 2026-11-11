@@ -55,13 +55,8 @@
     "name": "Çingene Boksör",
     "page": "https://biletinial.com/tr-tr/tiyatro/cingene-boksor-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 238,
+    "reviews": 240,
     "sessions": {
-     "18763191": {
-      "label": "11 Kasım Çarşamba, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
-     },
      "18763192": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
@@ -125,11 +120,6 @@
     "rating": 4.5,
     "reviews": 790,
     "sessions": {
-     "18763077": {
-      "label": "11 Kasım Çarşamba, 20:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
-     },
      "18763078": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
@@ -271,11 +261,6 @@
     "rating": 4.5,
     "reviews": 1011,
     "sessions": {
-     "18762735": {
-      "label": "11 Kasım Çarşamba, 20:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
-     },
      "18762736": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
@@ -294,7 +279,7 @@
      "18762760": {
       "label": "12 Kasım Perşembe, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -308,12 +293,12 @@
      "18762782": {
       "label": "25 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762783": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762784": {
       "label": "27 Kasım Cuma, 20:00",
@@ -443,12 +428,12 @@
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "few"
      }
     }
    },
@@ -535,7 +520,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -545,7 +530,7 @@
      "18763055": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -554,17 +539,12 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 467,
+    "reviews": 466,
     "sessions": {
-     "18762773": {
-      "label": "11 Kasım Çarşamba, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
      "18762774": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -588,7 +568,7 @@
     "name": "Sivrisinekler",
     "page": "https://biletinial.com/tr-tr/tiyatro/sivrisinekler-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 390,
+    "reviews": 391,
     "sessions": {
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -627,13 +607,8 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 977,
+    "reviews": 981,
     "sessions": {
-     "18763139": {
-      "label": "11 Kasım Çarşamba, 20:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
-     },
      "18763140": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
@@ -642,12 +617,12 @@
      "18763141": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763142": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763152": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -755,11 +730,6 @@
     "rating": 4.8,
     "reviews": 1567,
     "sessions": {
-     "18763034": {
-      "label": "11 Kasım Çarşamba, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
-     },
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
@@ -768,12 +738,12 @@
      "18763036": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763037": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763054": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -810,14 +780,6 @@
     "name": "Sezai Karakoç'un İstanbul'u",
     "page": "https://biletinial.com/tr-tr/etkinlik/sezai-karakocun-istanbulu?cinemaBranchId=40264",
     "reviews": 0,
-    "sessions": {}
-   },
-   "muzik/mert-pekduraner": {
-    "genre": "Diğer",
-    "name": "Mert Pekduraner Konseri",
-    "page": "https://biletinial.com/tr-tr/muzik/mert-pekduraner?cinemaBranchId=40264",
-    "rating": 5.0,
-    "reviews": 2,
     "sessions": {}
    },
    "muzik/quartet-dinleti": {
@@ -878,6 +840,14 @@
     "page": "https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor?cinemaBranchId=40264",
     "rating": 4.8,
     "reviews": 922,
+    "sessions": {}
+   },
+   "tiyatro/herkes-yolunda-boa": {
+    "genre": "Dram",
+    "name": "Herkes Yolunda",
+    "page": "https://biletinial.com/tr-tr/tiyatro/herkes-yolunda-boa?cinemaBranchId=40264",
+    "rating": 5.0,
+    "reviews": 1,
     "sessions": {}
    },
    "tiyatro/ogrenci-matinesi-tuz-biber-stand-up": {
