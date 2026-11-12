@@ -1,22 +1,20 @@
 {
- "burs_last": "2026-11-11",
- "digest_last": "2026-11-11 akşam",
+ "burs_last": "2026-11-12",
+ "digest_last": "2026-11-12 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/cingene-boksor-ibb/18763190": 1794394703.9928088,
    "tiyatro/cingene-boksor-ibb/18763191": 1794405090.8167133,
    "tiyatro/cingene-boksor-ibb/18763192": 1794398979.887715,
-   "tiyatro/fosforlu-cevriye-ibb/18763044": 1794374469.1262298,
    "tiyatro/gecmisin-golgesi-ibb/18763077": 1794403868.4509125,
    "tiyatro/gecmisin-golgesi-ibb/18763078": 1794402645.8017693,
    "tiyatro/gidionun-dugumu-ibb/18763199": 1794395315.4013972,
    "tiyatro/haramiler/18762735": 1794403257.308118,
    "tiyatro/haramiler/18762737": 1794412810.2925665,
-   "tiyatro/haramiler/18762738": 1794336878.3319116,
    "tiyatro/haramiler/18762760": 1794409369.8071592,
    "tiyatro/hayalinin-hayali/18762782": 1794395315.4013972,
-   "tiyatro/kosebasi-ibb/18762469": 1794406315.0445051,
+   "tiyatro/kosebasi-ibb/18762469": 1794457284.1976333,
    "tiyatro/savas-ve-baris-ibb/18763041": 1794410592.1618693,
    "tiyatro/savas-ve-baris-ibb/18763055": 1794408758.8732212,
    "tiyatro/sevgili-yelena-sergeyevna/18762772": 1794394703.9928088,
@@ -55,7 +53,7 @@
     "name": "Çingene Boksör",
     "page": "https://biletinial.com/tr-tr/tiyatro/cingene-boksor-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 240,
+    "reviews": 245,
     "sessions": {
      "18763192": {
       "label": "13 Kasım Cuma, 20:00",
@@ -118,7 +116,7 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 790,
+    "reviews": 794,
     "sessions": {
      "18763078": {
       "label": "13 Kasım Cuma, 20:00",
@@ -259,22 +257,22 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1011,
+    "reviews": 1030,
     "sessions": {
      "18762736": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762760": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -298,7 +296,7 @@
      "18762783": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762784": {
       "label": "27 Kasım Cuma, 20:00",
@@ -428,7 +426,7 @@
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -539,7 +537,7 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 466,
+    "reviews": 478,
     "sessions": {
      "18762774": {
       "label": "13 Kasım Cuma, 20:00",
@@ -607,7 +605,7 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 981,
+    "reviews": 989,
     "sessions": {
      "18763140": {
       "label": "13 Kasım Cuma, 20:00",
@@ -646,7 +644,7 @@
      "18831591": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -728,7 +726,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1567,
+    "reviews": 1576,
     "sessions": {
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
@@ -738,12 +736,12 @@
      "18763036": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763037": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763054": {
       "label": "12 Kasım Perşembe, 20:00",
@@ -839,7 +837,7 @@
     "name": "Herkes Kocama Benziyor",
     "page": "https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor?cinemaBranchId=40264",
     "rating": 4.8,
-    "reviews": 922,
+    "reviews": 924,
     "sessions": {}
    },
    "tiyatro/herkes-yolunda-boa": {
