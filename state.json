@@ -267,7 +267,7 @@
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -291,7 +291,7 @@
      "18762782": {
       "label": "25 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762783": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -431,7 +431,7 @@
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -528,7 +528,7 @@
      "18763055": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      }
     }
    },
@@ -615,7 +615,7 @@
      "18763141": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763142": {
       "label": "14 Kasım Cumartesi, 20:00",
