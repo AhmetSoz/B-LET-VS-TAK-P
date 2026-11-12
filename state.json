@@ -7,6 +7,7 @@
    "tiyatro/gecmisin-golgesi-ibb/18763095": 1794501567.827496,
    "tiyatro/haramiler/18762760": 1794501567.827496,
    "tiyatro/kosebasi-ibb/18762469": 1794457284.1976333,
+   "tiyatro/oylece-durur-zaman/18763084": 1794522405.9092934,
    "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794501567.827496,
    "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794501567.827496,
    "tiyatro/yoldan-cikan-oyun-ibb/18763054": 1794501567.827496
@@ -34,7 +35,7 @@
     "name": "Çingene Boksör",
     "page": "https://biletinial.com/tr-tr/tiyatro/cingene-boksor-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 245,
+    "reviews": 246,
     "sessions": {
      "18763192": {
       "label": "13 Kasım Cuma, 20:00",
@@ -50,11 +51,6 @@
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
       "status": "soldout"
-     },
-     "18763209": {
-      "label": "12 Kasım Perşembe, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "few"
      }
     }
    },
@@ -113,11 +109,6 @@
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
       "status": "soldout"
-     },
-     "18763095": {
-      "label": "12 Kasım Perşembe, 20:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
      }
     }
    },
@@ -238,7 +229,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1030,
+    "reviews": 1032,
     "sessions": {
      "18762736": {
       "label": "13 Kasım Cuma, 20:00",
@@ -254,11 +245,6 @@
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
       "status": "soldout"
-     },
-     "18762760": {
-      "label": "12 Kasım Perşembe, 20:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
      }
     }
    },
@@ -340,7 +326,7 @@
      "18763146": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -460,7 +446,7 @@
      "18763084": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -533,12 +519,7 @@
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
-     },
-     "18762789": {
-      "label": "12 Kasım Perşembe, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      }
     }
    },
@@ -602,11 +583,6 @@
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
       "status": "soldout"
-     },
-     "18763152": {
-      "label": "12 Kasım Perşembe, 20:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
      }
     }
    },
@@ -625,7 +601,7 @@
      "18831591": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    },
@@ -723,11 +699,6 @@
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
       "status": "soldout"
-     },
-     "18763054": {
-      "label": "12 Kasım Perşembe, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "open"
      }
     }
    }
@@ -774,14 +745,6 @@
     "name": "Baba ve Baba",
     "page": "https://biletinial.com/tr-tr/tiyatro/baba-ve-baba?cinemaBranchId=40264",
     "reviews": 0,
-    "sessions": {}
-   },
-   "tiyatro/bir-nora-evi": {
-    "genre": "Dram",
-    "name": "Bir Nora Evi",
-    "page": "https://biletinial.com/tr-tr/tiyatro/bir-nora-evi?cinemaBranchId=40264",
-    "rating": 5.0,
-    "reviews": 1,
     "sessions": {}
    },
    "tiyatro/celile-nazim-hikmetin-annesi-kht": {
