@@ -1,23 +1,109 @@
 {
  "burs_last": "2026-11-13",
- "digest_last": "2026-11-13 sabah",
+ "digest_last": "2026-11-13 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/gecmisin-golgesi-ibb/18763095": 1794501567.827496,
-   "tiyatro/haramiler/18762760": 1794501567.827496,
+   "tiyatro/cingene-boksor-ibb/18763193": 1794591632.6989198,
+   "tiyatro/gecmisin-golgesi-ibb/18763079": 1794591632.6989198,
+   "tiyatro/gecmisin-golgesi-ibb/18763080": 1794591632.6989198,
+   "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli/18763224": 1794591632.6989198,
+   "tiyatro/kahvaltiya-kalsana/18763143": 1794591632.6989198,
    "tiyatro/kahvaltiya-kalsana/18763144": 1794564357.0691993,
    "tiyatro/kopek-kalbi-ibb/18763087": 1794564357.0691993,
    "tiyatro/oylece-durur-zaman/18763084": 1794522405.9092934,
-   "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794501567.827496,
-   "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794501567.827496,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794564357.0691993,
-   "tiyatro/yoldan-cikan-oyun-ibb/18763054": 1794501567.827496
+   "tiyatro/sevgili-yelena-sergeyevna/18762775": 1794591632.6989198,
+   "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794591632.6989198,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794564357.0691993
   }
  },
  "reminded": {},
  "sources": {
   "ibb-sehir-tiyatrolari": {
+   "tiyatro/agri-dagi-efsanesi": {
+    "genre": "Dram",
+    "name": "Ağrı Dağı Efsanesi",
+    "page": "https://biletinial.com/tr-tr/tiyatro/agri-dagi-efsanesi?cinemaBranchId=4223",
+    "rating": 4.8,
+    "reviews": 1527,
+    "sessions": {
+     "18910663": {
+      "label": "10 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910664": {
+      "label": "11 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910665": {
+      "label": "12 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910666": {
+      "label": "12 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910668": {
+      "label": "09 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910669": {
+      "label": "09 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/bir-ziyaret-ibb": {
+    "genre": "Kara komedi / Hiciv",
+    "name": "Bir Ziyaret",
+    "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
+    "rating": 4.4,
+    "reviews": 863,
+    "sessions": {
+     "18911179": {
+      "label": "02 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911181": {
+      "label": "03 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911191": {
+      "label": "04 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911192": {
+      "label": "05 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911193": {
+      "label": "05 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
    "tiyatro/cadi-kazani-ibb": {
     "genre": "Dram",
     "name": "Cadı Kazanı",
@@ -37,17 +123,12 @@
     "name": "Çingene Boksör",
     "page": "https://biletinial.com/tr-tr/tiyatro/cingene-boksor-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 250,
+    "reviews": 253,
     "sessions": {
-     "18763192": {
-      "label": "13 Kasım Cuma, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
-     },
      "18763193": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763194": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -87,6 +168,66 @@
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
       "status": "soldout"
+     },
+     "18910703": {
+      "label": "23 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910704": {
+      "label": "24 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910708": {
+      "label": "23 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910709": {
+      "label": "25 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910710": {
+      "label": "26 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910711": {
+      "label": "26 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910712": {
+      "label": "30 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910713": {
+      "label": "30 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910714": {
+      "label": "02 Ocak Cumartesi 2027, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910715": {
+      "label": "02 Ocak Cumartesi 2027, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -95,22 +236,53 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 802,
+    "reviews": 805,
     "sessions": {
-     "18763078": {
-      "label": "13 Kasım Cuma, 20:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
-     },
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
+     },
+     "18911100": {
+      "label": "16 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911101": {
+      "label": "16 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911102": {
+      "label": "18 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911103": {
+      "label": "19 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911104": {
+      "label": "19 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911105": {
+      "label": "17 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -129,7 +301,7 @@
      "18763199": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "few"
+      "status": "soldout"
      },
      "18763200": {
       "label": "20 Kasım Cuma, 20:00",
@@ -150,6 +322,42 @@
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
       "status": "soldout"
+     },
+     "18911649": {
+      "label": "02 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911650": {
+      "label": "02 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911663": {
+      "label": "03 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911670": {
+      "label": "04 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911671": {
+      "label": "05 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911672": {
+      "label": "05 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
      }
     }
    },
@@ -184,6 +392,93 @@
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
       "status": "open"
+     },
+     "18911204": {
+      "label": "17 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911205": {
+      "label": "16 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911206": {
+      "label": "18 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911207": {
+      "label": "19 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911208": {
+      "label": "19 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/golge-tiyatro-oyunu-ibb": {
+    "genre": "Dram",
+    "name": "Gölge",
+    "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
+    "rating": 4.3,
+    "reviews": 603,
+    "sessions": {
+     "18911576": {
+      "label": "23 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911577": {
+      "label": "25 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911578": {
+      "label": "26 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911579": {
+      "label": "26 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911580": {
+      "label": "30 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911581": {
+      "label": "02 Ocak Cumartesi 2027, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911582": {
+      "label": "02 Ocak Cumartesi 2027, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911583": {
+      "label": "24 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -223,6 +518,42 @@
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
       "status": "soldout"
+     },
+     "18910645": {
+      "label": "02 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910646": {
+      "label": "02 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910649": {
+      "label": "03 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910659": {
+      "label": "04 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910660": {
+      "label": "05 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910661": {
+      "label": "05 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -231,13 +562,8 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1040,
+    "reviews": 1066,
     "sessions": {
-     "18762736": {
-      "label": "13 Kasım Cuma, 20:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
-     },
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Kağıthane Sadabad Sahnesi",
@@ -246,7 +572,37 @@
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
+      "status": "few"
+     },
+     "18910845": {
+      "label": "17 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910847": {
+      "label": "16 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910848": {
+      "label": "18 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910849": {
+      "label": "19 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910850": {
+      "label": "19 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -286,6 +642,174 @@
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
       "status": "soldout"
+     },
+     "18910838": {
+      "label": "09 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910839": {
+      "label": "11 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910840": {
+      "label": "12 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910841": {
+      "label": "12 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910842": {
+      "label": "10 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18911209": {
+      "label": "24 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911225": {
+      "label": "23 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911226": {
+      "label": "25 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911227": {
+      "label": "26 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911228": {
+      "label": "26 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911229": {
+      "label": "30 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911230": {
+      "label": "02 Ocak Cumartesi 2027, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911231": {
+      "label": "02 Ocak Cumartesi 2027, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/hayat-der-gulumserim-ibb": {
+    "genre": "Diğer",
+    "name": "Hayat Der Gülümserim",
+    "page": "https://biletinial.com/tr-tr/tiyatro/hayat-der-gulumserim-ibb?cinemaBranchId=4223",
+    "rating": 4.6,
+    "reviews": 655,
+    "sessions": {
+     "18911035": {
+      "label": "02 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911036": {
+      "label": "02 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911037": {
+      "label": "03 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911052": {
+      "label": "04 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911053": {
+      "label": "05 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911054": {
+      "label": "05 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/ikinci-perdenin-basi-ibb": {
+    "genre": "Diğer",
+    "name": "İkinci Perdenin Başı",
+    "page": "https://biletinial.com/tr-tr/tiyatro/ikinci-perdenin-basi-ibb?cinemaBranchId=4223",
+    "rating": 4.6,
+    "reviews": 677,
+    "sessions": {
+     "18911679": {
+      "label": "10 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911688": {
+      "label": "09 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911689": {
+      "label": "09 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911690": {
+      "label": "11 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911691": {
+      "label": "12 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911692": {
+      "label": "12 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
      }
     }
    },
@@ -294,12 +818,87 @@
     "name": "İstanbul Şiirle Buluşuyor - Birden Bire Orhan Veli",
     "page": "https://biletinial.com/tr-tr/tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli?cinemaBranchId=4223",
     "rating": 5.0,
-    "reviews": 14,
+    "reviews": 15,
     "sessions": {
      "18763224": {
       "label": "15 Kasım Pazar, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
+     },
+     "18911753": {
+      "label": "06 Aralık Pazar, 20:00",
+      "opens_ts": 1796025600,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911754": {
+      "label": "27 Aralık Pazar, 20:00",
+      "opens_ts": 1797840000,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/istila-ibb": {
+    "genre": "Diğer",
+    "name": "İstila",
+    "page": "https://biletinial.com/tr-tr/tiyatro/istila-ibb?cinemaBranchId=4223",
+    "rating": 4.7,
+    "reviews": 3,
+    "sessions": {
+     "18911731": {
+      "label": "23 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911732": {
+      "label": "25 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911733": {
+      "label": "26 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911734": {
+      "label": "26 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911736": {
+      "label": "24 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911743": {
+      "label": "30 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911744": {
+      "label": "30 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911745": {
+      "label": "02 Ocak Cumartesi 2027, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911746": {
+      "label": "02 Ocak Cumartesi 2027, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
      }
     }
    },
@@ -313,12 +912,12 @@
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763144": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
@@ -328,7 +927,7 @@
      "18763146": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -339,6 +938,66 @@
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
       "status": "soldout"
+     },
+     "18911607": {
+      "label": "24 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911608": {
+      "label": "23 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911609": {
+      "label": "23 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911610": {
+      "label": "25 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911611": {
+      "label": "26 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911612": {
+      "label": "26 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911613": {
+      "label": "30 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911614": {
+      "label": "30 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911615": {
+      "label": "02 Ocak Cumartesi 2027, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911616": {
+      "label": "02 Ocak Cumartesi 2027, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -347,12 +1006,12 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 949,
+    "reviews": 950,
     "sessions": {
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763088": {
       "label": "27 Kasım Cuma, 20:00",
@@ -373,6 +1032,54 @@
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
       "status": "soldout"
+     },
+     "18910852": {
+      "label": "23 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910853": {
+      "label": "25 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910854": {
+      "label": "26 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910855": {
+      "label": "26 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910856": {
+      "label": "24 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910884": {
+      "label": "30 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910885": {
+      "label": "02 Ocak Cumartesi 2027, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910886": {
+      "label": "02 Ocak Cumartesi 2027, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -385,7 +1092,7 @@
      "18762386": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762387": {
       "label": "27 Kasım Cuma, 20:00",
@@ -401,6 +1108,108 @@
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
       "status": "few"
+     },
+     "18911062": {
+      "label": "09 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911063": {
+      "label": "11 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911064": {
+      "label": "12 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911065": {
+      "label": "10 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/maviydi-bisikletim-ibb": {
+    "genre": "Diğer",
+    "name": "Maviydi Bisikletim",
+    "page": "https://biletinial.com/tr-tr/tiyatro/maviydi-bisikletim-ibb?cinemaBranchId=4223",
+    "rating": 4.8,
+    "reviews": 1190,
+    "sessions": {
+     "18911571": {
+      "label": "16 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911572": {
+      "label": "18 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911573": {
+      "label": "19 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911574": {
+      "label": "19 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911575": {
+      "label": "17 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     }
+    }
+   },
+   "tiyatro/oksuzler-ibb": {
+    "genre": "Diğer",
+    "name": "Öksüzler",
+    "page": "https://biletinial.com/tr-tr/tiyatro/oksuzler-ibb?cinemaBranchId=4223",
+    "rating": 3.9,
+    "reviews": 12,
+    "sessions": {
+     "18911527": {
+      "label": "02 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911528": {
+      "label": "03 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911547": {
+      "label": "04 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911548": {
+      "label": "05 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911549": {
+      "label": "05 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -425,6 +1234,42 @@
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
       "status": "soldout"
+     },
+     "18911595": {
+      "label": "10 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911596": {
+      "label": "09 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911597": {
+      "label": "09 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911598": {
+      "label": "11 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911599": {
+      "label": "12 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911600": {
+      "label": "12 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -464,6 +1309,42 @@
       "label": "24 Kasım Salı, 20:00",
       "stage": "İnal Aydınoğlu K.M Şener Şen Sahnesi",
       "status": "open"
+     },
+     "18911601": {
+      "label": "17 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911602": {
+      "label": "16 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911603": {
+      "label": "16 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911604": {
+      "label": "18 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911605": {
+      "label": "19 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911606": {
+      "label": "19 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -498,6 +1379,42 @@
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
       "status": "soldout"
+     },
+     "18910671": {
+      "label": "16 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910672": {
+      "label": "16 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910673": {
+      "label": "18 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910674": {
+      "label": "19 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910675": {
+      "label": "19 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
+     },
+     "18910677": {
+      "label": "17 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -506,22 +1423,47 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 481,
+    "reviews": 491,
     "sessions": {
-     "18762774": {
-      "label": "13 Kasım Cuma, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
+     },
+     "18911551": {
+      "label": "09 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911552": {
+      "label": "11 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911553": {
+      "label": "12 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911554": {
+      "label": "12 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
+     },
+     "18911555": {
+      "label": "10 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -535,7 +1477,7 @@
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "few"
+      "status": "soldout"
      },
      "18763205": {
       "label": "27 Kasım Cuma, 20:00",
@@ -561,6 +1503,42 @@
       "label": "25 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
       "status": "soldout"
+     },
+     "18911705": {
+      "label": "17 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911706": {
+      "label": "16 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911707": {
+      "label": "16 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911708": {
+      "label": "18 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911709": {
+      "label": "19 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
+     },
+     "18911710": {
+      "label": "19 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Meydan Sahne",
+      "status": "soon"
      }
     }
    },
@@ -569,13 +1547,8 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 996,
+    "reviews": 1011,
     "sessions": {
-     "18763140": {
-      "label": "13 Kasım Cuma, 20:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
-     },
      "18763141": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
@@ -584,7 +1557,37 @@
      "18763142": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
+     },
+     "18911194": {
+      "label": "09 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911195": {
+      "label": "11 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911196": {
+      "label": "12 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911197": {
+      "label": "12 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
+     },
+     "18911198": {
+      "label": "10 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Ümraniye Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -638,6 +1641,66 @@
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
       "status": "open"
+     },
+     "18911122": {
+      "label": "23 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911123": {
+      "label": "23 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911124": {
+      "label": "25 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911125": {
+      "label": "26 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911126": {
+      "label": "26 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911137": {
+      "label": "24 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911148": {
+      "label": "30 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911149": {
+      "label": "30 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911150": {
+      "label": "02 Ocak Cumartesi 2027, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
+     },
+     "18911151": {
+      "label": "02 Ocak Cumartesi 2027, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -677,6 +1740,42 @@
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
       "status": "open"
+     },
+     "18911587": {
+      "label": "02 Aralık Çarşamba, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911588": {
+      "label": "02 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911590": {
+      "label": "03 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911591": {
+      "label": "04 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911592": {
+      "label": "05 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
+     },
+     "18911593": {
+      "label": "05 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
+      "status": "soon"
      }
     }
    },
@@ -685,13 +1784,8 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1591,
+    "reviews": 1609,
     "sessions": {
-     "18763035": {
-      "label": "13 Kasım Cuma, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "open"
-     },
      "18763036": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
@@ -701,11 +1795,48 @@
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
       "status": "soldout"
+     },
+     "18910782": {
+      "label": "02 Aralık Çarşamba, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910813": {
+      "label": "03 Aralık Perşembe, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910835": {
+      "label": "04 Aralık Cuma, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910836": {
+      "label": "05 Aralık Cumartesi, 15:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
+     },
+     "18910837": {
+      "label": "05 Aralık Cumartesi, 20:00",
+      "opens_ts": 1794902400,
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "soon"
      }
     }
    }
   },
   "muammer-karaca": {
+   "egitim/cocuk-atolyesi-uc-eser-cok-hikaye": {
+    "genre": "Diğer",
+    "name": "Çocuk Atölyesi: Üç Eser Çok Hikaye",
+    "page": "https://biletinial.com/tr-tr/egitim/cocuk-atolyesi-uc-eser-cok-hikaye?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
    "egitim/firuze-engin-ile-afislerden-metinlere-oyun-yazim-atolyesi": {
     "genre": "Diğer",
     "name": "Firuze Engin ile Afişlerden Metinlere, Oyun Yazım Atölyesi",
@@ -713,10 +1844,10 @@
     "reviews": 0,
     "sessions": {}
    },
-   "egitim/ugurcan-ataoglu-ile-afis-tasarim-atolyesi": {
+   "egitim/iki-sehir-bir-sahne-shakespearein-yasayan-mirasi": {
     "genre": "Diğer",
-    "name": "Uğurcan Ataoğlu ile Afiş Tasarım Atölyesi",
-    "page": "https://biletinial.com/tr-tr/egitim/ugurcan-ataoglu-ile-afis-tasarim-atolyesi?cinemaBranchId=40264",
+    "name": "İki Şehir Bir Sahne: Shakespeare’in Yaşayan Mirası",
+    "page": "https://biletinial.com/tr-tr/egitim/iki-sehir-bir-sahne-shakespearein-yasayan-mirasi?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {}
    },
@@ -734,11 +1865,18 @@
     "reviews": 0,
     "sessions": {}
    },
-   "muzik/quartet-dinleti": {
+   "muzik/aytac-dogan-ismail-tuncbilek-dorantes-gitanos-del-mediterraneo": {
     "genre": "Diğer",
-    "name": "Quartet Dinleti",
-    "page": "https://biletinial.com/tr-tr/muzik/quartet-dinleti?cinemaBranchId=40264",
-    "rating": 4.8,
+    "name": "Aytaç Doğan & İsmail Tunçbilek & Dorantes Gitanos Del Mediterraneo",
+    "page": "https://biletinial.com/tr-tr/muzik/aytac-dogan-ismail-tuncbilek-dorantes-gitanos-del-mediterraneo?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "muzik/quintet-dinleti": {
+    "genre": "Diğer",
+    "name": "Quintet Dinleti",
+    "page": "https://biletinial.com/tr-tr/muzik/quintet-dinleti?cinemaBranchId=40264",
+    "rating": 5.0,
     "reviews": 5,
     "sessions": {}
    },
@@ -805,6 +1943,12 @@
       "label": "15 Kasım Pazar, 15:00",
       "stage": "Muammer Karaca Tiyatrosu",
       "status": "soldout"
+     },
+     "18910576": {
+      "label": "18 Kasım Çarşamba, 15:00",
+      "opens_ts": 1794657600,
+      "stage": "Muammer Karaca Tiyatrosu",
+      "status": "soon"
      }
     }
    },
