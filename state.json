@@ -6,9 +6,12 @@
   "ibb-sehir-tiyatrolari": {
    "tiyatro/gecmisin-golgesi-ibb/18763095": 1794501567.827496,
    "tiyatro/haramiler/18762760": 1794501567.827496,
+   "tiyatro/kahvaltiya-kalsana/18763144": 1794564357.0691993,
+   "tiyatro/kopek-kalbi-ibb/18763087": 1794564357.0691993,
    "tiyatro/oylece-durur-zaman/18763084": 1794522405.9092934,
    "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794501567.827496,
    "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794501567.827496,
+   "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794564357.0691993,
    "tiyatro/yoldan-cikan-oyun-ibb/18763054": 1794501567.827496
   }
  },
@@ -126,7 +129,7 @@
      "18763199": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "few"
      },
      "18763200": {
       "label": "20 Kasım Cuma, 20:00",
@@ -315,7 +318,7 @@
      "18763144": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
@@ -349,7 +352,7 @@
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763088": {
       "label": "27 Kasım Cuma, 20:00",
@@ -382,7 +385,7 @@
      "18762386": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762387": {
       "label": "27 Kasım Cuma, 20:00",
@@ -397,7 +400,7 @@
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "few"
      }
     }
    },
@@ -445,7 +448,7 @@
      "18763084": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -532,7 +535,7 @@
      "18763204": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "few"
      },
      "18763205": {
       "label": "27 Kasım Cuma, 20:00",
@@ -687,7 +690,7 @@
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763036": {
       "label": "14 Kasım Cumartesi, 15:00",
