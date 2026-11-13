@@ -1,12 +1,11 @@
 {
- "burs_last": "2026-11-12",
- "digest_last": "2026-11-12 akşam",
+ "burs_last": "2026-11-13",
+ "digest_last": "2026-11-13 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/gecmisin-golgesi-ibb/18763095": 1794501567.827496,
    "tiyatro/haramiler/18762760": 1794501567.827496,
-   "tiyatro/kosebasi-ibb/18762469": 1794457284.1976333,
    "tiyatro/oylece-durur-zaman/18763084": 1794522405.9092934,
    "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794501567.827496,
    "tiyatro/sevgili-yelena-sergeyevna/18762789": 1794501567.827496,
@@ -35,7 +34,7 @@
     "name": "Çingene Boksör",
     "page": "https://biletinial.com/tr-tr/tiyatro/cingene-boksor-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 246,
+    "reviews": 250,
     "sessions": {
      "18763192": {
       "label": "13 Kasım Cuma, 20:00",
@@ -93,7 +92,7 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 794,
+    "reviews": 802,
     "sessions": {
      "18763078": {
       "label": "13 Kasım Cuma, 20:00",
@@ -229,7 +228,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1032,
+    "reviews": 1040,
     "sessions": {
      "18762736": {
       "label": "13 Kasım Cuma, 20:00",
@@ -326,7 +325,7 @@
      "18763146": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -345,7 +344,7 @@
     "name": "Köpek Kalbi",
     "page": "https://biletinial.com/tr-tr/tiyatro/kopek-kalbi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 948,
+    "reviews": 949,
     "sessions": {
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -504,7 +503,7 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 480,
+    "reviews": 481,
     "sessions": {
      "18762774": {
       "label": "13 Kasım Cuma, 20:00",
@@ -567,7 +566,7 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 991,
+    "reviews": 996,
     "sessions": {
      "18763140": {
       "label": "13 Kasım Cuma, 20:00",
@@ -644,7 +643,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1231,
+    "reviews": 1232,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -683,7 +682,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1577,
+    "reviews": 1591,
     "sessions": {
      "18763035": {
       "label": "13 Kasım Cuma, 20:00",
