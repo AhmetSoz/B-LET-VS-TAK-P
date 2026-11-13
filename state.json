@@ -7,11 +7,14 @@
    "tiyatro/cingene-boksor-ibb/18763193": 1794591632.6989198,
    "tiyatro/gecmisin-golgesi-ibb/18763079": 1794591632.6989198,
    "tiyatro/gecmisin-golgesi-ibb/18763080": 1794591632.6989198,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762777": 1794610399.2087476,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794610399.2087476,
    "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli/18763224": 1794591632.6989198,
    "tiyatro/kahvaltiya-kalsana/18763143": 1794591632.6989198,
    "tiyatro/kahvaltiya-kalsana/18763144": 1794564357.0691993,
-   "tiyatro/kopek-kalbi-ibb/18763087": 1794564357.0691993,
-   "tiyatro/oylece-durur-zaman/18763084": 1794522405.9092934,
+   "tiyatro/kahvaltiya-kalsana/18763146": 1794610399.2087476,
+   "tiyatro/kopek-kalbi-ibb/18763087": 1794610399.2087476,
+   "tiyatro/kopek-kalbi-ibb/18763090": 1794610399.2087476,
    "tiyatro/sevgili-yelena-sergeyevna/18762775": 1794591632.6989198,
    "tiyatro/sevgili-yelena-sergeyevna/18762776": 1794591632.6989198,
    "tiyatro/yoldan-cikan-oyun-ibb/18763035": 1794564357.0691993
@@ -128,7 +131,7 @@
      "18763193": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      },
      "18763194": {
       "label": "14 Kasım Cumartesi, 20:00",
@@ -241,12 +244,12 @@
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763080": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18911100": {
       "label": "16 Aralık Çarşamba, 15:00",
@@ -430,7 +433,7 @@
     "name": "Gölge",
     "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 603,
+    "reviews": 604,
     "sessions": {
      "18911576": {
       "label": "23 Aralık Çarşamba, 20:00",
@@ -492,12 +495,12 @@
      "18762777": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -572,7 +575,7 @@
      "18762738": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18910845": {
       "label": "17 Aralık Perşembe, 20:00",
@@ -823,7 +826,7 @@
      "18763224": {
       "label": "15 Kasım Pazar, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      },
      "18911753": {
       "label": "06 Aralık Pazar, 20:00",
@@ -912,7 +915,7 @@
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763144": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -927,7 +930,7 @@
      "18763146": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "open"
      },
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -1011,7 +1014,7 @@
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763088": {
       "label": "27 Kasım Cuma, 20:00",
@@ -1026,7 +1029,7 @@
      "18763090": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763097": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -1107,7 +1110,7 @@
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18911062": {
       "label": "09 Aralık Çarşamba, 15:00",
@@ -1428,12 +1431,12 @@
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762776": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18911551": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -1557,7 +1560,7 @@
      "18763142": {
       "label": "14 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18911194": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -1877,7 +1880,7 @@
     "name": "Quintet Dinleti",
     "page": "https://biletinial.com/tr-tr/muzik/quintet-dinleti?cinemaBranchId=40264",
     "rating": 5.0,
-    "reviews": 5,
+    "reviews": 2,
     "sessions": {}
    },
    "tiyatro/baba-ve-baba": {
@@ -1958,6 +1961,13 @@
     "page": "https://biletinial.com/tr-tr/tiyatro/saksakcilar?cinemaBranchId=40264",
     "rating": 4.3,
     "reviews": 583,
+    "sessions": {}
+   },
+   "tiyatro/tut-elimden-rovni-tiyatro": {
+    "genre": "Dram",
+    "name": "Tut Elimden Rovni",
+    "page": "https://biletinial.com/tr-tr/tiyatro/tut-elimden-rovni-tiyatro?cinemaBranchId=40264",
+    "reviews": 0,
     "sessions": {}
    },
    "tiyatro/ucurtmanin-kuyrugu-tiyatro-oyunu": {
