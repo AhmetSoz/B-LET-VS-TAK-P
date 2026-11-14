@@ -1,6 +1,6 @@
 {
- "burs_last": "2026-11-13",
- "digest_last": "2026-11-13 akşam",
+ "burs_last": "2026-11-14",
+ "digest_last": "2026-11-14 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
@@ -126,7 +126,7 @@
     "name": "Çingene Boksör",
     "page": "https://biletinial.com/tr-tr/tiyatro/cingene-boksor-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 253,
+    "reviews": 255,
     "sessions": {
      "18763193": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -239,7 +239,7 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 805,
+    "reviews": 810,
     "sessions": {
      "18763079": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -495,12 +495,12 @@
      "18762777": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -565,7 +565,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1066,
+    "reviews": 1079,
     "sessions": {
      "18762737": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -1221,7 +1221,7 @@
     "name": "Oscar",
     "page": "https://biletinial.com/tr-tr/tiyatro/oscar-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1566,
+    "reviews": 1567,
     "sessions": {
      "18763148": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -1426,7 +1426,7 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 491,
+    "reviews": 495,
     "sessions": {
      "18762775": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -1550,7 +1550,7 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1011,
+    "reviews": 1012,
     "sessions": {
      "18763141": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -1712,7 +1712,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1232,
+    "reviews": 1233,
     "sessions": {
      "18762367": {
       "label": "18 Kasım Çarşamba, 15:00",
@@ -1787,7 +1787,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1609,
+    "reviews": 1613,
     "sessions": {
      "18763036": {
       "label": "14 Kasım Cumartesi, 15:00",
@@ -1880,7 +1880,7 @@
     "name": "Quintet Dinleti",
     "page": "https://biletinial.com/tr-tr/muzik/quintet-dinleti?cinemaBranchId=40264",
     "rating": 5.0,
-    "reviews": 2,
+    "reviews": 5,
     "sessions": {}
    },
    "tiyatro/baba-ve-baba": {
