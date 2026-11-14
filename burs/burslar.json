@@ -1,7 +1,7 @@
 {
-  "subject": "🎓 Burslu yüksek lisans listesi (Gerontoloji · Rekreasyon · Sağlık ve spor)",
+  "subject": "🎓 Burslu lisansüstü listesi (Yaşlanma · Rekreasyon · Bilişsel bilim · Sosyoloji)",
   "report_url": "https://github.com/AhmetSoz/B-LET-VS-TAK-P/blob/ccr-1113083d-7qapmv/burs/rapor.md",
-  "intro": "Merhaba 👋 Bu liste, lisansı gerontoloji ve yüksek lisansı rekreasyon olan, IELTS 6.0'ı bulunan biri için resmî sayfalar tek tek kontrol edilerek süzüldü. Alan şartı uymayan (ör. Padova ve Bologna'nın insan hakları programları, EMA) ve 6.0'dan yüksek IELTS isteyen programlar (ör. Hygieia, MAiSI, NOHA) maillere girmez; yalnızca devam eden YL öğrencilerine verilen yurt içi burslar (TÜBİTAK 2210, KYK, Yeşilay) de çıkarıldı. En uygun tam burslu seçenek GOALS (boş zaman ve spor yönetimi, Erasmus Mundus, IELTS 6.0 kabul). Ülke bursları (Macaristan, Kore, Malezya, Tayvan, Fulbright, YLSY) bölüm seçimine bağlı: gerontoloji/yaşlanma, rekreasyon/spor yönetimi, halk sağlığı veya sosyal hizmet programlarına bakılmalı. Bot resmî sayfaları her gün kontrol eder; her sabah 09:00'da mail gelir, pazartesileri bu tam liste.",
+  "intro": "Merhaba 👋 Bu liste, lisansı gerontoloji ve yüksek lisansı rekreasyon olan, IELTS 6.0'ı bulunan biri için resmî sayfalar tek tek kontrol edilerek süzüldü. Alan şartı uymayan (ör. Padova ve Bologna'nın insan hakları programları, EMA) ve 6.0'dan yüksek IELTS isteyen programlar (ör. Hygieia, MAiSI, NOHA) maillere girmez; yalnızca devam eden YL öğrencilerine verilen yurt içi burslar (TÜBİTAK 2210, KYK, Yeşilay) de çıkarıldı. Takip edilen alanlar: aktif/bilişsel yaşlanma, rekreasyon, sinir bilimi ve bilişsel bilim, sosyoloji; Avrupa öncelikli, Asya ve Türkiye dahil, Orta Doğu ve Afrika hariç. En uygun tam burslu seçenekler GOALS (boş zaman ve spor yönetimi, Erasmus Mundus, IELTS 6.0 kabul). Ülke bursları (Macaristan, Kore, Malezya, Tayvan, Fulbright, YLSY) bölüm seçimine bağlı: gerontoloji/yaşlanma, rekreasyon/spor yönetimi, halk sağlığı veya sosyal hizmet programlarına bakılmalı. Bot resmî sayfaları her gün kontrol eder; her sabah 09:00'da mail gelir, pazartesileri bu tam liste.",
   "items": [
     {
       "id": "goals",
@@ -552,6 +552,125 @@
         "SISGP",
         "Lund University Global Scholarship"
       ]
+    },
+    {
+      "id": "hkpfs",
+      "short": "Hong Kong Doktora Bursu (HKPFS)",
+      "flag": "🇭🇰",
+      "name": "Hong Kong PhD Fellowship Scheme (HKPFS) — doktora",
+      "where": "Hong Kong üniversiteleri (HKU, CUHK, PolyU vb.)",
+      "field": "Yaşlanma sosyolojisi, sosyal hizmet, halk sağlığı (bölüme göre)",
+      "summary": "Yılda HK$344.400 burs + konferans desteği, 3 yıl",
+      "coverage": "Yılda HK$344.400 + yılda HK$14.400 konferans/araştırma seyahati, en fazla 3 yıl; 400 burs.",
+      "ielts": "HKU genel asgari IELTS 6.0 (hiçbir bölüm 5.5 altı değil); bazı enstitüler 6.5",
+      "ielts_fit": "uygun",
+      "field_fit": "uygun",
+      "turkey": "Uygun (tüm ülkelere açık)",
+      "deadline": "2026-12-01",
+      "deadline_note": "HKPFS ön başvurusu 1 Aralık 2026; üniversiteye ayrıca başvuru gerekir",
+      "notes": "Çok rekabetçi; bir danışman/araştırma konusu ile başvurulmalı (ör. yaşlılıkta boş zaman ve iyi oluş).",
+      "link": "https://cerg1.ugc.edu.hk/hkpfs/index.html",
+      "watch": [
+        "https://cerg1.ugc.edu.hk/hkpfs/index.html"
+      ],
+      "aliases": [
+        "Hong Kong PhD Fellowship"
+      ],
+      "rank": 24
+    },
+    {
+      "id": "ankara-antropoloji",
+      "short": "Ankara Üni. Sosyal Antropoloji YL",
+      "flag": "🇹🇷",
+      "name": "Ankara Üniversitesi SBE — Sosyal Antropoloji tezli yüksek lisans (2026-2027 Bahar)",
+      "where": "Ankara Üniversitesi Sosyal Bilimler Enstitüsü",
+      "field": "Sosyal antropoloji (alan dışına bilimsel hazırlık)",
+      "summary": "Devlet üniversitesi, tezli YL ücretsiz",
+      "coverage": "Tezli yüksek lisans Türk öğrenciler için ücretsiz (normal süre).",
+      "ielts": "Türkçe program; YDS/YÖKDİL 55 ve ALES 60 (SÖZ/EA), not ortalaması 2,25",
+      "ielts_fit": "yurtici",
+      "field_fit": "uygun",
+      "turkey": "Türkiye",
+      "deadline": "2026-12-04",
+      "deadline_note": "Bahar başvurusu 2 Kasım – 4 Aralık 2026",
+      "notes": "Alan dışından gelenler bilimsel hazırlık okur. Sosyoloji ilgisine en yakın açık başvuru.",
+      "link": "https://sosbilens.ankara.edu.tr/wp-content/uploads/sites/271/2026/10/2026-2027-BAHAR-YARIYILI-KONTENJANLARI.pdf",
+      "watch": [],
+      "aliases": [],
+      "rank": 25
+    },
+    {
+      "id": "bogazici-cogsci",
+      "short": "Boğaziçi Bilişsel Bilim YL",
+      "flag": "🇹🇷",
+      "name": "Boğaziçi Üniversitesi Bilişsel Bilim tezli yüksek lisans (2026-2027 Bahar)",
+      "where": "Boğaziçi Üniversitesi, İstanbul",
+      "field": "Bilişsel bilim (ilk yıl bilimsel hazırlık)",
+      "summary": "Devlet üniversitesi, tezli YL ücretsiz",
+      "coverage": "Tezli yüksek lisans Türk öğrenciler için ücretsiz (normal süre).",
+      "ielts": "BUEPT ya da Boğaziçi'nin kabul ettiği İngilizce sınavı",
+      "ielts_fit": "yurtici",
+      "field_fit": "uygun",
+      "turkey": "Türkiye",
+      "deadline": "2026-12-21",
+      "deadline_note": "Bahar başvurusu 14–21 Aralık 2026; bilim sınavları 25/28/29 Aralık",
+      "notes": "Disiplinlerarası; farklı bölümlerden gelenler ilk yıl hazırlık okur. Bilişsel yaşlanma ilgisine en yakın Türkiye seçeneği.",
+      "link": "https://cogsci.bogazici.edu.tr/tr",
+      "watch": [
+        "https://cogsci.bogazici.edu.tr/tr"
+      ],
+      "aliases": [],
+      "rank": 26
+    },
+    {
+      "id": "elte-sosyoloji-phd",
+      "short": "ELTE Sosyoloji Doktorası (Macaristan bursu)",
+      "flag": "🇭🇺",
+      "name": "ELTE Sosyoloji Doktora Okulu — Stipendium Hungaricum ile",
+      "where": "Eötvös Loránd Üniversitesi, Budapeşte",
+      "field": "Sosyoloji (doktora; sosyal bilim dışı YL bireysel değerlendirilir)",
+      "summary": "Stipendium Hungaricum: okul ücreti + aylık burs + yurt",
+      "coverage": "Stipendium Hungaricum: okul ücreti, aylık burs, yurt ya da kira katkısı, sağlık sigortası.",
+      "ielts": "IELTS 6.0 / TOEFL iBT 72 / B2 (resmî program sayfası)",
+      "ielts_fit": "uygun",
+      "field_fit": "uygun",
+      "turkey": "Uygun (MEB üzerinden aday gösterme)",
+      "deadline": "2027-01-15",
+      "deadline_note": "tahmini — 2027/28 çağrısı henüz yayımlanmadı; geçen yıllarda 15 Ocak",
+      "notes": "Avrupa'da IELTS 6.0'ı açıkça yeterli sayan doktora. Online mülakat var; araştırma önerisi hazırlanmalı (ör. yaşlılık ve boş zaman sosyolojisi).",
+      "link": "https://apply.stipendiumhungaricum.hu/courses/course/483-phd-doctoral-school-sociology",
+      "watch": [
+        "https://apply.stipendiumhungaricum.hu/courses/course/483-phd-doctoral-school-sociology"
+      ],
+      "aliases": [
+        "ELTE Doctoral School of Sociology"
+      ],
+      "rank": 27
+    },
+    {
+      "id": "agerasmus",
+      "short": "AGErasmus – Sağlıklı ve Aktif Yaşlanma (Erasmus Mundus)",
+      "flag": "🇪🇺",
+      "name": "Erasmus Mundus AGErasmus — Healthy and Active Ageing",
+      "where": "İspanya (UCLM), Portekiz (Lizbon), Polonya (Częstochowa), Fransa (Le Mans)",
+      "field": "Aktif yaşlanma: egzersiz, bilişsel ve psiko-sosyal yaşlanma, beslenme",
+      "summary": "Erasmus Mundus bursu: ayda €1.400 + okul ücreti yok",
+      "coverage": "Erasmus Mundus bursu: ayda €1.400 + katılım ücreti muafiyeti.",
+      "ielts": "İngilizce şartı ve 2027 son tarihi yayımlanmadı — koordinatörlüğe sorulmalı",
+      "ielts_fit": null,
+      "field_fit": "uygun",
+      "turkey": "Uygun (Erasmus Mundus tüm ülkelere açık)",
+      "deadline": null,
+      "deadline_note": "2027 başvuru tarihi henüz ilan edilmedi; bot sayfayı takip ediyor",
+      "notes": "Gerontoloji + rekreasyon geçmişine alan olarak en uygun Erasmus Mundus programı (spor bilimleri öncelikli).",
+      "link": "https://agerasmus.com/",
+      "watch": [
+        "https://agerasmus.com/"
+      ],
+      "aliases": [
+        "Healthy and Active Ageing"
+      ],
+      "rank": 28
     }
   ],
   "sources": [
