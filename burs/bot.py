@@ -282,6 +282,16 @@ def describe(item, added, removed=()):
 # --------------------------------------------------------------------------- 2) duyurular
 
 
+# Orta Doğu ve Afrika ülkelerinin burs duyuruları istenmiyor (Avrupa, Asya ve Türkiye öncelikli).
+# Hem başlıkta hem bağlantıdaki Türkçe karaktersiz yazımda aranır (ör. ".../misir-hukmeti-burslari").
+EXCLUDED_REGIONS = re.compile(
+    r"m[ıi]s[ıi]r|egypt|suudi|saudi|katar|qatar|kuveyt|kuwait|birle[sş]ik[ -]arap|\bbae\b|emirates|umman|\boman\b|"
+    r"bahreyn|bahrain|yemen|[üu]rd[üu]n|jordan|l[üu]bnan|lebanon|\b[ıi]rak\b|\biraq\b|\b[iİ]ran\b|[iİ]srail|israel|"
+    r"filistin|palestin|suriye|syria|cezayir|algeria|tunus|tunisia|\bfas\b|morocco|libya|sudan|etiyopya|ethiopia|"
+    r"kenya|nijerya|nigeria|\bgana\b|ghana|senegal|g[üu]ney[ -]afrika|south africa|tanzanya|tanzania|uganda|"
+    r"ruanda|rwanda|\bmali\b|somali|moritanya|kamerun|cameroon|afrika|africa", re.I)
+
+
 def read_announcements(src):
     raw, _ = fetch(src["url"])
     text = raw.decode("utf-8", errors="replace")
@@ -300,7 +310,8 @@ def read_announcements(src):
                 out.append((title, urllib.parse.urljoin(src["url"], href)))
     inc = re.compile(src["include"], re.I)
     exc = re.compile(src["exclude"], re.I) if src.get("exclude") else None
-    return [(t, l) for t, l in out if inc.search(t) and not (exc and exc.search(t))]
+    return [(t, l) for t, l in out if inc.search(t) and not (exc and exc.search(t))
+            and not EXCLUDED_REGIONS.search(f"{t} {l}")]
 
 
 def check_announcements(data, state):
