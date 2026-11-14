@@ -13,7 +13,6 @@
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794672105.1237502,
    "tiyatro/haramiler/18762737": 1794653587.2151234,
    "tiyatro/haramiler/18762738": 1794653587.2151234,
-   "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli/18763224": 1794591632.6989198,
    "tiyatro/kahvaltiya-kalsana/18763143": 1794650526.5795162,
    "tiyatro/kahvaltiya-kalsana/18763144": 1794672105.1237502,
    "tiyatro/kahvaltiya-kalsana/18763146": 1794652363.140956,
@@ -131,20 +130,6 @@
      "18831592": {
       "label": "17 Kasım Salı, 20:00",
       "stage": "İBB Yenibosna Dr Enver Ören Kültür Merkezi",
-      "status": "few"
-     }
-    }
-   },
-   "tiyatro/cingene-boksor-ibb": {
-    "genre": "Dram",
-    "name": "Çingene Boksör",
-    "page": "https://biletinial.com/tr-tr/tiyatro/cingene-boksor-ibb?cinemaBranchId=4223",
-    "rating": 4.6,
-    "reviews": 255,
-    "sessions": {
-     "18763194": {
-      "label": "14 Kasım Cumartesi, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
       "status": "soldout"
      }
     }
@@ -248,13 +233,8 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 810,
+    "reviews": 813,
     "sessions": {
-     "18763080": {
-      "label": "14 Kasım Cumartesi, 20:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
-     },
      "18911100": {
       "label": "16 Aralık Çarşamba, 15:00",
       "opens_ts": 1794902400,
@@ -504,7 +484,7 @@
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -569,13 +549,8 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1079,
+    "reviews": 1088,
     "sessions": {
-     "18762738": {
-      "label": "14 Kasım Cumartesi, 20:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
-     },
      "18910845": {
       "label": "17 Aralık Perşembe, 20:00",
       "opens_ts": 1794902400,
@@ -919,7 +894,7 @@
      "18763144": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1028,7 +1003,7 @@
      "18763090": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763097": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -1109,7 +1084,7 @@
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18911062": {
       "label": "09 Aralık Çarşamba, 15:00",
@@ -1425,13 +1400,8 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 495,
+    "reviews": 504,
     "sessions": {
-     "18762776": {
-      "label": "14 Kasım Cumartesi, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
      "18911551": {
       "label": "09 Aralık Çarşamba, 20:00",
       "opens_ts": 1794902400,
@@ -1544,13 +1514,8 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1012,
+    "reviews": 1014,
     "sessions": {
-     "18763142": {
-      "label": "14 Kasım Cumartesi, 20:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
-     },
      "18911194": {
       "label": "09 Aralık Çarşamba, 20:00",
       "opens_ts": 1794902400,
@@ -1598,7 +1563,7 @@
      "18831591": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      }
     }
    },
@@ -1776,13 +1741,8 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1613,
+    "reviews": 1618,
     "sessions": {
-     "18763037": {
-      "label": "14 Kasım Cumartesi, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
-     },
      "18910782": {
       "label": "02 Aralık Çarşamba, 20:00",
       "opens_ts": 1794902400,
@@ -1852,6 +1812,21 @@
     "rating": 5.0,
     "reviews": 5,
     "sessions": {}
+   },
+   "tiyatro/apsolit": {
+    "genre": "Diğer",
+    "name": "Apsolit",
+    "page": "https://biletinial.com/tr-tr/tiyatro/apsolit?cinemaBranchId=40264",
+    "rating": 4.9,
+    "reviews": 67,
+    "sessions": {
+     "18913248": {
+      "label": "16 Kasım Pazartesi, 16:00",
+      "opens_ts": 1794747600,
+      "stage": "Muammer Karaca Tiyatrosu",
+      "status": "soon"
+     }
+    }
    },
    "tiyatro/baba-ve-baba": {
     "genre": "Dram",
