@@ -1,7 +1,7 @@
 {
-  "subject": "🎓 Burslu lisansüstü listesi (Yaşlanma · Rekreasyon · Bilişsel bilim · Sosyoloji)",
+  "subject": "🎓 Burslu doktora ve araştırma ziyareti listesi (Yaşlanma · Rekreasyon · Bilişsel bilim · Sosyoloji)",
   "report_url": "https://github.com/AhmetSoz/B-LET-VS-TAK-P/blob/ccr-1113083d-7qapmv/burs/rapor.md",
-  "intro": "Merhaba 👋 Bu liste, lisansı gerontoloji ve yüksek lisansı rekreasyon olan, IELTS 6.0'ı bulunan biri için resmî sayfalar tek tek kontrol edilerek süzüldü. Alan şartı uymayan (ör. Padova ve Bologna'nın insan hakları programları, EMA) ve 6.0'dan yüksek IELTS isteyen programlar (ör. Hygieia, MAiSI, NOHA) maillere girmez; yalnızca devam eden YL öğrencilerine verilen yurt içi burslar (TÜBİTAK 2210, KYK, Yeşilay) de çıkarıldı. Takip edilen alanlar: aktif/bilişsel yaşlanma, rekreasyon, sinir bilimi ve bilişsel bilim, sosyoloji; Avrupa öncelikli, Asya ve Türkiye dahil, Orta Doğu ve Afrika hariç. En uygun tam burslu seçenekler GOALS (boş zaman ve spor yönetimi, Erasmus Mundus, IELTS 6.0 kabul). Ülke bursları (Macaristan, Kore, Malezya, Tayvan, Fulbright, YLSY) bölüm seçimine bağlı: gerontoloji/yaşlanma, rekreasyon/spor yönetimi, halk sağlığı veya sosyal hizmet programlarına bakılmalı. Bot resmî sayfaları her gün kontrol eder; her sabah 09:00'da mail gelir, pazartesileri bu tam liste.",
+  "intro": "Merhaba 👋 Bu liste artık yüksek lisans değil, DOKTORA ve kısa süreli araştırma ziyaretleri (gidip gelinebilen, yurt dışında 2 yıl kalmayı gerektirmeyen) için. Profil: lisans gerontoloji, yüksek lisans rekreasyon, IELTS 6.0. Alanlar: aktif/bilişsel yaşlanma, rekreasyon, sinir bilimi ve bilişsel bilim, sosyoloji; Avrupa öncelikli, Asya ve Türkiye dahil, Orta Doğu ve Afrika hariç. Alanı uymayan ve 6.0'dan yüksek IELTS isteyen programlar maillere girmez. Bot resmî sayfaları ve Macaristan bursunun doktora programlarını her gün tarar; her sabah 09:00'da mail gelir, pazartesileri bu tam liste.",
   "items": [
     {
       "id": "goals",
@@ -28,7 +28,8 @@
       "aliases": [
         "GOALS International Master",
         "Governance & Administration of Leisure and Sports International Master"
-      ]
+      ],
+      "level": "yl"
     },
     {
       "id": "hygieia",
@@ -55,7 +56,8 @@
       "aliases": [
         "Health and Wellbeing across the Lifespan",
         "HYGIEIA"
-      ]
+      ],
+      "level": "yl"
     },
     {
       "rank": 3,
@@ -82,13 +84,14 @@
       "flag": "🇮🇹",
       "summary": "€8.000/yıl + ücret muafiyeti (Excellence bursu)",
       "field_fit": "uymuyor",
-      "field_note": "Alan uymuyor: program hukuk/siyaset/sosyal bilimler kökenli öğrenci istiyor (Mehlika'nın kendi değerlendirmesi de bu)."
+      "field_note": "Alan uymuyor: program hukuk/siyaset/sosyal bilimler kökenli öğrenci istiyor (Mehlika'nın kendi değerlendirmesi de bu).",
+      "level": "yl"
     },
     {
       "rank": 4,
       "name": "Stipendium Hungaricum (Macaristan devlet bursu)",
       "where": "Macaristan — üniversite ve program seçimine bağlı (programlar stipendiumhungaricum.hu'da)",
-      "field": "Program seçimine bağlı: sağlık bilimleri / halk sağlığı, spor bilimi ve rekreasyon, sosyal hizmet programlarına bak",
+      "field": "Doktora okulları: sosyoloji, sağlık bilimleri, spor bilimleri; bot doktora programlarını her gün arıyor",
       "coverage": "Okul ücreti tamamen + ayda 43.700 HUF + yurt ya da ayda 40.000 HUF kira katkısı + sağlık sigortası",
       "ielts": "Programa göre; çoğunlukla B2 (IELTS 5.5–6.0)",
       "ielts_fit": "uygun",
@@ -106,7 +109,8 @@
       ],
       "short": "Stipendium Hungaricum",
       "flag": "🇭🇺",
-      "summary": "Okul ücreti + aylık burs + yurt + sigorta"
+      "summary": "Macaristan devlet bursu — doktora programları (okul ücreti + aylık burs + yurt)",
+      "level": "ikisi"
     },
     {
       "rank": 5,
@@ -134,13 +138,14 @@
       "flag": "🇮🇹",
       "summary": "€6.500 + ücret muafiyeti (GRE şartlı) ya da gelire dayalı ER.GO",
       "field_fit": "uymuyor",
-      "field_note": "Alan uymuyor: belirli derslerden (felsefe, hukuk, kültürel miras vb.) en az 36 kredi şartı var."
+      "field_note": "Alan uymuyor: belirli derslerden (felsefe, hukuk, kültürel miras vb.) en az 36 kredi şartı var.",
+      "level": "yl"
     },
     {
       "rank": 6,
       "name": "YLSY — MEB Yurt Dışı Lisansüstü Eğitim Bursu (1416)",
       "where": "Dünya genelinde, kontenjana bağlı",
-      "field": "Kontenjan tablosunda gerontoloji, rekreasyon, spor bilimleri ya da halk sağlığı açılırsa",
+      "field": "Kontenjan tablosunda gerontoloji, rekreasyon, spor bilimleri, halk sağlığı veya sosyoloji DOKTORA kontenjanı açılırsa",
       "coverage": "Okul ücreti + aylık burs (ör. Almanya €1.840) + uçak + sigorta + 12 aya kadar dil eğitimi",
       "ielts": "Başvuruda dil belgesi gerekmiyor (ALES en az 75)",
       "ielts_fit": "gerekmiyor",
@@ -156,13 +161,14 @@
       ],
       "short": "YLSY (MEB bursu)",
       "flag": "🇹🇷",
-      "summary": "Okul ücreti + aylık burs + dil eğitimi (2 kat zorunlu hizmet)"
+      "summary": "Okul ücreti + aylık burs + dil eğitimi (2 kat zorunlu hizmet)",
+      "level": "ikisi"
     },
     {
       "rank": 7,
       "name": "Malaysia International Scholarship (MIS)",
       "where": "Malezya — UM, UKM, USM, IIUM ve diğerleri",
-      "field": "Program seçimine bağlı: halk sağlığı, spor/rekreasyon yönetimi, sosyal bilimler",
+      "field": "Doktora: halk sağlığı, spor/rekreasyon, sosyal bilimler (MIS doktorayı da kapsıyor)",
       "coverage": "Okul ücreti + ayda RM 1.500 (uçak bileti yok)",
       "ielts": "Resmî kılavuzda IELTS 6.0",
       "ielts_fit": "uygun",
@@ -180,13 +186,14 @@
       ],
       "short": "Malezya MIS",
       "flag": "🇲🇾",
-      "summary": "Okul ücreti + ayda RM 1.500"
+      "summary": "Okul ücreti + ayda RM 1.500",
+      "level": "ikisi"
     },
     {
       "rank": 8,
       "name": "GKS-G — Kore Devlet Bursu",
       "where": "Güney Kore",
-      "field": "Üniversiteye göre: gerontoloji/yaşlanma, spor ve boş zaman, halk sağlığı programları",
+      "field": "Doktora: gerontoloji/yaşlanma, spor ve boş zaman, sosyoloji (GKS doktora kontenjanı)",
       "coverage": "Okul ücreti + aylık burs + uçak + 1 yıl Korece eğitimi",
       "ielts": "İngilizce belgesi isteğe bağlı (ek puan getiriyor)",
       "ielts_fit": "uygun",
@@ -204,7 +211,8 @@
       ],
       "short": "GKS – Kore Devlet Bursu",
       "flag": "🇰🇷",
-      "summary": "Okul ücreti + aylık burs + uçak + 1 yıl Korece"
+      "summary": "Okul ücreti + aylık burs + uçak + 1 yıl Korece",
+      "level": "ikisi"
     },
     {
       "rank": 9,
@@ -231,13 +239,14 @@
       "flag": "🇮🇹",
       "summary": "Kısmi: 9 burs (ücret muafiyeti + harçlık)",
       "field_fit": "uymuyor",
-      "field_note": "Alan uymuyor: hukuk, sosyal ve beşerî bilimlerde insan haklarıyla ilgili lisans istiyor; ayrıca tam burs değil."
+      "field_note": "Alan uymuyor: hukuk, sosyal ve beşerî bilimlerde insan haklarıyla ilgili lisans istiyor; ayrıca tam burs değil.",
+      "level": "yl"
     },
     {
       "rank": 10,
       "name": "Tayvan Bursu / TaiwanICDF",
       "where": "Tayvan",
-      "field": "Üniversiteye göre: halk sağlığı, uzun süreli bakım/gerontoloji, spor ve boş zaman yönetimi",
+      "field": "Doktora: uzun süreli bakım/gerontoloji, halk sağlığı, sosyoloji",
       "coverage": "Okul ücreti (Tayvan Bursu'nda dönem başı NT$40.000'e kadar) + aylık burs (ICDF ayda NT$18.000)",
       "ielts": "Ev sahibi üniversitenin şartı (doğrulanmadı)",
       "ielts_fit": null,
@@ -256,7 +265,8 @@
       ],
       "short": "Tayvan Bursu / ICDF",
       "flag": "🇹🇼",
-      "summary": "Okul ücreti + aylık burs"
+      "summary": "Okul ücreti + aylık burs",
+      "level": "ikisi"
     },
     {
       "rank": 11,
@@ -280,7 +290,8 @@
       ],
       "short": "EMMIR – Göç (Erasmus Mundus)",
       "flag": "🇪🇺",
-      "summary": "Ayda €1.400 + ücretsiz"
+      "summary": "Ayda €1.400 + ücretsiz",
+      "level": "yl"
     },
     {
       "rank": 12,
@@ -304,7 +315,8 @@
       ],
       "short": "HumanResponse (Erasmus Mundus)",
       "flag": "🇪🇺",
-      "summary": "Ayda €1.400 + ücretsiz"
+      "summary": "Ayda €1.400 + ücretsiz",
+      "level": "yl"
     },
     {
       "rank": 13,
@@ -328,7 +340,8 @@
       ],
       "short": "NOHA – İnsani Yardım (Erasmus Mundus)",
       "flag": "🇪🇺",
-      "summary": "Ayda €1.400 + ücretsiz"
+      "summary": "Ayda €1.400 + ücretsiz",
+      "level": "yl"
     },
     {
       "rank": 14,
@@ -352,7 +365,8 @@
       ],
       "short": "Fulbright (2028 başlangıcı)",
       "flag": "🇺🇸",
-      "summary": "Yılda $60.000'a kadar tam burs"
+      "summary": "Yılda $60.000'a kadar tam burs",
+      "level": "yl"
     },
     {
       "id": "tubitak-2210",
@@ -378,7 +392,8 @@
       ],
       "rank": 15,
       "field_fit": "uymuyor",
-      "field_note": "Uygun değil: yalnızca devam eden yüksek lisans öğrencileri içindir (Mehlika mezun)."
+      "field_note": "Uygun değil: yalnızca devam eden yüksek lisans öğrencileri içindir (Mehlika mezun).",
+      "level": "yl"
     },
     {
       "id": "tev-yurtdisi",
@@ -402,7 +417,8 @@
       "aliases": [
         "Türk Eğitim Vakfı yurt dışı yüksek lisans"
       ],
-      "rank": 17
+      "rank": 17,
+      "level": "yl"
     },
     {
       "id": "kyk",
@@ -426,7 +442,8 @@
       ],
       "rank": 18,
       "field_fit": "uymuyor",
-      "field_note": "Uygun değil: yalnızca devam eden yüksek lisans öğrencileri içindir (Mehlika mezun)."
+      "field_note": "Uygun değil: yalnızca devam eden yüksek lisans öğrencileri içindir (Mehlika mezun).",
+      "level": "yl"
     },
     {
       "id": "arguden",
@@ -450,7 +467,8 @@
         "Arguden Governance Scholarship"
       ],
       "field_fit": "uymuyor",
-      "field_note": "Uygun değil: devam eden lisansüstü öğrencileri içindir."
+      "field_note": "Uygun değil: devam eden lisansüstü öğrencileri içindir.",
+      "level": "yl"
     },
     {
       "id": "yesilay",
@@ -474,7 +492,8 @@
         "Yesilay thesis scholarship"
       ],
       "field_fit": "uymuyor",
-      "field_note": "Uygun değil: devam eden lisansüstü öğrencileri içindir."
+      "field_note": "Uygun değil: devam eden lisansüstü öğrencileri içindir.",
+      "level": "yl"
     },
     {
       "id": "dshs-olympic",
@@ -499,7 +518,8 @@
       "aliases": [
         "Olympic Studies Cologne DSHS"
       ],
-      "field_fit": "uygun"
+      "field_fit": "uygun",
+      "level": "yl"
     },
     {
       "id": "maisi",
@@ -524,7 +544,8 @@
       "aliases": [
         "Sports Ethics and Integrity MAiSI"
       ],
-      "field_fit": "uygun"
+      "field_fit": "uygun",
+      "level": "yl"
     },
     {
       "id": "isvec",
@@ -551,7 +572,8 @@
         "Swedish Institute Scholarships for Global Professionals",
         "SISGP",
         "Lund University Global Scholarship"
-      ]
+      ],
+      "level": "yl"
     },
     {
       "id": "hkpfs",
@@ -576,7 +598,8 @@
       "aliases": [
         "Hong Kong PhD Fellowship"
       ],
-      "rank": 24
+      "rank": 24,
+      "level": "doktora"
     },
     {
       "id": "ankara-antropoloji",
@@ -597,7 +620,8 @@
       "link": "https://sosbilens.ankara.edu.tr/wp-content/uploads/sites/271/2026/10/2026-2027-BAHAR-YARIYILI-KONTENJANLARI.pdf",
       "watch": [],
       "aliases": [],
-      "rank": 25
+      "rank": 25,
+      "level": "yl"
     },
     {
       "id": "bogazici-cogsci",
@@ -620,7 +644,8 @@
         "https://cogsci.bogazici.edu.tr/tr"
       ],
       "aliases": [],
-      "rank": 26
+      "rank": 26,
+      "level": "yl"
     },
     {
       "id": "elte-sosyoloji-phd",
@@ -645,7 +670,8 @@
       "aliases": [
         "ELTE Doctoral School of Sociology"
       ],
-      "rank": 27
+      "rank": 27,
+      "level": "doktora"
     },
     {
       "id": "agerasmus",
@@ -670,7 +696,8 @@
       "aliases": [
         "Healthy and Active Ageing"
       ],
-      "rank": 28
+      "rank": 28,
+      "level": "yl"
     }
   ],
   "sources": [

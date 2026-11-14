@@ -431,10 +431,12 @@ def check_catalogue(state):
 
 SH_BASE = "https://apply.stipendiumhungaricum.hu"
 SH_QUERIES = ["gerontology", "ageing", "aging", "recreation", "leisure", "sport", "physical activity",
-              "public health", "health promotion", "social work", "wellbeing", "tourism", "rehabilitation"]
+              "public health", "health promotion", "social work", "wellbeing", "tourism", "rehabilitation",
+              "sociology", "neuroscience", "cognitive", "health sciences", "sport science"]
 # Arama tam metinde yapıldığı için sonuçlar program adına göre ayrıca süzülür. "(SH Sport)" sporcu kontenjanıdır.
 SH_NAME = re.compile(r"geront|ageing|aging|recreat|leisure|sport|kinesio|rehabilit|health|social work|social problem|"
-                     r"social policy|wellbeing|well-being|physical activ|nutrition|tourism", re.I)
+                     r"social policy|wellbeing|well-being|physical activ|nutrition|tourism|sociolog|neuro|cognit|"
+                     r"social science", re.I)
 
 
 def read_sh():
@@ -451,11 +453,13 @@ def read_sh():
 
     found = {}
     for q in SH_QUERIES:
-        for kind in ("MA", "MSc"):
+        for kind in ("PHD",):
             for chunk in post("/courses/find/results", {"by": q, "type": kind}).get("chunks", []):
                 for c in post("/courses/find/chunk", {"chunk": chunk}).get("courses", []):
                     name = c.get("name") or ""
-                    if c.get("language") == "en" and SH_NAME.search(name) and "(SH Sport)" not in name:
+                    # "Dissertation Scholarship": Macaristan'da doktorasını bitirmek üzere olanlar için, ilgisiz
+                    if (c.get("language") == "en" and SH_NAME.search(name) and "(SH Sport)" not in name
+                            and "Dissertation Scholarship" not in name):
                         found[str(c["id"])] = {"name": f"{c.get('type')} {name}",
                                                "institution": (c.get("institution") or {}).get("name", ""),
                                                "link": SH_BASE + c.get("seoPath", "")}
@@ -624,23 +628,26 @@ def main():
     changes = check_pages(data, state)
     news = check_announcements(data, state)
     weekly = is_weekly(state)
-    # Her gün yeni fırsat taraması: Erasmus Mundus kataloğu + Stipendium Hungaricum program araması
-    found = check_catalogue(state)
+    # Her gün yeni fırsat taraması: Stipendium Hungaricum doktora programları. Erasmus Mundus kataloğu yalnızca
+    # yüksek lisans içerdiği için doktora aramasında taranmıyor (check_catalogue ileride gerekirse duruyor).
+    found = []
     sh_new, sh_all = check_sh(state)
 
     # Maillere yalnızca alanı uyan ve IELTS 6.0'ın yettiği (ya da şartı belirsiz) burslar girer
     def fits(item):
-        return item.get("ielts_fit") != "yuksek" and item.get("field_fit") != "uymuyor"
+        # Kasım 2026'dan itibaren yalnızca doktora ve araştırma ziyaretleri (yüksek lisanslar maile girmez)
+        return (item.get("ielts_fit") != "yuksek" and item.get("field_fit") != "uymuyor"
+                and item.get("level") != "yl")
     data_all, data = data, {**data, "items": [i for i in data["items"] if fits(i)]}
     changes = [c for c in changes if fits(c[0])]
     found = [f for f in found if not (f.get("ielts_min") and f["ielts_min"] > TARGET_IELTS)]
     due = due_reminders(data, state)
 
     parts = [section_reminders(due), section_news(news), section_catalogue(found),
-             section_sh([] if weekly else sh_new, "Bugünkü taramada bulunan yeni Macaristan bursu programları"),
+             section_sh([] if weekly else sh_new, "Bugünkü taramada bulunan yeni Macaristan bursu doktora programları"),
              section_changes(changes)]
     if weekly and sh_all:
-        parts.append(section_sh(sh_all, "Macaristan bursuyla seçilebilecek uygun programlar (tam liste)"))
+        parts.append(section_sh(sh_all, "Macaristan bursuyla seçilebilecek uygun doktora programları (tam liste)"))
     if send_now:
         parts.insert(0, (f'<div style="background:#fff8c5;border:1px solid #d4a72c;border-radius:8px;padding:10px;'
                          f'margin:10px 0">📝 {br(send_now)}</div>', f"NOT: {send_now}\n\n"))
@@ -664,8 +671,7 @@ def main():
     else:
         # Yeni bir şey yoksa da her gün hatırlatma maili: en yakın son tarihler
         scanned = (f"Bugün taranan: {sum(len(i.get('watch', [])) for i in data_all['items'])} resmî sayfa, "
-                   f"{len(data_all.get('sources', []))} duyuru kaynağı, Erasmus Mundus kataloğu "
-                   f"({state.get('catalogue_scanned', '?')} program), Stipendium Hungaricum araması "
+                   f"{len(data_all.get('sources', []))} duyuru kaynağı, Stipendium Hungaricum doktora araması "
                    f"({len(sh_all)} ilgili program).")
         html_part, text_body = section_upcoming(data, scanned=scanned)
         if html_part and state.get("last_daily") == TODAY.isoformat():
