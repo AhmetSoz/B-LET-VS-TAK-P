@@ -1,6 +1,6 @@
 {
  "burs_last": "2026-11-15",
- "digest_last": "2026-11-15 sabah",
+ "digest_last": "2026-11-15 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
@@ -8,10 +8,12 @@
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794672105.1237502,
    "tiyatro/kahvaltiya-kalsana/18763144": 1794672105.1237502,
    "tiyatro/kahvaltiya-kalsana/18763146": 1794740321.208525,
-   "tiyatro/savas-ve-baris-ibb/18763042": 1794702933.8482118
+   "tiyatro/oylece-durur-zaman/18763096": 1794756683.5629544,
+   "tiyatro/savas-ve-baris-ibb/18763042": 1794702933.8482118,
+   "tiyatro/savas-ve-baris-ibb/18763055": 1794753609.141051
   },
   "muammer-karaca": {
-   "tiyatro/ogrenci-matinesi-tuz-biber-stand-up/18910576": 1794657641.2783413
+   "tiyatro/apsolit/18913248": 1794752370.5030346
   }
  },
  "reminded": {
@@ -464,7 +466,7 @@
      "18762777": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -534,7 +536,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1103,
+    "reviews": 1105,
     "sessions": {
      "18910845": {
       "label": "17 Aralık Perşembe, 20:00",
@@ -889,7 +891,7 @@
      "18763146": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -1245,7 +1247,7 @@
      "18763082": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763083": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1265,7 +1267,7 @@
      "18763096": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18831601": {
       "label": "24 Kasım Salı, 20:00",
@@ -1499,7 +1501,7 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1027,
+    "reviews": 1029,
     "sessions": {
      "18911194": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -1807,9 +1809,8 @@
     "sessions": {
      "18913248": {
       "label": "16 Kasım Pazartesi, 16:00",
-      "opens_ts": 1794747600,
       "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
