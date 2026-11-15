@@ -5,8 +5,6 @@
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/cadi-kazani-ibb/18831592": 1794737264.9230478,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794672105.1237502,
-   "tiyatro/kahvaltiya-kalsana/18763144": 1794672105.1237502,
    "tiyatro/kahvaltiya-kalsana/18763146": 1794740321.208525,
    "tiyatro/oylece-durur-zaman/18763096": 1794756683.5629544,
    "tiyatro/savas-ve-baris-ibb/18763042": 1794702933.8482118,
@@ -136,7 +134,7 @@
      "18763045": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763046": {
       "label": "28 Kasım Cumartesi, 15:00",
@@ -220,7 +218,7 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 820,
+    "reviews": 821,
     "sessions": {
      "18911100": {
       "label": "16 Aralık Çarşamba, 15:00",
@@ -466,7 +464,7 @@
      "18762777": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -536,7 +534,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1105,
+    "reviews": 1106,
     "sessions": {
      "18910845": {
       "label": "17 Aralık Perşembe, 20:00",
@@ -784,11 +782,6 @@
     "rating": 5.0,
     "reviews": 15,
     "sessions": {
-     "18763224": {
-      "label": "15 Kasım Pazar, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
-     },
      "18911753": {
       "label": "06 Aralık Pazar, 20:00",
       "opens_ts": 1796025600,
@@ -876,7 +869,7 @@
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763144": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -1247,7 +1240,7 @@
      "18763082": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763083": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1267,7 +1260,7 @@
      "18763096": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18831601": {
       "label": "24 Kasım Salı, 20:00",
@@ -1387,7 +1380,7 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 510,
+    "reviews": 512,
     "sessions": {
      "18911551": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -1501,7 +1494,7 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1029,
+    "reviews": 1030,
     "sessions": {
      "18911194": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -1728,7 +1721,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1637,
+    "reviews": 1639,
     "sessions": {
      "18910782": {
       "label": "02 Aralık Çarşamba, 20:00",
@@ -1873,11 +1866,6 @@
     "page": "https://biletinial.com/tr-tr/tiyatro/ogrenci-matinesi-tuz-biber-stand-up?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {
-     "18870488": {
-      "label": "15 Kasım Pazar, 20:30",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "soldout"
-     },
      "18910576": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Muammer Karaca Tiyatrosu",
