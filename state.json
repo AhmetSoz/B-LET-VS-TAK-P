@@ -1,11 +1,12 @@
 {
- "burs_last": "2026-11-15",
+ "burs_last": "2026-11-16",
  "digest_last": "2026-11-16 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/cadi-kazani-ibb/18831592": 1794737264.9230478,
    "tiyatro/fosforlu-cevriye-ibb/18763047": 1794786929.2758589,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794805240.1474607,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794789375.3181376,
    "tiyatro/kahvaltiya-kalsana/18763146": 1794740321.208525,
    "tiyatro/oylece-durur-zaman/18763085": 1794805211.4060879,
@@ -466,12 +467,12 @@
      "18762777": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -536,7 +537,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1107,
+    "reviews": 1108,
     "sessions": {
      "18910845": {
       "label": "17 Aralık Perşembe, 20:00",
@@ -782,7 +783,7 @@
     "name": "İstanbul Şiirle Buluşuyor - Birden Bire Orhan Veli",
     "page": "https://biletinial.com/tr-tr/tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli?cinemaBranchId=4223",
     "rating": 5.0,
-    "reviews": 15,
+    "reviews": 20,
     "sessions": {
      "18911753": {
       "label": "06 Aralık Pazar, 20:00",
@@ -1723,7 +1724,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1639,
+    "reviews": 1640,
     "sessions": {
      "18910782": {
       "label": "02 Aralık Çarşamba, 20:00",
@@ -1867,7 +1868,8 @@
     "genre": "Komedi",
     "name": "\"Öğrenci Matinesi\" Tuz Biber Stand Up",
     "page": "https://biletinial.com/tr-tr/tiyatro/ogrenci-matinesi-tuz-biber-stand-up?cinemaBranchId=40264",
-    "reviews": 0,
+    "rating": 4.4,
+    "reviews": 7,
     "sessions": {
      "18910576": {
       "label": "18 Kasım Çarşamba, 15:00",
