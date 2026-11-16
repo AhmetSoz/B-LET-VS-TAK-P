@@ -1,20 +1,26 @@
 {
  "burs_last": "2026-11-16",
- "digest_last": "2026-11-16 sabah",
+ "digest_last": "2026-11-16 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/cadi-kazani-ibb/18831592": 1794737264.9230478,
+   "tiyatro/cadi-kazani-ibb/18831592": 1794840285.8533177,
    "tiyatro/fosforlu-cevriye-ibb/18763047": 1794786929.2758589,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794805240.1474607,
+   "tiyatro/fosforlu-cevriye-ibb/18763056": 1794830447.4356017,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762777": 1794834749.9269056,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794835364.9604263,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762779": 1794826757.603482,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794789375.3181376,
-   "tiyatro/kahvaltiya-kalsana/18763146": 1794740321.208525,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762781": 1794827987.7781363,
+   "tiyatro/kahvaltiya-kalsana/18763144": 1794842743.9124885,
+   "tiyatro/kahvaltiya-kalsana/18763146": 1794828603.423643,
+   "tiyatro/kahvaltiya-kalsana/18763153": 1794834135.1209767,
+   "tiyatro/kosebasi-ibb/18762388": 1794834135.1209767,
+   "tiyatro/oscar-ibb/18763149": 1794834135.1209767,
    "tiyatro/oylece-durur-zaman/18763085": 1794805211.4060879,
-   "tiyatro/oylece-durur-zaman/18763096": 1794756683.5629544,
-   "tiyatro/savas-ve-baris-ibb/18763055": 1794753609.141051
-  },
-  "muammer-karaca": {
-   "tiyatro/apsolit/18913248": 1794752370.5030346
+   "tiyatro/savas-ve-baris-ibb/18763040": 1794832905.0525486,
+   "tiyatro/savas-ve-baris-ibb/18763041": 1794843358.8555605,
+   "tiyatro/sivrisinekler-ibb/18763207": 1794843358.8555605
   }
  },
  "reminded": {
@@ -118,7 +124,37 @@
      "18831592": {
       "label": "17 Kasım Salı, 20:00",
       "stage": "İBB Yenibosna Dr Enver Ören Kültür Merkezi",
-      "status": "soldout"
+      "status": "open"
+     },
+     "18915860": {
+      "label": "25 Kasım Çarşamba, 15:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "18915861": {
+      "label": "25 Kasım Çarşamba, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "18915862": {
+      "label": "26 Kasım Perşembe, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "18915863": {
+      "label": "27 Kasım Cuma, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "18915864": {
+      "label": "28 Kasım Cumartesi, 15:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
+     },
+     "18915865": {
+      "label": "28 Kasım Cumartesi, 20:00",
+      "stage": "Üsküdar Musahipzade Celal Sahnesi",
+      "status": "open"
      }
     }
    },
@@ -132,7 +168,7 @@
      "18763044": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763045": {
       "label": "27 Kasım Cuma, 20:00",
@@ -147,7 +183,7 @@
      "18763047": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763056": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -467,12 +503,12 @@
      "18762777": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -482,7 +518,7 @@
      "18762780": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762781": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -578,36 +614,6 @@
     "rating": 4.6,
     "reviews": 128,
     "sessions": {
-     "18762782": {
-      "label": "25 Kasım Çarşamba, 15:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
-     "18762783": {
-      "label": "25 Kasım Çarşamba, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
-     "18762784": {
-      "label": "27 Kasım Cuma, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
-     "18762785": {
-      "label": "28 Kasım Cumartesi, 15:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
-     "18762786": {
-      "label": "28 Kasım Cumartesi, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
-     "18762791": {
-      "label": "26 Kasım Perşembe, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
      "18910838": {
       "label": "09 Aralık Çarşamba, 20:00",
       "opens_ts": 1794902400,
@@ -872,12 +878,12 @@
      "18763143": {
       "label": "18 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763144": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
@@ -897,7 +903,7 @@
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18911607": {
       "label": "24 Aralık Perşembe, 20:00",
@@ -1258,7 +1264,7 @@
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763096": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -1328,7 +1334,7 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -1442,7 +1448,7 @@
      "18763207": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763211": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -1497,7 +1503,7 @@
     "name": "Tartuffe",
     "page": "https://biletinial.com/tr-tr/tiyatro/tartuffe-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1030,
+    "reviews": 1031,
     "sessions": {
      "18911194": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -1760,6 +1766,13 @@
    }
   },
   "muammer-karaca": {
+   "egitim/6-uluslararasi-cocuk-haklari-festivali-uluslararasi-hikaye-anlaticiligi": {
+    "genre": "Diğer",
+    "name": "6. Uluslararası Çocuk Hakları Festivali - Uluslararası Hikaye Anlatıcılığı",
+    "page": "https://biletinial.com/tr-tr/egitim/6-uluslararasi-cocuk-haklari-festivali-uluslararasi-hikaye-anlaticiligi?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
    "egitim/cocuk-atolyesi-uc-eser-cok-hikaye": {
     "genre": "Diğer",
     "name": "Çocuk Atölyesi: Üç Eser Çok Hikaye",
@@ -1797,19 +1810,12 @@
     "reviews": 5,
     "sessions": {}
    },
-   "tiyatro/apsolit": {
+   "muzik/zamandan-azade-konseri": {
     "genre": "Diğer",
-    "name": "Apsolit",
-    "page": "https://biletinial.com/tr-tr/tiyatro/apsolit?cinemaBranchId=40264",
-    "rating": 4.9,
-    "reviews": 67,
-    "sessions": {
-     "18913248": {
-      "label": "16 Kasım Pazartesi, 16:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "open"
-     }
-    }
+    "name": "Zamandan Azade Konseri",
+    "page": "https://biletinial.com/tr-tr/muzik/zamandan-azade-konseri?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
    },
    "tiyatro/baba-ve-baba": {
     "genre": "Dram",
@@ -1868,8 +1874,8 @@
     "genre": "Komedi",
     "name": "\"Öğrenci Matinesi\" Tuz Biber Stand Up",
     "page": "https://biletinial.com/tr-tr/tiyatro/ogrenci-matinesi-tuz-biber-stand-up?cinemaBranchId=40264",
-    "rating": 4.4,
-    "reviews": 7,
+    "rating": 4.1,
+    "reviews": 9,
     "sessions": {
      "18910576": {
       "label": "18 Kasım Çarşamba, 15:00",
