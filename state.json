@@ -1,13 +1,15 @@
 {
  "burs_last": "2026-11-15",
- "digest_last": "2026-11-15 akşam",
+ "digest_last": "2026-11-16 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/cadi-kazani-ibb/18831592": 1794737264.9230478,
+   "tiyatro/fosforlu-cevriye-ibb/18763047": 1794786929.2758589,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794789375.3181376,
    "tiyatro/kahvaltiya-kalsana/18763146": 1794740321.208525,
+   "tiyatro/oylece-durur-zaman/18763085": 1794805211.4060879,
    "tiyatro/oylece-durur-zaman/18763096": 1794756683.5629544,
-   "tiyatro/savas-ve-baris-ibb/18763042": 1794702933.8482118,
    "tiyatro/savas-ve-baris-ibb/18763055": 1794753609.141051
   },
   "muammer-karaca": {
@@ -134,7 +136,7 @@
      "18763045": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763046": {
       "label": "28 Kasım Cumartesi, 15:00",
@@ -144,7 +146,7 @@
      "18763047": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763056": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -402,7 +404,7 @@
     "name": "Gölge",
     "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 604,
+    "reviews": 605,
     "sessions": {
      "18911576": {
       "label": "23 Aralık Çarşamba, 20:00",
@@ -479,7 +481,7 @@
      "18762780": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762781": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -534,7 +536,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1106,
+    "reviews": 1107,
     "sessions": {
      "18910845": {
       "label": "17 Aralık Perşembe, 20:00",
@@ -1059,7 +1061,7 @@
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18762469": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -1255,7 +1257,7 @@
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763096": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -1380,7 +1382,7 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 512,
+    "reviews": 513,
     "sessions": {
      "18911551": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -1768,7 +1770,8 @@
     "genre": "Diğer",
     "name": "Firuze Engin ile Afişlerden Metinlere, Oyun Yazım Atölyesi",
     "page": "https://biletinial.com/tr-tr/egitim/firuze-engin-ile-afislerden-metinlere-oyun-yazim-atolyesi?cinemaBranchId=40264",
-    "reviews": 0,
+    "rating": 5.0,
+    "reviews": 1,
     "sessions": {}
    },
    "egitim/iki-sehir-bir-sahne-shakespearein-yasayan-mirasi": {
