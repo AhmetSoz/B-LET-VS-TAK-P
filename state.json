@@ -14,12 +14,15 @@
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762781": 1794827987.7781363,
    "tiyatro/kahvaltiya-kalsana/18763144": 1794842743.9124885,
    "tiyatro/kahvaltiya-kalsana/18763146": 1794828603.423643,
+   "tiyatro/kahvaltiya-kalsana/18763147": 1794862431.8717496,
    "tiyatro/kahvaltiya-kalsana/18763153": 1794834135.1209767,
+   "tiyatro/kosebasi-ibb/18762387": 1794862431.8717496,
    "tiyatro/kosebasi-ibb/18762388": 1794834135.1209767,
    "tiyatro/oscar-ibb/18763149": 1794834135.1209767,
    "tiyatro/oylece-durur-zaman/18763085": 1794805211.4060879,
    "tiyatro/savas-ve-baris-ibb/18763040": 1794832905.0525486,
    "tiyatro/savas-ve-baris-ibb/18763041": 1794843358.8555605,
+   "tiyatro/savas-ve-baris-ibb/18763042": 1794862431.8717496,
    "tiyatro/sivrisinekler-ibb/18763207": 1794843358.8555605
   }
  },
@@ -124,7 +127,7 @@
      "18831592": {
       "label": "17 Kasım Salı, 20:00",
       "stage": "İBB Yenibosna Dr Enver Ören Kültür Merkezi",
-      "status": "open"
+      "status": "soldout"
      },
      "18915860": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -168,7 +171,7 @@
      "18763044": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763045": {
       "label": "27 Kasım Cuma, 20:00",
@@ -883,7 +886,7 @@
      "18763144": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
@@ -898,12 +901,12 @@
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18911607": {
       "label": "24 Aralık Perşembe, 20:00",
@@ -1063,7 +1066,7 @@
      "18762387": {
       "label": "27 Kasım Cuma, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762388": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -1106,7 +1109,7 @@
     "name": "Maviydi Bisikletim",
     "page": "https://biletinial.com/tr-tr/tiyatro/maviydi-bisikletim-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1190,
+    "reviews": 1191,
     "sessions": {
      "18911571": {
       "label": "16 Aralık Çarşamba, 20:00",
@@ -1339,7 +1342,7 @@
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763055": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -1448,7 +1451,7 @@
      "18763207": {
       "label": "28 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      },
      "18763211": {
       "label": "26 Kasım Perşembe, 20:00",
@@ -1730,7 +1733,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1640,
+    "reviews": 1641,
     "sessions": {
      "18910782": {
       "label": "02 Aralık Çarşamba, 20:00",
@@ -1785,7 +1788,7 @@
     "name": "Firuze Engin ile Afişlerden Metinlere, Oyun Yazım Atölyesi",
     "page": "https://biletinial.com/tr-tr/egitim/firuze-engin-ile-afislerden-metinlere-oyun-yazim-atolyesi?cinemaBranchId=40264",
     "rating": 5.0,
-    "reviews": 1,
+    "reviews": 2,
     "sessions": {}
    },
    "egitim/iki-sehir-bir-sahne-shakespearein-yasayan-mirasi": {
