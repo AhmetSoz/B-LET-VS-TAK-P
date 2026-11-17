@@ -1,32 +1,580 @@
 {
- "burs_last": "2026-11-16",
- "digest_last": "2026-11-16 akşam",
+ "burs_last": "2026-11-17",
+ "digest_last": "2026-11-17 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
+   "tiyatro/agri-dagi-efsanesi/18910663": 1794902921.4378598,
+   "tiyatro/agri-dagi-efsanesi/18910664": 1794902921.4378598,
+   "tiyatro/agri-dagi-efsanesi/18910665": 1794902921.4378598,
+   "tiyatro/agri-dagi-efsanesi/18910666": 1794902921.4378598,
+   "tiyatro/agri-dagi-efsanesi/18910668": 1794902921.4378598,
+   "tiyatro/agri-dagi-efsanesi/18910669": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911179": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911181": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911191": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911192": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911193": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911209": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911225": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911226": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911227": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911228": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911229": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911230": 1794902921.4378598,
+   "tiyatro/bir-ziyaret-ibb/18911231": 1794902921.4378598,
    "tiyatro/cadi-kazani-ibb/18831592": 1794840285.8533177,
-   "tiyatro/fosforlu-cevriye-ibb/18763047": 1794786929.2758589,
+   "tiyatro/cadi-kazani-ibb/18910838": 1794902921.4378598,
+   "tiyatro/cadi-kazani-ibb/18910839": 1794902921.4378598,
+   "tiyatro/cadi-kazani-ibb/18910840": 1794902921.4378598,
+   "tiyatro/cadi-kazani-ibb/18910841": 1794902921.4378598,
+   "tiyatro/cadi-kazani-ibb/18910842": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18763045": 1794901224.1901767,
    "tiyatro/fosforlu-cevriye-ibb/18763056": 1794830447.4356017,
+   "tiyatro/fosforlu-cevriye-ibb/18910703": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910704": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910708": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910709": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910710": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910711": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910712": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910713": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910714": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910715": 1794902921.4378598,
+   "tiyatro/gecmisin-golgesi-ibb/18911100": 1794902921.4378598,
+   "tiyatro/gecmisin-golgesi-ibb/18911101": 1794902921.4378598,
+   "tiyatro/gecmisin-golgesi-ibb/18911102": 1794902921.4378598,
+   "tiyatro/gecmisin-golgesi-ibb/18911103": 1794902921.4378598,
+   "tiyatro/gecmisin-golgesi-ibb/18911104": 1794902921.4378598,
+   "tiyatro/gecmisin-golgesi-ibb/18911105": 1794902921.4378598,
+   "tiyatro/gidionun-dugumu-ibb/18911649": 1794902921.4378598,
+   "tiyatro/gidionun-dugumu-ibb/18911650": 1794902921.4378598,
+   "tiyatro/gidionun-dugumu-ibb/18911663": 1794902921.4378598,
+   "tiyatro/gidionun-dugumu-ibb/18911670": 1794902921.4378598,
+   "tiyatro/gidionun-dugumu-ibb/18911671": 1794902921.4378598,
+   "tiyatro/gidionun-dugumu-ibb/18911672": 1794902921.4378598,
+   "tiyatro/gok-kubbe/18911204": 1794902921.4378598,
+   "tiyatro/gok-kubbe/18911205": 1794902921.4378598,
+   "tiyatro/gok-kubbe/18911206": 1794902921.4378598,
+   "tiyatro/gok-kubbe/18911207": 1794902921.4378598,
+   "tiyatro/gok-kubbe/18911208": 1794902921.4378598,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18911576": 1794902921.4378598,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18911577": 1794902921.4378598,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18911578": 1794902921.4378598,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18911579": 1794902921.4378598,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18911580": 1794902921.4378598,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18911581": 1794902921.4378598,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18911582": 1794902921.4378598,
+   "tiyatro/golge-tiyatro-oyunu-ibb/18911583": 1794902921.4378598,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762777": 1794834749.9269056,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794835364.9604263,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794898378.816339,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762779": 1794826757.603482,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794789375.3181376,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794894056.9904428,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762781": 1794827987.7781363,
-   "tiyatro/kahvaltiya-kalsana/18763144": 1794842743.9124885,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910645": 1794902921.4378598,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910646": 1794902921.4378598,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910649": 1794902921.4378598,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910659": 1794902921.4378598,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910660": 1794902921.4378598,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910661": 1794902921.4378598,
+   "tiyatro/haramiler/18910845": 1794902921.4378598,
+   "tiyatro/haramiler/18910847": 1794902921.4378598,
+   "tiyatro/haramiler/18910848": 1794902921.4378598,
+   "tiyatro/haramiler/18910849": 1794902921.4378598,
+   "tiyatro/haramiler/18910850": 1794902921.4378598,
+   "tiyatro/hayat-der-gulumserim-ibb/18911035": 1794902921.4378598,
+   "tiyatro/hayat-der-gulumserim-ibb/18911036": 1794902921.4378598,
+   "tiyatro/hayat-der-gulumserim-ibb/18911037": 1794902921.4378598,
+   "tiyatro/hayat-der-gulumserim-ibb/18911052": 1794902921.4378598,
+   "tiyatro/hayat-der-gulumserim-ibb/18911053": 1794902921.4378598,
+   "tiyatro/hayat-der-gulumserim-ibb/18911054": 1794902921.4378598,
+   "tiyatro/ikinci-perdenin-basi-ibb/18911679": 1794902921.4378598,
+   "tiyatro/ikinci-perdenin-basi-ibb/18911688": 1794902921.4378598,
+   "tiyatro/ikinci-perdenin-basi-ibb/18911689": 1794902921.4378598,
+   "tiyatro/ikinci-perdenin-basi-ibb/18911690": 1794902921.4378598,
+   "tiyatro/ikinci-perdenin-basi-ibb/18911691": 1794902921.4378598,
+   "tiyatro/ikinci-perdenin-basi-ibb/18911692": 1794902921.4378598,
+   "tiyatro/istila-ibb/18911731": 1794902921.4378598,
+   "tiyatro/istila-ibb/18911732": 1794902921.4378598,
+   "tiyatro/istila-ibb/18911733": 1794902921.4378598,
+   "tiyatro/istila-ibb/18911734": 1794902921.4378598,
+   "tiyatro/istila-ibb/18911736": 1794902921.4378598,
+   "tiyatro/istila-ibb/18911743": 1794902921.4378598,
+   "tiyatro/istila-ibb/18911744": 1794902921.4378598,
+   "tiyatro/istila-ibb/18911745": 1794902921.4378598,
+   "tiyatro/istila-ibb/18911746": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18763144": 1794902921.4378598,
    "tiyatro/kahvaltiya-kalsana/18763146": 1794828603.423643,
    "tiyatro/kahvaltiya-kalsana/18763147": 1794862431.8717496,
-   "tiyatro/kahvaltiya-kalsana/18763153": 1794834135.1209767,
-   "tiyatro/kosebasi-ibb/18762387": 1794862431.8717496,
-   "tiyatro/kosebasi-ibb/18762388": 1794834135.1209767,
+   "tiyatro/kahvaltiya-kalsana/18763153": 1794898378.816339,
+   "tiyatro/kahvaltiya-kalsana/18911607": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18911608": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18911609": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18911610": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18911611": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18911612": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18911613": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18911614": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18911615": 1794902921.4378598,
+   "tiyatro/kahvaltiya-kalsana/18911616": 1794902921.4378598,
+   "tiyatro/kopek-kalbi-ibb/18910852": 1794902921.4378598,
+   "tiyatro/kopek-kalbi-ibb/18910853": 1794902921.4378598,
+   "tiyatro/kopek-kalbi-ibb/18910854": 1794902921.4378598,
+   "tiyatro/kopek-kalbi-ibb/18910855": 1794902921.4378598,
+   "tiyatro/kopek-kalbi-ibb/18910856": 1794902921.4378598,
+   "tiyatro/kopek-kalbi-ibb/18910884": 1794902921.4378598,
+   "tiyatro/kopek-kalbi-ibb/18910885": 1794902921.4378598,
+   "tiyatro/kopek-kalbi-ibb/18910886": 1794902921.4378598,
+   "tiyatro/kosebasi-ibb/18762387": 1794897155.8347418,
+   "tiyatro/kosebasi-ibb/18762388": 1794900035.1004694,
+   "tiyatro/kosebasi-ibb/18911062": 1794902921.4378598,
+   "tiyatro/kosebasi-ibb/18911063": 1794902921.4378598,
+   "tiyatro/kosebasi-ibb/18911064": 1794902921.4378598,
+   "tiyatro/kosebasi-ibb/18911065": 1794902921.4378598,
+   "tiyatro/maviydi-bisikletim-ibb/18911571": 1794902921.4378598,
+   "tiyatro/maviydi-bisikletim-ibb/18911572": 1794902921.4378598,
+   "tiyatro/maviydi-bisikletim-ibb/18911573": 1794902921.4378598,
+   "tiyatro/maviydi-bisikletim-ibb/18911574": 1794902921.4378598,
+   "tiyatro/maviydi-bisikletim-ibb/18911575": 1794902921.4378598,
+   "tiyatro/oksuzler-ibb/18911527": 1794902921.4378598,
+   "tiyatro/oksuzler-ibb/18911528": 1794902921.4378598,
+   "tiyatro/oksuzler-ibb/18911547": 1794902921.4378598,
+   "tiyatro/oksuzler-ibb/18911548": 1794902921.4378598,
+   "tiyatro/oksuzler-ibb/18911549": 1794902921.4378598,
    "tiyatro/oscar-ibb/18763149": 1794834135.1209767,
-   "tiyatro/oylece-durur-zaman/18763085": 1794805211.4060879,
+   "tiyatro/oscar-ibb/18911595": 1794902921.4378598,
+   "tiyatro/oscar-ibb/18911596": 1794902921.4378598,
+   "tiyatro/oscar-ibb/18911597": 1794902921.4378598,
+   "tiyatro/oscar-ibb/18911598": 1794902921.4378598,
+   "tiyatro/oscar-ibb/18911599": 1794902921.4378598,
+   "tiyatro/oscar-ibb/18911600": 1794902921.4378598,
+   "tiyatro/oylece-durur-zaman/18763083": 1794901224.1901767,
+   "tiyatro/oylece-durur-zaman/18911601": 1794902921.4378598,
+   "tiyatro/oylece-durur-zaman/18911602": 1794902921.4378598,
+   "tiyatro/oylece-durur-zaman/18911603": 1794902921.4378598,
+   "tiyatro/oylece-durur-zaman/18911604": 1794902921.4378598,
+   "tiyatro/oylece-durur-zaman/18911605": 1794902921.4378598,
+   "tiyatro/oylece-durur-zaman/18911606": 1794902921.4378598,
    "tiyatro/savas-ve-baris-ibb/18763040": 1794832905.0525486,
    "tiyatro/savas-ve-baris-ibb/18763041": 1794843358.8555605,
-   "tiyatro/savas-ve-baris-ibb/18763042": 1794862431.8717496,
-   "tiyatro/sivrisinekler-ibb/18763207": 1794843358.8555605
+   "tiyatro/savas-ve-baris-ibb/18763042": 1794899423.914363,
+   "tiyatro/savas-ve-baris-ibb/18763055": 1794902921.4378598,
+   "tiyatro/savas-ve-baris-ibb/18910671": 1794902921.4378598,
+   "tiyatro/savas-ve-baris-ibb/18910672": 1794902921.4378598,
+   "tiyatro/savas-ve-baris-ibb/18910673": 1794902921.4378598,
+   "tiyatro/savas-ve-baris-ibb/18910674": 1794902921.4378598,
+   "tiyatro/savas-ve-baris-ibb/18910675": 1794902921.4378598,
+   "tiyatro/savas-ve-baris-ibb/18910677": 1794902921.4378598,
+   "tiyatro/sevgili-yelena-sergeyevna/18911551": 1794902921.4378598,
+   "tiyatro/sevgili-yelena-sergeyevna/18911552": 1794902921.4378598,
+   "tiyatro/sevgili-yelena-sergeyevna/18911553": 1794902921.4378598,
+   "tiyatro/sevgili-yelena-sergeyevna/18911554": 1794902921.4378598,
+   "tiyatro/sevgili-yelena-sergeyevna/18911555": 1794902921.4378598,
+   "tiyatro/sivrisinekler-ibb/18763207": 1794843358.8555605,
+   "tiyatro/sivrisinekler-ibb/18911705": 1794902921.4378598,
+   "tiyatro/sivrisinekler-ibb/18911706": 1794902921.4378598,
+   "tiyatro/sivrisinekler-ibb/18911707": 1794902921.4378598,
+   "tiyatro/sivrisinekler-ibb/18911708": 1794902921.4378598,
+   "tiyatro/sivrisinekler-ibb/18911709": 1794902921.4378598,
+   "tiyatro/sivrisinekler-ibb/18911710": 1794902921.4378598,
+   "tiyatro/tartuffe-ibb/18911194": 1794902921.4378598,
+   "tiyatro/tartuffe-ibb/18911195": 1794902921.4378598,
+   "tiyatro/tartuffe-ibb/18911196": 1794902921.4378598,
+   "tiyatro/tartuffe-ibb/18911197": 1794902921.4378598,
+   "tiyatro/tartuffe-ibb/18911198": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911122": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911123": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911124": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911125": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911126": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911137": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911148": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911149": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911150": 1794902921.4378598,
+   "tiyatro/yasamak-mi-olmek-mi-ibb/18911151": 1794902921.4378598,
+   "tiyatro/yenilmez-ibb/18911587": 1794902921.4378598,
+   "tiyatro/yenilmez-ibb/18911588": 1794902921.4378598,
+   "tiyatro/yenilmez-ibb/18911590": 1794902921.4378598,
+   "tiyatro/yenilmez-ibb/18911591": 1794902921.4378598,
+   "tiyatro/yenilmez-ibb/18911592": 1794902921.4378598,
+   "tiyatro/yenilmez-ibb/18911593": 1794902921.4378598,
+   "tiyatro/yoldan-cikan-oyun-ibb/18910782": 1794902921.4378598,
+   "tiyatro/yoldan-cikan-oyun-ibb/18910813": 1794902921.4378598,
+   "tiyatro/yoldan-cikan-oyun-ibb/18910835": 1794902921.4378598,
+   "tiyatro/yoldan-cikan-oyun-ibb/18910836": 1794902921.4378598,
+   "tiyatro/yoldan-cikan-oyun-ibb/18910837": 1794902921.4378598
   }
  },
  "reminded": {
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910663@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910663@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910664@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910664@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910665@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910665@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910666@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910666@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910668@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910668@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910669@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/agri-dagi-efsanesi/18910669@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911179@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911179@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911181@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911181@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911191@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911191@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911192@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911192@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911193@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911193@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911209@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911209@1794902400@3600": 1794899424.2743857,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911225@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911225@1794902400@3600": 1794899424.2743857,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911226@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911226@1794902400@3600": 1794899424.2743857,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911227@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911227@1794902400@3600": 1794899424.2743857,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911228@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911228@1794902400@3600": 1794899424.2743857,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911229@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911229@1794902400@3600": 1794899424.2743857,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911230@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911230@1794902400@3600": 1794899424.2743857,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911231@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/bir-ziyaret-ibb/18911231@1794902400@3600": 1794899424.2743857,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910838@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910838@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910839@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910839@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910840@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910840@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910841@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910841@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910842@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/cadi-kazani-ibb/18910842@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910703@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910703@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910704@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910704@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910708@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910708@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910709@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910709@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910710@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910710@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910711@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910711@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910712@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910712@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910713@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910713@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910714@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910714@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910715@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/fosforlu-cevriye-ibb/18910715@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911100@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911100@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911101@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911101@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911102@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911102@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911103@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911103@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911104@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911104@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911105@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gecmisin-golgesi-ibb/18911105@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911649@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911649@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911650@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911650@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911663@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911663@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911670@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911670@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911671@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911671@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911672@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gidionun-dugumu-ibb/18911672@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911204@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911204@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911205@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911205@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911206@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911206@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911207@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911207@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911208@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gok-kubbe/18911208@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911576@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911576@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911577@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911577@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911578@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911578@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911579@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911579@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911580@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911580@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911581@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911581@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911582@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911582@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911583@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/golge-tiyatro-oyunu-ibb/18911583@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910645@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910645@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910646@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910646@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910649@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910649@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910659@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910659@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910660@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910660@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910661@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910661@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910845@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910845@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910847@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910847@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910848@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910848@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910849@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910849@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910850@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/haramiler/18910850@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18910838@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18910839@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18910840@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18910841@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18910842@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18911209@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18911225@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18911226@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18911227@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18911228@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18911229@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18911230@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayalinin-hayali/18911231@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911035@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911035@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911036@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911036@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911037@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911037@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911052@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911052@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911053@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911053@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911054@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/hayat-der-gulumserim-ibb/18911054@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911679@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911679@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911688@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911688@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911689@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911689@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911690@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911690@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911691@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911691@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911692@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/ikinci-perdenin-basi-ibb/18911692@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911731@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911731@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911732@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911732@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911733@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911733@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911734@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911734@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911736@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911736@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911743@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911743@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911744@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911744@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911745@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911745@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911746@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/istila-ibb/18911746@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911607@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911607@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911608@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911608@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911609@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911609@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911610@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911610@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911611@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911611@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911612@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911612@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911613@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911613@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911614@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911614@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911615@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911615@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911616@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kahvaltiya-kalsana/18911616@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910852@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910852@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910853@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910853@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910854@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910854@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910855@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910855@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910856@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910856@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910884@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910884@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910885@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910885@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910886@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kopek-kalbi-ibb/18910886@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kosebasi-ibb/18911062@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kosebasi-ibb/18911062@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kosebasi-ibb/18911063@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kosebasi-ibb/18911063@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kosebasi-ibb/18911064@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kosebasi-ibb/18911064@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/kosebasi-ibb/18911065@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/kosebasi-ibb/18911065@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911571@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911571@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911572@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911572@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911573@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911573@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911574@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911574@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911575@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/maviydi-bisikletim-ibb/18911575@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911527@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911527@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911528@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911528@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911547@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911547@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911548@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911548@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911549@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oksuzler-ibb/18911549@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911595@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911595@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911596@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911596@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911597@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911597@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911598@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911598@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911599@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911599@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911600@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oscar-ibb/18911600@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911601@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911601@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911602@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911602@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911603@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911603@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911604@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911604@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911605@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911605@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911606@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/oylece-durur-zaman/18911606@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910671@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910671@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910672@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910672@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910673@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910673@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910674@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910674@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910675@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910675@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910677@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/savas-ve-baris-ibb/18910677@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911551@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911551@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911552@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911552@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911553@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911553@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911554@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911554@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911555@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sevgili-yelena-sergeyevna/18911555@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911705@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911705@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911706@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911706@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911707@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911707@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911708@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911708@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911709@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911709@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911710@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/sivrisinekler-ibb/18911710@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911194@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911194@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911195@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911195@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911196@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911196@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911197@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911197@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911198@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/tartuffe-ibb/18911198@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911122@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911122@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911123@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911123@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911124@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911124@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911125@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911125@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911126@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911126@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911137@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911137@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911148@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911148@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911149@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911149@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911150@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911150@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911151@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yasamak-mi-olmek-mi-ibb/18911151@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911587@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911587@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911588@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911588@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911590@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911590@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911591@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911591@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911592@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911592@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911593@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yenilmez-ibb/18911593@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910782@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910782@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910813@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910813@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910835@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910835@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910836@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910836@1794902400@3600": 1794898810.7382698,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910837@1794902400@1800": 1794900611.292422,
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910837@1794902400@3600": 1794898810.7382698,
   "muammer-karaca/tiyatro/apsolit/18913248@1794747600@3600": 1794743990.0681362,
   "muammer-karaca/tiyatro/ogrenci-matinesi-tuz-biber-stand-up/18910576@1794657600@1800": 1794655812.0148494,
   "muammer-karaca/tiyatro/ogrenci-matinesi-tuz-biber-stand-up/18910576@1794657600@3600": 1794654011.8115225
@@ -42,39 +590,33 @@
     "sessions": {
      "18910663": {
       "label": "10 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910664": {
       "label": "11 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910665": {
       "label": "12 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910666": {
       "label": "12 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910668": {
       "label": "09 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910669": {
       "label": "09 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -87,33 +629,68 @@
     "sessions": {
      "18911179": {
       "label": "02 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911181": {
       "label": "03 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911191": {
       "label": "04 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911192": {
       "label": "05 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911193": {
       "label": "05 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
+     },
+     "18911209": {
+      "label": "24 Aralık Perşembe, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18911225": {
+      "label": "23 Aralık Çarşamba, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18911226": {
+      "label": "25 Aralık Cuma, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18911227": {
+      "label": "26 Aralık Cumartesi, 15:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18911228": {
+      "label": "26 Aralık Cumartesi, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18911229": {
+      "label": "30 Aralık Çarşamba, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18911230": {
+      "label": "02 Ocak Cumartesi 2027, 15:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
+     },
+     "18911231": {
+      "label": "02 Ocak Cumartesi 2027, 20:00",
+      "stage": "Ümraniye Sahnesi",
+      "status": "open"
      }
     }
    },
@@ -128,6 +705,31 @@
       "label": "17 Kasım Salı, 20:00",
       "stage": "İBB Yenibosna Dr Enver Ören Kültür Merkezi",
       "status": "soldout"
+     },
+     "18910838": {
+      "label": "09 Aralık Çarşamba, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "18910839": {
+      "label": "11 Aralık Cuma, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "18910840": {
+      "label": "12 Aralık Cumartesi, 15:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "18910841": {
+      "label": "12 Aralık Cumartesi, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
+     },
+     "18910842": {
+      "label": "10 Aralık Perşembe, 20:00",
+      "stage": "Kağıthane Sadabad Sahnesi",
+      "status": "open"
      },
      "18915860": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -195,63 +797,53 @@
      },
      "18910703": {
       "label": "23 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910704": {
       "label": "24 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910708": {
       "label": "23 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910709": {
       "label": "25 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910710": {
       "label": "26 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910711": {
       "label": "26 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910712": {
       "label": "30 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910713": {
       "label": "30 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910714": {
       "label": "02 Ocak Cumartesi 2027, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910715": {
       "label": "02 Ocak Cumartesi 2027, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -264,39 +856,33 @@
     "sessions": {
      "18911100": {
       "label": "16 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911101": {
       "label": "16 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911102": {
       "label": "18 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911103": {
       "label": "19 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911104": {
       "label": "19 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911105": {
       "label": "17 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -339,39 +925,33 @@
      },
      "18911649": {
       "label": "02 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911650": {
       "label": "02 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911663": {
       "label": "03 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911670": {
       "label": "04 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911671": {
       "label": "05 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911672": {
       "label": "05 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -409,33 +989,28 @@
      },
      "18911204": {
       "label": "17 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911205": {
       "label": "16 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911206": {
       "label": "18 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911207": {
       "label": "19 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911208": {
       "label": "19 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -448,51 +1023,43 @@
     "sessions": {
      "18911576": {
       "label": "23 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911577": {
       "label": "25 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911578": {
       "label": "26 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911579": {
       "label": "26 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911580": {
       "label": "30 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911581": {
       "label": "02 Ocak Cumartesi 2027, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911582": {
       "label": "02 Ocak Cumartesi 2027, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911583": {
       "label": "24 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -521,7 +1088,7 @@
      "18762780": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18762781": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -535,39 +1102,33 @@
      },
      "18910645": {
       "label": "02 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910646": {
       "label": "02 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910649": {
       "label": "03 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910659": {
       "label": "04 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910660": {
       "label": "05 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910661": {
       "label": "05 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -580,120 +1141,28 @@
     "sessions": {
      "18910845": {
       "label": "17 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910847": {
       "label": "16 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910848": {
       "label": "18 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910849": {
       "label": "19 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910850": {
       "label": "19 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
-     }
-    }
-   },
-   "tiyatro/hayalinin-hayali": {
-    "genre": "Dram",
-    "name": "Hayalî'nin Hayali",
-    "page": "https://biletinial.com/tr-tr/tiyatro/hayalinin-hayali?cinemaBranchId=4223",
-    "rating": 4.6,
-    "reviews": 128,
-    "sessions": {
-     "18910838": {
-      "label": "09 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
-     },
-     "18910839": {
-      "label": "11 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
-     },
-     "18910840": {
-      "label": "12 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
-     },
-     "18910841": {
-      "label": "12 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
-     },
-     "18910842": {
-      "label": "10 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
-     },
-     "18911209": {
-      "label": "24 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Ümraniye Sahnesi",
-      "status": "soon"
-     },
-     "18911225": {
-      "label": "23 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Ümraniye Sahnesi",
-      "status": "soon"
-     },
-     "18911226": {
-      "label": "25 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Ümraniye Sahnesi",
-      "status": "soon"
-     },
-     "18911227": {
-      "label": "26 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
-      "stage": "Ümraniye Sahnesi",
-      "status": "soon"
-     },
-     "18911228": {
-      "label": "26 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Ümraniye Sahnesi",
-      "status": "soon"
-     },
-     "18911229": {
-      "label": "30 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Ümraniye Sahnesi",
-      "status": "soon"
-     },
-     "18911230": {
-      "label": "02 Ocak Cumartesi 2027, 15:00",
-      "opens_ts": 1794902400,
-      "stage": "Ümraniye Sahnesi",
-      "status": "soon"
-     },
-     "18911231": {
-      "label": "02 Ocak Cumartesi 2027, 20:00",
-      "opens_ts": 1794902400,
-      "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -706,39 +1175,33 @@
     "sessions": {
      "18911035": {
       "label": "02 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911036": {
       "label": "02 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911037": {
       "label": "03 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911052": {
       "label": "04 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911053": {
       "label": "05 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911054": {
       "label": "05 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -751,39 +1214,33 @@
     "sessions": {
      "18911679": {
       "label": "10 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911688": {
       "label": "09 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911689": {
       "label": "09 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911690": {
       "label": "11 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911691": {
       "label": "12 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911692": {
       "label": "12 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -817,57 +1274,48 @@
     "sessions": {
      "18911731": {
       "label": "23 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911732": {
       "label": "25 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911733": {
       "label": "26 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911734": {
       "label": "26 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911736": {
       "label": "24 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911743": {
       "label": "30 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911744": {
       "label": "30 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911745": {
       "label": "02 Ocak Cumartesi 2027, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911746": {
       "label": "02 Ocak Cumartesi 2027, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -886,7 +1334,7 @@
      "18763144": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
@@ -901,72 +1349,62 @@
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18911607": {
       "label": "24 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911608": {
       "label": "23 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911609": {
       "label": "23 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911610": {
       "label": "25 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911611": {
       "label": "26 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911612": {
       "label": "26 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911613": {
       "label": "30 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911614": {
       "label": "30 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911615": {
       "label": "02 Ocak Cumartesi 2027, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911616": {
       "label": "02 Ocak Cumartesi 2027, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1004,51 +1442,43 @@
      },
      "18910852": {
       "label": "23 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910853": {
       "label": "25 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910854": {
       "label": "26 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910855": {
       "label": "26 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910856": {
       "label": "24 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910884": {
       "label": "30 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910885": {
       "label": "02 Ocak Cumartesi 2027, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910886": {
       "label": "02 Ocak Cumartesi 2027, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1080,27 +1510,23 @@
      },
      "18911062": {
       "label": "09 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911063": {
       "label": "11 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911064": {
       "label": "12 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911065": {
       "label": "10 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1113,33 +1539,28 @@
     "sessions": {
      "18911571": {
       "label": "16 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911572": {
       "label": "18 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911573": {
       "label": "19 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911574": {
       "label": "19 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911575": {
       "label": "17 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1152,33 +1573,28 @@
     "sessions": {
      "18911527": {
       "label": "02 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911528": {
       "label": "03 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911547": {
       "label": "04 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911548": {
       "label": "05 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911549": {
       "label": "05 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1206,39 +1622,33 @@
      },
      "18911595": {
       "label": "10 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911596": {
       "label": "09 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911597": {
       "label": "09 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911598": {
       "label": "11 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911599": {
       "label": "12 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911600": {
       "label": "12 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1281,39 +1691,33 @@
      },
      "18911601": {
       "label": "17 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911602": {
       "label": "16 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911603": {
       "label": "16 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911604": {
       "label": "18 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911605": {
       "label": "19 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911606": {
       "label": "19 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1337,53 +1741,47 @@
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763055": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18910671": {
       "label": "16 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910672": {
       "label": "16 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910673": {
       "label": "18 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910674": {
       "label": "19 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910675": {
       "label": "19 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910677": {
       "label": "17 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1392,37 +1790,32 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 513,
+    "reviews": 514,
     "sessions": {
      "18911551": {
       "label": "09 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911552": {
       "label": "11 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911553": {
       "label": "12 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911554": {
       "label": "12 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911555": {
       "label": "10 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1465,39 +1858,33 @@
      },
      "18911705": {
       "label": "17 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911706": {
       "label": "16 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911707": {
       "label": "16 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911708": {
       "label": "18 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911709": {
       "label": "19 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      },
      "18911710": {
       "label": "19 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1510,33 +1897,28 @@
     "sessions": {
      "18911194": {
       "label": "09 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911195": {
       "label": "11 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911196": {
       "label": "12 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911197": {
       "label": "12 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911198": {
       "label": "10 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Ümraniye Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1593,63 +1975,53 @@
      },
      "18911122": {
       "label": "23 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911123": {
       "label": "23 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911124": {
       "label": "25 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911125": {
       "label": "26 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911126": {
       "label": "26 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911137": {
       "label": "24 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911148": {
       "label": "30 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911149": {
       "label": "30 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911150": {
       "label": "02 Ocak Cumartesi 2027, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911151": {
       "label": "02 Ocak Cumartesi 2027, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1692,39 +2064,33 @@
      },
      "18911587": {
       "label": "02 Aralık Çarşamba, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911588": {
       "label": "02 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911590": {
       "label": "03 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911591": {
       "label": "04 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911592": {
       "label": "05 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18911593": {
       "label": "05 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    },
@@ -1737,33 +2103,28 @@
     "sessions": {
      "18910782": {
       "label": "02 Aralık Çarşamba, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910813": {
       "label": "03 Aralık Perşembe, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910835": {
       "label": "04 Aralık Cuma, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910836": {
       "label": "05 Aralık Cumartesi, 15:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      },
      "18910837": {
       "label": "05 Aralık Cumartesi, 20:00",
-      "opens_ts": 1794902400,
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soon"
+      "status": "open"
      }
     }
    }
@@ -1839,8 +2200,8 @@
     "genre": "Komedi",
     "name": "Hayal Satıcısı",
     "page": "https://biletinial.com/tr-tr/tiyatro/hayal-saticisi?cinemaBranchId=40264",
-    "rating": 4.7,
-    "reviews": 59,
+    "rating": 4.8,
+    "reviews": 65,
     "sessions": {
      "18831075": {
       "label": "24 Kasım Salı, 20:30",
