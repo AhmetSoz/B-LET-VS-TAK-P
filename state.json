@@ -36,7 +36,7 @@
    "tiyatro/fosforlu-cevriye-ibb/18910708": 1794902921.4378598,
    "tiyatro/fosforlu-cevriye-ibb/18910709": 1794902921.4378598,
    "tiyatro/fosforlu-cevriye-ibb/18910710": 1794927563.4561718,
-   "tiyatro/fosforlu-cevriye-ibb/18910711": 1794902921.4378598,
+   "tiyatro/fosforlu-cevriye-ibb/18910711": 1794948540.169697,
    "tiyatro/fosforlu-cevriye-ibb/18910712": 1794902921.4378598,
    "tiyatro/fosforlu-cevriye-ibb/18910713": 1794902921.4378598,
    "tiyatro/fosforlu-cevriye-ibb/18910714": 1794902921.4378598,
@@ -624,7 +624,7 @@
     "name": "Bir Ziyaret",
     "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 863,
+    "reviews": 865,
     "sessions": {
      "18911179": {
       "label": "02 Aralık Çarşamba, 20:00",
@@ -700,11 +700,6 @@
     "rating": 4.4,
     "reviews": 962,
     "sessions": {
-     "18831592": {
-      "label": "17 Kasım Salı, 20:00",
-      "stage": "İBB Yenibosna Dr Enver Ören Kültür Merkezi",
-      "status": "soldout"
-     },
      "18910838": {
       "label": "09 Aralık Çarşamba, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
@@ -812,17 +807,17 @@
      "18910709": {
       "label": "25 Aralık Cuma, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18910710": {
       "label": "26 Aralık Cumartesi, 15:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18910711": {
       "label": "26 Aralık Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18910712": {
       "label": "30 Aralık Çarşamba, 15:00",
@@ -1214,7 +1209,7 @@
      "18911679": {
       "label": "10 Aralık Perşembe, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "soldout"
      },
      "18911688": {
       "label": "09 Aralık Çarşamba, 15:00",
@@ -1229,7 +1224,7 @@
      "18911690": {
       "label": "11 Aralık Cuma, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "open"
+      "status": "few"
      },
      "18911691": {
       "label": "12 Aralık Cumartesi, 15:00",
@@ -1248,7 +1243,7 @@
     "name": "İstanbul Şiirle Buluşuyor - Birden Bire Orhan Veli",
     "page": "https://biletinial.com/tr-tr/tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli?cinemaBranchId=4223",
     "rating": 5.0,
-    "reviews": 20,
+    "reviews": 21,
     "sessions": {
      "18911753": {
       "label": "06 Aralık Pazar, 20:00",
@@ -1348,7 +1343,7 @@
      "18763147": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763153": {
       "label": "19 Kasım Perşembe, 20:00",
@@ -1725,7 +1720,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 995,
+    "reviews": 996,
     "sessions": {
      "18763039": {
       "label": "18 Kasım Çarşamba, 20:00",
@@ -1789,7 +1784,7 @@
     "name": "Sevgili Yelena Sergeyevna",
     "page": "https://biletinial.com/tr-tr/tiyatro/sevgili-yelena-sergeyevna?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 514,
+    "reviews": 521,
     "sessions": {
      "18911551": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -2098,7 +2093,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1641,
+    "reviews": 1665,
     "sessions": {
      "18910782": {
       "label": "02 Aralık Çarşamba, 20:00",
@@ -2113,7 +2108,7 @@
      "18910835": {
       "label": "04 Aralık Cuma, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18910836": {
       "label": "05 Aralık Cumartesi, 15:00",
@@ -2123,7 +2118,7 @@
      "18910837": {
       "label": "05 Aralık Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "soldout"
      }
     }
    }
@@ -2148,7 +2143,7 @@
     "name": "Firuze Engin ile Afişlerden Metinlere, Oyun Yazım Atölyesi",
     "page": "https://biletinial.com/tr-tr/egitim/firuze-engin-ile-afislerden-metinlere-oyun-yazim-atolyesi?cinemaBranchId=40264",
     "rating": 5.0,
-    "reviews": 2,
+    "reviews": 3,
     "sessions": {}
    },
    "egitim/iki-sehir-bir-sahne-shakespearein-yasayan-mirasi": {
@@ -2163,14 +2158,6 @@
     "name": "Aytaç Doğan & İsmail Tunçbilek & Dorantes Gitanos Del Mediterraneo",
     "page": "https://biletinial.com/tr-tr/muzik/aytac-dogan-ismail-tuncbilek-dorantes-gitanos-del-mediterraneo?cinemaBranchId=40264",
     "reviews": 0,
-    "sessions": {}
-   },
-   "muzik/quintet-dinleti": {
-    "genre": "Diğer",
-    "name": "Quintet Dinleti",
-    "page": "https://biletinial.com/tr-tr/muzik/quintet-dinleti?cinemaBranchId=40264",
-    "rating": 5.0,
-    "reviews": 5,
     "sessions": {}
    },
    "muzik/zamandan-azade-konseri": {
@@ -2208,14 +2195,6 @@
       "status": "open"
      }
     }
-   },
-   "tiyatro/hayat-tiyatro-oyunu": {
-    "genre": "Dram",
-    "name": "Hayat",
-    "page": "https://biletinial.com/tr-tr/tiyatro/hayat-tiyatro-oyunu?cinemaBranchId=40264",
-    "rating": 5.0,
-    "reviews": 4,
-    "sessions": {}
    },
    "tiyatro/herkes-kocama-benziyor": {
     "genre": "Komedi",
