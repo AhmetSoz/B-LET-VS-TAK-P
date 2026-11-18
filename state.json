@@ -1,6 +1,6 @@
 {
- "burs_last": "2026-11-17",
- "digest_last": "2026-11-17 akşam",
+ "burs_last": "2026-11-18",
+ "digest_last": "2026-11-18 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
@@ -69,7 +69,6 @@
    "tiyatro/golge-tiyatro-oyunu-ibb/18911582": 1794902921.4378598,
    "tiyatro/golge-tiyatro-oyunu-ibb/18911583": 1794902921.4378598,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794898378.816339,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794894056.9904428,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762790": 1794923894.9373534,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910645": 1794902921.4378598,
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910646": 1794902921.4378598,
@@ -203,7 +202,7 @@
    "tiyatro/yoldan-cikan-oyun-ibb/18910813": 1794902921.4378598,
    "tiyatro/yoldan-cikan-oyun-ibb/18910835": 1794902921.4378598,
    "tiyatro/yoldan-cikan-oyun-ibb/18910836": 1794902921.4378598,
-   "tiyatro/yoldan-cikan-oyun-ibb/18910837": 1794930008.3761575
+   "tiyatro/yoldan-cikan-oyun-ibb/18910837": 1794981611.3313067
   }
  },
  "reminded": {
@@ -605,7 +604,7 @@
      "18910666": {
       "label": "12 Aralık Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18910668": {
       "label": "09 Aralık Çarşamba, 15:00",
@@ -698,7 +697,7 @@
     "name": "Cadı Kazanı",
     "page": "https://biletinial.com/tr-tr/tiyatro/cadi-kazani-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 962,
+    "reviews": 968,
     "sessions": {
      "18910838": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -817,7 +816,7 @@
      "18910711": {
       "label": "26 Aralık Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18910712": {
       "label": "30 Aralık Çarşamba, 15:00",
@@ -1224,7 +1223,7 @@
      "18911690": {
       "label": "11 Aralık Cuma, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "few"
+      "status": "soldout"
      },
      "18911691": {
       "label": "12 Aralık Cumartesi, 15:00",
@@ -1412,7 +1411,7 @@
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763088": {
       "label": "27 Kasım Cuma, 20:00",
@@ -1666,7 +1665,7 @@
      "18763084": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -1730,7 +1729,7 @@
      "18763040": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
@@ -2118,7 +2117,7 @@
      "18910837": {
       "label": "05 Aralık Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "soldout"
+      "status": "open"
      }
     }
    }
@@ -2186,8 +2185,8 @@
     "genre": "Komedi",
     "name": "Hayal Satıcısı",
     "page": "https://biletinial.com/tr-tr/tiyatro/hayal-saticisi?cinemaBranchId=40264",
-    "rating": 4.8,
-    "reviews": 68,
+    "rating": 4.7,
+    "reviews": 73,
     "sessions": {
      "18831075": {
       "label": "24 Kasım Salı, 20:30",
@@ -2210,6 +2209,14 @@
     "page": "https://biletinial.com/tr-tr/tiyatro/herkes-yolunda-boa?cinemaBranchId=40264",
     "rating": 5.0,
     "reviews": 1,
+    "sessions": {}
+   },
+   "tiyatro/odenmeyecek-odemiyoruz-fskhne": {
+    "genre": "Komedi",
+    "name": "Ödenmeyecek Ödemiyoruz!",
+    "page": "https://biletinial.com/tr-tr/tiyatro/odenmeyecek-odemiyoruz-fskhne?cinemaBranchId=40264",
+    "rating": 4.6,
+    "reviews": 132,
     "sessions": {}
    },
    "tiyatro/ogrenci-matinesi-tuz-biber-stand-up": {
