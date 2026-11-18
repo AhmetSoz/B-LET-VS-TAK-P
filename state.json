@@ -20,19 +20,17 @@
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794998516.0788562,
    "tiyatro/kahvaltiya-kalsana/18763143": 1794998516.0788562,
    "tiyatro/kahvaltiya-kalsana/18763144": 1795010231.713019,
-   "tiyatro/kopek-kalbi-ibb/18763087": 1794931211.209169,
    "tiyatro/kosebasi-ibb/18911062": 1795017019.5517633,
    "tiyatro/oscar-ibb/18763149": 1795008998.2664905,
    "tiyatro/oscar-ibb/18911596": 1795000984.3292809,
    "tiyatro/oylece-durur-zaman/18763082": 1795010848.5384028,
-   "tiyatro/oylece-durur-zaman/18763084": 1794931211.209169,
    "tiyatro/oylece-durur-zaman/18763085": 1795007148.9046018,
    "tiyatro/oylece-durur-zaman/18763096": 1795008998.2664905,
    "tiyatro/savas-ve-baris-ibb/18763039": 1795014552.1108584,
    "tiyatro/sivrisinekler-ibb/18763211": 1795013935.8195758,
    "tiyatro/tartuffe-ibb/18911194": 1794999750.0054324,
    "tiyatro/tartuffe-ibb/18911195": 1794999750.0054324,
-   "tiyatro/tartuffe-ibb/18911196": 1795015786.2888002,
+   "tiyatro/tartuffe-ibb/18911196": 1795028724.5959084,
    "tiyatro/tartuffe-ibb/18911197": 1794999750.0054324,
    "tiyatro/tartuffe-ibb/18911198": 1794999750.0054324,
    "tiyatro/yoldan-cikan-oyun-ibb/18910835": 1794999133.1866593,
@@ -530,7 +528,7 @@
     "name": "Cadı Kazanı",
     "page": "https://biletinial.com/tr-tr/tiyatro/cadi-kazani-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 968,
+    "reviews": 971,
     "sessions": {
      "18910838": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -609,7 +607,7 @@
      "18763046": {
       "label": "28 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763047": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -717,13 +715,8 @@
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 425,
+    "reviews": 426,
     "sessions": {
-     "18763199": {
-      "label": "18 Kasım Çarşamba, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
-     },
      "18763200": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
@@ -783,11 +776,6 @@
     "rating": 4.3,
     "reviews": 1167,
     "sessions": {
-     "18762739": {
-      "label": "18 Kasım Çarşamba, 20:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
-     },
      "18762740": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
@@ -889,13 +877,8 @@
     "name": "Gözlerimi Kaparım Vazifemi Yaparım",
     "page": "https://biletinial.com/tr-tr/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1547,
+    "reviews": 1549,
     "sessions": {
-     "18762778": {
-      "label": "18 Kasım Çarşamba, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
@@ -1140,13 +1123,8 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 532,
+    "reviews": 542,
     "sessions": {
-     "18763144": {
-      "label": "18 Kasım Çarşamba, 20:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
-     },
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
@@ -1322,7 +1300,7 @@
      "18911062": {
       "label": "09 Aralık Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18911063": {
       "label": "11 Aralık Cuma, 20:00",
@@ -1470,11 +1448,6 @@
     "rating": 4.4,
     "reviews": 569,
     "sessions": {
-     "18763082": {
-      "label": "18 Kasım Çarşamba, 20:00",
-      "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
-     },
      "18763083": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
@@ -1483,7 +1456,7 @@
      "18763084": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -1539,11 +1512,6 @@
     "rating": 4.2,
     "reviews": 996,
     "sessions": {
-     "18763039": {
-      "label": "18 Kasım Çarşamba, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "open"
-     },
      "18763040": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
@@ -1719,7 +1687,7 @@
      "18911196": {
       "label": "12 Aralık Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18911197": {
       "label": "12 Aralık Cumartesi, 20:00",
@@ -1841,13 +1809,8 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1243,
+    "reviews": 1244,
     "sessions": {
-     "18762368": {
-      "label": "18 Kasım Çarşamba, 20:00",
-      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
-     },
      "18762369": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
@@ -1915,12 +1878,12 @@
      "18910813": {
       "label": "03 Aralık Perşembe, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18910835": {
       "label": "04 Aralık Cuma, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18910836": {
       "label": "05 Aralık Cumartesi, 15:00",
@@ -1962,13 +1925,6 @@
     "genre": "Diğer",
     "name": "İki Şehir Bir Sahne: Shakespeare’in Yaşayan Mirası",
     "page": "https://biletinial.com/tr-tr/egitim/iki-sehir-bir-sahne-shakespearein-yasayan-mirasi?cinemaBranchId=40264",
-    "reviews": 0,
-    "sessions": {}
-   },
-   "muzik/aytac-dogan-ismail-tuncbilek-dorantes-gitanos-del-mediterraneo": {
-    "genre": "Diğer",
-    "name": "Aytaç Doğan & İsmail Tunçbilek & Dorantes Gitanos Del Mediterraneo",
-    "page": "https://biletinial.com/tr-tr/muzik/aytac-dogan-ismail-tuncbilek-dorantes-gitanos-del-mediterraneo?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {}
    },
