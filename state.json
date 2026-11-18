@@ -1,207 +1,41 @@
 {
  "burs_last": "2026-11-18",
- "digest_last": "2026-11-18 sabah",
+ "digest_last": "2026-11-18 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/agri-dagi-efsanesi/18910663": 1794902921.4378598,
-   "tiyatro/agri-dagi-efsanesi/18910664": 1794902921.4378598,
-   "tiyatro/agri-dagi-efsanesi/18910665": 1794923894.9373534,
-   "tiyatro/agri-dagi-efsanesi/18910666": 1794918387.4835837,
-   "tiyatro/agri-dagi-efsanesi/18910668": 1794902921.4378598,
-   "tiyatro/agri-dagi-efsanesi/18910669": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911179": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911181": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911191": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911192": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911193": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911209": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911225": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911226": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911227": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911228": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911229": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911230": 1794902921.4378598,
-   "tiyatro/bir-ziyaret-ibb/18911231": 1794902921.4378598,
-   "tiyatro/cadi-kazani-ibb/18831592": 1794920222.5631726,
-   "tiyatro/cadi-kazani-ibb/18910838": 1794902921.4378598,
-   "tiyatro/cadi-kazani-ibb/18910839": 1794902921.4378598,
-   "tiyatro/cadi-kazani-ibb/18910840": 1794902921.4378598,
-   "tiyatro/cadi-kazani-ibb/18910841": 1794902921.4378598,
-   "tiyatro/cadi-kazani-ibb/18910842": 1794902921.4378598,
-   "tiyatro/fosforlu-cevriye-ibb/18763045": 1794919611.429973,
-   "tiyatro/fosforlu-cevriye-ibb/18763046": 1794922671.2667623,
-   "tiyatro/fosforlu-cevriye-ibb/18910703": 1794902921.4378598,
-   "tiyatro/fosforlu-cevriye-ibb/18910704": 1794902921.4378598,
-   "tiyatro/fosforlu-cevriye-ibb/18910708": 1794902921.4378598,
-   "tiyatro/fosforlu-cevriye-ibb/18910709": 1794902921.4378598,
-   "tiyatro/fosforlu-cevriye-ibb/18910710": 1794927563.4561718,
-   "tiyatro/fosforlu-cevriye-ibb/18910711": 1794948540.169697,
-   "tiyatro/fosforlu-cevriye-ibb/18910712": 1794902921.4378598,
-   "tiyatro/fosforlu-cevriye-ibb/18910713": 1794902921.4378598,
-   "tiyatro/fosforlu-cevriye-ibb/18910714": 1794902921.4378598,
-   "tiyatro/fosforlu-cevriye-ibb/18910715": 1794902921.4378598,
-   "tiyatro/gecmisin-golgesi-ibb/18911100": 1794902921.4378598,
-   "tiyatro/gecmisin-golgesi-ibb/18911101": 1794902921.4378598,
-   "tiyatro/gecmisin-golgesi-ibb/18911102": 1794902921.4378598,
-   "tiyatro/gecmisin-golgesi-ibb/18911103": 1794902921.4378598,
-   "tiyatro/gecmisin-golgesi-ibb/18911104": 1794902921.4378598,
-   "tiyatro/gecmisin-golgesi-ibb/18911105": 1794902921.4378598,
-   "tiyatro/gidionun-dugumu-ibb/18763200": 1794919611.429973,
-   "tiyatro/gidionun-dugumu-ibb/18763210": 1794919611.429973,
-   "tiyatro/gidionun-dugumu-ibb/18911649": 1794902921.4378598,
-   "tiyatro/gidionun-dugumu-ibb/18911650": 1794928174.8653228,
-   "tiyatro/gidionun-dugumu-ibb/18911663": 1794925117.4101074,
-   "tiyatro/gidionun-dugumu-ibb/18911670": 1794902921.4378598,
-   "tiyatro/gidionun-dugumu-ibb/18911671": 1794902921.4378598,
-   "tiyatro/gidionun-dugumu-ibb/18911672": 1794902921.4378598,
-   "tiyatro/gok-kubbe/18911204": 1794902921.4378598,
-   "tiyatro/gok-kubbe/18911205": 1794902921.4378598,
-   "tiyatro/gok-kubbe/18911206": 1794902921.4378598,
-   "tiyatro/gok-kubbe/18911207": 1794902921.4378598,
-   "tiyatro/gok-kubbe/18911208": 1794902921.4378598,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18911576": 1794902921.4378598,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18911577": 1794902921.4378598,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18911578": 1794902921.4378598,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18911579": 1794902921.4378598,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18911580": 1794902921.4378598,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18911581": 1794902921.4378598,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18911582": 1794902921.4378598,
-   "tiyatro/golge-tiyatro-oyunu-ibb/18911583": 1794902921.4378598,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1794898378.816339,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762790": 1794923894.9373534,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910645": 1794902921.4378598,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910646": 1794902921.4378598,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910649": 1794902921.4378598,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910659": 1794902921.4378598,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910660": 1794902921.4378598,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18910661": 1794902921.4378598,
-   "tiyatro/haramiler/18910845": 1794902921.4378598,
-   "tiyatro/haramiler/18910847": 1794902921.4378598,
-   "tiyatro/haramiler/18910848": 1794902921.4378598,
-   "tiyatro/haramiler/18910849": 1794902921.4378598,
-   "tiyatro/haramiler/18910850": 1794902921.4378598,
-   "tiyatro/hayat-der-gulumserim-ibb/18911035": 1794902921.4378598,
-   "tiyatro/hayat-der-gulumserim-ibb/18911036": 1794902921.4378598,
-   "tiyatro/hayat-der-gulumserim-ibb/18911037": 1794902921.4378598,
-   "tiyatro/hayat-der-gulumserim-ibb/18911052": 1794902921.4378598,
-   "tiyatro/hayat-der-gulumserim-ibb/18911053": 1794902921.4378598,
-   "tiyatro/hayat-der-gulumserim-ibb/18911054": 1794902921.4378598,
-   "tiyatro/ikinci-perdenin-basi-ibb/18911679": 1794902921.4378598,
-   "tiyatro/ikinci-perdenin-basi-ibb/18911688": 1794902921.4378598,
-   "tiyatro/ikinci-perdenin-basi-ibb/18911689": 1794922671.2667623,
-   "tiyatro/ikinci-perdenin-basi-ibb/18911690": 1794902921.4378598,
-   "tiyatro/ikinci-perdenin-basi-ibb/18911691": 1794902921.4378598,
-   "tiyatro/ikinci-perdenin-basi-ibb/18911692": 1794902921.4378598,
-   "tiyatro/istila-ibb/18911731": 1794902921.4378598,
-   "tiyatro/istila-ibb/18911732": 1794902921.4378598,
-   "tiyatro/istila-ibb/18911733": 1794902921.4378598,
-   "tiyatro/istila-ibb/18911734": 1794922059.808087,
-   "tiyatro/istila-ibb/18911736": 1794902921.4378598,
-   "tiyatro/istila-ibb/18911743": 1794902921.4378598,
-   "tiyatro/istila-ibb/18911744": 1794902921.4378598,
-   "tiyatro/istila-ibb/18911745": 1794902921.4378598,
-   "tiyatro/istila-ibb/18911746": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18763144": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18763147": 1794925117.4101074,
-   "tiyatro/kahvaltiya-kalsana/18763153": 1794898378.816339,
-   "tiyatro/kahvaltiya-kalsana/18911607": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18911608": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18911609": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18911610": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18911611": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18911612": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18911613": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18911614": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18911615": 1794902921.4378598,
-   "tiyatro/kahvaltiya-kalsana/18911616": 1794902921.4378598,
+   "tiyatro/agri-dagi-efsanesi/18910664": 1795001600.5555918,
+   "tiyatro/agri-dagi-efsanesi/18910665": 1795009615.3969805,
+   "tiyatro/agri-dagi-efsanesi/18910666": 1794998516.0788562,
+   "tiyatro/fosforlu-cevriye-ibb/18763046": 1794999750.0054324,
+   "tiyatro/fosforlu-cevriye-ibb/18910711": 1794998516.0788562,
+   "tiyatro/fosforlu-cevriye-ibb/18910714": 1795015168.968621,
+   "tiyatro/gidionun-dugumu-ibb/18763198": 1794998516.0788562,
+   "tiyatro/gidionun-dugumu-ibb/18763200": 1795009615.3969805,
+   "tiyatro/gidionun-dugumu-ibb/18763202": 1794998516.0788562,
+   "tiyatro/gidionun-dugumu-ibb/18911663": 1794998516.0788562,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762777": 1794998516.0788562,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1795017019.5517633,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762779": 1795005300.559696,
+   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794998516.0788562,
+   "tiyatro/kahvaltiya-kalsana/18763143": 1794998516.0788562,
+   "tiyatro/kahvaltiya-kalsana/18763144": 1795010231.713019,
    "tiyatro/kopek-kalbi-ibb/18763087": 1794931211.209169,
-   "tiyatro/kopek-kalbi-ibb/18763097": 1794925729.0453446,
-   "tiyatro/kopek-kalbi-ibb/18910852": 1794902921.4378598,
-   "tiyatro/kopek-kalbi-ibb/18910853": 1794902921.4378598,
-   "tiyatro/kopek-kalbi-ibb/18910854": 1794902921.4378598,
-   "tiyatro/kopek-kalbi-ibb/18910855": 1794902921.4378598,
-   "tiyatro/kopek-kalbi-ibb/18910856": 1794902921.4378598,
-   "tiyatro/kopek-kalbi-ibb/18910884": 1794902921.4378598,
-   "tiyatro/kopek-kalbi-ibb/18910885": 1794902921.4378598,
-   "tiyatro/kopek-kalbi-ibb/18910886": 1794902921.4378598,
-   "tiyatro/kosebasi-ibb/18762387": 1794921447.865967,
-   "tiyatro/kosebasi-ibb/18762388": 1794900035.1004694,
-   "tiyatro/kosebasi-ibb/18911062": 1794928174.8653228,
-   "tiyatro/kosebasi-ibb/18911063": 1794902921.4378598,
-   "tiyatro/kosebasi-ibb/18911064": 1794921447.865967,
-   "tiyatro/kosebasi-ibb/18911065": 1794902921.4378598,
-   "tiyatro/maviydi-bisikletim-ibb/18911571": 1794902921.4378598,
-   "tiyatro/maviydi-bisikletim-ibb/18911572": 1794902921.4378598,
-   "tiyatro/maviydi-bisikletim-ibb/18911573": 1794902921.4378598,
-   "tiyatro/maviydi-bisikletim-ibb/18911574": 1794902921.4378598,
-   "tiyatro/maviydi-bisikletim-ibb/18911575": 1794902921.4378598,
-   "tiyatro/oksuzler-ibb/18911527": 1794902921.4378598,
-   "tiyatro/oksuzler-ibb/18911528": 1794902921.4378598,
-   "tiyatro/oksuzler-ibb/18911547": 1794902921.4378598,
-   "tiyatro/oksuzler-ibb/18911548": 1794902921.4378598,
-   "tiyatro/oksuzler-ibb/18911549": 1794902921.4378598,
-   "tiyatro/oscar-ibb/18911595": 1794918387.4835837,
-   "tiyatro/oscar-ibb/18911596": 1794902921.4378598,
-   "tiyatro/oscar-ibb/18911597": 1794902921.4378598,
-   "tiyatro/oscar-ibb/18911598": 1794902921.4378598,
-   "tiyatro/oscar-ibb/18911599": 1794902921.4378598,
-   "tiyatro/oscar-ibb/18911600": 1794902921.4378598,
-   "tiyatro/oylece-durur-zaman/18763083": 1794901224.1901767,
+   "tiyatro/kosebasi-ibb/18911062": 1795017019.5517633,
+   "tiyatro/oscar-ibb/18763149": 1795008998.2664905,
+   "tiyatro/oscar-ibb/18911596": 1795000984.3292809,
+   "tiyatro/oylece-durur-zaman/18763082": 1795010848.5384028,
    "tiyatro/oylece-durur-zaman/18763084": 1794931211.209169,
-   "tiyatro/oylece-durur-zaman/18763085": 1794917775.6415722,
-   "tiyatro/oylece-durur-zaman/18911601": 1794902921.4378598,
-   "tiyatro/oylece-durur-zaman/18911602": 1794902921.4378598,
-   "tiyatro/oylece-durur-zaman/18911603": 1794902921.4378598,
-   "tiyatro/oylece-durur-zaman/18911604": 1794902921.4378598,
-   "tiyatro/oylece-durur-zaman/18911605": 1794902921.4378598,
-   "tiyatro/oylece-durur-zaman/18911606": 1794902921.4378598,
-   "tiyatro/savas-ve-baris-ibb/18763040": 1794926951.8329277,
-   "tiyatro/savas-ve-baris-ibb/18763042": 1794921447.865967,
-   "tiyatro/savas-ve-baris-ibb/18763055": 1794902921.4378598,
-   "tiyatro/savas-ve-baris-ibb/18910671": 1794902921.4378598,
-   "tiyatro/savas-ve-baris-ibb/18910672": 1794902921.4378598,
-   "tiyatro/savas-ve-baris-ibb/18910673": 1794902921.4378598,
-   "tiyatro/savas-ve-baris-ibb/18910674": 1794902921.4378598,
-   "tiyatro/savas-ve-baris-ibb/18910675": 1794902921.4378598,
-   "tiyatro/savas-ve-baris-ibb/18910677": 1794902921.4378598,
-   "tiyatro/sevgili-yelena-sergeyevna/18911551": 1794902921.4378598,
-   "tiyatro/sevgili-yelena-sergeyevna/18911552": 1794902921.4378598,
-   "tiyatro/sevgili-yelena-sergeyevna/18911553": 1794902921.4378598,
-   "tiyatro/sevgili-yelena-sergeyevna/18911554": 1794902921.4378598,
-   "tiyatro/sevgili-yelena-sergeyevna/18911555": 1794902921.4378598,
-   "tiyatro/sivrisinekler-ibb/18763207": 1794922059.808087,
-   "tiyatro/sivrisinekler-ibb/18911705": 1794902921.4378598,
-   "tiyatro/sivrisinekler-ibb/18911706": 1794902921.4378598,
-   "tiyatro/sivrisinekler-ibb/18911707": 1794902921.4378598,
-   "tiyatro/sivrisinekler-ibb/18911708": 1794902921.4378598,
-   "tiyatro/sivrisinekler-ibb/18911709": 1794925729.0453446,
-   "tiyatro/sivrisinekler-ibb/18911710": 1794902921.4378598,
-   "tiyatro/tartuffe-ibb/18911194": 1794926951.8329277,
-   "tiyatro/tartuffe-ibb/18911195": 1794902921.4378598,
-   "tiyatro/tartuffe-ibb/18911196": 1794926951.8329277,
-   "tiyatro/tartuffe-ibb/18911197": 1794923282.9094734,
-   "tiyatro/tartuffe-ibb/18911198": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911122": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911123": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911124": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911125": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911126": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911137": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911148": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911149": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911150": 1794902921.4378598,
-   "tiyatro/yasamak-mi-olmek-mi-ibb/18911151": 1794902921.4378598,
-   "tiyatro/yenilmez-ibb/18911587": 1794902921.4378598,
-   "tiyatro/yenilmez-ibb/18911588": 1794902921.4378598,
-   "tiyatro/yenilmez-ibb/18911590": 1794902921.4378598,
-   "tiyatro/yenilmez-ibb/18911591": 1794902921.4378598,
-   "tiyatro/yenilmez-ibb/18911592": 1794902921.4378598,
-   "tiyatro/yenilmez-ibb/18911593": 1794902921.4378598,
-   "tiyatro/yoldan-cikan-oyun-ibb/18910782": 1794902921.4378598,
-   "tiyatro/yoldan-cikan-oyun-ibb/18910813": 1794902921.4378598,
-   "tiyatro/yoldan-cikan-oyun-ibb/18910835": 1794902921.4378598,
-   "tiyatro/yoldan-cikan-oyun-ibb/18910836": 1794902921.4378598,
+   "tiyatro/oylece-durur-zaman/18763085": 1795007148.9046018,
+   "tiyatro/oylece-durur-zaman/18763096": 1795008998.2664905,
+   "tiyatro/savas-ve-baris-ibb/18763039": 1795014552.1108584,
+   "tiyatro/sivrisinekler-ibb/18763211": 1795013935.8195758,
+   "tiyatro/tartuffe-ibb/18911194": 1794999750.0054324,
+   "tiyatro/tartuffe-ibb/18911195": 1794999750.0054324,
+   "tiyatro/tartuffe-ibb/18911196": 1795015786.2888002,
+   "tiyatro/tartuffe-ibb/18911197": 1794999750.0054324,
+   "tiyatro/tartuffe-ibb/18911198": 1794999750.0054324,
+   "tiyatro/yoldan-cikan-oyun-ibb/18910835": 1794999133.1866593,
    "tiyatro/yoldan-cikan-oyun-ibb/18910837": 1794981611.3313067
   }
  },
@@ -574,8 +408,7 @@
   "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910836@1794902400@1800": 1794900611.292422,
   "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910836@1794902400@3600": 1794898810.7382698,
   "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910837@1794902400@1800": 1794900611.292422,
-  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910837@1794902400@3600": 1794898810.7382698,
-  "muammer-karaca/tiyatro/apsolit/18913248@1794747600@3600": 1794743990.0681362
+  "ibb-sehir-tiyatrolari/tiyatro/yoldan-cikan-oyun-ibb/18910837@1794902400@3600": 1794898810.7382698
  },
  "sources": {
   "ibb-sehir-tiyatrolari": {
@@ -589,12 +422,12 @@
      "18910663": {
       "label": "10 Aralık Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18910664": {
       "label": "11 Aralık Cuma, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18910665": {
       "label": "12 Aralık Cumartesi, 15:00",
@@ -776,7 +609,7 @@
      "18763046": {
       "label": "28 Kasım Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763047": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -806,7 +639,7 @@
      "18910709": {
       "label": "25 Aralık Cuma, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18910710": {
       "label": "26 Aralık Cumartesi, 15:00",
@@ -816,7 +649,7 @@
      "18910711": {
       "label": "26 Aralık Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18910712": {
       "label": "30 Aralık Çarşamba, 15:00",
@@ -831,7 +664,7 @@
      "18910714": {
       "label": "02 Ocak Cumartesi 2027, 15:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18910715": {
       "label": "02 Ocak Cumartesi 2027, 20:00",
@@ -884,13 +717,8 @@
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 421,
+    "reviews": 425,
     "sessions": {
-     "18763198": {
-      "label": "18 Kasım Çarşamba, 15:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
-     },
      "18763199": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
@@ -1061,13 +889,8 @@
     "name": "Gözlerimi Kaparım Vazifemi Yaparım",
     "page": "https://biletinial.com/tr-tr/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1546,
+    "reviews": 1547,
     "sessions": {
-     "18762777": {
-      "label": "18 Kasım Çarşamba, 15:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
      "18762778": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
@@ -1319,15 +1142,10 @@
     "rating": 3.9,
     "reviews": 532,
     "sessions": {
-     "18763143": {
-      "label": "18 Kasım Çarşamba, 15:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
-     },
      "18763144": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1411,7 +1229,7 @@
      "18763087": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763088": {
       "label": "27 Kasım Cuma, 20:00",
@@ -1421,7 +1239,7 @@
      "18763089": {
       "label": "28 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18763090": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -1504,7 +1322,7 @@
      "18911062": {
       "label": "09 Aralık Çarşamba, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18911063": {
       "label": "11 Aralık Cuma, 20:00",
@@ -1621,7 +1439,7 @@
      "18911596": {
       "label": "09 Aralık Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18911597": {
       "label": "09 Aralık Çarşamba, 20:00",
@@ -1655,7 +1473,7 @@
      "18763082": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763083": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1665,7 +1483,7 @@
      "18763084": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -1724,12 +1542,12 @@
      "18763039": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763040": {
       "label": "20 Kasım Cuma, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763041": {
       "label": "21 Kasım Cumartesi, 15:00",
@@ -2023,13 +1841,8 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1233,
+    "reviews": 1243,
     "sessions": {
-     "18762367": {
-      "label": "18 Kasım Çarşamba, 15:00",
-      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
-     },
      "18762368": {
       "label": "18 Kasım Çarşamba, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
@@ -2117,7 +1930,7 @@
      "18910837": {
       "label": "05 Aralık Cumartesi, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "soldout"
      }
     }
    }
@@ -2211,6 +2024,14 @@
     "reviews": 1,
     "sessions": {}
    },
+   "tiyatro/inziva-lavean-sanat": {
+    "genre": "Diğer",
+    "name": "İnziva",
+    "page": "https://biletinial.com/tr-tr/tiyatro/inziva-lavean-sanat?cinemaBranchId=40264",
+    "rating": 4.8,
+    "reviews": 39,
+    "sessions": {}
+   },
    "tiyatro/odenmeyecek-odemiyoruz-fskhne": {
     "genre": "Komedi",
     "name": "Ödenmeyecek Ödemiyoruz!",
@@ -2218,20 +2039,6 @@
     "rating": 4.6,
     "reviews": 132,
     "sessions": {}
-   },
-   "tiyatro/ogrenci-matinesi-tuz-biber-stand-up": {
-    "genre": "Komedi",
-    "name": "\"Öğrenci Matinesi\" Tuz Biber Stand Up",
-    "page": "https://biletinial.com/tr-tr/tiyatro/ogrenci-matinesi-tuz-biber-stand-up?cinemaBranchId=40264",
-    "rating": 4.3,
-    "reviews": 11,
-    "sessions": {
-     "18910576": {
-      "label": "18 Kasım Çarşamba, 15:00",
-      "stage": "Muammer Karaca Tiyatrosu",
-      "status": "open"
-     }
-    }
    },
    "tiyatro/saksakcilar": {
     "genre": "Komedi",
