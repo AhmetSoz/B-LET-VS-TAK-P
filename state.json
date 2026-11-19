@@ -1,41 +1,15 @@
 {
  "burs_last": "2026-11-19",
- "digest_last": "2026-11-19 sabah",
+ "digest_last": "2026-11-19 akşam",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/agri-dagi-efsanesi/18910664": 1795001600.5555918,
-   "tiyatro/agri-dagi-efsanesi/18910665": 1795009615.3969805,
-   "tiyatro/agri-dagi-efsanesi/18910666": 1794998516.0788562,
-   "tiyatro/fosforlu-cevriye-ibb/18763046": 1794999750.0054324,
-   "tiyatro/fosforlu-cevriye-ibb/18910711": 1794998516.0788562,
-   "tiyatro/fosforlu-cevriye-ibb/18910714": 1795015168.968621,
-   "tiyatro/gidionun-dugumu-ibb/18763198": 1794998516.0788562,
-   "tiyatro/gidionun-dugumu-ibb/18763200": 1795009615.3969805,
-   "tiyatro/gidionun-dugumu-ibb/18763202": 1794998516.0788562,
-   "tiyatro/gidionun-dugumu-ibb/18911663": 1794998516.0788562,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762777": 1794998516.0788562,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762778": 1795017019.5517633,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762779": 1795005300.559696,
-   "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794998516.0788562,
-   "tiyatro/kahvaltiya-kalsana/18763143": 1794998516.0788562,
-   "tiyatro/kahvaltiya-kalsana/18763144": 1795010231.713019,
    "tiyatro/kosebasi-ibb/18762386": 1795050390.4121304,
-   "tiyatro/kosebasi-ibb/18911062": 1795017019.5517633,
    "tiyatro/oscar-ibb/18763148": 1795077772.80728,
-   "tiyatro/oscar-ibb/18763149": 1795008998.2664905,
-   "tiyatro/oscar-ibb/18911596": 1795000984.3292809,
-   "tiyatro/oylece-durur-zaman/18763082": 1795010848.5384028,
-   "tiyatro/oylece-durur-zaman/18763085": 1795007148.9046018,
-   "tiyatro/oylece-durur-zaman/18763096": 1795008998.2664905,
-   "tiyatro/savas-ve-baris-ibb/18763039": 1795014552.1108584,
-   "tiyatro/sivrisinekler-ibb/18763211": 1795013935.8195758,
-   "tiyatro/tartuffe-ibb/18911194": 1794999750.0054324,
-   "tiyatro/tartuffe-ibb/18911195": 1794999750.0054324,
-   "tiyatro/tartuffe-ibb/18911196": 1795028724.5959084,
-   "tiyatro/tartuffe-ibb/18911197": 1794999750.0054324,
-   "tiyatro/tartuffe-ibb/18911198": 1794999750.0054324,
-   "tiyatro/yoldan-cikan-oyun-ibb/18910835": 1794999133.1866593
+   "tiyatro/oylece-durur-zaman/18763096": 1795110073.887439,
+   "tiyatro/savas-ve-baris-ibb/18763042": 1795110073.887439,
+   "tiyatro/sivrisinekler-ibb/18763211": 1795110073.887439,
+   "tiyatro/tartuffe-ibb/18911196": 1795028724.5959084
   }
  },
  "reminded": {
@@ -579,7 +553,7 @@
      "18915864": {
       "label": "28 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18915865": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -628,12 +602,12 @@
      "18910704": {
       "label": "24 Aralık Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "few"
      },
      "18910708": {
       "label": "23 Aralık Çarşamba, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18910709": {
       "label": "25 Aralık Cuma, 20:00",
@@ -648,7 +622,7 @@
      "18910711": {
       "label": "26 Aralık Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18910712": {
       "label": "30 Aralık Çarşamba, 15:00",
@@ -663,7 +637,7 @@
      "18910714": {
       "label": "02 Ocak Cumartesi 2027, 15:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18910715": {
       "label": "02 Ocak Cumartesi 2027, 20:00",
@@ -716,7 +690,7 @@
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 427,
+    "reviews": 428,
     "sessions": {
      "18763200": {
       "label": "20 Kasım Cuma, 20:00",
@@ -730,11 +704,6 @@
      },
      "18763202": {
       "label": "21 Kasım Cumartesi, 20:00",
-      "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
-     },
-     "18763210": {
-      "label": "19 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
       "status": "soldout"
      },
@@ -789,11 +758,6 @@
      },
      "18762742": {
       "label": "21 Kasım Cumartesi, 20:00",
-      "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
-     },
-     "18762761": {
-      "label": "19 Kasım Perşembe, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
       "status": "open"
      },
@@ -878,7 +842,7 @@
     "name": "Gözlerimi Kaparım Vazifemi Yaparım",
     "page": "https://biletinial.com/tr-tr/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1553,
+    "reviews": 1555,
     "sessions": {
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -892,11 +856,6 @@
      },
      "18762781": {
       "label": "21 Kasım Cumartesi, 20:00",
-      "stage": "Üsküdar Musahipzade Celal Sahnesi",
-      "status": "soldout"
-     },
-     "18762790": {
-      "label": "19 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Musahipzade Celal Sahnesi",
       "status": "soldout"
      },
@@ -1141,11 +1100,6 @@
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
       "status": "soldout"
      },
-     "18763153": {
-      "label": "19 Kasım Perşembe, 20:00",
-      "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
-     },
      "18911607": {
       "label": "24 Aralık Perşembe, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
@@ -1218,7 +1172,7 @@
      "18763089": {
       "label": "28 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763090": {
       "label": "28 Kasım Cumartesi, 20:00",
@@ -1398,7 +1352,7 @@
      "18763148": {
       "label": "25 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18763149": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -1457,7 +1411,7 @@
      "18763084": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18763085": {
       "label": "21 Kasım Cumartesi, 20:00",
@@ -1467,7 +1421,7 @@
      "18763096": {
       "label": "19 Kasım Perşembe, 20:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18831601": {
       "label": "24 Kasım Salı, 20:00",
@@ -1526,12 +1480,7 @@
      "18763042": {
       "label": "21 Kasım Cumartesi, 20:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
-     },
-     "18763055": {
-      "label": "19 Kasım Perşembe, 20:00",
-      "stage": "Ümraniye Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18910671": {
       "label": "16 Aralık Çarşamba, 15:00",
@@ -1629,7 +1578,7 @@
      "18763211": {
       "label": "26 Kasım Perşembe, 20:00",
       "stage": "Müze Gazhane Meydan Sahne",
-      "status": "soldout"
+      "status": "open"
      },
      "18763231": {
       "label": "25 Kasım Çarşamba, 15:00",
@@ -1810,7 +1759,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1259,
+    "reviews": 1263,
     "sessions": {
      "18762369": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1820,15 +1769,10 @@
      "18762370": {
       "label": "21 Kasım Cumartesi, 15:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762371": {
       "label": "21 Kasım Cumartesi, 20:00",
-      "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
-     },
-     "18762468": {
-      "label": "19 Kasım Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
       "status": "open"
      },
@@ -1929,10 +1873,10 @@
     "reviews": 0,
     "sessions": {}
    },
-   "muzik/zamandan-azade-konseri": {
+   "muzik/dengbej": {
     "genre": "Diğer",
-    "name": "Zamandan Azade Konseri",
-    "page": "https://biletinial.com/tr-tr/muzik/zamandan-azade-konseri?cinemaBranchId=40264",
+    "name": "Dengbej",
+    "page": "https://biletinial.com/tr-tr/muzik/dengbej?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {}
    },
