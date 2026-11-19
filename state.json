@@ -1,6 +1,6 @@
 {
- "burs_last": "2026-11-18",
- "digest_last": "2026-11-18 akşam",
+ "burs_last": "2026-11-19",
+ "digest_last": "2026-11-19 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
@@ -20,6 +20,7 @@
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb/18762780": 1794998516.0788562,
    "tiyatro/kahvaltiya-kalsana/18763143": 1794998516.0788562,
    "tiyatro/kahvaltiya-kalsana/18763144": 1795010231.713019,
+   "tiyatro/kosebasi-ibb/18762386": 1795050390.4121304,
    "tiyatro/kosebasi-ibb/18911062": 1795017019.5517633,
    "tiyatro/oscar-ibb/18763149": 1795008998.2664905,
    "tiyatro/oscar-ibb/18911596": 1795000984.3292809,
@@ -647,7 +648,7 @@
      "18910711": {
       "label": "26 Aralık Cumartesi, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18910712": {
       "label": "30 Aralık Çarşamba, 15:00",
@@ -715,7 +716,7 @@
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 426,
+    "reviews": 427,
     "sessions": {
      "18763200": {
       "label": "20 Kasım Cuma, 20:00",
@@ -774,7 +775,7 @@
     "name": "Gök Kubbe",
     "page": "https://biletinial.com/tr-tr/tiyatro/gok-kubbe?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1167,
+    "reviews": 1176,
     "sessions": {
      "18762740": {
       "label": "20 Kasım Cuma, 20:00",
@@ -877,7 +878,7 @@
     "name": "Gözlerimi Kaparım Vazifemi Yaparım",
     "page": "https://biletinial.com/tr-tr/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1549,
+    "reviews": 1552,
     "sessions": {
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -922,7 +923,7 @@
      "18910660": {
       "label": "05 Aralık Cumartesi, 15:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18910661": {
       "label": "05 Aralık Cumartesi, 20:00",
@@ -1123,7 +1124,7 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 542,
+    "reviews": 552,
     "sessions": {
      "18763145": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1280,7 +1281,7 @@
      "18762386": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18762387": {
       "label": "27 Kasım Cuma, 20:00",
@@ -1446,7 +1447,7 @@
     "name": "Öylece Durur Zaman",
     "page": "https://biletinial.com/tr-tr/tiyatro/oylece-durur-zaman?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 569,
+    "reviews": 575,
     "sessions": {
      "18763083": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1510,7 +1511,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 996,
+    "reviews": 1000,
     "sessions": {
      "18763040": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1687,7 +1688,7 @@
      "18911196": {
       "label": "12 Aralık Cumartesi, 15:00",
       "stage": "Ümraniye Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18911197": {
       "label": "12 Aralık Cumartesi, 20:00",
@@ -1809,7 +1810,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1244,
+    "reviews": 1259,
     "sessions": {
      "18762369": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1873,12 +1874,12 @@
      "18910782": {
       "label": "02 Aralık Çarşamba, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18910813": {
       "label": "03 Aralık Perşembe, 20:00",
       "stage": "Kağıthane Sadabad Sahnesi",
-      "status": "few"
+      "status": "soldout"
      },
      "18910835": {
       "label": "04 Aralık Cuma, 20:00",
@@ -1955,7 +1956,7 @@
     "name": "Hayal Satıcısı",
     "page": "https://biletinial.com/tr-tr/tiyatro/hayal-saticisi?cinemaBranchId=40264",
     "rating": 4.7,
-    "reviews": 73,
+    "reviews": 77,
     "sessions": {
      "18831075": {
       "label": "24 Kasım Salı, 20:30",
