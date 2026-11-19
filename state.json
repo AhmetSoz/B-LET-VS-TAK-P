@@ -22,6 +22,7 @@
    "tiyatro/kahvaltiya-kalsana/18763144": 1795010231.713019,
    "tiyatro/kosebasi-ibb/18762386": 1795050390.4121304,
    "tiyatro/kosebasi-ibb/18911062": 1795017019.5517633,
+   "tiyatro/oscar-ibb/18763148": 1795077772.80728,
    "tiyatro/oscar-ibb/18763149": 1795008998.2664905,
    "tiyatro/oscar-ibb/18911596": 1795000984.3292809,
    "tiyatro/oylece-durur-zaman/18763082": 1795010848.5384028,
@@ -34,8 +35,7 @@
    "tiyatro/tartuffe-ibb/18911196": 1795028724.5959084,
    "tiyatro/tartuffe-ibb/18911197": 1794999750.0054324,
    "tiyatro/tartuffe-ibb/18911198": 1794999750.0054324,
-   "tiyatro/yoldan-cikan-oyun-ibb/18910835": 1794999133.1866593,
-   "tiyatro/yoldan-cikan-oyun-ibb/18910837": 1794981611.3313067
+   "tiyatro/yoldan-cikan-oyun-ibb/18910835": 1794999133.1866593
   }
  },
  "reminded": {
@@ -628,7 +628,7 @@
      "18910704": {
       "label": "24 Aralık Perşembe, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18910708": {
       "label": "23 Aralık Çarşamba, 20:00",
@@ -878,7 +878,7 @@
     "name": "Gözlerimi Kaparım Vazifemi Yaparım",
     "page": "https://biletinial.com/tr-tr/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1552,
+    "reviews": 1553,
     "sessions": {
      "18762779": {
       "label": "20 Kasım Cuma, 20:00",
@@ -1281,7 +1281,7 @@
      "18762386": {
       "label": "25 Kasım Çarşamba, 20:00",
       "stage": "Harbiye Muhsin Ertuğrul Sahnesi",
-      "status": "open"
+      "status": "soldout"
      },
      "18762387": {
       "label": "27 Kasım Cuma, 20:00",
@@ -1398,7 +1398,7 @@
      "18763148": {
       "label": "25 Kasım Çarşamba, 15:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18763149": {
       "label": "25 Kasım Çarşamba, 20:00",
@@ -1585,7 +1585,7 @@
      "18911553": {
       "label": "12 Aralık Cumartesi, 15:00",
       "stage": "Üsküdar Kerem Yılmazer Sahnesi",
-      "status": "open"
+      "status": "few"
      },
      "18911554": {
       "label": "12 Aralık Cumartesi, 20:00",
