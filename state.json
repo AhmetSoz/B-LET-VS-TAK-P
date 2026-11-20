@@ -1,10 +1,11 @@
 {
- "burs_last": "2026-11-19",
+ "burs_last": "2026-11-20",
  "digest_last": "2026-11-20 sabah",
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
    "tiyatro/oscar-ibb/18763148": 1795077772.80728,
+   "tiyatro/oscar-ibb/18911597": 1795152060.1387491,
    "tiyatro/oylece-durur-zaman/18763096": 1795110073.887439,
    "tiyatro/savas-ve-baris-ibb/18763042": 1795110073.887439,
    "tiyatro/sivrisinekler-ibb/18763211": 1795110073.887439
@@ -1375,7 +1376,7 @@
      "18911597": {
       "label": "09 Aralık Çarşamba, 20:00",
       "stage": "Müze Gazhane Prof Dr Sevda Şener Sahnesi",
-      "status": "soldout"
+      "status": "open"
      },
      "18911598": {
       "label": "11 Aralık Cuma, 20:00",
