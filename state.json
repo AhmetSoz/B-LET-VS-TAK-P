@@ -4,10 +4,7 @@
  "failures": {},
  "notified": {
   "ibb-sehir-tiyatrolari": {
-   "tiyatro/oscar-ibb/18911597": 1795152060.1387491,
-   "tiyatro/oylece-durur-zaman/18763096": 1795110073.887439,
-   "tiyatro/savas-ve-baris-ibb/18763042": 1795110073.887439,
-   "tiyatro/sivrisinekler-ibb/18763211": 1795110073.887439
+   "tiyatro/oscar-ibb/18911597": 1795152060.1387491
   }
  },
  "reminded": {},
@@ -130,7 +127,7 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 557,
+    "reviews": 558,
     "sessions": {}
    },
    "tiyatro/kopek-kalbi-ibb": {
@@ -217,7 +214,7 @@
     "name": "Xewna Şeveke Havînê",
     "page": "https://biletinial.com/tr-tr/tiyatro/xewna-seveke-havine?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 56,
+    "reviews": 57,
     "sessions": {}
    },
    "tiyatro/yasamak-mi-olmek-mi-ibb": {
@@ -233,7 +230,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1273,
+    "reviews": 1276,
     "sessions": {}
    },
    "tiyatro/yoldan-cikan-oyun-ibb": {
@@ -241,7 +238,7 @@
     "name": "Yoldan Çıkan Oyun",
     "page": "https://biletinial.com/tr-tr/tiyatro/yoldan-cikan-oyun-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1665,
+    "reviews": 1666,
     "sessions": {}
    }
   },
@@ -332,14 +329,6 @@
     "name": "Catastrophe / Kıyamet",
     "page": "https://biletinial.com/tr-tr/tiyatro/catastrophe-kiyamet?cinemaBranchId=40264",
     "reviews": 0,
-    "sessions": {}
-   },
-   "tiyatro/celile-nazim-hikmetin-annesi-kht": {
-    "genre": "Dram",
-    "name": "Celile (Nazım Hikmet'in Annesi)",
-    "page": "https://biletinial.com/tr-tr/tiyatro/celile-nazim-hikmetin-annesi-kht?cinemaBranchId=40264",
-    "rating": 4.7,
-    "reviews": 254,
     "sessions": {}
    },
    "tiyatro/hayal-saticisi": {
