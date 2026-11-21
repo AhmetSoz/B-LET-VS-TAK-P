@@ -1,12 +1,8 @@
 {
- "burs_last": "2026-11-20",
- "digest_last": "2026-11-20 akşam",
+ "burs_last": "2026-11-21",
+ "digest_last": "2026-11-21 sabah",
  "failures": {},
- "notified": {
-  "ibb-sehir-tiyatrolari": {
-   "tiyatro/oscar-ibb/18911597": 1795152060.1387491
-  }
- },
+ "notified": {},
  "reminded": {},
  "sources": {
   "ibb-sehir-tiyatrolari": {
@@ -55,7 +51,7 @@
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 430,
+    "reviews": 431,
     "sessions": {}
    },
    "tiyatro/gok-kubbe": {
@@ -63,7 +59,7 @@
     "name": "Gök Kubbe",
     "page": "https://biletinial.com/tr-tr/tiyatro/gok-kubbe?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1183,
+    "reviews": 1189,
     "sessions": {}
    },
    "tiyatro/golge-tiyatro-oyunu-ibb": {
@@ -79,7 +75,7 @@
     "name": "Gözlerimi Kaparım Vazifemi Yaparım",
     "page": "https://biletinial.com/tr-tr/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1564,
+    "reviews": 1572,
     "sessions": {}
    },
    "tiyatro/haramiler": {
@@ -127,7 +123,7 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 558,
+    "reviews": 566,
     "sessions": {}
    },
    "tiyatro/kopek-kalbi-ibb": {
@@ -174,7 +170,7 @@
     "name": "Öylece Durur Zaman",
     "page": "https://biletinial.com/tr-tr/tiyatro/oylece-durur-zaman?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 584,
+    "reviews": 586,
     "sessions": {}
    },
    "tiyatro/savas-ve-baris-ibb": {
@@ -182,7 +178,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 1002,
+    "reviews": 1005,
     "sessions": {}
    },
    "tiyatro/sevgili-yelena-sergeyevna": {
@@ -214,7 +210,7 @@
     "name": "Xewna Şeveke Havînê",
     "page": "https://biletinial.com/tr-tr/tiyatro/xewna-seveke-havine?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 57,
+    "reviews": 58,
     "sessions": {}
    },
    "tiyatro/yasamak-mi-olmek-mi-ibb": {
@@ -230,7 +226,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1276,
+    "reviews": 1288,
     "sessions": {}
    },
    "tiyatro/yoldan-cikan-oyun-ibb": {
@@ -344,7 +340,7 @@
     "name": "Herkes Kocama Benziyor",
     "page": "https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor?cinemaBranchId=40264",
     "rating": 4.8,
-    "reviews": 924,
+    "reviews": 925,
     "sessions": {}
    },
    "tiyatro/herkes-yolunda-boa": {
