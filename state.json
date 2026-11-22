@@ -19,7 +19,7 @@
     "name": "Bir Ziyaret",
     "page": "https://biletinial.com/tr-tr/tiyatro/bir-ziyaret-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 865,
+    "reviews": 867,
     "sessions": {}
    },
    "tiyatro/cadi-kazani-ibb": {
@@ -51,7 +51,7 @@
     "name": "Gidion'un Düğümü",
     "page": "https://biletinial.com/tr-tr/tiyatro/gidionun-dugumu-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 441,
+    "reviews": 442,
     "sessions": {}
    },
    "tiyatro/gok-kubbe": {
@@ -59,7 +59,7 @@
     "name": "Gök Kubbe",
     "page": "https://biletinial.com/tr-tr/tiyatro/gok-kubbe?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1203,
+    "reviews": 1210,
     "sessions": {}
    },
    "tiyatro/golge-tiyatro-oyunu-ibb": {
@@ -75,7 +75,7 @@
     "name": "Gözlerimi Kaparım Vazifemi Yaparım",
     "page": "https://biletinial.com/tr-tr/tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1579,
+    "reviews": 1582,
     "sessions": {}
    },
    "tiyatro/haramiler": {
@@ -83,7 +83,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1134,
+    "reviews": 1135,
     "sessions": {}
    },
    "tiyatro/hayat-der-gulumserim-ibb": {
@@ -123,7 +123,7 @@
     "name": "Kahvaltıya Kalsana",
     "page": "https://biletinial.com/tr-tr/tiyatro/kahvaltiya-kalsana?cinemaBranchId=4223",
     "rating": 3.9,
-    "reviews": 576,
+    "reviews": 581,
     "sessions": {}
    },
    "tiyatro/kopek-kalbi-ibb": {
@@ -170,7 +170,7 @@
     "name": "Öylece Durur Zaman",
     "page": "https://biletinial.com/tr-tr/tiyatro/oylece-durur-zaman?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 596,
+    "reviews": 599,
     "sessions": {}
    },
    "tiyatro/savas-ve-baris-ibb": {
@@ -178,7 +178,7 @@
     "name": "Savaş ve Barış",
     "page": "https://biletinial.com/tr-tr/tiyatro/savas-ve-baris-ibb?cinemaBranchId=4223",
     "rating": 4.2,
-    "reviews": 1016,
+    "reviews": 1025,
     "sessions": {}
    },
    "tiyatro/sevgili-yelena-sergeyevna": {
@@ -218,7 +218,7 @@
     "name": "Yaşamak mı, Yoksa Ölmek mi",
     "page": "https://biletinial.com/tr-tr/tiyatro/yasamak-mi-olmek-mi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 953,
+    "reviews": 954,
     "sessions": {}
    },
    "tiyatro/yenilmez-ibb": {
@@ -226,7 +226,7 @@
     "name": "Yenilmez",
     "page": "https://biletinial.com/tr-tr/tiyatro/yenilmez-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 1310,
+    "reviews": 1322,
     "sessions": {}
    },
    "tiyatro/yoldan-cikan-oyun-ibb": {
@@ -318,7 +318,7 @@
     "name": "En İyi İkinci",
     "page": "https://biletinial.com/tr-tr/tiyatro/en-iyi-ikinci?cinemaBranchId=40264",
     "rating": 4.8,
-    "reviews": 51,
+    "reviews": 52,
     "sessions": {}
    },
    "tiyatro/hayal-saticisi": {
@@ -333,8 +333,8 @@
     "genre": "Komedi",
     "name": "Herkes Kocama Benziyor",
     "page": "https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor?cinemaBranchId=40264",
-    "rating": 4.8,
-    "reviews": 933,
+    "rating": 4.9,
+    "reviews": 939,
     "sessions": {}
    },
    "tiyatro/herkes-yolunda-boa": {
@@ -365,8 +365,8 @@
     "genre": "Komedi",
     "name": "Ödenmeyecek Ödemiyoruz!",
     "page": "https://biletinial.com/tr-tr/tiyatro/odenmeyecek-odemiyoruz-fskhne?cinemaBranchId=40264",
-    "rating": 4.6,
-    "reviews": 134,
+    "rating": 4.7,
+    "reviews": 139,
     "sessions": {}
    },
    "tiyatro/sen-ne-guzeldin-askimizin-sehri": {
