@@ -1,5 +1,5 @@
 {
- "burs_last": "2026-11-23",
+ "burs_last": "2026-11-24",
  "digest_last": "2026-11-24 sabah",
  "failures": {},
  "notified": {},
@@ -60,14 +60,6 @@
     "page": "https://biletinial.com/tr-tr/tiyatro/gok-kubbe?cinemaBranchId=4223",
     "rating": 4.3,
     "reviews": 1240,
-    "sessions": {}
-   },
-   "tiyatro/golge-ibb": {
-    "genre": "Dram",
-    "name": "Gölge",
-    "page": "https://biletinial.com/tr-tr/tiyatro/golge-ibb?cinemaBranchId=4223",
-    "rating": 4.8,
-    "reviews": 16,
     "sessions": {}
    },
    "tiyatro/golge-tiyatro-oyunu-ibb": {
