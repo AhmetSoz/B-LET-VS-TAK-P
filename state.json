@@ -1,6 +1,6 @@
 {
- "burs_last": "2026-11-25",
- "digest_last": "2026-11-25 akşam",
+ "burs_last": "2026-11-26",
+ "digest_last": "2026-11-26 sabah",
  "failures": {},
  "notified": {},
  "reminded": {},
@@ -27,7 +27,7 @@
     "name": "Cadı Kazanı",
     "page": "https://biletinial.com/tr-tr/tiyatro/cadi-kazani-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 977,
+    "reviews": 985,
     "sessions": {}
    },
    "tiyatro/fosforlu-cevriye-ibb": {
@@ -35,7 +35,7 @@
     "name": "Fosforlu Cevriye",
     "page": "https://biletinial.com/tr-tr/tiyatro/fosforlu-cevriye-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1131,
+    "reviews": 1135,
     "sessions": {}
    },
    "tiyatro/gecmisin-golgesi-ibb": {
@@ -138,7 +138,8 @@
     "genre": "Diğer",
     "name": "Köşebaşı",
     "page": "https://biletinial.com/tr-tr/tiyatro/kosebasi-ibb?cinemaBranchId=4223",
-    "reviews": 0,
+    "rating": 5.0,
+    "reviews": 2,
     "sessions": {}
    },
    "tiyatro/maviydi-bisikletim-ibb": {
@@ -162,7 +163,7 @@
     "name": "Oscar",
     "page": "https://biletinial.com/tr-tr/tiyatro/oscar-ibb?cinemaBranchId=4223",
     "rating": 4.7,
-    "reviews": 1571,
+    "reviews": 1581,
     "sessions": {}
    },
    "tiyatro/oylece-durur-zaman": {
@@ -218,7 +219,7 @@
     "name": "Yaşamak mı, Yoksa Ölmek mi",
     "page": "https://biletinial.com/tr-tr/tiyatro/yasamak-mi-olmek-mi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 954,
+    "reviews": 957,
     "sessions": {}
    },
    "tiyatro/yenilmez-ibb": {
@@ -289,7 +290,7 @@
     "name": "Herkes Kocama Benziyor",
     "page": "https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor?cinemaBranchId=40264",
     "rating": 4.8,
-    "reviews": 961,
+    "reviews": 965,
     "sessions": {}
    },
    "tiyatro/herkes-yolunda-boa": {
