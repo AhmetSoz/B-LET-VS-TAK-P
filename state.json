@@ -35,7 +35,7 @@
     "name": "Fosforlu Cevriye",
     "page": "https://biletinial.com/tr-tr/tiyatro/fosforlu-cevriye-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1139,
+    "reviews": 1140,
     "sessions": {}
    },
    "tiyatro/gecmisin-golgesi-ibb": {
@@ -43,7 +43,7 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 832,
+    "reviews": 833,
     "sessions": {}
    },
    "tiyatro/gidionun-dugumu-ibb": {
@@ -130,8 +130,8 @@
     "genre": "Diğer",
     "name": "Köşebaşı",
     "page": "https://biletinial.com/tr-tr/tiyatro/kosebasi-ibb?cinemaBranchId=4223",
-    "rating": 4.6,
-    "reviews": 7,
+    "rating": 4.7,
+    "reviews": 9,
     "sessions": {}
    },
    "tiyatro/maviydi-bisikletim-ibb": {
@@ -203,7 +203,7 @@
     "name": "Xewna Şeveke Havînê",
     "page": "https://biletinial.com/tr-tr/tiyatro/xewna-seveke-havine?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 72,
+    "reviews": 76,
     "sessions": {}
    },
    "tiyatro/yasamak-mi-olmek-mi-ibb": {
@@ -262,10 +262,25 @@
     "reviews": 1,
     "sessions": {}
    },
-   "tiyatro/catastrophe-kiyamet": {
+   "muzik/deniz-mahir-kartal-nara": {
     "genre": "Diğer",
-    "name": "Catastrophe / Kıyamet",
-    "page": "https://biletinial.com/tr-tr/tiyatro/catastrophe-kiyamet?cinemaBranchId=40264",
+    "name": "Deniz Mahir Kartal \"NARA\"",
+    "page": "https://biletinial.com/tr-tr/muzik/deniz-mahir-kartal-nara?cinemaBranchId=40264",
+    "reviews": 0,
+    "sessions": {}
+   },
+   "muzik/quartet-dinleti": {
+    "genre": "Diğer",
+    "name": "Quartet Dinleti",
+    "page": "https://biletinial.com/tr-tr/muzik/quartet-dinleti?cinemaBranchId=40264",
+    "rating": 4.4,
+    "reviews": 11,
+    "sessions": {}
+   },
+   "muzik/soylu-melodiler-cagi-duo": {
+    "genre": "Diğer",
+    "name": "\"Soylu Melodiler Çağı\" Duo",
+    "page": "https://biletinial.com/tr-tr/muzik/soylu-melodiler-cagi-duo?cinemaBranchId=40264",
     "reviews": 0,
     "sessions": {}
    },
@@ -282,7 +297,7 @@
     "name": "Herkes Kocama Benziyor",
     "page": "https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor?cinemaBranchId=40264",
     "rating": 4.8,
-    "reviews": 969,
+    "reviews": 970,
     "sessions": {}
    },
    "tiyatro/herkes-yolunda-boa": {
