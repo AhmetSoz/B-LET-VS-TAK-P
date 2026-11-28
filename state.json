@@ -1,6 +1,6 @@
 {
- "burs_last": "2026-11-27",
- "digest_last": "2026-11-27 akşam",
+ "burs_last": "2026-11-28",
+ "digest_last": "2026-11-28 sabah",
  "failures": {},
  "notified": {},
  "reminded": {},
@@ -27,7 +27,7 @@
     "name": "Cadı Kazanı",
     "page": "https://biletinial.com/tr-tr/tiyatro/cadi-kazani-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 993,
+    "reviews": 997,
     "sessions": {}
    },
    "tiyatro/fosforlu-cevriye-ibb": {
@@ -35,7 +35,7 @@
     "name": "Fosforlu Cevriye",
     "page": "https://biletinial.com/tr-tr/tiyatro/fosforlu-cevriye-ibb?cinemaBranchId=4223",
     "rating": 4.8,
-    "reviews": 1140,
+    "reviews": 1144,
     "sessions": {}
    },
    "tiyatro/gecmisin-golgesi-ibb": {
@@ -43,7 +43,7 @@
     "name": "Geçmişin Gölgesi",
     "page": "https://biletinial.com/tr-tr/tiyatro/gecmisin-golgesi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 833,
+    "reviews": 834,
     "sessions": {}
    },
    "tiyatro/gidionun-dugumu-ibb": {
@@ -67,7 +67,7 @@
     "name": "Gölge",
     "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 611,
+    "reviews": 612,
     "sessions": {}
    },
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb": {
@@ -91,7 +91,7 @@
     "name": "İkinci Perdenin Başı",
     "page": "https://biletinial.com/tr-tr/tiyatro/ikinci-perdenin-basi-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 682,
+    "reviews": 684,
     "sessions": {}
    },
    "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli": {
@@ -130,8 +130,8 @@
     "genre": "Diğer",
     "name": "Köşebaşı",
     "page": "https://biletinial.com/tr-tr/tiyatro/kosebasi-ibb?cinemaBranchId=4223",
-    "rating": 4.7,
-    "reviews": 9,
+    "rating": 4.0,
+    "reviews": 25,
     "sessions": {}
    },
    "tiyatro/maviydi-bisikletim-ibb": {
@@ -211,7 +211,7 @@
     "name": "Yaşamak mı, Yoksa Ölmek mi",
     "page": "https://biletinial.com/tr-tr/tiyatro/yasamak-mi-olmek-mi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 966,
+    "reviews": 974,
     "sessions": {}
    },
    "tiyatro/yenilmez-ibb": {
@@ -313,7 +313,7 @@
     "name": "İnziva",
     "page": "https://biletinial.com/tr-tr/tiyatro/inziva-lavean-sanat?cinemaBranchId=40264",
     "rating": 4.8,
-    "reviews": 39,
+    "reviews": 43,
     "sessions": {}
    },
    "tiyatro/kutular": {
@@ -329,7 +329,7 @@
     "name": "Ödenmeyecek Ödemiyoruz!",
     "page": "https://biletinial.com/tr-tr/tiyatro/odenmeyecek-odemiyoruz-fskhne?cinemaBranchId=40264",
     "rating": 4.7,
-    "reviews": 144,
+    "reviews": 145,
     "sessions": {}
    },
    "tiyatro/sen-ne-guzeldin-askimizin-sehri": {
