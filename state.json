@@ -1,6 +1,6 @@
 {
  "burs_last": "2026-11-28",
- "digest_last": "2026-11-28 sabah",
+ "digest_last": "2026-11-28 akşam",
  "failures": {},
  "notified": {},
  "reminded": {},
@@ -27,7 +27,7 @@
     "name": "Cadı Kazanı",
     "page": "https://biletinial.com/tr-tr/tiyatro/cadi-kazani-ibb?cinemaBranchId=4223",
     "rating": 4.4,
-    "reviews": 997,
+    "reviews": 1000,
     "sessions": {}
    },
    "tiyatro/fosforlu-cevriye-ibb": {
@@ -67,7 +67,7 @@
     "name": "Gölge",
     "page": "https://biletinial.com/tr-tr/tiyatro/golge-tiyatro-oyunu-ibb?cinemaBranchId=4223",
     "rating": 4.3,
-    "reviews": 612,
+    "reviews": 619,
     "sessions": {}
    },
    "tiyatro/gozlerimi-kaparim-vazifemi-yaparim-ibb": {
@@ -83,7 +83,7 @@
     "name": "Haramiler",
     "page": "https://biletinial.com/tr-tr/tiyatro/haramiler?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 1138,
+    "reviews": 1139,
     "sessions": {}
    },
    "tiyatro/ikinci-perdenin-basi-ibb": {
@@ -91,7 +91,7 @@
     "name": "İkinci Perdenin Başı",
     "page": "https://biletinial.com/tr-tr/tiyatro/ikinci-perdenin-basi-ibb?cinemaBranchId=4223",
     "rating": 4.6,
-    "reviews": 684,
+    "reviews": 688,
     "sessions": {}
    },
    "tiyatro/istanbul-siirle-bulusuyor-birden-bire-orhan-veli": {
@@ -131,7 +131,7 @@
     "name": "Köşebaşı",
     "page": "https://biletinial.com/tr-tr/tiyatro/kosebasi-ibb?cinemaBranchId=4223",
     "rating": 4.0,
-    "reviews": 25,
+    "reviews": 28,
     "sessions": {}
    },
    "tiyatro/maviydi-bisikletim-ibb": {
@@ -211,7 +211,7 @@
     "name": "Yaşamak mı, Yoksa Ölmek mi",
     "page": "https://biletinial.com/tr-tr/tiyatro/yasamak-mi-olmek-mi-ibb?cinemaBranchId=4223",
     "rating": 4.5,
-    "reviews": 974,
+    "reviews": 982,
     "sessions": {}
    },
    "tiyatro/yenilmez-ibb": {
@@ -232,26 +232,11 @@
    }
   },
   "muammer-karaca": {
-   "egitim/cocuk-atolyesi-kutudan-cikan-hikayeler": {
-    "genre": "Diğer",
-    "name": "Çocuk Atölyesi: Kutudan Çıkan Hikayeler",
-    "page": "https://biletinial.com/tr-tr/egitim/cocuk-atolyesi-kutudan-cikan-hikayeler?cinemaBranchId=40264",
-    "reviews": 0,
-    "sessions": {}
-   },
    "egitim/mengu-ertelin-tiyatro-evreninden-figurlerle-serigrafi-atolyesi-atolye-yurutuculeri": {
     "genre": "Diğer",
     "name": "\"Mengü Ertel’in Tiyatro Evreni’nden Figürlerle Serigrafi Atölyesi",
     "page": "https://biletinial.com/tr-tr/egitim/mengu-ertelin-tiyatro-evreninden-figurlerle-serigrafi-atolyesi-atolye-yurutuculeri?cinemaBranchId=40264",
     "reviews": 0,
-    "sessions": {}
-   },
-   "egitim/metinlerden-figurlere-cizginin-yolculugu-illustrasyon-atolyesi": {
-    "genre": "Diğer",
-    "name": "Metinlerden Figürlere, Çizginin Yolculuğu İllüstrasyon Atölyesi",
-    "page": "https://biletinial.com/tr-tr/egitim/metinlerden-figurlere-cizginin-yolculugu-illustrasyon-atolyesi?cinemaBranchId=40264",
-    "rating": 5.0,
-    "reviews": 1,
     "sessions": {}
    },
    "etkinlik/mengu-ertelin-tiyatro-evreni-sergi-turu": {
@@ -297,7 +282,7 @@
     "name": "Herkes Kocama Benziyor",
     "page": "https://biletinial.com/tr-tr/tiyatro/herkes-kocama-benziyor?cinemaBranchId=40264",
     "rating": 4.8,
-    "reviews": 970,
+    "reviews": 971,
     "sessions": {}
    },
    "tiyatro/herkes-yolunda-boa": {
@@ -313,7 +298,7 @@
     "name": "İnziva",
     "page": "https://biletinial.com/tr-tr/tiyatro/inziva-lavean-sanat?cinemaBranchId=40264",
     "rating": 4.8,
-    "reviews": 43,
+    "reviews": 42,
     "sessions": {}
    },
    "tiyatro/kutular": {
